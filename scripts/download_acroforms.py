@@ -59,22 +59,22 @@ CANDIDATES = [
     {"id": "uscis_i90",     "category": "uscis",  "agency": "USCIS",      "form_name": "I-90 (Application to Replace Permanent Resident Card)","url": "https://www.uscis.gov/sites/default/files/document/forms/i-90.pdf"},
     {"id": "uscis_n400",    "category": "uscis",  "agency": "USCIS",      "form_name": "N-400 (Application for Naturalization)",               "url": "https://www.uscis.gov/sites/default/files/document/forms/n-400.pdf"},
 
-    # VA
+    # VA  (10-10EZ URL corrected)
     {"id": "va_21526ez",  "category": "va",       "agency": "VA",         "form_name": "VA 21-526EZ (Disability Compensation Claim)",          "url": "https://www.vba.va.gov/pubs/forms/VBA-21-526EZ-ARE.pdf"},
-    {"id": "va_1010ez",   "category": "va",       "agency": "VA",         "form_name": "VA 10-10EZ (Application for Health Benefits)",         "url": "https://www.va.gov/vaforms/medical/pdf/10-10EZ-fillable.pdf"},
+    {"id": "va_1010ez",   "category": "va",       "agency": "VA",         "form_name": "VA 10-10EZ (Application for Health Benefits)",         "url": "https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-10EZ.pdf"},
 
     # SSA
     {"id": "ssa_521",     "category": "misc",     "agency": "SSA",        "form_name": "SSA-521 (Request for Withdrawal of Application)",      "url": "https://www.ssa.gov/forms/ssa-521.pdf"},
     {"id": "ssa_1696",    "category": "misc",     "agency": "SSA",        "form_name": "SSA-1696 (Appointment of Representative)",             "url": "https://www.ssa.gov/forms/ssa-1696.pdf"},
 
-    # Federal courts
+    # Federal courts  (B 101 URL corrected)
     {"id": "uscourts_ao240", "category": "courts","agency": "US Courts",  "form_name": "AO-240 (Application to Proceed Without Prepaying Fees)","url": "https://www.uscourts.gov/sites/default/files/ao240.pdf"},
-    {"id": "uscourts_b101",  "category": "courts","agency": "US Courts",  "form_name": "B 101 (Voluntary Bankruptcy Petition - Individuals)",  "url": "https://www.uscourts.gov/sites/default/files/form_b101_0.pdf"},
+    {"id": "uscourts_b101",  "category": "courts","agency": "US Courts",  "form_name": "B 101 (Voluntary Bankruptcy Petition - Individuals)",  "url": "https://www.uscourts.gov/sites/default/files/form_b_101_0624_fillable_clean.pdf"},
 
-    # State
-    {"id": "nj_mvc_ba49",    "category": "state", "agency": "NJ MVC",     "form_name": "BA-49 (Application for License Plates)",               "url": "https://www.state.nj.us/mvc/pdf/license/BA-49.pdf"},
+    # State  (NJ MVC and NY DTF URLs corrected)
+    {"id": "nj_mvc_ba49",    "category": "state", "agency": "NJ MVC",     "form_name": "BA-49 (Application for License Plates)",               "url": "https://www.nj.gov/mvc/pdf/vehicles/BA-49.pdf"},
     {"id": "ca_dmv_reg256",  "category": "state", "agency": "CA DMV",     "form_name": "REG 256 (Statement of Facts)",                         "url": "https://www.dmv.ca.gov/portal/file/statement-of-facts-reg-256-pdf/"},
-    {"id": "ny_dtf_it201",   "category": "state", "agency": "NY DTF",     "form_name": "IT-201 (Resident Income Tax Return)",                  "url": "https://www.tax.ny.gov/pdf/current_forms/it/it201.pdf"},
+    {"id": "ny_dtf_it201",   "category": "state", "agency": "NY DTF",     "form_name": "IT-201 (Resident Income Tax Return)",                  "url": "https://www.tax.ny.gov/pdf/current_forms/it/it201_fill_in.pdf"},
 ]
 
 
