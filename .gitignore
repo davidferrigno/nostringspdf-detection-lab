@@ -41,3 +41,10 @@ Thumbs.db
 
 # Generated overlay images (large; regenerable on demand)
 reports/overlays/
+
+
+# Local review artifacts (manually SCP'd from VPS for visual inspection)
+local_review/
+
+# Generated benchmark reports (regenerable; track only canonical baselines)
+reports/benchmarks/
