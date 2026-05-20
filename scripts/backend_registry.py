@@ -1,0 +1,171 @@
+#!/usr/bin/env python3
+"""
+backend_registry.py
+
+Single source of truth for all detection backends in the lab.
+
+Each backend implements:
+    def detect(pdf_path: Path) -> list[dict]
+
+where each returned dict has:
+    {"id": str, "page": int, "type": str, "bbox": [x,y,w,h], "label": str | None}
+
+Backends register themselves by being importable here. Both
+run_benchmark.py and render_detection_comparison.py import BACKENDS from
+this file.
+
+To add a new backend:
+    1. Put backend module under scripts/backends/<name>.py
+    2. Import its detect function in this file
+    3. Add to BACKENDS dict
+"""
+
+from pathlib import Path
+import sys
+
+# Make scripts/ importable so we can import backends/<name>
+_THIS_DIR = Path(__file__).resolve().parent
+if str(_THIS_DIR) not in sys.path:
+    sys.path.insert(0, str(_THIS_DIR))
+
+
+# ---------------------------------------------------------------------------
+# acroform_self backend (pikepdf-based widget re-extraction)
+#
+# This is the canonical sanity-check backend. Score should always be
+# 1.0 / 1.0 against AcroForm ground truth. Used to validate scoring
+# infrastructure itself.
+# ---------------------------------------------------------------------------
+
+def _backend_acroform_self(pdf_path: Path) -> list:
+    """Re-extract AcroForm widgets via pikepdf."""
+    import pikepdf
+    fields = []
+    field_counter = 0
+    try:
+        with pikepdf.open(pdf_path) as pdf:
+            for page_idx, page in enumerate(pdf.pages):
+                try:
+                    annots = page.get("/Annots", None)
+                except Exception:
+                    annots = None
+                if annots is None:
+                    continue
+                try:
+                    page_height = float(page.mediabox[3])
+                except Exception:
+                    continue
+                seen = set()
+                for annot in annots:
+                    try:
+                        subtype = annot.get("/Subtype", None)
+                    except Exception:
+                        continue
+                    if subtype is None or str(subtype) != "/Widget":
+                        continue
+                    try:
+                        key = annot.objgen
+                        if key in seen:
+                            continue
+                        seen.add(key)
+                    except Exception:
+                        pass
+                    try:
+                        rect = annot.get("/Rect", None)
+                        if rect is None:
+                            continue
+                        rect_vals = [float(v) for v in rect]
+                    except (TypeError, ValueError, Exception):
+                        continue
+                    field_type = "unknown"
+                    cursor = annot
+                    safety = 20
+                    while safety > 0 and field_type == "unknown":
+                        try:
+                            ft = cursor.get("/FT", None)
+                        except Exception:
+                            ft = None
+                        if ft is not None:
+                            ft_str = str(ft)
+                            if ft_str == "/Tx":
+                                field_type = "text"
+                            elif ft_str == "/Btn":
+                                try:
+                                    ff = int(cursor.get("/Ff", 0))
+                                except (TypeError, ValueError):
+                                    ff = 0
+                                if ff & 0x10000:
+                                    field_type = "radio"
+                                elif ff & 0x20000:
+                                    field_type = "pushbutton"
+                                else:
+                                    field_type = "checkbox"
+                            elif ft_str == "/Ch":
+                                field_type = "choice"
+                            elif ft_str == "/Sig":
+                                field_type = "signature"
+                        if field_type == "unknown":
+                            try:
+                                cursor = cursor.get("/Parent", None)
+                            except Exception:
+                                break
+                            if cursor is None:
+                                break
+                        safety -= 1
+                    if field_type == "unknown":
+                        field_type = "text"
+                    x_ll, y_ll, x_ur, y_ur = rect_vals
+                    x = min(x_ll, x_ur)
+                    width = abs(x_ur - x_ll)
+                    height = abs(y_ur - y_ll)
+                    y_bottom = min(y_ll, y_ur)
+                    y_top = page_height - y_bottom - height
+                    if width <= 0 or height <= 0:
+                        continue
+                    field_counter += 1
+                    fields.append({
+                        "id": f"d{field_counter}",
+                        "page": page_idx + 1,
+                        "type": field_type,
+                        "bbox": [round(x, 2), round(y_top, 2), round(width, 2), round(height, 2)],
+                    })
+    except Exception:
+        pass
+    return fields
+
+
+# ---------------------------------------------------------------------------
+# heuristic_lab_v1 backend (content-stream-based generic detection)
+# ---------------------------------------------------------------------------
+
+try:
+    from backends.heuristic_lab_v1 import detect as _backend_heuristic_lab_v1
+    _heuristic_lab_v1_available = True
+except ImportError as e:
+    _backend_heuristic_lab_v1 = None
+    _heuristic_lab_v1_available = False
+    _heuristic_lab_v1_error = str(e)
+
+
+# ---------------------------------------------------------------------------
+# Public registry
+# ---------------------------------------------------------------------------
+
+BACKENDS: dict = {
+    "acroform_self": _backend_acroform_self,
+}
+
+if _heuristic_lab_v1_available:
+    BACKENDS["heuristic_lab_v1"] = _backend_heuristic_lab_v1
+
+
+def get_backend(name: str):
+    """Look up a backend by name. Raises KeyError if not found."""
+    if name not in BACKENDS:
+        available = ", ".join(sorted(BACKENDS.keys()))
+        raise KeyError(f"Unknown backend '{name}'. Available: {available}")
+    return BACKENDS[name]
+
+
+def list_backends() -> list[str]:
+    return sorted(BACKENDS.keys())
