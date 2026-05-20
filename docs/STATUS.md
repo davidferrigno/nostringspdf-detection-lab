@@ -55,3 +55,6 @@ Curate, don't rush. Start with 15-20 high-quality AcroForms.
 - v4: API tier
 
 See ../detection-lab-kickoff.md in main NoStringsPDF repo for full strategy.
+ 
+## Workflow verified May 20 PM 
+Clone-to-Windows workflow active. Source of truth = GitHub. 
