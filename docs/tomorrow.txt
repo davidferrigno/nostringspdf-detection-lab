@@ -1,0 +1,206 @@
+TOMORROW — Detection Lab Task 4 + Next Steps
+Generated: Wednesday May 20, 2026 ~21:00
+
+================================================================
+TODAY WAS HUGE. WHAT GOT BANKED:
+================================================================
+
+PRODUCTION (main repo, beta.nostringspdf.com):
+  - Phase A: System field visual calmness (watercolor blue tints)
+    35a2ddb feat(phase-a-1): system field visual calmness pass
+  - Phase A.1: Button move + post-placement hint + container widen
+    5ead01a feat(phase-a-1b): relocate + button, post-placement hint, widen editor
+  - Both shipped to production
+
+DETECTION LAB (new repo: nostringspdf-detection-lab):
+  - Vultr VPS provisioned and configured (45.77.104.62)
+  - Python ML stack installed (1.7 GB venv)
+  - Three-machine workflow locked (GitHub = source of truth)
+  - v0 corpus: 42 PDFs (30 AcroForms + 12 flat), ~25 MB
+  - Ground truth: 30 JSONs, 3,047 fields, schema-compliant
+  - Overlay renderer: 112 PNGs at 150 DPI, visually verified
+  - Benchmark runner: 30/30 PERFECT on acroform_self backend
+  - Institutional knowledge: KNOWN_ISSUES.md + docs/legacy/ migrated
+  - 13 commits, all idempotent and reproducible
+
+================================================================
+TASK 4: HEURISTIC BACKEND INTEGRATION (next session)
+================================================================
+
+OPEN ARCHITECTURE DECISION — make this with fresh judgment:
+
+Option A: Copy production heuristic code from main repo to lab
+   Pros: fastest path to real measurement
+   Cons: code drift, lab becomes coupled to production internals,
+         two copies of the same logic to maintain
+
+Option B: Import main repo as Python path (pip install -e ../nostringspdf)
+   Pros: cleanest reuse, single source of truth for heuristic
+   Cons: lab dependency on main repo directory layout, breaks if
+         main repo refactors, awkward when lab is on VPS but main
+         repo is only on Windows
+
+Option C: Reimplement clean lab baseline from scratch
+   Pros: lab tests ideas independently, can evolve without affecting
+         production, clean abstraction surface
+   Cons: more work upfront (~500-800 lines), two implementations
+         to keep functionally aligned
+
+CURRENT LEAN: Option C
+   The lab's purpose is to TEST IDEAS. If the lab implementation IS the
+   production implementation, then "lab measurement" and "production
+   change" become impossible to separate. The whole point is that the
+   lab can try things production hasn't.
+
+   Production heuristic stays where it lives (services/heuristic_service.py
+   in main repo). Lab gets its own heuristic_lab_v1.py that starts as
+   a clean reimplementation of the same algorithm. Future improvements
+   experiment in the lab first, then port to production only when proven.
+
+PROCESS FOR TOMORROW:
+  1. Cross-check Option C with ChatGPT first thing
+  2. If consensus is C, write architecture doc (~30 min)
+  3. Implement heuristic_lab_v1.py (~2-3 hours)
+     - Read pdfplumber content streams
+     - Detect underlines, labeled-pair fields, checkboxes
+     - Output Field list matching ground truth schema
+  4. Run benchmark, get FIRST REAL NUMBER
+  5. Compare to 12C-B-post historical baseline (Marriage precision 0.9742,
+     recall 1.0; Eden P=1.0, R=1.0; SP-650 P=1.0, R=1.0)
+
+EXPECTED OUTCOMES:
+  - AcroForm PDFs (where heuristic runs but AcroForm path takes precedence
+    in production): heuristic might score lower than 1.0 because production
+    short-circuits to AcroForm path. Need to think about what we're
+    measuring here — heuristic standalone, or production routing?
+  - Flat PDFs: TBD because we don't have ground truth for those yet.
+    Marriage License is the key target (historical baseline P=0.9742).
+
+================================================================
+TASK 5: FLAT PDF GROUND TRUTH (subsequent)
+================================================================
+
+The 12 flat PDFs in samples/flat/digital/ don't have ground truth yet.
+Two paths to label them:
+
+Path A: Bootstrap from heuristic output
+   - Run heuristic_lab_v1.py against flat PDFs
+   - Mark output as review_status="draft"
+   - Use as regression tripwires until human-reviewed
+
+Path B: Manual labeling
+   - Use the overlay renderer to render flat PDFs without ground truth
+   - Manually mark each field in a UI we'd need to build
+   - Slow but authoritative
+
+CURRENT LEAN: Path A for tomorrow (bootstrap), Path B for the 4 known-issue
+PDFs (Marriage, Eden, instructions.pdf, medical intake) once we have
+the comparison overlay renderer.
+
+================================================================
+TASK 6: DETECTION COMPARISON OVERLAY RENDERER (after Task 4)
+================================================================
+
+Build render_detection_overlays.py that takes:
+  - A benchmark scorecard.json
+  - Source PDFs
+  - Ground truth JSONs
+
+And outputs per-page PNGs showing:
+  - Ground truth fields in green (translucent)
+  - Detected fields in red (translucent)
+  - Overlap regions in yellow (intersection of both)
+  - FP detections (red only, no green underneath) clearly visible
+  - FN ground truth (green only, no red overlay) clearly visible
+
+This becomes the "diff viewer" for benchmark runs. Once it exists, we
+can immediately see WHERE the heuristic is wrong on each PDF, not just
+that it's wrong by some percentage.
+
+================================================================
+TASK 7: AZURE BACKEND (later, cost-aware)
+================================================================
+
+Plug Azure Document Intelligence into the benchmark.
+KEY DECISION: per detection-quality-report.md, Azure under-detects
+text fields catastrophically (Marriage 39/145, Eden 3/21). The lab
+needs to confirm this against the v0 corpus to either:
+  - Validate the May 5 conclusion (heuristic-first)
+  - OR find that Azure has improved since then
+This is a 1-2 hour task once we have lab Azure credentials.
+
+================================================================
+SUBSEQUENT (post-launch infrastructure)
+================================================================
+
+- Synthetic degradation pipeline (skew, blur, contrast on AcroForm
+  flattens — turns 30 clean PDFs into 300+ messy training cases)
+- Nightly cron on VPS: git pull, run benchmark, write report
+- Regression alerter (today's scorecard vs N days ago, surface deltas)
+- HTML browseable scorecard with clickable per-PDF diff overlays
+- Active corpus growth (scrape new government forms periodically)
+
+================================================================
+PRACTICAL REMINDERS FOR TOMORROW
+================================================================
+
+WORKFLOW DISCIPLINE:
+  - Always check prompt (E:\...) vs ((.venv) lab@...) before running
+    SSH/SCP commands
+  - Always git pull before committing on a different machine than last
+  - SSH/SCP commands run from Windows, NOT from inside an SSH session
+  - VPS passphrase needs 2-3 attempts — eventually set up ssh-agent
+
+GUARDRAILS TO KEEP:
+  - PDF access is always read-only (no pdf.save() ever)
+  - All output paths assert-checked against expected directory
+  - All scripts idempotent (safe to re-run from any state)
+  - --dry-run flag on everything that writes
+  - --strict flag for CI-style failure on warnings
+
+QUALITY GATES:
+  - acroform_self benchmark must always score 1.0/1.0 (regression check)
+  - Visual overlay verification before committing new ground truth
+  - Cross-check architecture decisions with ChatGPT before major code
+
+WHAT NOT TO TOUCH WITHOUT CARE:
+  - .gitignore exclusions (reports/overlays/, reports/benchmarks/)
+  - Ground truth JSONs (only regenerate via extract_ground_truth.py)
+  - The 12C-B-post historical baseline numbers (these are the
+    line in the sand)
+
+================================================================
+ENERGY MANAGEMENT
+================================================================
+
+Today was a 12+ hour productive session. Tomorrow needs to be focused
+and shorter to avoid diminishing returns:
+
+  - Morning: Task 4 architecture decision + heuristic_lab_v1.py start
+  - Midday: complete heuristic backend, first real benchmark run
+  - Afternoon: detection comparison overlay renderer (Task 6)
+  - Evening: stop and bank, even if it feels like there's more juice
+
+DO NOT:
+  - Try to do flat PDF ground truth labeling AND heuristic backend AND
+    Azure AND comparison overlays all in one day
+  - Skip the cross-check with ChatGPT before implementing the heuristic
+  - Push past the point where decisions get sloppy
+
+================================================================
+NORTH STAR REMINDER
+================================================================
+
+The Detection Lab exists to make detection quality MEASURABLE so
+NoStringsPDF can ship with confidence and improve continuously.
+
+Launch target: June 5 or June 15
+Citi job starts: June 8 or June 15
+Today: May 20
+
+The lab is ahead of schedule. Production work (frontend UX, Stripe
+webhook, etc.) is still the priority. The lab is the safety net that
+catches detection regressions during the launch sprint, not a
+substitute for shipping features.
+
+Tomorrow: Task 4 (heuristic backend) - measured, focused, banked.
