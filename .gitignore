@@ -48,3 +48,7 @@ local_review/
 
 # Generated benchmark reports (regenerable; track only canonical baselines)
 reports/benchmarks/
+
+# Integrity check reports (regenerable)
+reports/integrity/
+
