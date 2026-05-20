@@ -38,3 +38,6 @@ reports/visualizations/*.jpg
 
 # OS
 Thumbs.db
+
+# Generated overlay images (large; regenerable on demand)
+reports/overlays/
