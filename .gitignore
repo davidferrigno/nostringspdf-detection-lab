@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Reports (large generated outputs)
+reports/daily/*.json
+reports/daily/*.html
+reports/visualizations/*.png
+reports/visualizations/*.jpg
+
+# Samples - PDFs can be large; gitignore for now, manage separately
+# Override with `git add -f` for specific files we want versioned
+samples/**/*.pdf
+samples/**/*.PDF
+
+# OS
+Thumbs.db
