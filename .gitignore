@@ -52,3 +52,6 @@ reports/benchmarks/
 # Integrity check reports (regenerable)
 reports/integrity/
 
+# Comparison reports (regenerable)
+reports/comparisons/
+
