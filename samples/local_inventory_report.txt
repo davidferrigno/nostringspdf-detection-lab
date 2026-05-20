@@ -1,0 +1,214 @@
+Local PDF Inventory Report
+Generated: 2026-05-20T15:58:37+00:00
+============================================================
+
+Summary by classification:
+  acroform_clean            10
+  acroform_with_pii          0
+  flat_pdf                  12
+  xfa_only                   0
+  error                      0
+  duplicate_of_corpus        4
+
+Total inventoried: 26
+
+============================================================
+DETAILS
+============================================================
+
+[acroform_clean] 71061.pdf
+  source:      fillable
+  pages:       1
+  size:        26,113 bytes
+  acroform:    True (6 fields)
+  sha256:      576979d1000e87a0b592c1e533c4981958d16ac4cf2ec042dfc73edffcf02cf1
+
+[duplicate_of_corpus] BA-49.pdf
+  source:      fillable
+  pages:       1
+  size:        382,849 bytes
+  acroform:    True (58 fields)
+  duplicate of:  nj_mvc_ba49 (already in corpus)
+  sha256:      3844d65af30b08a758d757f1bdb801b09d4da0581060852a5aa2f3363a0bdd64
+
+[acroform_clean] BA-51.pdf
+  source:      fillable
+  pages:       1
+  size:        7,385,381 bytes
+  acroform:    True (43 fields)
+  sha256:      0c5f1758b78bf36e92830b911c7791f1f270fde0423b33894000156c3036cf9d
+
+[acroform_clean] BA-62.pdf
+  source:      fillable
+  pages:       1
+  size:        688,004 bytes
+  acroform:    True (9 fields)
+  sha256:      cbe7121a80abe4effc31e104b18901bbaca006f84ed2b79d53e289083f7575e5
+
+[acroform_clean] f1099nec.pdf
+  source:      fillable
+  pages:       6
+  size:        513,361 bytes
+  acroform:    True (80 fields)
+  sha256:      7cf3272e27de046a92346375601f3211b711a9c800f9185034dd70badcab0abe
+
+[duplicate_of_corpus] fw4.pdf
+  source:      fillable
+  pages:       5
+  size:        208,845 bytes
+  acroform:    True (48 fields)
+  duplicate of:  irs_w4 (already in corpus)
+  sha256:      92444d8856ce55d9e25dca8b6d1420634fc68b11e1ab1f760916ea29ddd312b2
+
+[duplicate_of_corpus] fw9.pdf
+  source:      fillable
+  pages:       6
+  size:        140,815 bytes
+  acroform:    True (23 fields)
+  duplicate of:  irs_w9 (already in corpus)
+  sha256:      2d420cbb4123dcf1fb82595b2359cfbb5d81f00b9df9d359fcc7af361d093f53
+
+[duplicate_of_corpus] i-9.pdf
+  source:      fillable
+  pages:       4
+  size:        524,095 bytes
+  acroform:    True (130 fields)
+  duplicate of:  uscis_i9 (already in corpus)
+  sha256:      780f348c34df694bb0b4dbbfaf9f22b99b9757b80d16a37ba89aadf069597281
+
+[acroform_clean] njw4.pdf
+  source:      fillable
+  pages:       2
+  size:        181,233 bytes
+  acroform:    True (18 fields)
+  sha256:      c16f212c32c80ea768c0a0a3de7d38d7e2b97a9375902c3772ad72869b81408c
+
+[acroform_clean] ppb-11-01-23.pdf
+  source:      fillable
+  pages:       1
+  size:        180,772 bytes
+  acroform:    True (66 fields)
+  sha256:      fca84c29ca3d786a641bdb50c752cec5ce8ece3f04beaa736726ef88834fc660
+
+[acroform_clean] ppb-7-2-2025.pdf
+  source:      fillable
+  pages:       1
+  size:        166,855 bytes
+  acroform:    True (54 fields)
+  sha256:      ddfd65322960a909eb17590150e7f6c193814cefd82e3b0d41d90b91db9b4c14
+
+[acroform_clean] sp-066.pdf
+  source:      fillable
+  pages:       1
+  size:        96,674 bytes
+  acroform:    True (25 fields)
+  sha256:      01e6e3fc4d2a20016eca8673213d3d41bb9705176f9828ddfe473d1947182745
+
+[acroform_clean] ss-5.pdf
+  source:      fillable
+  pages:       5
+  size:        153,041 bytes
+  acroform:    True (70 fields)
+  sha256:      281da43ef49cb74103515b9a6a27c70fc429070dbf93f6758dc425d47fb8620b
+
+[flat_pdf] 71048.pdf
+  source:      flat
+  pages:       2
+  size:        167,610 bytes
+  acroform:    False (0 fields)
+  sha256:      dc9cc9ec99de888989c6cf90a8bf82f9d676024fb21ad31e44865f3b14fc4d77
+
+[flat_pdf] 72010.pdf
+  source:      flat
+  pages:       3
+  size:        124,633 bytes
+  acroform:    False (0 fields)
+  sha256:      7f377dc06df0e399dc547c39732e021b499df8a37209e1c08b9ba3d3a10c56a7
+
+[flat_pdf] 75710.pdf
+  source:      flat
+  pages:       2
+  size:        37,828 bytes
+  acroform:    False (0 fields)
+  sha256:      2a98ebe23fe64811aadcb2988ab353e76a9ebad447ec0a6675916f7799b4f764
+
+[flat_pdf] Marriage--Civil-Union-License-Application-Form-PDF.pdf
+  source:      flat
+  pages:       2
+  size:        215,061 bytes
+  acroform:    False (0 fields)
+  sha256:      594e2fe59abcae15993b210be46cfdeea5f0c0c9e61b1d405465abe956f31706
+
+[flat_pdf] POST_5330469_2026 EL NOMINATION FORM (1).pdf
+  source:      flat
+  pages:       1
+  size:        183,044 bytes
+  acroform:    False (0 fields)
+  sha256:      fa9ad760cc636cbbc783aa9b92c9d986599e00758391286535c2b9cc65f4ec42
+
+[flat_pdf] POST_5403785_EDEN-Valid Ballot 2026.pdf
+  source:      flat
+  pages:       1
+  size:        136,041 bytes
+  acroform:    False (0 fields)
+  sha256:      abb291202beeb4713adbe3cf7737ea361df96c02efaebab2a080bf9b5c466cc0
+
+[flat_pdf] PublicWaterMassMailing.pdf
+  source:      flat
+  pages:       8
+  size:        2,681,358 bytes
+  acroform:    False (0 fields)
+  sha256:      780668c60178a66e31394f81ad09256d6a9dca31b7578eac87477e9e3fcddc0b
+
+[flat_pdf] UOA Intake Paperwork Packet.pdf
+  source:      flat
+  pages:       4
+  size:        104,742 bytes
+  acroform:    False (0 fields)
+  sha256:      6db25c0a0cbe139fc784b4109051f827e762f1427c807943c60f90efc7b48b2f
+
+[flat_pdf] center_travel_field_trip_authorization_form.pdf
+  source:      flat
+  pages:       1
+  size:        51,570 bytes
+  acroform:    False (0 fields)
+  sha256:      4e783cddac59d0227816ad81c3c0f3c631836a30e3964f19aa73392641f84f3a
+
+[flat_pdf] instructions.pdf
+  source:      flat
+  pages:       3
+  size:        178,871 bytes
+  acroform:    False (0 fields)
+  sha256:      f6f472bf1d31a92b64749b2345e383ebaea8a11b5d00de428727c2efb90f1301
+
+[flat_pdf] medical-history-intake-form.pdf
+  source:      flat
+  pages:       14
+  size:        1,649,045 bytes
+  acroform:    False (0 fields)
+  sha256:      d10bdf2cdc4b21782072c358bbe6468b17703234335075c909a7a7dd84535b43
+
+[flat_pdf] sp-650 non fill.pdf
+  source:      flat
+  pages:       2
+  size:        58,805 bytes
+  acroform:    False (0 fields)
+  sha256:      415fcf0dc51680b75db9b2e4a10834fbca2332ea24f6e3274964cdd8a30ccf03
+
+[acroform_clean] sts-033.pdf
+  source:      flat
+  pages:       1
+  size:        103,122 bytes
+  acroform:    True (86 fields)
+  sha256:      215b7725754dcefc4d34a99fda5481bf980c738d7ddcd57663d78f58a6774584
+
+============================================================
+RECOMMENDATIONS
+============================================================
+
+acroform_clean:     candidates to import as-is into samples/acroforms/raw/local/
+acroform_with_pii:  REVIEW before import — strip field values during import
+flat_pdf:           candidates for samples/flat/digital/
+xfa_only:           samples/flat/xfa/ — important edge case, browsers can't render
+duplicate_of_corpus: skip (already in corpus from government download)
+error:              investigate manually before deciding
