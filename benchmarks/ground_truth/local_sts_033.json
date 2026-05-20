@@ -1,0 +1,1092 @@
+{
+  "pdf": "local_sts_033.pdf",
+  "pdf_id": "local_sts_033",
+  "source": "local",
+  "page_count": 1,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        45.0,
+        85.65,
+        8.0,
+        8.0
+      ],
+      "label": "CheckBox1",
+      "state": "Off"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        45.0,
+        125.65,
+        8.0,
+        8.0
+      ],
+      "label": "CheckBox48",
+      "state": "Off"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        45.0,
+        95.65,
+        8.0,
+        8.0
+      ],
+      "label": "CheckBox45",
+      "state": "Off"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        45.0,
+        106.65,
+        8.0,
+        8.0
+      ],
+      "label": "CheckBox47",
+      "state": "Off"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        45.0,
+        115.65,
+        8.0,
+        8.0
+      ],
+      "label": "CheckBox2",
+      "state": "Off"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        261.0,
+        85.65,
+        8.0,
+        8.0
+      ],
+      "label": "CheckBox49",
+      "state": "Off"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        288.22,
+        101.22,
+        282.0,
+        16.69
+      ],
+      "label": "FillText1"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        261.27,
+        126.7,
+        8.0,
+        8.0
+      ],
+      "label": "CheckBox46",
+      "state": "Off"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        465.35,
+        123.8,
+        39.0,
+        16.69
+      ],
+      "label": "FillText4"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        40.5,
+        145.57,
+        417.84,
+        16.69
+      ],
+      "label": "FillText2"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        461.35,
+        146.57,
+        32.0,
+        16.69
+      ],
+      "label": "Comb1"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        502.35,
+        146.57,
+        23.0,
+        16.69
+      ],
+      "label": "Comb11"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        534.35,
+        146.57,
+        38.0,
+        16.69
+      ],
+      "label": "Comb2"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        39.99,
+        170.8,
+        418.36,
+        16.69
+      ],
+      "label": "FillText3"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        463.35,
+        170.8,
+        30.0,
+        16.69
+      ],
+      "label": "Phone_Number"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        499.35,
+        170.8,
+        30.0,
+        16.69
+      ],
+      "label": "Phone_Number1"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        534.35,
+        170.8,
+        38.0,
+        16.69
+      ],
+      "label": "Phone_Number2"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        38.35,
+        195.8,
+        21.0,
+        16.69
+      ],
+      "label": "Fax_Number"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        65.35,
+        195.8,
+        18.0,
+        16.69
+      ],
+      "label": "Fax_Number1"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        89.35,
+        195.8,
+        27.0,
+        16.69
+      ],
+      "label": "Fax_Number2"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        119.35,
+        195.8,
+        33.0,
+        16.69
+      ],
+      "label": "FillText43"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        156.12,
+        195.8,
+        158.54,
+        16.69
+      ],
+      "label": "FillText5"
+    },
+    {
+      "id": "f23",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        320.04,
+        195.8,
+        252.61,
+        16.69
+      ],
+      "label": "FillText15"
+    },
+    {
+      "id": "f24",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        40.35,
+        218.8,
+        23.0,
+        16.69
+      ],
+      "label": "FillText8"
+    },
+    {
+      "id": "f25",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        65.35,
+        218.8,
+        65.0,
+        16.69
+      ],
+      "label": "FillText9"
+    },
+    {
+      "id": "f26",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        131.35,
+        218.8,
+        41.0,
+        16.69
+      ],
+      "label": "FillText10"
+    },
+    {
+      "id": "f27",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        174.35,
+        218.8,
+        38.0,
+        16.69
+      ],
+      "label": "FillText11"
+    },
+    {
+      "id": "f28",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        214.35,
+        218.8,
+        54.0,
+        16.69
+      ],
+      "label": "FillText12"
+    },
+    {
+      "id": "f29",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        270.35,
+        218.8,
+        55.62,
+        16.69
+      ],
+      "label": "FillText13"
+    },
+    {
+      "id": "f30",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        329.5,
+        218.8,
+        179.15,
+        16.69
+      ],
+      "label": "FillText7"
+    },
+    {
+      "id": "f31",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        519.56,
+        222.08,
+        8.0,
+        8.0
+      ],
+      "label": "citizen",
+      "state": "Off"
+    },
+    {
+      "id": "f32",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        551.56,
+        222.08,
+        8.0,
+        8.0
+      ],
+      "label": "citizen",
+      "state": "Off"
+    },
+    {
+      "id": "f33",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        39.5,
+        243.8,
+        137.23,
+        16.69
+      ],
+      "label": "FillText18"
+    },
+    {
+      "id": "f34",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        179.96,
+        243.8,
+        270.07,
+        16.69
+      ],
+      "label": "FillText20"
+    },
+    {
+      "id": "f35",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        457.04,
+        243.8,
+        116.0,
+        16.69
+      ],
+      "label": "FillText19"
+    },
+    {
+      "id": "f36",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        38.96,
+        268.8,
+        387.61,
+        16.69
+      ],
+      "label": "FillText16"
+    },
+    {
+      "id": "f37",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        431.96,
+        268.8,
+        140.54,
+        16.69
+      ],
+      "label": "FillText17"
+    },
+    {
+      "id": "f38",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        546.0,
+        286.15,
+        8.0,
+        8.0
+      ],
+      "label": "23",
+      "state": "Off"
+    },
+    {
+      "id": "f39",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        546.0,
+        297.15,
+        8.0,
+        8.0
+      ],
+      "label": "23",
+      "state": "Off"
+    },
+    {
+      "id": "f40",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        38.95,
+        293.4,
+        498.0,
+        21.08
+      ],
+      "label": "FillText45"
+    },
+    {
+      "id": "f41",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        546.9,
+        315.05,
+        8.0,
+        8.0
+      ],
+      "label": "Group1",
+      "state": "Off"
+    },
+    {
+      "id": "f42",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        546.9,
+        325.05,
+        8.0,
+        8.0
+      ],
+      "label": "Group1",
+      "state": "Off"
+    },
+    {
+      "id": "f43",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        38.95,
+        317.11,
+        498.0,
+        21.08
+      ],
+      "label": "FillText33"
+    },
+    {
+      "id": "f44",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        546.0,
+        337.65,
+        8.0,
+        8.0
+      ],
+      "label": "Group2",
+      "state": "Off"
+    },
+    {
+      "id": "f45",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        546.0,
+        347.65,
+        8.0,
+        8.0
+      ],
+      "label": "Group2",
+      "state": "Off"
+    },
+    {
+      "id": "f46",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        38.95,
+        338.77,
+        498.0,
+        21.08
+      ],
+      "label": "FillText22"
+    },
+    {
+      "id": "f47",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        546.39,
+        361.46,
+        8.0,
+        8.0
+      ],
+      "label": "Group3",
+      "state": "Off"
+    },
+    {
+      "id": "f48",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        546.39,
+        372.46,
+        8.0,
+        8.0
+      ],
+      "label": "Group3",
+      "state": "Off"
+    },
+    {
+      "id": "f49",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        38.95,
+        369.7,
+        498.0,
+        21.08
+      ],
+      "label": "FillText23"
+    },
+    {
+      "id": "f50",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        545.87,
+        391.35,
+        8.0,
+        8.0
+      ],
+      "label": "Group4",
+      "state": "Off"
+    },
+    {
+      "id": "f51",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        545.87,
+        401.35,
+        8.0,
+        8.0
+      ],
+      "label": "Group4",
+      "state": "Off"
+    },
+    {
+      "id": "f52",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        39.47,
+        399.09,
+        498.0,
+        21.08
+      ],
+      "label": "FillText24"
+    },
+    {
+      "id": "f53",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        135.5,
+        420.98,
+        8.0,
+        8.0
+      ],
+      "label": "Group6",
+      "state": "Off"
+    },
+    {
+      "id": "f54",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        135.5,
+        430.98,
+        8.0,
+        8.0
+      ],
+      "label": "Group6",
+      "state": "Off"
+    },
+    {
+      "id": "f55",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        546.5,
+        419.98,
+        8.0,
+        8.0
+      ],
+      "label": "Group5",
+      "state": "Off"
+    },
+    {
+      "id": "f56",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        546.5,
+        429.98,
+        8.0,
+        8.0
+      ],
+      "label": "Group5",
+      "state": "Off"
+    },
+    {
+      "id": "f57",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        167.9,
+        423.64,
+        369.0,
+        18.39
+      ],
+      "label": "FillText25"
+    },
+    {
+      "id": "f58",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        134.5,
+        443.48,
+        8.0,
+        8.0
+      ],
+      "label": "Group8",
+      "state": "Off"
+    },
+    {
+      "id": "f59",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        134.5,
+        453.48,
+        8.0,
+        8.0
+      ],
+      "label": "Group8",
+      "state": "Off"
+    },
+    {
+      "id": "f60",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        545.5,
+        443.48,
+        8.0,
+        8.0
+      ],
+      "label": "Group7",
+      "state": "Off"
+    },
+    {
+      "id": "f61",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        545.5,
+        453.48,
+        8.0,
+        8.0
+      ],
+      "label": "Group7",
+      "state": "Off"
+    },
+    {
+      "id": "f62",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        167.9,
+        460.76,
+        369.0,
+        18.39
+      ],
+      "label": "FillText26"
+    },
+    {
+      "id": "f63",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        134.65,
+        480.55,
+        8.0,
+        8.0
+      ],
+      "label": "Group9",
+      "state": "Off"
+    },
+    {
+      "id": "f64",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        134.65,
+        490.55,
+        8.0,
+        8.0
+      ],
+      "label": "Group9",
+      "state": "Off"
+    },
+    {
+      "id": "f65",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        545.65,
+        480.55,
+        8.0,
+        8.0
+      ],
+      "label": "Group10",
+      "state": "Off"
+    },
+    {
+      "id": "f66",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        545.65,
+        490.55,
+        8.0,
+        8.0
+      ],
+      "label": "Group10",
+      "state": "Off"
+    },
+    {
+      "id": "f67",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        168.42,
+        496.34,
+        369.0,
+        18.39
+      ],
+      "label": "FillText27"
+    },
+    {
+      "id": "f68",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        545.87,
+        515.09,
+        8.0,
+        8.0
+      ],
+      "label": "Group11",
+      "state": "Off"
+    },
+    {
+      "id": "f69",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        545.87,
+        525.09,
+        8.0,
+        8.0
+      ],
+      "label": "Group11",
+      "state": "Off"
+    },
+    {
+      "id": "f70",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        38.95,
+        523.86,
+        498.0,
+        21.08
+      ],
+      "label": "FillText28"
+    },
+    {
+      "id": "f71",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        545.87,
+        545.53,
+        8.0,
+        8.0
+      ],
+      "label": "Group12",
+      "state": "Off"
+    },
+    {
+      "id": "f72",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        545.87,
+        556.53,
+        8.0,
+        8.0
+      ],
+      "label": "Group12",
+      "state": "Off"
+    },
+    {
+      "id": "f73",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        39.47,
+        560.99,
+        498.0,
+        21.08
+      ],
+      "label": "FillText29"
+    },
+    {
+      "id": "f74",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        47.64,
+        586.68,
+        525.0,
+        14.77
+      ],
+      "label": "FillText47"
+    },
+    {
+      "id": "f75",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        47.64,
+        601.45,
+        525.0,
+        14.77
+      ],
+      "label": "FillText46"
+    },
+    {
+      "id": "f76",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        54.64,
+        668.7,
+        15.0,
+        15.0
+      ],
+      "label": "CheckBox41",
+      "state": "Off"
+    },
+    {
+      "id": "f77",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        55.64,
+        699.7,
+        15.0,
+        15.0
+      ],
+      "label": "CheckBox42",
+      "state": "Off"
+    },
+    {
+      "id": "f78",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        55.64,
+        735.7,
+        15.0,
+        15.0
+      ],
+      "label": "CheckBox43",
+      "state": "Off"
+    },
+    {
+      "id": "f79",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        96.5,
+        691.29,
+        9.0,
+        7.0
+      ],
+      "label": "CheckBox50",
+      "state": "Off"
+    },
+    {
+      "id": "f80",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        96.5,
+        744.29,
+        9.0,
+        7.0
+      ],
+      "label": "CheckBox56",
+      "state": "Off"
+    },
+    {
+      "id": "f81",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        96.5,
+        700.29,
+        9.0,
+        7.0
+      ],
+      "label": "CheckBox51",
+      "state": "Off"
+    },
+    {
+      "id": "f82",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        96.5,
+        709.29,
+        9.0,
+        7.0
+      ],
+      "label": "CheckBox52",
+      "state": "Off"
+    },
+    {
+      "id": "f83",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        96.5,
+        718.29,
+        9.0,
+        7.0
+      ],
+      "label": "CheckBox53",
+      "state": "Off"
+    },
+    {
+      "id": "f84",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        96.5,
+        727.29,
+        9.0,
+        7.0
+      ],
+      "label": "CheckBox54",
+      "state": "Off"
+    },
+    {
+      "id": "f85",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        96.5,
+        735.29,
+        9.0,
+        7.0
+      ],
+      "label": "CheckBox55",
+      "state": "Off"
+    },
+    {
+      "id": "f86",
+      "page": 1,
+      "type": "radio",
+      "bbox": [
+        252.01,
+        759.88,
+        90.57,
+        21.25
+      ],
+      "label": "Button1"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

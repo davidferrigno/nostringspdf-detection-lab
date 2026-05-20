@@ -1,0 +1,372 @@
+{
+  "pdf": "irs_4506t.pdf",
+  "pdf_id": "irs_4506t",
+  "source": "government",
+  "page_count": 2,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.0,
+        172.8,
+        266.4,
+        14.4
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_1[0]"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        302.4,
+        172.8,
+        273.6,
+        14.4
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_2[0]"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.0,
+        198.0,
+        266.4,
+        25.2
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_3[0]"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        302.4,
+        208.8,
+        273.6,
+        14.4
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_4[0]"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.0,
+        234.0,
+        540.0,
+        14.4
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_5[0]"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.0,
+        259.2,
+        540.0,
+        14.4
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_6[0]"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.0,
+        284.4,
+        540.0,
+        14.4
+      ],
+      "label": "topmostSubform[0].Page1[0].customer_file_number[0]"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        140.4,
+        334.8,
+        115.2,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_8[0]"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        568.0,
+        392.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_1[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        568.0,
+        428.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_1[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        568.0,
+        453.2,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_1[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        568.0,
+        478.83,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_1[3]",
+      "state": "Off"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        568.0,
+        532.4,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_1[4]",
+      "state": "Off"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        36.4,
+        663.8,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_6[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        439.2,
+        684.0,
+        136.8,
+        14.4
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_13[0]"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        65.45,
+        709.2,
+        510.55,
+        14.4
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_14[0]"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        64.8,
+        586.8,
+        21.6,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_15[0]"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        93.6,
+        586.8,
+        21.21,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_16[0]"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        122.4,
+        586.8,
+        28.8,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_17[0]"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        158.4,
+        586.8,
+        21.6,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_18[0]"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        187.2,
+        586.8,
+        21.21,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_19[0]"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        216.0,
+        586.8,
+        28.8,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_20[0]"
+    },
+    {
+      "id": "f23",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        252.0,
+        586.8,
+        21.6,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_21[0]"
+    },
+    {
+      "id": "f24",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        280.8,
+        586.8,
+        21.21,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_22[0]"
+    },
+    {
+      "id": "f25",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        309.6,
+        586.8,
+        28.8,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_23[0]"
+    },
+    {
+      "id": "f26",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        345.6,
+        586.8,
+        21.6,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_24[0]"
+    },
+    {
+      "id": "f27",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        374.4,
+        586.8,
+        21.21,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_25[0]"
+    },
+    {
+      "id": "f28",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        403.2,
+        586.8,
+        28.8,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_26[0]"
+    },
+    {
+      "id": "f29",
+      "page": 1,
+      "type": "radio",
+      "bbox": [
+        356.4,
+        370.8,
+        194.4,
+        10.8
+      ],
+      "label": "topmostSubform[0].Page1[0].hyperlink[0]",
+      "group_id": "topmostSubform[0].Page1[0]"
+    }
+  ],
+  "warnings": [
+    "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+  ],
+  "error": null
+}

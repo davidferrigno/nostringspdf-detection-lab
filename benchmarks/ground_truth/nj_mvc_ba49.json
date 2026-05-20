@@ -1,0 +1,724 @@
+{
+  "pdf": "nj_mvc_ba49.pdf",
+  "pdf_id": "nj_mvc_ba49",
+  "source": "government",
+  "page_count": 1,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        83.4,
+        99.72,
+        505.44,
+        12.24
+      ],
+      "label": "NameOwner"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        91.92,
+        114.6,
+        295.44,
+        12.24
+      ],
+      "label": "Street Address"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        451.92,
+        114.6,
+        140.04,
+        12.24
+      ],
+      "label": "AptFloorUnit"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        93.48,
+        129.48,
+        495.48,
+        12.24
+      ],
+      "label": "Phone Number"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        48.48,
+        144.69,
+        190.2,
+        12.24
+      ],
+      "label": "City"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        267.12,
+        144.69,
+        60.24,
+        12.24
+      ],
+      "label": "State"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        347.28,
+        144.69,
+        70.08,
+        12.24
+      ],
+      "label": "Zip"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        457.6,
+        144.69,
+        131.61,
+        12.24
+      ],
+      "label": "County"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        215.64,
+        159.36,
+        375.36,
+        12.24
+      ],
+      "label": "Owners NJ Driver License NumberCorpcode"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        63.0,
+        174.24,
+        120.12,
+        12.24
+      ],
+      "label": "Gender"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        230.16,
+        174.24,
+        115.2,
+        12.24
+      ],
+      "label": "Eye Color"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        419.76,
+        174.24,
+        170.16,
+        12.24
+      ],
+      "label": "Full Date of Birth"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        100.44,
+        189.12,
+        490.56,
+        12.24
+      ],
+      "label": "NameCoOwner"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        230.16,
+        204.0,
+        360.36,
+        12.24
+      ],
+      "label": "CoOwners NJ Driver License NumberCorpcode"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        63.0,
+        218.88,
+        120.12,
+        12.24
+      ],
+      "label": "Gender_2"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        230.16,
+        218.88,
+        115.2,
+        12.24
+      ],
+      "label": "Eye Color_2"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        419.76,
+        218.88,
+        170.16,
+        12.24
+      ],
+      "label": "Full Date of Birth_2"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        44.51,
+        247.69,
+        12.8,
+        11.93
+      ],
+      "label": "Check Box2.0",
+      "state": "Off"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        85.53,
+        247.69,
+        12.8,
+        11.93
+      ],
+      "label": "Check Box2.1",
+      "state": "Off"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        140.8,
+        247.69,
+        12.8,
+        11.93
+      ],
+      "label": "Check Box2.2",
+      "state": "Off"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        197.82,
+        247.69,
+        12.8,
+        11.93
+      ],
+      "label": "Check Box2.3",
+      "state": "Off"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        251.06,
+        247.69,
+        12.8,
+        11.93
+      ],
+      "label": "Check Box2.4",
+      "state": "Off"
+    },
+    {
+      "id": "f23",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        352.0,
+        247.69,
+        12.8,
+        11.93
+      ],
+      "label": "Check Box2.5",
+      "state": "Off"
+    },
+    {
+      "id": "f24",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        424.73,
+        247.69,
+        12.8,
+        11.93
+      ],
+      "label": "Check Box2.6",
+      "state": "Off"
+    },
+    {
+      "id": "f25",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        87.96,
+        278.76,
+        85.2,
+        12.24
+      ],
+      "label": "Plate Number"
+    },
+    {
+      "id": "f26",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        203.64,
+        278.76,
+        45.0,
+        12.24
+      ],
+      "label": "Prefix"
+    },
+    {
+      "id": "f27",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        393.72,
+        278.76,
+        195.36,
+        12.24
+      ],
+      "label": "Vehicle Identification Number VIN"
+    },
+    {
+      "id": "f28",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        113.52,
+        305.4,
+        230.28,
+        12.24
+      ],
+      "label": "Insurance Company"
+    },
+    {
+      "id": "f29",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        409.68,
+        305.4,
+        180.24,
+        12.24
+      ],
+      "label": "Policy Number"
+    },
+    {
+      "id": "f30",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        88.44,
+        351.24,
+        505.44,
+        12.24
+      ],
+      "label": "NameLessee"
+    },
+    {
+      "id": "f31",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        91.92,
+        366.12,
+        500.64,
+        12.24
+      ],
+      "label": "Street Address_2"
+    },
+    {
+      "id": "f32",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        48.48,
+        381.0,
+        180.12,
+        12.24
+      ],
+      "label": "City_2"
+    },
+    {
+      "id": "f33",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        254.64,
+        381.0,
+        65.04,
+        12.24
+      ],
+      "label": "State_2"
+    },
+    {
+      "id": "f34",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        339.72,
+        381.0,
+        65.04,
+        12.24
+      ],
+      "label": "Zip_2"
+    },
+    {
+      "id": "f35",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        440.76,
+        381.0,
+        150.12,
+        12.24
+      ],
+      "label": "County"
+    },
+    {
+      "id": "f36",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        217.8,
+        395.88,
+        375.36,
+        12.24
+      ],
+      "label": "Lessees NJ Driver License NumberCorpcode"
+    },
+    {
+      "id": "f37",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        63.0,
+        410.88,
+        120.12,
+        12.24
+      ],
+      "label": "Gender_3"
+    },
+    {
+      "id": "f38",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        230.16,
+        410.88,
+        115.2,
+        12.24
+      ],
+      "label": "Eye Color_3"
+    },
+    {
+      "id": "f39",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        419.76,
+        410.88,
+        170.16,
+        12.24
+      ],
+      "label": "Full Date of Birth_3"
+    },
+    {
+      "id": "f40",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        108.22,
+        426.29,
+        145.93,
+        12.24
+      ],
+      "label": "Date Lease Signed"
+    },
+    {
+      "id": "f41",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        320.04,
+        425.76,
+        270.24,
+        12.24
+      ],
+      "label": "Term Months"
+    },
+    {
+      "id": "f42",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        109.44,
+        440.64,
+        145.2,
+        12.24
+      ],
+      "label": "Lease Cancellation"
+    },
+    {
+      "id": "f43",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        350.76,
+        440.64,
+        245.28,
+        12.24
+      ],
+      "label": "Date Lease Cancelled"
+    },
+    {
+      "id": "f44",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        198.49,
+        470.73,
+        12.8,
+        11.93
+      ],
+      "label": "Check Box3",
+      "state": "Off"
+    },
+    {
+      "id": "f45",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        235.06,
+        471.4,
+        12.8,
+        11.93
+      ],
+      "label": "Check Box3",
+      "state": "Off"
+    },
+    {
+      "id": "f46",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        183.87,
+        494.51,
+        12.8,
+        11.93
+      ],
+      "label": "Check Box4",
+      "state": "Off"
+    },
+    {
+      "id": "f47",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        220.22,
+        494.55,
+        12.8,
+        11.93
+      ],
+      "label": "Check Box4",
+      "state": "Off"
+    },
+    {
+      "id": "f48",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        326.22,
+        506.29,
+        12.8,
+        11.93
+      ],
+      "label": "Check Box5",
+      "state": "Off"
+    },
+    {
+      "id": "f49",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        361.31,
+        506.47,
+        12.51,
+        11.93
+      ],
+      "label": "Check Box5",
+      "state": "Off"
+    },
+    {
+      "id": "f50",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        105.48,
+        519.0,
+        65.16,
+        11.76
+      ],
+      "label": "If yes  State"
+    },
+    {
+      "id": "f51",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        214.92,
+        519.0,
+        380.4,
+        11.76
+      ],
+      "label": "Violation"
+    },
+    {
+      "id": "f52",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        450.48,
+        531.48,
+        145.2,
+        11.64
+      ],
+      "label": "If vehicle is registered under trade or company name provide the Federal Tax Identification Number"
+    },
+    {
+      "id": "f53",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        173.88,
+        543.84,
+        420.6,
+        11.16
+      ],
+      "label": "Agricultural Certificate Number"
+    },
+    {
+      "id": "f54",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        156.72,
+        654.24,
+        40.08,
+        12.24
+      ],
+      "label": "Requested registration code"
+    },
+    {
+      "id": "f55",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        340.8,
+        654.24,
+        65.04,
+        12.24
+      ],
+      "label": "Requested registration weight"
+    },
+    {
+      "id": "f56",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        521.88,
+        654.24,
+        65.16,
+        12.24
+      ],
+      "label": "Number of passengers"
+    },
+    {
+      "id": "f57",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        471.24,
+        686.28,
+        95.28,
+        12.24
+      ],
+      "label": "Date"
+    },
+    {
+      "id": "f58",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        469.92,
+        702.36,
+        95.16,
+        12.24
+      ],
+      "label": "Date_2"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

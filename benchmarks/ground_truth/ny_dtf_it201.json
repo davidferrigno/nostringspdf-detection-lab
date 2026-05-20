@@ -1,0 +1,2843 @@
+{
+  "pdf": "ny_dtf_it201.pdf",
+  "pdf_id": "ny_dtf_it201",
+  "source": "government",
+  "page_count": 4,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        504.0,
+        75.0,
+        57.0,
+        12.0
+      ],
+      "label": "Fiscal_year_start"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        504.0,
+        90.0,
+        71.5,
+        12.0
+      ],
+      "label": "Fiscal_year_end"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        120.0,
+        101.5,
+        12.0
+      ],
+      "label": "TP_first_name"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        138.5,
+        120.0,
+        17.5,
+        12.0
+      ],
+      "label": "TP_MI"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        156.5,
+        120.0,
+        197.5,
+        12.0
+      ],
+      "label": "TP_last_name"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        354.5,
+        120.0,
+        95.5,
+        12.0
+      ],
+      "label": "TP_DOB"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        450.5,
+        120.0,
+        125.0,
+        12.0
+      ],
+      "label": "TP_SSN"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        144.0,
+        101.5,
+        12.0
+      ],
+      "label": "Spouse_first_name"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        138.5,
+        144.0,
+        17.5,
+        12.0
+      ],
+      "label": "Spouse_MI"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        156.5,
+        144.0,
+        197.5,
+        12.0
+      ],
+      "label": "Spouse_last_name"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        354.5,
+        144.0,
+        95.5,
+        12.0
+      ],
+      "label": "Spouse_DOB"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        450.5,
+        144.0,
+        125.0,
+        12.0
+      ],
+      "label": "Spouse_SSN"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        168.0,
+        329.5,
+        12.0
+      ],
+      "label": "TP_mail_address"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        366.5,
+        168.0,
+        83.5,
+        12.0
+      ],
+      "label": "TP_mail_apt"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        450.5,
+        168.0,
+        125.0,
+        12.0
+      ],
+      "label": "NYS_county_residence"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        192.0,
+        179.5,
+        12.0
+      ],
+      "label": "TP_mail_city"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        216.5,
+        192.0,
+        23.5,
+        12.0
+      ],
+      "label": "TP_mail_state"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        240.5,
+        192.0,
+        71.5,
+        12.0
+      ],
+      "label": "TP_mail_zip"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        312.5,
+        192.0,
+        137.5,
+        12.0
+      ],
+      "label": "TP_mail_country"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        450.5,
+        192.0,
+        125.0,
+        12.0
+      ],
+      "label": "SD_name"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        216.0,
+        311.5,
+        12.0
+      ],
+      "label": "TP_home_address"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        348.5,
+        216.0,
+        101.5,
+        12.0
+      ],
+      "label": "TP_home_apt"
+    },
+    {
+      "id": "f23",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        531.5,
+        216.0,
+        44.0,
+        12.0
+      ],
+      "label": "SD_code"
+    },
+    {
+      "id": "f24",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        240.0,
+        179.5,
+        12.0
+      ],
+      "label": "TP_home_city"
+    },
+    {
+      "id": "f25",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        240.5,
+        240.0,
+        71.5,
+        12.0
+      ],
+      "label": "TP_home_zip"
+    },
+    {
+      "id": "f26",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        354.5,
+        240.0,
+        95.5,
+        12.0
+      ],
+      "label": "TP_date_death"
+    },
+    {
+      "id": "f27",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        471.5,
+        240.0,
+        95.5,
+        12.0
+      ],
+      "label": "Spouse_date_death"
+    },
+    {
+      "id": "f28",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        114.0,
+        261.0,
+        15.0,
+        15.0
+      ],
+      "label": "Filing_status",
+      "state": "Off"
+    },
+    {
+      "id": "f29",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        114.0,
+        285.0,
+        15.0,
+        15.0
+      ],
+      "label": "Filing_status",
+      "state": "Off"
+    },
+    {
+      "id": "f30",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        114.0,
+        309.0,
+        15.0,
+        15.0
+      ],
+      "label": "Filing_status",
+      "state": "Off"
+    },
+    {
+      "id": "f31",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        114.0,
+        333.0,
+        15.0,
+        15.0
+      ],
+      "label": "Filing_status",
+      "state": "Off"
+    },
+    {
+      "id": "f32",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        114.0,
+        357.0,
+        15.0,
+        15.0
+      ],
+      "label": "Filing_status",
+      "state": "Off"
+    },
+    {
+      "id": "f33",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        236.0,
+        381.0,
+        15.0,
+        15.0
+      ],
+      "label": "Itemized",
+      "state": "Off"
+    },
+    {
+      "id": "f34",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        276.0,
+        381.0,
+        15.0,
+        15.0
+      ],
+      "label": "Itemized",
+      "state": "Off"
+    },
+    {
+      "id": "f35",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        236.0,
+        405.0,
+        15.0,
+        15.0
+      ],
+      "label": "Dependent",
+      "state": "Off"
+    },
+    {
+      "id": "f36",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        276.0,
+        405.0,
+        15.0,
+        15.0
+      ],
+      "label": "Dependent",
+      "state": "Off"
+    },
+    {
+      "id": "f37",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        521.0,
+        261.0,
+        15.0,
+        15.0
+      ],
+      "label": "Foreign_account",
+      "state": "Off"
+    },
+    {
+      "id": "f38",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        561.0,
+        261.0,
+        15.0,
+        15.0
+      ],
+      "label": "Foreign_account",
+      "state": "Off"
+    },
+    {
+      "id": "f39",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        521.0,
+        285.0,
+        15.0,
+        15.0
+      ],
+      "label": "yonkers_freeze_credit",
+      "state": "Off"
+    },
+    {
+      "id": "f40",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        561.0,
+        285.0,
+        15.0,
+        15.0
+      ],
+      "label": "yonkers_freeze_credit",
+      "state": "Off"
+    },
+    {
+      "id": "f41",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        545.0,
+        307.0,
+        31.0,
+        16.5
+      ],
+      "label": "D1_Yonkers"
+    },
+    {
+      "id": "f42",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        545.0,
+        331.0,
+        31.0,
+        16.5
+      ],
+      "label": "D3_Yonkers"
+    },
+    {
+      "id": "f43",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        521.0,
+        369.0,
+        15.0,
+        15.0
+      ],
+      "label": "D4",
+      "state": "Off"
+    },
+    {
+      "id": "f44",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        561.0,
+        369.0,
+        15.0,
+        15.0
+      ],
+      "label": "D4",
+      "state": "Off"
+    },
+    {
+      "id": "f45",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        521.0,
+        405.0,
+        15.0,
+        15.0
+      ],
+      "label": "E1",
+      "state": "Off"
+    },
+    {
+      "id": "f46",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        561.0,
+        405.0,
+        15.0,
+        15.0
+      ],
+      "label": "E1",
+      "state": "Off"
+    },
+    {
+      "id": "f47",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        531.0,
+        428.0,
+        45.0,
+        16.0
+      ],
+      "label": "E2"
+    },
+    {
+      "id": "f48",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        545.0,
+        452.0,
+        31.0,
+        16.5
+      ],
+      "label": "F1_NYC"
+    },
+    {
+      "id": "f49",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        545.0,
+        476.0,
+        31.0,
+        16.5
+      ],
+      "label": "F2_NYC"
+    },
+    {
+      "id": "f50",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        509.0,
+        500.0,
+        31.0,
+        16.5
+      ],
+      "label": "G1_con_code"
+    },
+    {
+      "id": "f51",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        545.0,
+        500.0,
+        31.0,
+        16.5
+      ],
+      "label": "G2_con_code"
+    },
+    {
+      "id": "f52",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        545.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_first1"
+    },
+    {
+      "id": "f53",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        144.5,
+        545.0,
+        17.5,
+        12.0
+      ],
+      "label": "H_middle1"
+    },
+    {
+      "id": "f54",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        162.5,
+        545.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_last1"
+    },
+    {
+      "id": "f55",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        270.5,
+        545.0,
+        83.5,
+        12.0
+      ],
+      "label": "H_relationship1"
+    },
+    {
+      "id": "f56",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        354.5,
+        545.0,
+        125.5,
+        12.0
+      ],
+      "label": "H_dependent_ssn1"
+    },
+    {
+      "id": "f57",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        480.5,
+        545.0,
+        95.0,
+        12.0
+      ],
+      "label": "H_dependent_dob1"
+    },
+    {
+      "id": "f58",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        569.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_first2"
+    },
+    {
+      "id": "f59",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        144.5,
+        569.0,
+        17.5,
+        12.0
+      ],
+      "label": "H_middle2"
+    },
+    {
+      "id": "f60",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        162.5,
+        569.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_last2"
+    },
+    {
+      "id": "f61",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        270.5,
+        569.0,
+        83.5,
+        12.0
+      ],
+      "label": "H_relationship2"
+    },
+    {
+      "id": "f62",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        354.32,
+        569.0,
+        125.67,
+        12.0
+      ],
+      "label": "H_dependent_ssn2"
+    },
+    {
+      "id": "f63",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        480.52,
+        569.0,
+        95.05,
+        12.0
+      ],
+      "label": "H_dependent_dob2"
+    },
+    {
+      "id": "f64",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        593.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_first3"
+    },
+    {
+      "id": "f65",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        144.5,
+        593.0,
+        17.5,
+        12.0
+      ],
+      "label": "H_middle3"
+    },
+    {
+      "id": "f66",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        162.5,
+        593.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_last3"
+    },
+    {
+      "id": "f67",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        270.5,
+        593.0,
+        83.5,
+        12.0
+      ],
+      "label": "H_relationship3"
+    },
+    {
+      "id": "f68",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        354.32,
+        593.0,
+        125.67,
+        12.0
+      ],
+      "label": "H_dependent_ssn3"
+    },
+    {
+      "id": "f69",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        480.52,
+        593.0,
+        95.05,
+        12.0
+      ],
+      "label": "H_dependent_dob3"
+    },
+    {
+      "id": "f70",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        617.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_first4"
+    },
+    {
+      "id": "f71",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        144.5,
+        617.0,
+        17.5,
+        12.0
+      ],
+      "label": "H_middle4"
+    },
+    {
+      "id": "f72",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        162.5,
+        617.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_last4"
+    },
+    {
+      "id": "f73",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        270.5,
+        617.0,
+        83.5,
+        12.0
+      ],
+      "label": "H_relationship4"
+    },
+    {
+      "id": "f74",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        354.32,
+        617.0,
+        125.67,
+        12.0
+      ],
+      "label": "H_dependent_ssn4"
+    },
+    {
+      "id": "f75",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        480.52,
+        617.0,
+        95.05,
+        12.0
+      ],
+      "label": "H_dependent_dob4"
+    },
+    {
+      "id": "f76",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        641.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_first5"
+    },
+    {
+      "id": "f77",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        144.5,
+        641.0,
+        17.5,
+        12.0
+      ],
+      "label": "H_middle5"
+    },
+    {
+      "id": "f78",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        162.5,
+        641.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_last5"
+    },
+    {
+      "id": "f79",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        270.5,
+        641.0,
+        83.5,
+        12.0
+      ],
+      "label": "H_relationship5"
+    },
+    {
+      "id": "f80",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        354.32,
+        641.0,
+        125.67,
+        12.0
+      ],
+      "label": "H_dependent_ssn5"
+    },
+    {
+      "id": "f81",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        480.52,
+        641.0,
+        95.05,
+        12.0
+      ],
+      "label": "H_dependent_dob5"
+    },
+    {
+      "id": "f82",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        665.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_first6"
+    },
+    {
+      "id": "f83",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        144.5,
+        665.0,
+        17.5,
+        12.0
+      ],
+      "label": "H_middle6"
+    },
+    {
+      "id": "f84",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        162.5,
+        665.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_last6"
+    },
+    {
+      "id": "f85",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        270.5,
+        665.0,
+        83.5,
+        12.0
+      ],
+      "label": "H_relationship6"
+    },
+    {
+      "id": "f86",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        354.32,
+        665.0,
+        125.67,
+        12.0
+      ],
+      "label": "H_dependent_ssn6"
+    },
+    {
+      "id": "f87",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        480.52,
+        665.0,
+        95.05,
+        12.0
+      ],
+      "label": "H_dependent_dob6"
+    },
+    {
+      "id": "f88",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.5,
+        689.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_first7"
+    },
+    {
+      "id": "f89",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        144.5,
+        689.0,
+        17.5,
+        12.0
+      ],
+      "label": "H_middle7"
+    },
+    {
+      "id": "f90",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        162.5,
+        689.0,
+        107.5,
+        12.0
+      ],
+      "label": "H_last7"
+    },
+    {
+      "id": "f91",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        270.5,
+        689.0,
+        83.5,
+        12.0
+      ],
+      "label": "H_relationship7"
+    },
+    {
+      "id": "f92",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        354.32,
+        689.0,
+        125.67,
+        12.0
+      ],
+      "label": "H_dependent_ssn7"
+    },
+    {
+      "id": "f93",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        480.52,
+        689.0,
+        95.05,
+        12.0
+      ],
+      "label": "H_dependent_dob7"
+    },
+    {
+      "id": "f94",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        237.0,
+        707.0,
+        12.0,
+        12.0
+      ],
+      "label": "H_additional_dependents",
+      "state": "Off"
+    },
+    {
+      "id": "f95",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        180.5,
+        50.0,
+        125.0,
+        10.0
+      ],
+      "label": "TP_SSN"
+    },
+    {
+      "id": "f96",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        92.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line1"
+    },
+    {
+      "id": "f97",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        110.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line2"
+    },
+    {
+      "id": "f98",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        122.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line3"
+    },
+    {
+      "id": "f99",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        134.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line4"
+    },
+    {
+      "id": "f100",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        146.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line5"
+    },
+    {
+      "id": "f101",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        158.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line6"
+    },
+    {
+      "id": "f102",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        170.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line7"
+    },
+    {
+      "id": "f103",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        182.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line8"
+    },
+    {
+      "id": "f104",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        411.0,
+        193.5,
+        15.0,
+        10.5
+      ],
+      "label": "Line 9_box",
+      "state": "Off"
+    },
+    {
+      "id": "f105",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        194.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line9"
+    },
+    {
+      "id": "f106",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        411.0,
+        205.5,
+        15.0,
+        10.5
+      ],
+      "label": "Line 10_box",
+      "state": "Off"
+    },
+    {
+      "id": "f107",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        206.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line10"
+    },
+    {
+      "id": "f108",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        218.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line11"
+    },
+    {
+      "id": "f109",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        304.0,
+        242.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line12"
+    },
+    {
+      "id": "f110",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        254.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line13"
+    },
+    {
+      "id": "f111",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        266.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line14"
+    },
+    {
+      "id": "f112",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        278.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line15"
+    },
+    {
+      "id": "f113",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        176.0,
+        288.0,
+        254.0,
+        12.0
+      ],
+      "label": "15_identify"
+    },
+    {
+      "id": "f114",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        290.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line16"
+    },
+    {
+      "id": "f115",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        308.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line17"
+    },
+    {
+      "id": "f116",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        254.0,
+        318.0,
+        176.0,
+        12.0
+      ],
+      "label": "18_identify"
+    },
+    {
+      "id": "f117",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        320.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line18"
+    },
+    {
+      "id": "f118",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        338.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line19"
+    },
+    {
+      "id": "f119",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        386.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line20"
+    },
+    {
+      "id": "f120",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        398.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line21"
+    },
+    {
+      "id": "f121",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        410.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line22"
+    },
+    {
+      "id": "f122",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        422.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line23"
+    },
+    {
+      "id": "f123",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        434.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line24"
+    },
+    {
+      "id": "f124",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        306.5,
+        482.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line25"
+    },
+    {
+      "id": "f125",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        306.5,
+        494.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line26"
+    },
+    {
+      "id": "f126",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        306.5,
+        506.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line27"
+    },
+    {
+      "id": "f127",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        306.5,
+        518.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line28"
+    },
+    {
+      "id": "f128",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        306.5,
+        530.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line29"
+    },
+    {
+      "id": "f129",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        306.5,
+        542.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line30"
+    },
+    {
+      "id": "f130",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        306.5,
+        554.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line31"
+    },
+    {
+      "id": "f131",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        566.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line32"
+    },
+    {
+      "id": "f132",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        584.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line33"
+    },
+    {
+      "id": "f133",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        263.5,
+        651.0,
+        14.5,
+        10.0
+      ],
+      "label": "34Deduction",
+      "state": "Off"
+    },
+    {
+      "id": "f134",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        374.0,
+        651.0,
+        14.5,
+        10.0
+      ],
+      "label": "34Deduction",
+      "state": "Off"
+    },
+    {
+      "id": "f135",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        650.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line34"
+    },
+    {
+      "id": "f136",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        668.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line35"
+    },
+    {
+      "id": "f137",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        680.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line36"
+    },
+    {
+      "id": "f138",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        450.5,
+        698.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line37"
+    },
+    {
+      "id": "f139",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        36.5,
+        47.5,
+        265.5,
+        12.0
+      ],
+      "label": "Name_as_page1"
+    },
+    {
+      "id": "f140",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        309.5,
+        49.5,
+        125.0,
+        10.0
+      ],
+      "label": "TP_SSN"
+    },
+    {
+      "id": "f141",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        450.5,
+        92.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line38"
+    },
+    {
+      "id": "f142",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        450.5,
+        110.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line39"
+    },
+    {
+      "id": "f143",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        122.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line40"
+    },
+    {
+      "id": "f144",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        134.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line41"
+    },
+    {
+      "id": "f145",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        146.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line42"
+    },
+    {
+      "id": "f146",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        450.5,
+        158.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line43"
+    },
+    {
+      "id": "f147",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        450.5,
+        176.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line44"
+    },
+    {
+      "id": "f148",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        450.5,
+        188.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line45"
+    },
+    {
+      "id": "f149",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        450.5,
+        206.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line46"
+    },
+    {
+      "id": "f150",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        242.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line47"
+    },
+    {
+      "id": "f151",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.0,
+        254.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line47a"
+    },
+    {
+      "id": "f152",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        266.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line48"
+    },
+    {
+      "id": "f153",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        291.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line49"
+    },
+    {
+      "id": "f154",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        302.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line50"
+    },
+    {
+      "id": "f155",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        314.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line51"
+    },
+    {
+      "id": "f156",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        326.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line52"
+    },
+    {
+      "id": "f157",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        338.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line53"
+    },
+    {
+      "id": "f158",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        363.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line54"
+    },
+    {
+      "id": "f159",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        159.5,
+        387.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line54a"
+    },
+    {
+      "id": "f160",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        159.5,
+        410.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line54b"
+    },
+    {
+      "id": "f161",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        422.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line54c"
+    },
+    {
+      "id": "f162",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        434.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line54d"
+    },
+    {
+      "id": "f163",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        446.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line54e"
+    },
+    {
+      "id": "f164",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        458.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line55"
+    },
+    {
+      "id": "f165",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        470.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line56"
+    },
+    {
+      "id": "f166",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        306.5,
+        482.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line57"
+    },
+    {
+      "id": "f167",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        450.5,
+        494.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line58"
+    },
+    {
+      "id": "f168",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        450.5,
+        518.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line59"
+    },
+    {
+      "id": "f169",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        450.5,
+        542.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line60"
+    },
+    {
+      "id": "f170",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        450.5,
+        572.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line61"
+    },
+    {
+      "id": "f171",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        238.5,
+        48.0,
+        125.0,
+        12.0
+      ],
+      "label": "TP_SSN"
+    },
+    {
+      "id": "f172",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        450.5,
+        56.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line62"
+    },
+    {
+      "id": "f173",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        86.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line63"
+    },
+    {
+      "id": "f174",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        98.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line64"
+    },
+    {
+      "id": "f175",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        268.82,
+        108.0,
+        19.73,
+        12.0
+      ],
+      "label": "65_EIC"
+    },
+    {
+      "id": "f176",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        110.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line65"
+    },
+    {
+      "id": "f177",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        122.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line66"
+    },
+    {
+      "id": "f178",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        134.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line67"
+    },
+    {
+      "id": "f179",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        146.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line68"
+    },
+    {
+      "id": "f180",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        158.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line69"
+    },
+    {
+      "id": "f181",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        170.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line69a"
+    },
+    {
+      "id": "f182",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        268.67,
+        180.0,
+        19.98,
+        12.0
+      ],
+      "label": "70_EIC"
+    },
+    {
+      "id": "f183",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        182.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line70"
+    },
+    {
+      "id": "f184",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        194.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line70a"
+    },
+    {
+      "id": "f185",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        206.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line71"
+    },
+    {
+      "id": "f186",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        218.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line72"
+    },
+    {
+      "id": "f187",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        230.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line73"
+    },
+    {
+      "id": "f188",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        242.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line74"
+    },
+    {
+      "id": "f189",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        254.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line75"
+    },
+    {
+      "id": "f190",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        450.5,
+        272.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line76"
+    },
+    {
+      "id": "f191",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        450.5,
+        308.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line77"
+    },
+    {
+      "id": "f192",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        450.5,
+        320.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line78"
+    },
+    {
+      "id": "f193",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        450.0,
+        344.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line78a"
+    },
+    {
+      "id": "f194",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        450.0,
+        362.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line78b"
+    },
+    {
+      "id": "f195",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        202.0,
+        377.0,
+        12.0,
+        12.0
+      ],
+      "label": "Line78_refund",
+      "state": "Off"
+    },
+    {
+      "id": "f196",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        369.75,
+        377.0,
+        12.0,
+        12.0
+      ],
+      "label": "Line78_refund",
+      "state": "Off"
+    },
+    {
+      "id": "f197",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        410.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line79"
+    },
+    {
+      "id": "f198",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        226.0,
+        432.0,
+        15.0,
+        12.0
+      ],
+      "label": "Line80_box",
+      "state": "Off"
+    },
+    {
+      "id": "f199",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        450.5,
+        446.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line80"
+    },
+    {
+      "id": "f200",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        470.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line81"
+    },
+    {
+      "id": "f201",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.5,
+        482.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line82"
+    },
+    {
+      "id": "f202",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        564.0,
+        504.0,
+        12.0,
+        12.0
+      ],
+      "label": "Line83_box",
+      "state": "Off"
+    },
+    {
+      "id": "f203",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        131.0,
+        522.0,
+        12.0,
+        12.0
+      ],
+      "label": "Line83a_account",
+      "state": "Off"
+    },
+    {
+      "id": "f204",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        252.0,
+        522.0,
+        12.0,
+        12.0
+      ],
+      "label": "Line83a_account",
+      "state": "Off"
+    },
+    {
+      "id": "f205",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        369.0,
+        522.0,
+        12.0,
+        12.0
+      ],
+      "label": "Line83a_account",
+      "state": "Off"
+    },
+    {
+      "id": "f206",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        492.0,
+        522.0,
+        12.0,
+        12.0
+      ],
+      "label": "Line83a_account",
+      "state": "Off"
+    },
+    {
+      "id": "f207",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        138.5,
+        540.0,
+        107.5,
+        12.0
+      ],
+      "label": "Line83b_routing"
+    },
+    {
+      "id": "f208",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        363.0,
+        540.0,
+        203.5,
+        12.0
+      ],
+      "label": "Line83c_account_num"
+    },
+    {
+      "id": "f209",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        289.5,
+        558.0,
+        95.0,
+        12.0
+      ],
+      "label": "Line84_withdrawal_Date"
+    },
+    {
+      "id": "f210",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        441.5,
+        560.0,
+        113.0,
+        10.0
+      ],
+      "label": "Line84_withdrawal_amount"
+    },
+    {
+      "id": "f211",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        114.5,
+        588.0,
+        218.5,
+        12.0
+      ],
+      "label": "designee_name"
+    },
+    {
+      "id": "f212",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        339.0,
+        588.0,
+        24.0,
+        12.0
+      ],
+      "label": "designee_ac"
+    },
+    {
+      "id": "f213",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        367.0,
+        588.0,
+        122.0,
+        12.0
+      ],
+      "label": "designees_phone"
+    },
+    {
+      "id": "f214",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        58.25,
+        603.0,
+        12.0,
+        9.5
+      ],
+      "label": "3rd_party_box",
+      "state": "Off"
+    },
+    {
+      "id": "f215",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        93.05,
+        603.0,
+        12.0,
+        9.5
+      ],
+      "label": "3rd_party_box",
+      "state": "Off"
+    },
+    {
+      "id": "f216",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        142.0,
+        602.0,
+        347.0,
+        12.0
+      ],
+      "label": "designee_email"
+    },
+    {
+      "id": "f217",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        489.5,
+        602.0,
+        85.5,
+        12.0
+      ],
+      "label": "designee_pin"
+    },
+    {
+      "id": "f218",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        180.5,
+        624.0,
+        95.5,
+        12.0
+      ],
+      "label": "Prep_NYTPRIN"
+    },
+    {
+      "id": "f219",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        313.5,
+        624.0,
+        33.5,
+        12.0
+      ],
+      "label": "NYTPRIN_excl_code"
+    },
+    {
+      "id": "f220",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        192.0,
+        642.0,
+        155.0,
+        12.0
+      ],
+      "label": "Prep_name"
+    },
+    {
+      "id": "f221",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        37.0,
+        660.0,
+        201.5,
+        12.0
+      ],
+      "label": "firm_name"
+    },
+    {
+      "id": "f222",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        239.5,
+        660.0,
+        107.5,
+        12.0
+      ],
+      "label": "Prep_PTIN_SSN"
+    },
+    {
+      "id": "f223",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        355.0,
+        661.0,
+        220.0,
+        12.0
+      ],
+      "label": "TP_occupation"
+    },
+    {
+      "id": "f224",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        37.0,
+        680.0,
+        202.0,
+        12.0
+      ],
+      "label": "Firm_address1"
+    },
+    {
+      "id": "f225",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        239.5,
+        678.0,
+        107.5,
+        12.0
+      ],
+      "label": "Prep_EIN"
+    },
+    {
+      "id": "f226",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        476.0,
+        678.0,
+        99.0,
+        12.0
+      ],
+      "label": "Spouse_occupation"
+    },
+    {
+      "id": "f227",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        37.0,
+        695.0,
+        239.0,
+        12.0
+      ],
+      "label": "Firm_address2"
+    },
+    {
+      "id": "f228",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        276.0,
+        697.0,
+        71.0,
+        11.74
+      ],
+      "label": "Prep_date"
+    },
+    {
+      "id": "f229",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        355.0,
+        696.0,
+        100.0,
+        12.0
+      ],
+      "label": "signed_date"
+    },
+    {
+      "id": "f230",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        460.43,
+        696.0,
+        24.0,
+        12.0
+      ],
+      "label": "day_ac"
+    },
+    {
+      "id": "f231",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        488.0,
+        696.0,
+        87.0,
+        12.0
+      ],
+      "label": "day_phone"
+    },
+    {
+      "id": "f232",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        62.0,
+        708.0,
+        285.5,
+        12.0
+      ],
+      "label": "Firm_email"
+    },
+    {
+      "id": "f233",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        381.0,
+        708.0,
+        194.0,
+        12.0
+      ],
+      "label": "sign_email"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

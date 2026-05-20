@@ -1,0 +1,1138 @@
+{
+  "pdf": "ssa_1696.pdf",
+  "pdf_id": "ssa_1696",
+  "source": "government",
+  "page_count": 6,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        559.44,
+        154.44,
+        1.62,
+        16.75
+      ],
+      "label": "topmostSubform[0].BodyPage1[0].P1_ReadOnly1_FLD[0]"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        588.8,
+        733.47,
+        2.37,
+        19.84
+      ],
+      "label": "topmostSubform[0].BodyPage1[0].P1_ReadOnly2_FLD[0]"
+    },
+    {
+      "id": "f3",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        550.44,
+        41.94,
+        1.62,
+        16.75
+      ],
+      "label": "topmostSubform[0].BodyPage2[0].P2_ReadOnly1_FLD[0]"
+    },
+    {
+      "id": "f4",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        491.32,
+        492.84,
+        0.96,
+        19.84
+      ],
+      "label": "topmostSubform[0].BodyPage2[0].P2_ReadOnly2_FLD[0]"
+    },
+    {
+      "id": "f5",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        533.67,
+        697.53,
+        0.96,
+        19.84
+      ],
+      "label": "topmostSubform[0].BodyPage2[0].P2_ReadOnly3_FLD[0]"
+    },
+    {
+      "id": "f6",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        34.87,
+        188.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_Reason_CB1[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f7",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        34.87,
+        206.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_Reason_CB2[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f8",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        71.14,
+        224.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_Reason_CB3[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f9",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        71.14,
+        242.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_Reason_CB4[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f10",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        71.14,
+        260.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_Reason_CB5[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f11",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        71.01,
+        278.51,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_Reason_CB6[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f12",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        71.14,
+        296.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_Reason_CB7[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f13",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        71.14,
+        314.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_Reason_CB8[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f14",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        71.14,
+        332.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_Reason_CB9[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f15",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        19.44,
+        401.94,
+        298.62,
+        15.12
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_ClaimInfoFirst_FLD[0]"
+    },
+    {
+      "id": "f16",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        320.94,
+        401.94,
+        28.62,
+        15.12
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_ClaimInfoInitial_FLD[0]"
+    },
+    {
+      "id": "f17",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        352.44,
+        401.94,
+        240.12,
+        15.12
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_ClaimInfoLast_FLD[0]"
+    },
+    {
+      "id": "f18",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        18.0,
+        436.5,
+        80.48,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_ClaimInSSN1_FLD[0]"
+    },
+    {
+      "id": "f19",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        110.51,
+        436.5,
+        50.24,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_ClaimInSSN2_FLD[0]"
+    },
+    {
+      "id": "f20",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        171.31,
+        436.5,
+        113.83,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_ClaimInSSN3_FLD[0]"
+    },
+    {
+      "id": "f21",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        18.52,
+        526.5,
+        80.48,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_NumbHolSSN1_FLD[0]"
+    },
+    {
+      "id": "f22",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        110.38,
+        526.5,
+        50.24,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_NumbHolSSN2_FLD[0]"
+    },
+    {
+      "id": "f23",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        171.17,
+        526.5,
+        113.83,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_NumbHolSSN3_FLD[0]"
+    },
+    {
+      "id": "f24",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        19.44,
+        568.44,
+        298.62,
+        15.12
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_NumbHolFirst_FLD[0]"
+    },
+    {
+      "id": "f25",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        320.94,
+        568.44,
+        28.62,
+        15.26
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_NumbHolInitial_FLD[0]"
+    },
+    {
+      "id": "f26",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        352.44,
+        568.44,
+        240.12,
+        15.26
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_NumbHolLast_FLD[0]"
+    },
+    {
+      "id": "f27",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        19.44,
+        685.44,
+        298.62,
+        15.12
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_RepInfoFirst_FLD[0]"
+    },
+    {
+      "id": "f28",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        320.94,
+        685.44,
+        28.62,
+        15.26
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_RepInfoInitial_FLD[0]"
+    },
+    {
+      "id": "f29",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        352.44,
+        685.44,
+        240.12,
+        15.26
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_RepInfoLast_FLD[0]"
+    },
+    {
+      "id": "f30",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        18.0,
+        720.0,
+        261.72,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage3[0].P3_RegRepID_FLD[0]"
+    },
+    {
+      "id": "f31",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        29.03,
+        54.0,
+        80.48,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_ClaimSSN1_FLD[0]"
+    },
+    {
+      "id": "f32",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        121.54,
+        54.0,
+        50.24,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_ClaimSSN2_FLD[0]"
+    },
+    {
+      "id": "f33",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        182.34,
+        54.0,
+        113.83,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_ClaimSSN3_FLD[0]"
+    },
+    {
+      "id": "f34",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        320.55,
+        54.0,
+        261.72,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_RepID_FLD[0]"
+    },
+    {
+      "id": "f35",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        55.44,
+        149.94,
+        537.12,
+        17.46
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_PrincClaimRepName_FLD[0]"
+    },
+    {
+      "id": "f36",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        53.14,
+        251.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_ClaimType_CB1[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f37",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        53.14,
+        269.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_ClaimType_CB2[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f38",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        53.14,
+        287.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_ClaimType_CB3[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f39",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        53.01,
+        305.51,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_ClaimType_CB4[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f40",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        53.14,
+        323.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_ClaimType_CB5[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f41",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        53.14,
+        341.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_ClaimType_CB6[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f42",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        53.14,
+        359.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_ClaimType_CB7[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f43",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        68.94,
+        374.94,
+        523.62,
+        13.68
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_ClaimTypeCB7Exp_FLD[0]"
+    },
+    {
+      "id": "f44",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        20.82,
+        472.18,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_RepStatus_CB1[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f45",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        20.82,
+        517.18,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_RepStatus_CB2[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f46",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        20.82,
+        553.0,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_RepStatus_CB3[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f47",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        20.82,
+        598.0,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_RepStatus_CB4[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f48",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        127.44,
+        613.44,
+        465.12,
+        13.68
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_RepStatusCB4Exp_FLD[0]"
+    },
+    {
+      "id": "f49",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        20.82,
+        643.0,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_RepStatus_CB5[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f50",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        127.3,
+        658.44,
+        465.12,
+        13.68
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_RepStatusCB5Exp_FLD[0]"
+    },
+    {
+      "id": "f51",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        20.82,
+        688.0,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_RepStatus_CB6[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f52",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        127.3,
+        703.44,
+        465.12,
+        13.68
+      ],
+      "label": "topmostSubform[0].BodyPage4[0].P4_RepStatusCB6Exp_FLD[0]"
+    },
+    {
+      "id": "f53",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        29.03,
+        54.0,
+        80.48,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage5[0].P5_ClaimSSN1_FLD[0]"
+    },
+    {
+      "id": "f54",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        121.54,
+        54.0,
+        50.24,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage5[0].P5_ClaimSSN2_FLD[0]"
+    },
+    {
+      "id": "f55",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        182.34,
+        54.0,
+        113.83,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage5[0].P5_ClaimSSN3_FLD[0]"
+    },
+    {
+      "id": "f56",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        320.55,
+        54.0,
+        261.72,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage5[0].P5_RepID_FLD[0]"
+    },
+    {
+      "id": "f57",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        61.57,
+        175.5,
+        50.24,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage5[0].P5_EIN1_FLD[0]"
+    },
+    {
+      "id": "f58",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        124.36,
+        175.5,
+        185.07,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage5[0].P5_EIN2_FLD[0]"
+    },
+    {
+      "id": "f59",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        493.32,
+        181.75,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage5[0].P5_EIN_CB[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f60",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        19.44,
+        230.94,
+        573.12,
+        15.12
+      ],
+      "label": "topmostSubform[0].BodyPage5[0].P5_RepAffEntitName_FLD[0]"
+    },
+    {
+      "id": "f61",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        35.0,
+        337.0,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage5[0].P5_AssignPay_CB1[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f62",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        35.0,
+        409.0,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage5[0].P5_AssignPay_CB2[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f63",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        319.5,
+        742.5,
+        55.52,
+        24.84
+      ],
+      "label": "topmostSubform[0].BodyPage5[0].P5_RepCertState_FLD[0]"
+    },
+    {
+      "id": "f64",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        29.03,
+        54.0,
+        80.48,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_ClaimSSN1_FLD[0]"
+    },
+    {
+      "id": "f65",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        121.54,
+        54.0,
+        50.24,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_ClaimSSN2_FLD[0]"
+    },
+    {
+      "id": "f66",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        182.34,
+        54.0,
+        113.83,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_ClaimSSN3_FLD[0]"
+    },
+    {
+      "id": "f67",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        320.55,
+        54.0,
+        261.72,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_RepID_FLD[0]"
+    },
+    {
+      "id": "f68",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        35.0,
+        143.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_FeeArrang_CB1[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f69",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        35.0,
+        170.5,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_FeeArrang_CB2[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f70",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        35.0,
+        211.0,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_FeeArrang_CB3[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f71",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        35.0,
+        274.0,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_FeeArrang_CB4[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f72",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        18.0,
+        378.0,
+        81.0,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim1SSN1_FLD[0]"
+    },
+    {
+      "id": "f73",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        110.51,
+        378.0,
+        50.24,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim1SSN2_FLD[0]"
+    },
+    {
+      "id": "f74",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        171.31,
+        378.0,
+        113.83,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim1SSN3_FLD[0]"
+    },
+    {
+      "id": "f75",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        298.44,
+        379.44,
+        294.12,
+        17.46
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim1Name_FLD[0]"
+    },
+    {
+      "id": "f76",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        18.0,
+        409.5,
+        80.48,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim2SSN1_FLD[0]"
+    },
+    {
+      "id": "f77",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        110.51,
+        409.5,
+        50.24,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim2SSN2_FLD[0]"
+    },
+    {
+      "id": "f78",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        171.31,
+        409.5,
+        113.83,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim2SSN3_FLD[0]"
+    },
+    {
+      "id": "f79",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        298.44,
+        410.94,
+        294.12,
+        17.46
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim2Name_FLD[0]"
+    },
+    {
+      "id": "f80",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        18.0,
+        441.0,
+        80.48,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim3SSN1_FLD[0]"
+    },
+    {
+      "id": "f81",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        110.51,
+        441.0,
+        50.24,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim3SSN2_FLD[0]"
+    },
+    {
+      "id": "f82",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        171.31,
+        441.0,
+        113.83,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim3SSN13_FLD[0]"
+    },
+    {
+      "id": "f83",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        298.44,
+        442.44,
+        294.12,
+        17.46
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim3Name_FLD[0]"
+    },
+    {
+      "id": "f84",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        18.0,
+        472.5,
+        80.48,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim4SSN1_FLD[0]"
+    },
+    {
+      "id": "f85",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        110.51,
+        472.5,
+        50.24,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim4SSN2_FLD[0]"
+    },
+    {
+      "id": "f86",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        171.31,
+        472.5,
+        113.83,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim4SSN3_FLD[0]"
+    },
+    {
+      "id": "f87",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        298.44,
+        473.94,
+        294.12,
+        17.46
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_OtherClaim4Name_FLD[0]"
+    },
+    {
+      "id": "f88",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        22.5,
+        625.5,
+        9.0,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_SignaturesRep_FLD[0]"
+    },
+    {
+      "id": "f89",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        495.0,
+        630.0,
+        99.0,
+        18.0
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_SignaturesRepDate_FLD[0]"
+    },
+    {
+      "id": "f90",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        22.5,
+        661.5,
+        9.0,
+        22.5
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_SignaturesClaim_[0]"
+    },
+    {
+      "id": "f91",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        495.0,
+        666.0,
+        99.0,
+        18.0
+      ],
+      "label": "topmostSubform[0].BodyPage6[0].P6_SignaturesClaimDate_FLD[0]"
+    }
+  ],
+  "warnings": [
+    "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+  ],
+  "error": null
+}

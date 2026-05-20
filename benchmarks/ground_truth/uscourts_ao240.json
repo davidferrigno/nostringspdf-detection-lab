@@ -1,0 +1,439 @@
+{
+  "pdf": "uscourts_ao240.pdf",
+  "pdf_id": "uscourts_ao240",
+  "source": "government",
+  "page_count": 2,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "choice",
+      "bbox": [
+        211.2,
+        96.86,
+        188.68,
+        18.0
+      ],
+      "label": "District Information"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        34.73,
+        120.58,
+        255.02,
+        20.97
+      ],
+      "label": "Plaintiff"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        34.73,
+        159.43,
+        255.02,
+        20.97
+      ],
+      "label": "Defendant"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        399.87,
+        146.82,
+        168.5,
+        20.97
+      ],
+      "label": "Case_Num"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        238.32,
+        311.31,
+        314.52,
+        20.97
+      ],
+      "label": "Location held"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        41.64,
+        396.17,
+        528.65,
+        57.43
+      ],
+      "label": "Employer's name and address"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        176.86,
+        448.84,
+        88.37,
+        20.97
+      ],
+      "label": "Gross pay amount"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        450.76,
+        448.84,
+        90.91,
+        20.97
+      ],
+      "label": "Take-home pay amount"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        118.5,
+        470.85,
+        126.12,
+        18.91
+      ],
+      "label": "Specify pay period"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        322.07,
+        519.08,
+        13.84,
+        14.35
+      ],
+      "label": "Check Box1",
+      "state": "Off"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        428.94,
+        519.59,
+        13.84,
+        14.35
+      ],
+      "label": "Check Box1",
+      "state": "Off"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        322.07,
+        531.68,
+        13.84,
+        14.35
+      ],
+      "label": "Check Box2",
+      "state": "Off"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        428.94,
+        531.68,
+        13.84,
+        14.35
+      ],
+      "label": "Check Box2",
+      "state": "Off"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        322.07,
+        545.04,
+        13.84,
+        14.35
+      ],
+      "label": "Check Box3",
+      "state": "Off"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        428.94,
+        545.04,
+        13.84,
+        14.35
+      ],
+      "label": "Check Box3",
+      "state": "Off"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        322.07,
+        556.84,
+        13.84,
+        14.35
+      ],
+      "label": "Check Box4",
+      "state": "Off"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        428.94,
+        556.84,
+        13.84,
+        14.35
+      ],
+      "label": "Check Box4",
+      "state": "Off"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        322.07,
+        569.65,
+        13.84,
+        14.35
+      ],
+      "label": "Check Box5",
+      "state": "Off"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        428.94,
+        570.16,
+        13.84,
+        14.35
+      ],
+      "label": "Check Box5",
+      "state": "Off"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        322.07,
+        582.46,
+        13.84,
+        14.35
+      ],
+      "label": "Check Box6",
+      "state": "Off"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        428.94,
+        582.97,
+        13.84,
+        14.35
+      ],
+      "label": "Check Box6",
+      "state": "Off"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        41.34,
+        629.58,
+        531.93,
+        134.89
+      ],
+      "label": "Amount and source of other income"
+    },
+    {
+      "id": "f23",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        427.82,
+        68.65,
+        118.15,
+        20.97
+      ],
+      "label": "Amount of money in cash/checking/savings"
+    },
+    {
+      "id": "f24",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        39.4,
+        130.79,
+        531.93,
+        97.88
+      ],
+      "label": "Value of property owned"
+    },
+    {
+      "id": "f25",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        39.4,
+        246.45,
+        531.93,
+        97.88
+      ],
+      "label": "Monthly expenses"
+    },
+    {
+      "id": "f26",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        39.4,
+        362.66,
+        531.93,
+        94.27
+      ],
+      "label": "Dependents, and how much paid for support"
+    },
+    {
+      "id": "f27",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        39.4,
+        468.16,
+        531.93,
+        104.2
+      ],
+      "label": "Other financial debts or obligations"
+    },
+    {
+      "id": "f28",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        74.99,
+        624.99,
+        103.5,
+        17.33
+      ],
+      "label": "Date2"
+    },
+    {
+      "id": "f29",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        322.69,
+        624.99,
+        251.23,
+        17.33
+      ],
+      "label": "Applicant'sSignature"
+    },
+    {
+      "id": "f30",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        322.69,
+        660.43,
+        251.23,
+        17.33
+      ],
+      "label": "Applican'tsNameTitle"
+    },
+    {
+      "id": "f31",
+      "page": 2,
+      "type": "radio",
+      "bbox": [
+        30.26,
+        700.71,
+        101.61,
+        16.94
+      ],
+      "label": "Button.Print1",
+      "group_id": "Button"
+    },
+    {
+      "id": "f32",
+      "page": 2,
+      "type": "radio",
+      "bbox": [
+        141.84,
+        700.71,
+        101.61,
+        16.94
+      ],
+      "label": "Button.SaveAs",
+      "group_id": "Button"
+    },
+    {
+      "id": "f33",
+      "page": 2,
+      "type": "radio",
+      "bbox": [
+        251.38,
+        700.71,
+        101.61,
+        16.94
+      ],
+      "label": "Button.AttachFile",
+      "group_id": "Button"
+    },
+    {
+      "id": "f34",
+      "page": 2,
+      "type": "radio",
+      "bbox": [
+        478.13,
+        700.71,
+        101.61,
+        16.94
+      ],
+      "label": "Button.Reset",
+      "group_id": "Button"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

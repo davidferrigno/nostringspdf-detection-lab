@@ -1,0 +1,87 @@
+{
+  "pdf": "local_71061.pdf",
+  "pdf_id": "local_71061",
+  "source": "local",
+  "page_count": 1,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        44.76,
+        87.48,
+        239.76,
+        25.8
+      ],
+      "label": "Name of ActiveDuty US Armed Forces or hisher Spouse"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        72.0,
+        174.12,
+        49.56,
+        25.8
+      ],
+      "label": "Year"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        175.44,
+        174.12,
+        108.12,
+        25.8
+      ],
+      "label": "Make of VehicleVessel"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        324.0,
+        173.76,
+        195.24,
+        25.8
+      ],
+      "label": "VehicleVessel identificationNumber"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        155.16,
+        322.8,
+        110.4,
+        24.48
+      ],
+      "label": "Date"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        365.88,
+        321.48,
+        136.56,
+        25.8
+      ],
+      "label": "State or Territory"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

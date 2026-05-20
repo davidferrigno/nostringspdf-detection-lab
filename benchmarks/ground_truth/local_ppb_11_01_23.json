@@ -1,0 +1,828 @@
+{
+  "pdf": "local_ppb_11_01_23.pdf",
+  "pdf_id": "local_ppb_11_01_23",
+  "source": "local",
+  "page_count": 1,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.68,
+        182.24,
+        190.26,
+        20.01
+      ],
+      "label": "Name Last"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        221.05,
+        182.29,
+        146.95,
+        19.25
+      ],
+      "label": "First"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        370.47,
+        182.29,
+        21.39,
+        19.25
+      ],
+      "label": "MI"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        394.46,
+        182.24,
+        99.94,
+        19.91
+      ],
+      "label": "Date of BirthmmddyyyyRow1"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "choice",
+      "bbox": [
+        496.58,
+        181.75,
+        87.71,
+        20.0
+      ],
+      "label": "SEX"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        75.34,
+        217.99,
+        81.34,
+        20.16
+      ],
+      "label": "Text1"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        158.76,
+        217.87,
+        209.64,
+        20.4
+      ],
+      "label": "NY Drivers License  or NY NonDrivers IDxxxxx"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.68,
+        254.38,
+        281.28,
+        19.25
+      ],
+      "label": "Mailing AddressRow1"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        311.76,
+        253.24,
+        151.2,
+        20.4
+      ],
+      "label": "CityRow1"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        465.13,
+        253.24,
+        29.64,
+        20.4
+      ],
+      "label": "StateRow1"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        496.2,
+        253.24,
+        87.6,
+        20.4
+      ],
+      "label": "ZipRow1"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.68,
+        289.73,
+        281.28,
+        19.42
+      ],
+      "label": "Physical Address if differentRow1"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        311.76,
+        289.24,
+        151.2,
+        20.4
+      ],
+      "label": "CityRow1_2"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        464.76,
+        289.24,
+        29.64,
+        20.4
+      ],
+      "label": "StateRow1_2"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        496.2,
+        289.24,
+        87.6,
+        20.4
+      ],
+      "label": "ZipRow1_2"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.68,
+        324.91,
+        281.28,
+        23.18
+      ],
+      "label": "Email AddressRow1"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        311.76,
+        326.24,
+        124.2,
+        21.0
+      ],
+      "label": "Phone Row1"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        437.38,
+        325.86,
+        146.04,
+        21.0
+      ],
+      "label": "County of ResidenceRow1"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        30.33,
+        383.31,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box2",
+      "state": "Off"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        61.69,
+        383.25,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box2",
+      "state": "Off"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        105.11,
+        382.95,
+        9.4,
+        11.76
+      ],
+      "label": "Check Box3",
+      "state": "Off"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        146.4,
+        380.91,
+        102.66,
+        15.89
+      ],
+      "label": "manufacturer1"
+    },
+    {
+      "id": "f23",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        250.53,
+        380.93,
+        106.58,
+        15.89
+      ],
+      "label": "model1"
+    },
+    {
+      "id": "f24",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        358.75,
+        381.15,
+        34.58,
+        15.89
+      ],
+      "label": "caliber1"
+    },
+    {
+      "id": "f25",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        395.09,
+        381.15,
+        98.07,
+        15.89
+      ],
+      "label": "serial1"
+    },
+    {
+      "id": "f26",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        508.53,
+        382.82,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box13",
+      "state": "Off"
+    },
+    {
+      "id": "f27",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        549.84,
+        382.89,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box14",
+      "state": "Off"
+    },
+    {
+      "id": "f28",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        29.99,
+        400.82,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box4",
+      "state": "Off"
+    },
+    {
+      "id": "f29",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        61.35,
+        400.76,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box5",
+      "state": "Off"
+    },
+    {
+      "id": "f30",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        104.77,
+        400.98,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box6",
+      "state": "Off"
+    },
+    {
+      "id": "f31",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        146.24,
+        398.44,
+        102.65,
+        16.06
+      ],
+      "label": "manufacturer2"
+    },
+    {
+      "id": "f32",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        250.38,
+        398.24,
+        106.8,
+        15.89
+      ],
+      "label": "model2"
+    },
+    {
+      "id": "f33",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        358.31,
+        398.69,
+        34.58,
+        15.37
+      ],
+      "label": "caliber2"
+    },
+    {
+      "id": "f34",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        394.42,
+        398.6,
+        98.07,
+        15.89
+      ],
+      "label": "serial2"
+    },
+    {
+      "id": "f35",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        508.82,
+        400.13,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box15",
+      "state": "Off"
+    },
+    {
+      "id": "f36",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        549.91,
+        400.64,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box16",
+      "state": "Off"
+    },
+    {
+      "id": "f37",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        29.99,
+        418.82,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box7",
+      "state": "Off"
+    },
+    {
+      "id": "f38",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        61.35,
+        418.76,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box8",
+      "state": "Off"
+    },
+    {
+      "id": "f39",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        104.77,
+        418.98,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box9",
+      "state": "Off"
+    },
+    {
+      "id": "f40",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        146.31,
+        416.35,
+        102.66,
+        15.89
+      ],
+      "label": "manufacturer3"
+    },
+    {
+      "id": "f41",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        250.46,
+        416.2,
+        106.58,
+        15.89
+      ],
+      "label": "model3"
+    },
+    {
+      "id": "f42",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        358.38,
+        416.56,
+        34.58,
+        15.89
+      ],
+      "label": "caliber3"
+    },
+    {
+      "id": "f43",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        394.49,
+        416.56,
+        98.07,
+        15.89
+      ],
+      "label": "serial3"
+    },
+    {
+      "id": "f44",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        509.11,
+        419.4,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box17",
+      "state": "Off"
+    },
+    {
+      "id": "f45",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        549.98,
+        419.25,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box18",
+      "state": "Off"
+    },
+    {
+      "id": "f46",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        29.99,
+        436.82,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box10",
+      "state": "Off"
+    },
+    {
+      "id": "f47",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        61.35,
+        436.76,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box11",
+      "state": "Off"
+    },
+    {
+      "id": "f48",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        104.77,
+        436.98,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box12",
+      "state": "Off"
+    },
+    {
+      "id": "f49",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        145.86,
+        434.31,
+        102.66,
+        15.89
+      ],
+      "label": "manufacturer4"
+    },
+    {
+      "id": "f50",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        250.53,
+        434.38,
+        106.58,
+        15.89
+      ],
+      "label": "model4"
+    },
+    {
+      "id": "f51",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        358.67,
+        434.09,
+        34.58,
+        15.89
+      ],
+      "label": "caliber4"
+    },
+    {
+      "id": "f52",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        394.56,
+        434.09,
+        98.07,
+        15.89
+      ],
+      "label": "serial4"
+    },
+    {
+      "id": "f53",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        508.96,
+        437.15,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box19",
+      "state": "Off"
+    },
+    {
+      "id": "f54",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        549.76,
+        436.71,
+        9.93,
+        11.24
+      ],
+      "label": "Check Box20",
+      "state": "Off"
+    },
+    {
+      "id": "f55",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.67,
+        484.14,
+        220.63,
+        14.35
+      ],
+      "label": "manufacturer5"
+    },
+    {
+      "id": "f56",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        250.46,
+        484.03,
+        106.51,
+        14.68
+      ],
+      "label": "model5"
+    },
+    {
+      "id": "f57",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        357.95,
+        484.0,
+        36.02,
+        14.35
+      ],
+      "label": "caliber5"
+    },
+    {
+      "id": "f58",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        395.58,
+        483.89,
+        188.51,
+        14.35
+      ],
+      "label": "capacity"
+    },
+    {
+      "id": "f59",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.4,
+        499.94,
+        221.28,
+        14.35
+      ],
+      "label": "manufacturer6"
+    },
+    {
+      "id": "f60",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        250.28,
+        499.86,
+        106.51,
+        14.84
+      ],
+      "label": "model6"
+    },
+    {
+      "id": "f61",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        358.54,
+        500.0,
+        35.25,
+        14.35
+      ],
+      "label": "caliber6"
+    },
+    {
+      "id": "f62",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        396.41,
+        500.32,
+        187.77,
+        14.35
+      ],
+      "label": "capacity2"
+    },
+    {
+      "id": "f63",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        32.58,
+        535.21,
+        13.09,
+        12.44
+      ],
+      "label": "Check Box21",
+      "state": "Off"
+    },
+    {
+      "id": "f64",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        125.94,
+        591.22,
+        302.52,
+        22.0
+      ],
+      "label": "signature"
+    },
+    {
+      "id": "f65",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        462.0,
+        592.22,
+        121.3,
+        22.0
+      ],
+      "label": "date2"
+    },
+    {
+      "id": "f66",
+      "page": 1,
+      "type": "radio",
+      "bbox": [
+        514.26,
+        631.63,
+        72.0,
+        20.0
+      ],
+      "label": "EMAIL"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

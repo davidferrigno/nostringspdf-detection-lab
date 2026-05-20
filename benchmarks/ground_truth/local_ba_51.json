@@ -1,0 +1,535 @@
+{
+  "pdf": "local_ba_51.pdf",
+  "pdf_id": "local_ba_51",
+  "source": "local",
+  "page_count": 1,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        60.06,
+        197.48,
+        246.01,
+        22.0
+      ],
+      "label": "Name/Owner"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        325.13,
+        204.0,
+        37.45,
+        15.14
+      ],
+      "label": "Feet"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        388.35,
+        204.0,
+        29.48,
+        15.14
+      ],
+      "label": "Inches"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        419.95,
+        204.0,
+        175.9,
+        15.23
+      ],
+      "label": "Hull Identification Number"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        71.72,
+        219.94,
+        234.47,
+        21.6
+      ],
+      "label": "Street Address"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        326.72,
+        219.94,
+        126.89,
+        20.81
+      ],
+      "label": "Make"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        472.76,
+        220.34,
+        123.31,
+        20.01
+      ],
+      "label": "Year"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        49.41,
+        242.25,
+        58.76,
+        20.01
+      ],
+      "label": "City"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        127.1,
+        242.25,
+        54.77,
+        20.41
+      ],
+      "label": "State"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        190.85,
+        241.45,
+        50.79,
+        21.2
+      ],
+      "label": "Zip"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        266.56,
+        241.45,
+        39.63,
+        21.2
+      ],
+      "label": "County"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        454.43,
+        248.23,
+        141.63,
+        14.43
+      ],
+      "label": "(1-7)"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        71.72,
+        262.97,
+        235.27,
+        22.0
+      ],
+      "label": "Name/Co-Owner"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        307.6,
+        270.54,
+        146.01,
+        13.63
+      ],
+      "label": "(1-3)"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        454.03,
+        270.94,
+        142.43,
+        13.63
+      ],
+      "label": "(1-5)"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        131.09,
+        292.06,
+        13.15,
+        13.94
+      ],
+      "label": "Renewal.0",
+      "state": "Off"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        178.1,
+        291.86,
+        13.15,
+        13.94
+      ],
+      "label": "Renewal.0",
+      "state": "Off"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        223.99,
+        291.52,
+        13.15,
+        13.94
+      ],
+      "label": "Renewal.0",
+      "state": "Off"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        274.25,
+        295.97,
+        13.15,
+        9.56
+      ],
+      "label": "Renewal.0",
+      "state": "Off"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        307.99,
+        290.86,
+        145.62,
+        14.83
+      ],
+      "label": "(1-7)"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        455.02,
+        291.26,
+        140.84,
+        14.43
+      ],
+      "label": "(1-6)"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        16.34,
+        314.37,
+        190.06,
+        13.15
+      ],
+      "label": "Owner's NJDL Number.0"
+    },
+    {
+      "id": "f23",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        207.59,
+        312.77,
+        49.01,
+        14.74
+      ],
+      "label": "Gender.0"
+    },
+    {
+      "id": "f24",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        257.79,
+        312.38,
+        49.01,
+        15.14
+      ],
+      "label": "Eye Color.0"
+    },
+    {
+      "id": "f25",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        307.6,
+        312.77,
+        52.19,
+        14.74
+      ],
+      "label": "Text21.0"
+    },
+    {
+      "id": "f26",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        363.77,
+        313.17,
+        39.45,
+        14.34
+      ],
+      "label": "Text22.0"
+    },
+    {
+      "id": "f27",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        406.81,
+        313.57,
+        46.62,
+        13.95
+      ],
+      "label": "Text23.0"
+    },
+    {
+      "id": "f28",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        454.62,
+        312.38,
+        45.42,
+        15.14
+      ],
+      "label": "Text24.0"
+    },
+    {
+      "id": "f29",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        504.42,
+        312.77,
+        33.47,
+        15.14
+      ],
+      "label": "Text25.0"
+    },
+    {
+      "id": "f30",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        541.88,
+        312.77,
+        53.39,
+        15.14
+      ],
+      "label": "Text26.0"
+    },
+    {
+      "id": "f31",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        16.34,
+        336.31,
+        190.06,
+        13.15
+      ],
+      "label": "Co-Owner's NJDL Number"
+    },
+    {
+      "id": "f32",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        207.59,
+        334.71,
+        49.01,
+        14.74
+      ],
+      "label": "Gender.1"
+    },
+    {
+      "id": "f33",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        257.79,
+        334.31,
+        49.01,
+        15.14
+      ],
+      "label": "Eye Color.1"
+    },
+    {
+      "id": "f34",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        307.6,
+        334.31,
+        52.19,
+        14.74
+      ],
+      "label": "Text21.1"
+    },
+    {
+      "id": "f35",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        363.77,
+        334.71,
+        39.45,
+        14.34
+      ],
+      "label": "Text22.1"
+    },
+    {
+      "id": "f36",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        406.81,
+        335.11,
+        46.62,
+        13.95
+      ],
+      "label": "Text23.1"
+    },
+    {
+      "id": "f37",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        454.62,
+        333.71,
+        45.42,
+        15.14
+      ],
+      "label": "Text24.1"
+    },
+    {
+      "id": "f38",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        504.42,
+        334.11,
+        33.47,
+        15.14
+      ],
+      "label": "Text25.1"
+    },
+    {
+      "id": "f39",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        541.88,
+        334.11,
+        53.39,
+        15.14
+      ],
+      "label": "Text26.1"
+    },
+    {
+      "id": "f40",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        24.24,
+        555.84,
+        574.56,
+        21.0
+      ],
+      "label": "This information will be used to generate an account number in your name for our automated files 1"
+    },
+    {
+      "id": "f41",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        24.24,
+        577.56,
+        574.56,
+        21.0
+      ],
+      "label": "This information will be used to generate an account number in your name for our automated files 2"
+    },
+    {
+      "id": "f42",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        24.24,
+        599.4,
+        574.56,
+        21.0
+      ],
+      "label": "This information will be used to generate an account number in your name for our automated files 3"
+    },
+    {
+      "id": "f43",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        6.38,
+        659.82,
+        171.33,
+        36.66
+      ],
+      "label": "Barcode7"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

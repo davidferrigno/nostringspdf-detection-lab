@@ -1,0 +1,89 @@
+{
+  "pdf": "uscis_g1145.pdf",
+  "pdf_id": "uscis_g1145",
+  "source": "government",
+  "page_count": 1,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[0].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        37.4,
+        656.91,
+        174.0,
+        15.12
+      ],
+      "label": "form1[0].#subform[0].LastName[0]"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        218.04,
+        656.91,
+        174.0,
+        15.12
+      ],
+      "label": "form1[0].#subform[0].FirstName[0]"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        402.0,
+        658.85,
+        172.0,
+        15.12
+      ],
+      "label": "form1[0].#subform[0].MiddleName[0]"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        37.4,
+        690.21,
+        297.79,
+        15.12
+      ],
+      "label": "form1[0].#subform[0].Email[0]"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        345.35,
+        690.21,
+        229.0,
+        15.12
+      ],
+      "label": "form1[0].#subform[0].MobilePhoneNumber[0]"
+    }
+  ],
+  "warnings": [
+    "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+  ],
+  "error": null
+}

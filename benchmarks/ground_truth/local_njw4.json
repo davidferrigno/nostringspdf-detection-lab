@@ -1,0 +1,236 @@
+{
+  "pdf": "local_njw4.pdf",
+  "pdf_id": "local_njw4",
+  "source": "local",
+  "page_count": 2,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        49.2,
+        43.8,
+        313.68,
+        18.72
+      ],
+      "label": "1 SS"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        55.44,
+        63.72,
+        307.44,
+        18.72
+      ],
+      "label": "Name"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        392.4,
+        58.45,
+        11.52,
+        11.52
+      ],
+      "label": "Group1",
+      "state": "Off"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        392.4,
+        69.61,
+        11.52,
+        11.52
+      ],
+      "label": "Group1",
+      "state": "Off"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        63.48,
+        83.76,
+        299.4,
+        18.72
+      ],
+      "label": "Address"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        392.4,
+        81.3,
+        11.52,
+        11.52
+      ],
+      "label": "Group1",
+      "state": "Off"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        392.4,
+        92.92,
+        11.52,
+        11.52
+      ],
+      "label": "Group1",
+      "state": "Off"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        50.57,
+        103.87,
+        167.53,
+        18.72
+      ],
+      "label": "Qualifying WidowerSurviving Civil Union Partner"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        242.04,
+        103.8,
+        34.56,
+        18.72
+      ],
+      "label": "State"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        293.29,
+        103.3,
+        68.69,
+        18.72
+      ],
+      "label": "3 If you have chosen to use the chart from instruction A enter the appropriate letter here"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        392.4,
+        106.47,
+        11.52,
+        11.52
+      ],
+      "label": "Group1",
+      "state": "Off"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        493.55,
+        123.55,
+        99.38,
+        16.03
+      ],
+      "label": "4 Total number of allowances you are claiming see instructions"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        491.99,
+        141.24,
+        101.1,
+        17.28
+      ],
+      "label": "4_2"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        497.52,
+        159.24,
+        95.52,
+        17.28
+      ],
+      "label": "5_2"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        491.12,
+        177.48,
+        101.68,
+        22.44
+      ],
+      "label": "6"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        378.28,
+        215.4,
+        104.74,
+        12.68
+      ],
+      "label": "7  Under penalties of perjury I certify that I am entitled to the number of withholding allowances claimed on this certificate or entitled to claim exempt status"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        21.7,
+        238.88,
+        351.74,
+        12.4
+      ],
+      "label": "6 I claim142 exemption from withholding of NJ Gross Income Tax and I certify that I have met the conditions in the"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        378.56,
+        239.45,
+        157.8,
+        12.96
+      ],
+      "label": "6 I claim exemption from withholding of NJ Gross Income Tax and I certify that I have met the conditions in the"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

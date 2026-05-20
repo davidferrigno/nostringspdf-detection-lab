@@ -1,0 +1,1900 @@
+{
+  "pdf": "va_1010ez.pdf",
+  "pdf_id": "va_1010ez",
+  "source": "government",
+  "page_count": 6,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        32.83,
+        163.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].TypeOfBenefitsApplyingFor[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f2",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        32.83,
+        175.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].TypeOfBenefitsApplyingFor[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f3",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        30.0,
+        203.62,
+        276.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].LastFirstMiddle[0]"
+    },
+    {
+      "id": "f4",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        318.0,
+        204.0,
+        119.99,
+        12.0
+      ],
+      "label": "F[0].P4[0].PreferredNameForVeteran[0]"
+    },
+    {
+      "id": "f5",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        450.0,
+        204.0,
+        131.99,
+        12.0
+      ],
+      "label": "F[0].P4[0].MothersMaidenName[0]"
+    },
+    {
+      "id": "f6",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        32.84,
+        229.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].BirthSex[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f7",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        32.83,
+        241.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].BirthSex[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f8",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        254.84,
+        229.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].Race[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f9",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        92.83,
+        229.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].Race[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f10",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        92.83,
+        241.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].Race[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f11",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        302.83,
+        253.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].Race[3]",
+      "state": "Off"
+    },
+    {
+      "id": "f12",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        302.83,
+        241.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].Race[4]",
+      "state": "Off"
+    },
+    {
+      "id": "f13",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        92.83,
+        253.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].Race[5]",
+      "state": "Off"
+    },
+    {
+      "id": "f14",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        302.83,
+        229.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].Race[6]",
+      "state": "Off"
+    },
+    {
+      "id": "f15",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        374.83,
+        253.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].Race[7]",
+      "state": "Off"
+    },
+    {
+      "id": "f16",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        492.0,
+        240.0,
+        90.0,
+        29.0
+      ],
+      "label": "F[0].P4[0].SSN[0]"
+    },
+    {
+      "id": "f17",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        30.0,
+        282.0,
+        120.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].DOB[0]"
+    },
+    {
+      "id": "f18",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        162.0,
+        282.0,
+        174.0,
+        11.53
+      ],
+      "label": "F[0].P4[0].PlaceOfBirth[0]"
+    },
+    {
+      "id": "f19",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        348.0,
+        282.0,
+        108.0,
+        11.53
+      ],
+      "label": "F[0].P4[0].PreferredLanguage[0]"
+    },
+    {
+      "id": "f20",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        468.0,
+        281.98,
+        114.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].Religion[0]"
+    },
+    {
+      "id": "f21",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        30.0,
+        306.0,
+        174.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].MailingAddress_Street[0]"
+    },
+    {
+      "id": "f22",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        216.0,
+        306.14,
+        120.0,
+        11.86
+      ],
+      "label": "F[0].P4[0].MailingAddress_City[0]"
+    },
+    {
+      "id": "f23",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        348.0,
+        306.0,
+        42.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].MailingAddress_State[0]"
+    },
+    {
+      "id": "f24",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        402.0,
+        306.0,
+        54.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].MailingAddress_ZipCode[0]"
+    },
+    {
+      "id": "f25",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        468.0,
+        306.0,
+        114.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].MailingAddress_County[0]"
+    },
+    {
+      "id": "f26",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        30.0,
+        342.0,
+        126.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].HOMEPhone[0]"
+    },
+    {
+      "id": "f27",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        168.0,
+        342.0,
+        126.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].MOBILEPhone[0]"
+    },
+    {
+      "id": "f28",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        306.0,
+        330.0,
+        276.0,
+        23.0
+      ],
+      "label": "F[0].P4[0].EmailAddress[0]"
+    },
+    {
+      "id": "f29",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        30.0,
+        366.0,
+        174.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].HomeAddress_Street[0]"
+    },
+    {
+      "id": "f30",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        216.0,
+        366.0,
+        120.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].HomeAddress_City[0]"
+    },
+    {
+      "id": "f31",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        348.0,
+        365.92,
+        42.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].HomeAddress_State[0]"
+    },
+    {
+      "id": "f32",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        402.0,
+        366.0,
+        54.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].HomeAddress_ZipCode[0]"
+    },
+    {
+      "id": "f33",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        468.0,
+        366.0,
+        114.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].HomeAddress_County[0]"
+    },
+    {
+      "id": "f34",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        32.83,
+        391.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].CurrentMaritalStatus[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f35",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        92.83,
+        391.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].CurrentMaritalStatus[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f36",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        182.84,
+        391.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].CurrentMaritalStatus[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f37",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        254.84,
+        391.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].CurrentMaritalStatus[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f38",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        320.83,
+        391.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].CurrentMaritalStatus[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f39",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        30.0,
+        420.0,
+        174.0,
+        35.0
+      ],
+      "label": "F[0].P4[0].NextOfKinName[0]"
+    },
+    {
+      "id": "f40",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        216.0,
+        420.0,
+        210.0,
+        35.0
+      ],
+      "label": "F[0].P4[0].NextOfKinAddress[0]"
+    },
+    {
+      "id": "f41",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        438.0,
+        420.0,
+        144.0,
+        35.0
+      ],
+      "label": "F[0].P4[0].NextOfKinRelationship[0]"
+    },
+    {
+      "id": "f42",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        30.0,
+        480.0,
+        144.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].NEXTOFKINPhone[0]"
+    },
+    {
+      "id": "f43",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        186.0,
+        468.0,
+        228.0,
+        23.0
+      ],
+      "label": "F[0].P4[0].EmergencyContactName[0]"
+    },
+    {
+      "id": "f44",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        426.0,
+        480.0,
+        156.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].EMERGENCYCONTACTPhone[0]"
+    },
+    {
+      "id": "f45",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        30.0,
+        516.0,
+        552.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].Designee[0]"
+    },
+    {
+      "id": "f46",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        30.0,
+        552.0,
+        270.0,
+        17.0
+      ],
+      "label": "F[0].P4[0].PreferredVACenter[0]"
+    },
+    {
+      "id": "f47",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        314.84,
+        553.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].ScheduleFirstAppointment[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f48",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        356.84,
+        553.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P4[0].ScheduleFirstAppointment[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f49",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        30.0,
+        600.0,
+        102.0,
+        22.5
+      ],
+      "label": "F[0].P4[0].LastBranchOfService[0]"
+    },
+    {
+      "id": "f50",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        144.0,
+        612.0,
+        120.0,
+        11.5
+      ],
+      "label": "F[0].P4[0].LASTENTRYDATE[0]"
+    },
+    {
+      "id": "f51",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        276.0,
+        612.0,
+        150.0,
+        11.53
+      ],
+      "label": "F[0].P4[0].FUTUREDISCHARGEDATE[0]"
+    },
+    {
+      "id": "f52",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        438.0,
+        612.0,
+        144.0,
+        11.5
+      ],
+      "label": "F[0].P4[0].LASTDISCHARGEDATE[0]"
+    },
+    {
+      "id": "f53",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        30.0,
+        636.0,
+        396.0,
+        12.0
+      ],
+      "label": "F[0].P4[0].DischargeType[0]"
+    },
+    {
+      "id": "f54",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        438.0,
+        636.0,
+        144.0,
+        11.98
+      ],
+      "label": "F[0].P4[0].MilitaryServiceNumber[0]"
+    },
+    {
+      "id": "f55",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        277.5,
+        666.96,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P4[0].Section2_2A[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f56",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        301.5,
+        666.96,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P4[0].Section2_2A[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f57",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        277.5,
+        690.88,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P4[0].Section2_2B[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f58",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        301.5,
+        690.88,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P4[0].Section2_2B[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f59",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        277.5,
+        715.02,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P4[0].Section2_2C[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f60",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        301.5,
+        715.02,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P4[0].Section2_2C[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f61",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        547.5,
+        667.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P4[0].Section2_2D[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f62",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        571.5,
+        667.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P4[0].Section2_2D[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f63",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        547.5,
+        691.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P4[0].Section2_2E[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f64",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        571.5,
+        691.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P4[0].Section2_2E[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f65",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        547.5,
+        715.03,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P4[0].Section2_2F[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f66",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        571.5,
+        715.03,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P4[0].Section2_2F[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f67",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        270.0,
+        30.0,
+        185.7,
+        17.0
+      ],
+      "label": "F[0].P5[0].LastFirstMiddle[0]"
+    },
+    {
+      "id": "f68",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        468.0,
+        36.0,
+        114.0,
+        11.0
+      ],
+      "label": "F[0].P5[0].SSN[0]"
+    },
+    {
+      "id": "f69",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        247.5,
+        112.09,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].RadioButtonList[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f70",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        271.5,
+        112.09,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].RadioButtonList[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f71",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        247.5,
+        208.02,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].RadioButtonList[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f72",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        271.5,
+        208.02,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].RadioButtonList[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f73",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        60.0,
+        252.0,
+        60.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].DateFrom1[0]"
+    },
+    {
+      "id": "f74",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        150.0,
+        252.0,
+        60.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].DateTo1[0]"
+    },
+    {
+      "id": "f75",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        247.5,
+        313.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].RadioButtonList[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f76",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        271.5,
+        313.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].RadioButtonList[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f77",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        547.5,
+        138.99,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].RadioButtonList[3]",
+      "state": "Off"
+    },
+    {
+      "id": "f78",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        571.5,
+        139.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].RadioButtonList[3]",
+      "state": "Off"
+    },
+    {
+      "id": "f79",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        324.0,
+        198.0,
+        60.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].DateFrom2[0]"
+    },
+    {
+      "id": "f80",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        414.0,
+        198.0,
+        60.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].DateTo2[0]"
+    },
+    {
+      "id": "f81",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        294.0,
+        241.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].ExposedToTheFollowing[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f82",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        294.0,
+        253.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].ExposedToTheFollowing[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f83",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        294.0,
+        265.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].ExposedToTheFollowing[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f84",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        294.0,
+        277.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].ExposedToTheFollowing[3]",
+      "state": "Off"
+    },
+    {
+      "id": "f85",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        366.0,
+        277.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].ExposedToTheFollowing[4]",
+      "state": "Off"
+    },
+    {
+      "id": "f86",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        294.01,
+        289.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].ExposedToTheFollowing[5]",
+      "state": "Off"
+    },
+    {
+      "id": "f87",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        294.01,
+        301.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].ExposedToTheFollowing[6]",
+      "state": "Off"
+    },
+    {
+      "id": "f88",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        366.0,
+        301.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].ExposedToTheFollowing[7]",
+      "state": "Off"
+    },
+    {
+      "id": "f89",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        294.0,
+        313.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].ExposedToTheFollowing[8]",
+      "state": "Off"
+    },
+    {
+      "id": "f90",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        294.0,
+        325.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P5[0].ExposedToTheFollowing[9]",
+      "state": "Off"
+    },
+    {
+      "id": "f91",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        372.0,
+        324.0,
+        210.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].SpecifyOther[0]"
+    },
+    {
+      "id": "f92",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        324.0,
+        354.0,
+        60.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].DateFrom3[0]"
+    },
+    {
+      "id": "f93",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        414.0,
+        354.0,
+        60.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].DateTo3[0]"
+    },
+    {
+      "id": "f94",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        30.0,
+        396.0,
+        552.0,
+        29.98
+      ],
+      "label": "F[0].P5[0].HealthInsuranceInformation[0]"
+    },
+    {
+      "id": "f95",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        30.0,
+        437.98,
+        252.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].NameOfPolicyHodler[0]"
+    },
+    {
+      "id": "f96",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        294.0,
+        437.98,
+        168.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].PolicyNumber[0]"
+    },
+    {
+      "id": "f97",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        474.0,
+        437.98,
+        108.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].GroupCode[0]"
+    },
+    {
+      "id": "f98",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        32.83,
+        475.48,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].EligibleForMedicaid[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f99",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        74.83,
+        475.48,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].EligibleForMedicaid[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f100",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        212.83,
+        475.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].EnrolledInMedicareHospitalInsurance[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f101",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        254.84,
+        475.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].EnrolledInMedicareHospitalInsurance[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f102",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        372.0,
+        474.0,
+        90.0,
+        17.0
+      ],
+      "label": "F[0].P5[0].EffectiveDate[0]"
+    },
+    {
+      "id": "f103",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        474.0,
+        462.0,
+        108.0,
+        29.0
+      ],
+      "label": "F[0].P5[0].MedicareClaimNumber[0]"
+    },
+    {
+      "id": "f104",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        30.0,
+        522.0,
+        270.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].SpousesName[0]"
+    },
+    {
+      "id": "f105",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        30.0,
+        546.0,
+        270.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].SPOUSESSN[0]"
+    },
+    {
+      "id": "f106",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        30.0,
+        570.0,
+        270.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].SPOUSEDOB[0]"
+    },
+    {
+      "id": "f107",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        32.84,
+        595.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].Sex[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f108",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        74.84,
+        595.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].Sex[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f109",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        30.0,
+        624.0,
+        270.0,
+        17.0
+      ],
+      "label": "F[0].P5[0].DATEOFMARRIAGE[0]"
+    },
+    {
+      "id": "f110",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        30.0,
+        666.0,
+        270.0,
+        36.0
+      ],
+      "label": "F[0].P5[0].SpouseAddressAndTelephoneNumber[0]"
+    },
+    {
+      "id": "f111",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        312.0,
+        522.0,
+        270.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].ChildsName[0]"
+    },
+    {
+      "id": "f112",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        312.0,
+        552.0,
+        144.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].CHILDDOB[0]"
+    },
+    {
+      "id": "f113",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        468.0,
+        552.0,
+        114.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].CHILDSSN[0]"
+    },
+    {
+      "id": "f114",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        312.0,
+        576.0,
+        270.0,
+        12.0
+      ],
+      "label": "F[0].P5[0].DATECHILDBECAMEYOURDEPENDENT[0]"
+    },
+    {
+      "id": "f115",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        314.84,
+        601.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].RelationshipToYou[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f116",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        362.83,
+        601.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].RelationshipToYou[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f117",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        434.83,
+        601.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].RelationshipToYou[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f118",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        500.84,
+        601.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].RelationshipToYou[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f119",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        315.07,
+        637.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].ChildPermanentlyDiasbledBefore18[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f120",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        362.01,
+        637.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].ChildPermanentlyDiasbledBefore18[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f121",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        314.84,
+        673.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].DidChildAttendSchooLastYear[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f122",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        362.84,
+        673.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].DidChildAttendSchooLastYear[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f123",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        32.83,
+        727.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].DidYouProvideSupportToChildNotLivingWithYou[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f124",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        80.84,
+        727.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P5[0].DidYouProvideSupportToChildNotLivingWithYou[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f125",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        312.0,
+        720.0,
+        270.0,
+        35.0
+      ],
+      "label": "F[0].P5[0].ExpensesPaifByDependentCHild[0]"
+    },
+    {
+      "id": "f126",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        270.0,
+        48.0,
+        185.7,
+        17.0
+      ],
+      "label": "F[0].P6[0].LastFirstMiddle[0]"
+    },
+    {
+      "id": "f127",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        468.0,
+        54.0,
+        114.0,
+        12.0
+      ],
+      "label": "F[0].P6[0].SSN[0]"
+    },
+    {
+      "id": "f128",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        32.84,
+        97.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P6[0].VeteransEmploymentStatus[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f129",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        110.83,
+        97.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P6[0].VeteransEmploymentStatus[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f130",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        188.84,
+        97.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P6[0].VeteransEmploymentStatus[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f131",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        284.83,
+        97.5,
+        9.0,
+        9.0
+      ],
+      "label": "F[0].P6[0].VeteransEmploymentStatus[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f132",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        354.0,
+        96.0,
+        228.0,
+        17.0
+      ],
+      "label": "F[0].P6[0].DATEOFRETIREMENT[0]"
+    },
+    {
+      "id": "f133",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        30.0,
+        138.0,
+        162.0,
+        23.0
+      ],
+      "label": "F[0].P6[0].CompanyName[0]"
+    },
+    {
+      "id": "f134",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        204.0,
+        138.0,
+        210.0,
+        23.0
+      ],
+      "label": "F[0].P6[0].CompleteAddress[0]"
+    },
+    {
+      "id": "f135",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        426.0,
+        144.0,
+        156.0,
+        17.0
+      ],
+      "label": "F[0].P6[0].CompanyPhone[0]"
+    },
+    {
+      "id": "f136",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        30.0,
+        240.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P6[0].Section6[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f137",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        30.0,
+        264.0,
+        10.0,
+        10.0
+      ],
+      "label": "F[0].P6[0].Section6[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f138",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        288.0,
+        324.0,
+        90.0,
+        29.0
+      ],
+      "label": "F[0].P6[0].Table1[0].#subform[1].Amount[0]"
+    },
+    {
+      "id": "f139",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        390.0,
+        324.0,
+        90.0,
+        29.0
+      ],
+      "label": "F[0].P6[0].Table1[0].#subform[1].Amount[1]"
+    },
+    {
+      "id": "f140",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        492.0,
+        324.0,
+        90.0,
+        29.0
+      ],
+      "label": "F[0].P6[0].Table1[0].#subform[1].Amount[2]"
+    },
+    {
+      "id": "f141",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        288.0,
+        354.0,
+        90.0,
+        18.0
+      ],
+      "label": "F[0].P6[0].Table1[0].#subform[2].Amount[3]"
+    },
+    {
+      "id": "f142",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        390.0,
+        354.0,
+        90.0,
+        18.0
+      ],
+      "label": "F[0].P6[0].Table1[0].#subform[2].Amount[4]"
+    },
+    {
+      "id": "f143",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        492.0,
+        354.0,
+        90.0,
+        18.0
+      ],
+      "label": "F[0].P6[0].Table1[0].#subform[2].Amount[5]"
+    },
+    {
+      "id": "f144",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        288.0,
+        372.0,
+        90.0,
+        24.0
+      ],
+      "label": "F[0].P6[0].Table1[0].#subform[3].Amount[6]"
+    },
+    {
+      "id": "f145",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        390.0,
+        372.0,
+        90.0,
+        24.0
+      ],
+      "label": "F[0].P6[0].Table1[0].#subform[3].Amount[7]"
+    },
+    {
+      "id": "f146",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        492.0,
+        372.0,
+        90.0,
+        24.0
+      ],
+      "label": "F[0].P6[0].Table1[0].#subform[3].Amount[8]"
+    },
+    {
+      "id": "f147",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        504.0,
+        420.0,
+        78.0,
+        18.0
+      ],
+      "label": "F[0].P6[0].Section8_Q1[0]"
+    },
+    {
+      "id": "f148",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        504.0,
+        444.0,
+        78.0,
+        18.0
+      ],
+      "label": "F[0].P6[0].Section8_Q2[0]"
+    },
+    {
+      "id": "f149",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        504.0,
+        468.0,
+        78.0,
+        18.0
+      ],
+      "label": "F[0].P6[0].Section8_Q3[0]"
+    },
+    {
+      "id": "f150",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        164.7,
+        708.0,
+        219.3,
+        23.0
+      ],
+      "label": "F[0].P6[0].SignatureOfApplicant[0]"
+    },
+    {
+      "id": "f151",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        471.54,
+        708.0,
+        110.47,
+        23.0
+      ],
+      "label": "F[0].P6[0].DateSigned[0]"
+    }
+  ],
+  "warnings": [
+    "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+  ],
+  "error": null
+}

@@ -1,0 +1,123 @@
+{
+  "pdf": "local_ba_62.pdf",
+  "pdf_id": "local_ba_62",
+  "source": "local",
+  "page_count": 1,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        18.0,
+        147.12,
+        353.76,
+        19.56
+      ],
+      "label": "undefined"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        18.0,
+        209.16,
+        353.76,
+        19.68
+      ],
+      "label": "undefined_2"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        18.0,
+        250.56,
+        300.48,
+        19.68
+      ],
+      "label": "as follows"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        18.0,
+        274.68,
+        353.76,
+        19.68
+      ],
+      "label": "undefined_3"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        87.48,
+        336.84,
+        286.92,
+        19.56
+      ],
+      "label": "undefined_4"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        18.0,
+        493.56,
+        33.48,
+        19.68
+      ],
+      "label": "day of"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        90.84,
+        493.56,
+        60.0,
+        19.68
+      ],
+      "label": "20"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        170.88,
+        493.56,
+        46.68,
+        19.68
+      ],
+      "label": "undefined_5"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        18.0,
+        543.0,
+        200.28,
+        19.68
+      ],
+      "label": "Notary Public of New Jersey"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

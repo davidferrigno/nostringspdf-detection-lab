@@ -1,0 +1,1583 @@
+{
+  "pdf": "uscis_i9.pdf",
+  "pdf_id": "uscis_i9",
+  "source": "government",
+  "page_count": 4,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        42.72,
+        172.0,
+        155.68,
+        15.24
+      ],
+      "label": "Last Name (Family Name)"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        204.16,
+        172.0,
+        137.68,
+        15.24
+      ],
+      "label": "First Name Given Name"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        348.44,
+        172.0,
+        65.4,
+        15.24
+      ],
+      "label": "Employee Middle Initial (if any)"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        420.44,
+        172.0,
+        155.68,
+        15.23
+      ],
+      "label": "Employee Other Last Names Used (if any)"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        41.88,
+        198.52,
+        186.24,
+        13.55
+      ],
+      "label": "Address Street Number and Name"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        233.6,
+        198.53,
+        65.68,
+        13.55
+      ],
+      "label": "Apt Number (if any)"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        305.88,
+        198.53,
+        149.4,
+        13.55
+      ],
+      "label": "City or Town"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "choice",
+      "bbox": [
+        461.25,
+        198.53,
+        41.18,
+        13.55
+      ],
+      "label": "State"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        509.88,
+        198.53,
+        65.4,
+        13.55
+      ],
+      "label": "ZIP Code"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        41.78,
+        224.52,
+        99.09,
+        13.84
+      ],
+      "label": "Date of Birth mmddyyyy"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        150.0,
+        224.8,
+        105.0,
+        13.76
+      ],
+      "label": "US Social Security Number"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        264.16,
+        224.52,
+        185.96,
+        13.84
+      ],
+      "label": "Employees E-mail Address"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        456.15,
+        224.41,
+        119.2,
+        14.11
+      ],
+      "label": "Telephone Number"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        181.68,
+        259.2,
+        9.48,
+        9.48
+      ],
+      "label": "CB_1",
+      "state": "Off"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        181.68,
+        271.2,
+        9.48,
+        9.48
+      ],
+      "label": "CB_2",
+      "state": "Off"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        181.68,
+        283.2,
+        9.48,
+        9.48
+      ],
+      "label": "CB_3",
+      "state": "Off"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        390.6,
+        282.6,
+        184.92,
+        11.16
+      ],
+      "label": "3 A lawful permanent resident Enter USCIS or ANumber"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        181.96,
+        295.64,
+        9.2,
+        9.04
+      ],
+      "label": "CB_4",
+      "state": "Off"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        390.19,
+        294.97,
+        59.33,
+        12.92
+      ],
+      "label": "Exp Date mmddyyyy"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        180.6,
+        336.6,
+        82.8,
+        11.16
+      ],
+      "label": "USCIS ANumber"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        276.6,
+        336.6,
+        106.8,
+        11.16
+      ],
+      "label": "Form I94 Admission Number"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        396.6,
+        336.6,
+        178.8,
+        11.16
+      ],
+      "label": "Foreign Passport Number and Country of IssuanceRow1"
+    },
+    {
+      "id": "f23",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        42.08,
+        358.28,
+        323.2,
+        12.92
+      ],
+      "label": "Signature of Employee"
+    },
+    {
+      "id": "f24",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        372.44,
+        358.28,
+        101.68,
+        12.92
+      ],
+      "label": "Today's Date mmddyyy"
+    },
+    {
+      "id": "f25",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        126.84,
+        432.72,
+        136.44,
+        17.04
+      ],
+      "label": "Document Title 1"
+    },
+    {
+      "id": "f26",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        126.84,
+        450.72,
+        136.44,
+        17.04
+      ],
+      "label": "Issuing Authority 1"
+    },
+    {
+      "id": "f27",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        126.84,
+        468.84,
+        136.44,
+        16.92
+      ],
+      "label": "Document Number 0 (if any)"
+    },
+    {
+      "id": "f28",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        126.84,
+        486.84,
+        136.44,
+        16.44
+      ],
+      "label": "Expiration Date if any"
+    },
+    {
+      "id": "f29",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        126.84,
+        505.08,
+        136.44,
+        16.68
+      ],
+      "label": "Document Title 2 If any"
+    },
+    {
+      "id": "f30",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        126.84,
+        522.84,
+        136.44,
+        16.92
+      ],
+      "label": "Issuing Authority_2"
+    },
+    {
+      "id": "f31",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        126.84,
+        540.84,
+        136.44,
+        16.92
+      ],
+      "label": "Document Number If any_2"
+    },
+    {
+      "id": "f32",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        127.28,
+        558.84,
+        136.44,
+        16.68
+      ],
+      "label": "List A.  Document 2. Expiration Date (if any)"
+    },
+    {
+      "id": "f33",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        126.84,
+        577.08,
+        136.44,
+        16.68
+      ],
+      "label": "List A.   Document Title 3.  If any"
+    },
+    {
+      "id": "f34",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        126.84,
+        594.84,
+        136.44,
+        16.92
+      ],
+      "label": "List A. Document 3.  Enter Issuing Authority"
+    },
+    {
+      "id": "f35",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        127.28,
+        613.49,
+        136.44,
+        16.92
+      ],
+      "label": "List A.  Document 3 Number.  If any"
+    },
+    {
+      "id": "f36",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        126.84,
+        630.84,
+        136.44,
+        16.92
+      ],
+      "label": "Document Number if any_3"
+    },
+    {
+      "id": "f37",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        276.84,
+        432.27,
+        142.36,
+        17.32
+      ],
+      "label": "List B Document 1 Title"
+    },
+    {
+      "id": "f38",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        277.49,
+        450.23,
+        142.25,
+        17.04
+      ],
+      "label": "List B Issuing Authority 1"
+    },
+    {
+      "id": "f39",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        276.84,
+        468.14,
+        142.22,
+        17.04
+      ],
+      "label": "List B Document Number 1"
+    },
+    {
+      "id": "f40",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        276.84,
+        486.07,
+        142.22,
+        17.04
+      ],
+      "label": "List B Expiration Date 1"
+    },
+    {
+      "id": "f41",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        420.77,
+        432.55,
+        154.65,
+        17.04
+      ],
+      "label": "List C Document Title 1"
+    },
+    {
+      "id": "f42",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        420.77,
+        450.2,
+        154.65,
+        17.07
+      ],
+      "label": "List C Issuing Authority 1"
+    },
+    {
+      "id": "f43",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        420.77,
+        468.14,
+        154.65,
+        17.04
+      ],
+      "label": "List C Document Number 1"
+    },
+    {
+      "id": "f44",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        420.77,
+        486.07,
+        154.65,
+        17.04
+      ],
+      "label": "List C Expiration Date 1"
+    },
+    {
+      "id": "f45",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        266.73,
+        517.32,
+        309.0,
+        116.26
+      ],
+      "label": "Additional Information"
+    },
+    {
+      "id": "f46",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        267.51,
+        635.32,
+        9.48,
+        9.48
+      ],
+      "label": "CB_Alt",
+      "state": "Off"
+    },
+    {
+      "id": "f47",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        462.6,
+        665.36,
+        85.1,
+        15.34
+      ],
+      "label": "FirstDayEmployed mmddyyyy"
+    },
+    {
+      "id": "f48",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.61,
+        692.76,
+        251.27,
+        19.6
+      ],
+      "label": "Last Name First Name and Title of Employer or Authorized Representative"
+    },
+    {
+      "id": "f49",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        294.28,
+        692.76,
+        191.04,
+        19.6
+      ],
+      "label": "Signature of Employer or AR"
+    },
+    {
+      "id": "f50",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        489.85,
+        692.76,
+        78.0,
+        19.6
+      ],
+      "label": "S2 Todays Date mmddyyyy"
+    },
+    {
+      "id": "f51",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.69,
+        725.26,
+        202.18,
+        13.71
+      ],
+      "label": "Employers Business or Org Name"
+    },
+    {
+      "id": "f52",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        245.82,
+        725.26,
+        329.16,
+        13.71
+      ],
+      "label": "Employers Business or Org Address"
+    },
+    {
+      "id": "f53",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        36.96,
+        112.24,
+        220.08,
+        19.64
+      ],
+      "label": "Last Name Family Name from Section 1"
+    },
+    {
+      "id": "f54",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        258.96,
+        112.25,
+        178.08,
+        19.63
+      ],
+      "label": "First Name Given Name from Section 1"
+    },
+    {
+      "id": "f55",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        438.96,
+        112.25,
+        136.08,
+        19.63
+      ],
+      "label": "Middle initial if any from Section 1"
+    },
+    {
+      "id": "f56",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        39.32,
+        228.28,
+        373.84,
+        22.92
+      ],
+      "label": "Signature of Preparer or Translator 0"
+    },
+    {
+      "id": "f57",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        417.56,
+        228.28,
+        150.38,
+        22.92
+      ],
+      "label": "Sig Date mmddyyyy 0"
+    },
+    {
+      "id": "f58",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        39.64,
+        265.2,
+        229.52,
+        16.0
+      ],
+      "label": "Preparer or Translator Last Name (Family Name) 0"
+    },
+    {
+      "id": "f59",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        273.08,
+        265.2,
+        218.08,
+        16.0
+      ],
+      "label": "Preparer or Translator First Name (Given Name) 0"
+    },
+    {
+      "id": "f60",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        495.08,
+        265.2,
+        80.08,
+        16.0
+      ],
+      "label": "PT Middle Initial 0"
+    },
+    {
+      "id": "f61",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        38.96,
+        293.76,
+        254.32,
+        16.0
+      ],
+      "label": "Preparer or Translator Address (Street Number and Name) 0"
+    },
+    {
+      "id": "f62",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        297.24,
+        293.76,
+        152.04,
+        16.0
+      ],
+      "label": "Preparer or Translator City or Town 0"
+    },
+    {
+      "id": "f63",
+      "page": 3,
+      "type": "choice",
+      "bbox": [
+        453.12,
+        293.76,
+        38.37,
+        16.0
+      ],
+      "label": "Preparer State 0"
+    },
+    {
+      "id": "f64",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        496.64,
+        293.76,
+        78.64,
+        16.0
+      ],
+      "label": "Zip Code 0"
+    },
+    {
+      "id": "f65",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        39.16,
+        354.0,
+        374.0,
+        22.92
+      ],
+      "label": "Signature of Preparer or Translator 1"
+    },
+    {
+      "id": "f66",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        417.4,
+        354.0,
+        150.38,
+        22.92
+      ],
+      "label": "Sig Date mmddyyyy 1"
+    },
+    {
+      "id": "f67",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        39.64,
+        391.16,
+        229.51,
+        16.0
+      ],
+      "label": "Preparer or Translator Last Name (Family Name) 1"
+    },
+    {
+      "id": "f68",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        273.08,
+        391.16,
+        218.08,
+        16.0
+      ],
+      "label": "Preparer or Translator Last Name (Family Name) 1"
+    },
+    {
+      "id": "f69",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        495.08,
+        391.16,
+        80.08,
+        16.0
+      ],
+      "label": "PT Middle Initial 1"
+    },
+    {
+      "id": "f70",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        38.96,
+        419.76,
+        253.36,
+        16.0
+      ],
+      "label": "Preparer or Translator Address (Street Number and Name) 1"
+    },
+    {
+      "id": "f71",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        297.25,
+        419.76,
+        152.03,
+        16.0
+      ],
+      "label": "Preparer or Translator City or Town 1"
+    },
+    {
+      "id": "f72",
+      "page": 3,
+      "type": "choice",
+      "bbox": [
+        453.12,
+        419.76,
+        38.38,
+        16.0
+      ],
+      "label": "Preparer State 1"
+    },
+    {
+      "id": "f73",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        496.64,
+        419.76,
+        78.64,
+        16.0
+      ],
+      "label": "Zip Code 1"
+    },
+    {
+      "id": "f74",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        39.16,
+        480.28,
+        374.0,
+        22.92
+      ],
+      "label": "Signature of Preparer or Translator 2"
+    },
+    {
+      "id": "f75",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        417.56,
+        480.28,
+        150.38,
+        22.92
+      ],
+      "label": "Sig Date mmddyyyy 2"
+    },
+    {
+      "id": "f76",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        39.36,
+        517.32,
+        229.52,
+        16.0
+      ],
+      "label": "Preparer or Translator Last Name (Family Name) 2"
+    },
+    {
+      "id": "f77",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        273.08,
+        517.32,
+        217.8,
+        16.0
+      ],
+      "label": "Preparer or Translator First Name (Given Name) 2"
+    },
+    {
+      "id": "f78",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        494.8,
+        517.32,
+        80.08,
+        16.0
+      ],
+      "label": "PT Middle Initial 2"
+    },
+    {
+      "id": "f79",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        38.68,
+        545.88,
+        253.36,
+        16.0
+      ],
+      "label": "Preparer or Translator Address (Street Number and Name) 2"
+    },
+    {
+      "id": "f80",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        296.96,
+        545.88,
+        154.68,
+        16.0
+      ],
+      "label": "Preparer or Translator City or Town 2"
+    },
+    {
+      "id": "f81",
+      "page": 3,
+      "type": "choice",
+      "bbox": [
+        453.4,
+        545.72,
+        38.38,
+        16.0
+      ],
+      "label": "Preparer State 2"
+    },
+    {
+      "id": "f82",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        496.36,
+        545.88,
+        78.64,
+        16.0
+      ],
+      "label": "Zip Code 2"
+    },
+    {
+      "id": "f83",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        39.16,
+        606.28,
+        374.0,
+        22.92
+      ],
+      "label": "Signature of Preparer or Translator 3"
+    },
+    {
+      "id": "f84",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        418.21,
+        606.28,
+        150.38,
+        22.92
+      ],
+      "label": "Sig Date mmddyyyy 3"
+    },
+    {
+      "id": "f85",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        39.36,
+        643.32,
+        229.8,
+        16.0
+      ],
+      "label": "Preparer or Translator Last Name (Family Name) 3"
+    },
+    {
+      "id": "f86",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        273.08,
+        643.32,
+        218.08,
+        16.0
+      ],
+      "label": "Preparer or Translator First Name (Given Name) 3"
+    },
+    {
+      "id": "f87",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        494.8,
+        643.32,
+        80.36,
+        16.0
+      ],
+      "label": "PT Middle Initial 3"
+    },
+    {
+      "id": "f88",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        38.96,
+        672.0,
+        254.32,
+        16.0
+      ],
+      "label": "Preparer or Translator Address (Street Number and Name) 3"
+    },
+    {
+      "id": "f89",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        297.25,
+        671.76,
+        152.03,
+        16.0
+      ],
+      "label": "Preparer or Translator City or Town 3"
+    },
+    {
+      "id": "f90",
+      "page": 3,
+      "type": "choice",
+      "bbox": [
+        453.15,
+        671.57,
+        38.1,
+        16.0
+      ],
+      "label": "Preparer State 3"
+    },
+    {
+      "id": "f91",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        496.21,
+        671.76,
+        78.64,
+        16.0
+      ],
+      "label": "Zip Code 3"
+    },
+    {
+      "id": "f92",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        41.42,
+        114.28,
+        216.07,
+        18.65
+      ],
+      "label": "Last Name Family Name from Section 1-2"
+    },
+    {
+      "id": "f93",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        264.08,
+        114.29,
+        173.08,
+        18.66
+      ],
+      "label": "First Name Given Name from Section 1-2"
+    },
+    {
+      "id": "f94",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        444.08,
+        114.29,
+        131.08,
+        18.66
+      ],
+      "label": "Middle initial if any from Section 1-2"
+    },
+    {
+      "id": "f95",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        42.2,
+        216.61,
+        87.11,
+        18.65
+      ],
+      "label": "Date of Rehire 0"
+    },
+    {
+      "id": "f96",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        143.75,
+        216.61,
+        191.41,
+        18.65
+      ],
+      "label": "Last Name 0"
+    },
+    {
+      "id": "f97",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        342.08,
+        216.61,
+        173.08,
+        18.65
+      ],
+      "label": "First Name 0"
+    },
+    {
+      "id": "f98",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        521.75,
+        216.61,
+        53.41,
+        18.65
+      ],
+      "label": "Middle Initial 0"
+    },
+    {
+      "id": "f99",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        41.75,
+        269.51,
+        197.53,
+        13.43
+      ],
+      "label": "Document Title 0"
+    },
+    {
+      "id": "f100",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        245.96,
+        269.51,
+        197.32,
+        13.43
+      ],
+      "label": "Document Number 0"
+    },
+    {
+      "id": "f101",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        450.28,
+        269.51,
+        125.0,
+        13.43
+      ],
+      "label": "Expiration Date 0"
+    },
+    {
+      "id": "f102",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        41.54,
+        322.45,
+        197.62,
+        18.65
+      ],
+      "label": "Name of Emp or Auth Rep 0"
+    },
+    {
+      "id": "f103",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        246.08,
+        322.45,
+        221.08,
+        18.66
+      ],
+      "label": "Signature of Emp Rep 0"
+    },
+    {
+      "id": "f104",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        473.75,
+        322.45,
+        94.43,
+        18.66
+      ],
+      "label": "Todays Date 0"
+    },
+    {
+      "id": "f105",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        41.01,
+        353.4,
+        409.67,
+        22.87
+      ],
+      "label": "Addtl Info 0"
+    },
+    {
+      "id": "f106",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        455.26,
+        356.08,
+        9.48,
+        9.48
+      ],
+      "label": "CB_Alt_0",
+      "state": "Off"
+    },
+    {
+      "id": "f107",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        42.2,
+        402.61,
+        87.11,
+        18.65
+      ],
+      "label": "Date of Rehire 1"
+    },
+    {
+      "id": "f108",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        143.75,
+        402.61,
+        191.41,
+        18.65
+      ],
+      "label": "Last Name 1"
+    },
+    {
+      "id": "f109",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        342.08,
+        402.61,
+        173.08,
+        18.65
+      ],
+      "label": "First Name 1"
+    },
+    {
+      "id": "f110",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        522.73,
+        402.61,
+        52.43,
+        18.65
+      ],
+      "label": "Middle Initial 1"
+    },
+    {
+      "id": "f111",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        41.75,
+        455.84,
+        197.53,
+        13.43
+      ],
+      "label": "Document Title 1"
+    },
+    {
+      "id": "f112",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        245.63,
+        455.84,
+        197.65,
+        13.43
+      ],
+      "label": "Document Number 1"
+    },
+    {
+      "id": "f113",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        449.96,
+        455.84,
+        125.32,
+        13.43
+      ],
+      "label": "Expiration Date 1"
+    },
+    {
+      "id": "f114",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        41.87,
+        507.8,
+        199.45,
+        18.66
+      ],
+      "label": "Name of Emp or Auth Rep 1"
+    },
+    {
+      "id": "f115",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        245.29,
+        507.79,
+        221.87,
+        18.66
+      ],
+      "label": "Signature of Emp Rep 1"
+    },
+    {
+      "id": "f116",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        474.08,
+        507.79,
+        94.43,
+        18.66
+      ],
+      "label": "Todays Date 1"
+    },
+    {
+      "id": "f117",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        41.13,
+        538.93,
+        409.67,
+        24.17
+      ],
+      "label": "Addtl Info 1"
+    },
+    {
+      "id": "f118",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        455.58,
+        541.2,
+        9.15,
+        9.48
+      ],
+      "label": "CB_Alt_1",
+      "state": "Off"
+    },
+    {
+      "id": "f119",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        42.2,
+        588.28,
+        87.11,
+        18.66
+      ],
+      "label": "Date of Rehire 2"
+    },
+    {
+      "id": "f120",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        144.08,
+        588.28,
+        191.08,
+        18.66
+      ],
+      "label": "Last Name 2"
+    },
+    {
+      "id": "f121",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        342.08,
+        588.28,
+        173.08,
+        18.66
+      ],
+      "label": "First Name 2"
+    },
+    {
+      "id": "f122",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        522.73,
+        588.28,
+        52.43,
+        18.66
+      ],
+      "label": "Middle Initial 2"
+    },
+    {
+      "id": "f123",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        41.18,
+        641.93,
+        197.53,
+        13.43
+      ],
+      "label": "Document Title 2"
+    },
+    {
+      "id": "f124",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        245.06,
+        641.93,
+        197.65,
+        13.43
+      ],
+      "label": "Document Number 2"
+    },
+    {
+      "id": "f125",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        449.39,
+        641.93,
+        125.8,
+        13.43
+      ],
+      "label": "Expiration Date 2"
+    },
+    {
+      "id": "f126",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        41.87,
+        694.1,
+        197.29,
+        18.66
+      ],
+      "label": "Name of Emp or Auth Rep 2"
+    },
+    {
+      "id": "f127",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        245.29,
+        694.1,
+        221.87,
+        18.66
+      ],
+      "label": "Signature of Emp Rep 2"
+    },
+    {
+      "id": "f128",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        474.08,
+        694.1,
+        94.43,
+        18.66
+      ],
+      "label": "Todays Date 2"
+    },
+    {
+      "id": "f129",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        41.45,
+        724.58,
+        409.67,
+        24.18
+      ],
+      "label": "Addtl Info 2"
+    },
+    {
+      "id": "f130",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        456.26,
+        728.64,
+        9.48,
+        9.48
+      ],
+      "label": "CB_Alt_2",
+      "state": "Off"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

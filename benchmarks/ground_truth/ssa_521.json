@@ -1,0 +1,487 @@
+{
+  "pdf": "ssa_521.pdf",
+  "pdf_id": "ssa_521",
+  "source": "government",
+  "page_count": 2,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        579.7,
+        147.39,
+        10.59,
+        13.18
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[0]"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        18.18,
+        175.89,
+        397.56,
+        17.64
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[1]"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        417.98,
+        175.89,
+        176.28,
+        17.65
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[2]"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        17.93,
+        204.34,
+        397.89,
+        15.93
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[3]"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        417.98,
+        203.96,
+        176.28,
+        16.93
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[4]"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        17.79,
+        232.07,
+        251.51,
+        16.31
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[5]"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        271.34,
+        232.1,
+        115.95,
+        16.27
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_DateField2_FLD[0]"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        507.84,
+        234.23,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_MedicareBeneYesNo_CB[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        551.23,
+        234.23,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_MedicareBeneYesNo_CB[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        28.27,
+        336.17,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_ReasonforWithdrawal_CB[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        29.23,
+        361.78,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_ReasonforWithdrawal_CB[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        50.83,
+        373.49,
+        541.53,
+        50.46
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField2_FLD[0]"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        466.81,
+        428.69,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_ContinuedOnReverse_CB[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        54.04,
+        512.7,
+        8.65,
+        13.18
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[6]"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        411.49,
+        496.5,
+        182.51,
+        13.19
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_DateField1_FLD[0]"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        411.49,
+        521.05,
+        180.05,
+        13.18
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[7]"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        20.47,
+        545.88,
+        570.62,
+        13.18
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[8]"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        19.85,
+        571.35,
+        255.23,
+        13.18
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[9]"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        279.63,
+        571.35,
+        75.47,
+        13.18
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[10]"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        358.75,
+        571.35,
+        233.07,
+        13.18
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[11]"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        20.91,
+        629.09,
+        8.65,
+        13.18
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[12]"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        18.65,
+        655.92,
+        278.25,
+        34.56
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[13]"
+    },
+    {
+      "id": "f23",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        301.68,
+        630.0,
+        8.65,
+        13.18
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[14]"
+    },
+    {
+      "id": "f24",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        302.37,
+        655.92,
+        288.26,
+        34.56
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[15]"
+    },
+    {
+      "id": "f25",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        18.37,
+        715.38,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_ApprovedNotApproved_CB[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f26",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        109.12,
+        715.61,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_ApprovedNotApproved_CB[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f27",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        224.63,
+        715.61,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_NotApprovedReason_CB[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f28",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        327.71,
+        715.61,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_NotApprovedReason_CB[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f29",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        440.68,
+        715.02,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_NotApprovedReason_CB[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f30",
+      "page": 1,
+      "type": "signature",
+      "bbox": [
+        20.84,
+        748.17,
+        219.94,
+        18.3
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_SignatureField1_FLD[0]"
+    },
+    {
+      "id": "f31",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        23.18,
+        752.78,
+        8.65,
+        13.18
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_TextField1_FLD[16]"
+    },
+    {
+      "id": "f32",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        248.83,
+        752.78,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_ClaimsAuthorizer_CB[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f33",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        361.9,
+        735.58,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_Other_CB[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f34",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        513.71,
+        747.65,
+        80.16,
+        21.39
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_Date_FLD[0]"
+    },
+    {
+      "id": "f35",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        18.18,
+        37.43,
+        575.64,
+        265.08
+      ],
+      "label": "topmostSubform[0].Page2[0].P2_TextField1_FLD[0]"
+    },
+    {
+      "id": "f36",
+      "page": 2,
+      "type": "radio",
+      "bbox": [
+        495.46,
+        579.98,
+        95.17,
+        11.7
+      ],
+      "label": "topmostSubform[0].Page2[0].P2_SSALink_FLD[0]",
+      "group_id": "topmostSubform[0].Page2[0]"
+    },
+    {
+      "id": "f37",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        582.92,
+        628.72,
+        8.65,
+        13.18
+      ],
+      "label": "topmostSubform[0].Page2[0].P2_TextField1_FLD[1]"
+    },
+    {
+      "id": "f38",
+      "page": 2,
+      "type": "radio",
+      "bbox": [
+        474.11,
+        757.87,
+        115.65,
+        11.7
+      ],
+      "label": "topmostSubform[0].Page2[0].P2_SSALink2_FLD[0]",
+      "group_id": "topmostSubform[0].Page2[0]"
+    }
+  ],
+  "warnings": [
+    "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+  ],
+  "error": null
+}

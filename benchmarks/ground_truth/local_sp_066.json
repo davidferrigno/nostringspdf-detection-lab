@@ -1,0 +1,316 @@
+{
+  "pdf": "local_sp_066.pdf",
+  "pdf_id": "local_sp_066",
+  "source": "local",
+  "page_count": 1,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "radio",
+      "bbox": [
+        491.05,
+        9.43,
+        90.57,
+        21.25
+      ],
+      "label": "Button1"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        35.04,
+        122.54,
+        282.89,
+        18.0
+      ],
+      "label": "Text1"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        326.06,
+        122.54,
+        108.69,
+        18.0
+      ],
+      "label": "Text2"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        447.45,
+        122.54,
+        130.53,
+        18.0
+      ],
+      "label": "Text3"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        35.6,
+        151.91,
+        244.29,
+        18.0
+      ],
+      "label": "Text4"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        285.48,
+        151.91,
+        135.1,
+        18.0
+      ],
+      "label": "Text5"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "choice",
+      "bbox": [
+        425.61,
+        152.0,
+        116.3,
+        18.0
+      ],
+      "label": "Combo Box2"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        547.55,
+        151.91,
+        29.97,
+        18.0
+      ],
+      "label": "Text6"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        225.0,
+        173.7,
+        10.16,
+        10.67
+      ],
+      "label": "Check Box7",
+      "state": "Off"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        183.35,
+        191.09,
+        95.99,
+        18.0
+      ],
+      "label": "Text8"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        296.61,
+        191.09,
+        95.99,
+        18.0
+      ],
+      "label": "Text9"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        35.04,
+        219.93,
+        247.34,
+        18.0
+      ],
+      "label": "Text10"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        287.46,
+        219.93,
+        132.05,
+        18.0
+      ],
+      "label": "Text11"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        424.09,
+        219.93,
+        119.35,
+        18.0
+      ],
+      "label": "Text12"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        545.98,
+        219.93,
+        32.5,
+        18.0
+      ],
+      "label": "Text13"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        184.36,
+        244.39,
+        93.96,
+        18.0
+      ],
+      "label": "Text14"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        297.12,
+        244.39,
+        95.99,
+        18.0
+      ],
+      "label": "Text15"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        34.54,
+        273.29,
+        247.34,
+        18.0
+      ],
+      "label": "Text16"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        286.45,
+        273.29,
+        134.08,
+        18.0
+      ],
+      "label": "Text17"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        423.58,
+        273.29,
+        120.37,
+        18.0
+      ],
+      "label": "Text18"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        545.98,
+        273.29,
+        32.5,
+        18.0
+      ],
+      "label": "Text19"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        46.22,
+        298.27,
+        274.26,
+        18.0
+      ],
+      "label": "Text20"
+    },
+    {
+      "id": "f23",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        37.08,
+        389.22,
+        253.44,
+        18.0
+      ],
+      "label": "Text21"
+    },
+    {
+      "id": "f24",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        321.49,
+        389.22,
+        251.4,
+        18.0
+      ],
+      "label": "Text22"
+    },
+    {
+      "id": "f25",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        320.48,
+        454.45,
+        86.34,
+        18.0
+      ],
+      "label": "Text23"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

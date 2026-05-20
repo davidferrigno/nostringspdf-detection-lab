@@ -1,0 +1,881 @@
+{
+  "pdf": "local_ss_5.pdf",
+  "pdf_id": "local_ss_5",
+  "source": "local",
+  "page_count": 5,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        581.77,
+        301.27,
+        9.77,
+        13.03
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_First_FLD[0]"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        565.09,
+        665.46,
+        9.77,
+        13.02
+      ],
+      "label": "topmostSubform[0].Page1[0].P1_second_FLD[0]"
+    },
+    {
+      "id": "f3",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        570.6,
+        258.45,
+        9.77,
+        13.02
+      ],
+      "label": "topmostSubform[0].Page2[0].P2_First_FLD[0]"
+    },
+    {
+      "id": "f4",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        575.8,
+        711.49,
+        9.77,
+        13.03
+      ],
+      "label": "topmostSubform[0].Page2[0].P2_Second_FLD[0]"
+    },
+    {
+      "id": "f5",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        571.53,
+        346.39,
+        9.77,
+        13.02
+      ],
+      "label": "topmostSubform[0].Page3[0].P3_First_FLD[0]"
+    },
+    {
+      "id": "f6",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        538.53,
+        348.89,
+        9.77,
+        13.02
+      ],
+      "label": "topmostSubform[0].Page4[0].P4_First_FLD[0]"
+    },
+    {
+      "id": "f7",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        561.75,
+        491.12,
+        9.77,
+        13.02
+      ],
+      "label": "topmostSubform[0].Page4[0].P4_Second_FLD[0]"
+    },
+    {
+      "id": "f8",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        201.84,
+        75.71,
+        129.38,
+        14.34
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_firstname_FLD[0]"
+    },
+    {
+      "id": "f9",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        331.99,
+        75.71,
+        134.35,
+        14.34
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_Middlename_FLD[0]"
+    },
+    {
+      "id": "f10",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        466.13,
+        75.71,
+        127.87,
+        14.34
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_LastName_FLD[0]"
+    },
+    {
+      "id": "f11",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        201.84,
+        99.7,
+        130.1,
+        14.34
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_firstdiffname_FLD[0]"
+    },
+    {
+      "id": "f12",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        331.99,
+        99.7,
+        134.35,
+        14.34
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_Middlediffname_FLD[0]"
+    },
+    {
+      "id": "f13",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        466.13,
+        99.7,
+        127.87,
+        14.34
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_Lastdiffname_FLD[0]"
+    },
+    {
+      "id": "f14",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        201.83,
+        114.0,
+        392.23,
+        16.04
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_Othername_FLD[0]"
+    },
+    {
+      "id": "f15",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        323.21,
+        135.3,
+        75.79,
+        26.51
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_oldssnXXX_FLD[0]"
+    },
+    {
+      "id": "f16",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        414.35,
+        135.3,
+        40.0,
+        26.51
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_oldssnXX_FLD[0]"
+    },
+    {
+      "id": "f17",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        470.15,
+        135.3,
+        104.2,
+        26.51
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_oldssnXXXX_FLD[0]"
+    },
+    {
+      "id": "f18",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        110.22,
+        166.22,
+        122.73,
+        26.69
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_cityofbirth_FLD[0]"
+    },
+    {
+      "id": "f19",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        232.99,
+        166.22,
+        134.21,
+        26.69
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_stateatbirth_FLD[0]"
+    },
+    {
+      "id": "f20",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        481.04,
+        166.23,
+        112.7,
+        26.43
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_4dateofbirth_Date[0]"
+    },
+    {
+      "id": "f21",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        182.56,
+        216.94,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_UScit_CB1[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f22",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        261.62,
+        216.79,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_Legalali_CB2[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f23",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        341.89,
+        217.86,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_LegAlNotAllowed_CB3[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f24",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        486.42,
+        217.44,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_Other_CB4[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f25",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        66.68,
+        279.09,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_hispanicorlatinoY_CB5[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f26",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        129.46,
+        279.09,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_hispanicorlatinoN_CB6[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f27",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        328.05,
+        244.38,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_hawaiian_CB7[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f28",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        328.05,
+        260.34,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_alaskanative_CB8[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f29",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        328.05,
+        275.57,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_asian_CB9[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f30",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        415.01,
+        244.38,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_americanindian_CB10[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f31",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        415.01,
+        267.99,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_blackafricanamerican_CB11[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f32",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        503.95,
+        245.76,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_otherpacificislander_CB12[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f33",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        503.95,
+        267.44,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_white_CB13[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f34",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        244.31,
+        296.2,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_GenderM_CB14[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f35",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        328.73,
+        296.2,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_GenderF_CB15[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f36",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        209.26,
+        321.44,
+        135.34,
+        22.75
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_mothersfirstname_FLD[0]"
+    },
+    {
+      "id": "f37",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        346.66,
+        321.44,
+        119.66,
+        22.75
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_mothersmiddlename9_FLD[0]"
+    },
+    {
+      "id": "f38",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        466.13,
+        321.44,
+        127.87,
+        22.75
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_motherslastname_FLD[0]"
+    },
+    {
+      "id": "f39",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        323.46,
+        347.85,
+        53.31,
+        24.36
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_9bfirst3num_FLD[0]"
+    },
+    {
+      "id": "f40",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        392.44,
+        347.85,
+        32.94,
+        24.36
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_9bsecond2num_FLD[0]"
+    },
+    {
+      "id": "f41",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        441.81,
+        347.85,
+        69.77,
+        24.36
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_9blast4num_FLD[0]"
+    },
+    {
+      "id": "f42",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        515.46,
+        355.18,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_motherunknown_CB16[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f43",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        209.26,
+        387.52,
+        135.34,
+        15.34
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_fathersfirstname_FLD[0]"
+    },
+    {
+      "id": "f44",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        345.22,
+        387.52,
+        121.1,
+        15.34
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_fathersmiddlename_FLD[0]"
+    },
+    {
+      "id": "f45",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        466.13,
+        387.52,
+        127.87,
+        15.34
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_fatherslastname_FLD[0]"
+    },
+    {
+      "id": "f46",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        323.46,
+        405.24,
+        53.31,
+        24.17
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_10Bfirst3num_FLD[0]"
+    },
+    {
+      "id": "f47",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        392.44,
+        405.24,
+        32.94,
+        24.17
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_10Bsecnum_FLD[0]"
+    },
+    {
+      "id": "f48",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        441.81,
+        405.24,
+        69.77,
+        24.17
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_10Blast4_FLD[0]"
+    },
+    {
+      "id": "f49",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        515.46,
+        411.17,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_10Bfatherunknown_CB17[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f50",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        52.68,
+        455.13,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_11yes_CB18[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f51",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        265.98,
+        453.94,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_11no_CB19[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f52",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        331.77,
+        453.94,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_11dontknow_CB20[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f53",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        266.82,
+        481.7,
+        111.73,
+        19.34
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_firstnameonrecentcard_FLD[0]"
+    },
+    {
+      "id": "f54",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        378.68,
+        481.7,
+        102.61,
+        19.34
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_middlenameonrecentcard_FLD[0]"
+    },
+    {
+      "id": "f55",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        481.11,
+        481.7,
+        113.42,
+        19.34
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_lastnameonrecentcard_FLD[0]"
+    },
+    {
+      "id": "f56",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        382.68,
+        499.0,
+        115.48,
+        16.76
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_13date_Date[0]"
+    },
+    {
+      "id": "f57",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        124.7,
+        526.75,
+        107.82,
+        13.61
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_14date_Date[0]"
+    },
+    {
+      "id": "f58",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        368.32,
+        526.75,
+        77.67,
+        13.61
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_areacode_FLD[0]"
+    },
+    {
+      "id": "f59",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        445.97,
+        526.75,
+        147.92,
+        13.61
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_phonenumber_FLD[0]"
+    },
+    {
+      "id": "f60",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        192.94,
+        562.3,
+        400.75,
+        12.95
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_streetaddress_FLD[0]"
+    },
+    {
+      "id": "f61",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        192.06,
+        585.78,
+        166.33,
+        12.95
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_mailingcity_FLD[0]"
+    },
+    {
+      "id": "f62",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        358.7,
+        585.78,
+        150.98,
+        12.95
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_state_FLD[0]"
+    },
+    {
+      "id": "f63",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        509.68,
+        585.78,
+        84.04,
+        12.95
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_zipcode_FLD[0]"
+    },
+    {
+      "id": "f64",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        50.23,
+        633.42,
+        9.77,
+        13.03
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_17Namesig_FLD[0]"
+    },
+    {
+      "id": "f65",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        257.83,
+        633.04,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_Self_CB21[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f66",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        293.93,
+        633.04,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_Natural_CB22[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f67",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        376.76,
+        633.04,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_Legal_CB23[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f68",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        434.07,
+        633.04,
+        10.0,
+        10.0
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_other_CB24[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f69",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        479.51,
+        634.3,
+        114.23,
+        17.01
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_18other_FLD[0]"
+    },
+    {
+      "id": "f70",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        345.54,
+        755.62,
+        9.77,
+        13.03
+      ],
+      "label": "topmostSubform[0].Page5[0].P5_Last_FLD[0]"
+    }
+  ],
+  "warnings": [
+    "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+  ],
+  "error": null
+}

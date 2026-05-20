@@ -1,0 +1,906 @@
+{
+  "pdf": "ca_dmv_reg256.pdf",
+  "pdf_id": "ca_dmv_reg256",
+  "source": "government",
+  "page_count": 2,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.42,
+        99.41,
+        124.23,
+        16.67
+      ],
+      "label": "CF Number 1A"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        162.47,
+        99.74,
+        305.53,
+        16.67
+      ],
+      "label": "Vehicle Vessel ID Number 1"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        469.23,
+        99.74,
+        106.28,
+        16.67
+      ],
+      "label": "Year/Make2"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        34.47,
+        152.6,
+        12.27,
+        11.38
+      ],
+      "label": "Family transfer box",
+      "state": "Off"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        34.47,
+        179.54,
+        12.34,
+        11.38
+      ],
+      "label": "addition/deletion box",
+      "state": "Off"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        34.47,
+        194.67,
+        11.52,
+        11.38
+      ],
+      "label": "gift box",
+      "state": "Off"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        34.47,
+        209.79,
+        11.52,
+        11.38
+      ],
+      "label": "Court order box",
+      "state": "Off"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        149.24,
+        209.73,
+        11.56,
+        11.38
+      ],
+      "label": "inheritance box",
+      "state": "Off"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        168.67,
+        253.1,
+        87.5,
+        13.75
+      ],
+      "label": "Current Market Value 1"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        34.47,
+        305.43,
+        11.86,
+        12.02
+      ],
+      "label": "Biennial Smog cert box",
+      "state": "Off"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        34.47,
+        318.32,
+        10.97,
+        10.16
+      ],
+      "label": "Powered by box",
+      "state": "Off"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        145.05,
+        318.37,
+        11.69,
+        11.25
+      ],
+      "label": "Powered by electricity box",
+      "state": "Off"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        221.58,
+        318.41,
+        10.88,
+        10.62
+      ],
+      "label": "Powered by diesel box",
+      "state": "Off"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        281.63,
+        318.59,
+        10.75,
+        10.88
+      ],
+      "label": "Powered by other box",
+      "state": "Off"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        324.49,
+        317.76,
+        150.0,
+        12.06
+      ],
+      "label": "Powered by other 2"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        34.47,
+        330.35,
+        10.94,
+        11.13
+      ],
+      "label": "Located outside CA box.0",
+      "state": "Off"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        34.47,
+        341.41,
+        10.94,
+        11.13
+      ],
+      "label": "Located outside CA box.1",
+      "state": "Off"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        53.31,
+        353.6,
+        10.5,
+        11.25
+      ],
+      "label": "Paren, grandparent, etc box",
+      "state": "Off"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        53.31,
+        377.79,
+        11.12,
+        11.38
+      ],
+      "label": "Companies leasing vehicle box",
+      "state": "Off"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        53.31,
+        389.79,
+        11.44,
+        11.25
+      ],
+      "label": "Lessor/Lessee of vehicle box",
+      "state": "Off"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        53.31,
+        401.73,
+        11.25,
+        11.19
+      ],
+      "label": "Lessor/lessee operator box",
+      "state": "Off"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        53.31,
+        413.78,
+        11.35,
+        11.13
+      ],
+      "label": "Individual as registered own box.0",
+      "state": "Off"
+    },
+    {
+      "id": "f23",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        53.31,
+        426.35,
+        11.35,
+        11.13
+      ],
+      "label": "Individual as registered own box.1",
+      "state": "Off"
+    },
+    {
+      "id": "f24",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        34.87,
+        485.85,
+        12.15,
+        11.31
+      ],
+      "label": "Transfer only box",
+      "state": "Off"
+    },
+    {
+      "id": "f25",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        143.46,
+        485.8,
+        11.81,
+        11.25
+      ],
+      "label": "Title only box",
+      "state": "Off"
+    },
+    {
+      "id": "f26",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        37.1,
+        612.06,
+        180.36,
+        17.62
+      ],
+      "label": "Disabled Person Plate"
+    },
+    {
+      "id": "f27",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        217.38,
+        612.06,
+        180.0,
+        17.62
+      ],
+      "label": "Disabled Vet Plate"
+    },
+    {
+      "id": "f28",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        398.42,
+        612.06,
+        180.75,
+        17.62
+      ],
+      "label": "Disabled Person Placard"
+    },
+    {
+      "id": "f29",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        37.1,
+        647.97,
+        180.15,
+        17.63
+      ],
+      "label": "Window decal-License No"
+    },
+    {
+      "id": "f30",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        217.31,
+        647.97,
+        180.0,
+        17.63
+      ],
+      "label": "Window decal-Vehicle Make"
+    },
+    {
+      "id": "f31",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        396.69,
+        647.97,
+        179.75,
+        17.63
+      ],
+      "label": "Window decal-Veh ID No"
+    },
+    {
+      "id": "f32",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        37.1,
+        684.47,
+        539.53,
+        17.62
+      ],
+      "label": "Mail to-Name"
+    },
+    {
+      "id": "f33",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        37.1,
+        707.97,
+        539.9,
+        17.62
+      ],
+      "label": "Mail to-Address"
+    },
+    {
+      "id": "f34",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        37.1,
+        731.34,
+        351.0,
+        17.62
+      ],
+      "label": "Mail to-City"
+    },
+    {
+      "id": "f35",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        400.19,
+        731.34,
+        75.0,
+        17.62
+      ],
+      "label": "Mail to-State"
+    },
+    {
+      "id": "f36",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        490.9,
+        731.34,
+        85.79,
+        17.62
+      ],
+      "label": "Mail to-Zip"
+    },
+    {
+      "id": "f37",
+      "page": 1,
+      "type": "radio",
+      "bbox": [
+        270.65,
+        758.0,
+        53.71,
+        19.2
+      ],
+      "label": "click to"
+    },
+    {
+      "id": "f38",
+      "page": 1,
+      "type": "radio",
+      "bbox": [
+        327.98,
+        758.0,
+        53.7,
+        19.2
+      ],
+      "label": "click to 1"
+    },
+    {
+      "id": "f39",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        469.23,
+        72.45,
+        106.28,
+        16.74
+      ],
+      "label": "Year/Make2"
+    },
+    {
+      "id": "f40",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        296.59,
+        108.55,
+        90.0,
+        16.5
+      ],
+      "label": "E. Market value of vehicle or vessel"
+    },
+    {
+      "id": "f41",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        187.61,
+        127.09,
+        88.67,
+        16.5
+      ],
+      "label": "E. Cost of changes"
+    },
+    {
+      "id": "f42",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        336.36,
+        127.09,
+        92.0,
+        16.5
+      ],
+      "label": "E. Date changes made"
+    },
+    {
+      "id": "f43",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        34.54,
+        162.24,
+        11.12,
+        11.06
+      ],
+      "label": "E. Unladen weight box",
+      "state": "Off"
+    },
+    {
+      "id": "f44",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        204.13,
+        162.82,
+        98.79,
+        12.08
+      ],
+      "label": "UNLADEN WEIGHT"
+    },
+    {
+      "id": "f45",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        34.54,
+        174.09,
+        11.12,
+        11.06
+      ],
+      "label": "E. Motive power box",
+      "state": "Off"
+    },
+    {
+      "id": "f46",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        180.19,
+        175.28,
+        88.59,
+        10.83
+      ],
+      "label": "E. Motive power changed from"
+    },
+    {
+      "id": "f47",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        285.77,
+        174.84,
+        91.69,
+        12.28
+      ],
+      "label": "E. Motive power changed to"
+    },
+    {
+      "id": "f48",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        34.54,
+        186.35,
+        11.12,
+        11.06
+      ],
+      "label": "E. Body type box",
+      "state": "Off"
+    },
+    {
+      "id": "f49",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        168.11,
+        187.5,
+        86.9,
+        11.72
+      ],
+      "label": "E. Body type changed from"
+    },
+    {
+      "id": "f50",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        272.58,
+        187.97,
+        90.38,
+        11.72
+      ],
+      "label": "E. Body power changed to"
+    },
+    {
+      "id": "f51",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        34.54,
+        199.43,
+        11.12,
+        11.06
+      ],
+      "label": "E. No of axles box",
+      "state": "Off"
+    },
+    {
+      "id": "f52",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        193.99,
+        199.62,
+        83.62,
+        12.28
+      ],
+      "label": "E. No axles changed from"
+    },
+    {
+      "id": "f53",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        297.43,
+        199.31,
+        88.5,
+        11.9
+      ],
+      "label": "E. No axles changed to"
+    },
+    {
+      "id": "f54",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        34.54,
+        262.99,
+        11.5,
+        11.38
+      ],
+      "label": "F. I/We same person box",
+      "state": "Off"
+    },
+    {
+      "id": "f55",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        69.4,
+        259.28,
+        170.59,
+        16.5
+      ],
+      "label": "F. I, name"
+    },
+    {
+      "id": "f56",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        263.89,
+        258.87,
+        171.56,
+        16.5
+      ],
+      "label": "F. and are same person"
+    },
+    {
+      "id": "f57",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        34.54,
+        286.81,
+        11.38,
+        11.19
+      ],
+      "label": "F. Name mispelled box",
+      "state": "Off"
+    },
+    {
+      "id": "f58",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        255.08,
+        282.91,
+        317.48,
+        16.5
+      ],
+      "label": "F. Name misspelled"
+    },
+    {
+      "id": "f59",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        34.54,
+        310.94,
+        11.38,
+        11.25
+      ],
+      "label": "F. Changing name box",
+      "state": "Off"
+    },
+    {
+      "id": "f60",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        198.08,
+        306.69,
+        158.87,
+        16.5
+      ],
+      "label": "F. changing name from"
+    },
+    {
+      "id": "f61",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        375.55,
+        307.28,
+        196.6,
+        16.5
+      ],
+      "label": "F. Changing name to"
+    },
+    {
+      "id": "f62",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        34.23,
+        368.83,
+        543.23,
+        279.58
+      ],
+      "label": "g. undersigned state"
+    },
+    {
+      "id": "f63",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        35.2,
+        705.14,
+        157.2,
+        16.88
+      ],
+      "label": "PRINTED NAME"
+    },
+    {
+      "id": "f64",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        195.4,
+        705.14,
+        120.6,
+        16.88
+      ],
+      "label": "FIRST NAME"
+    },
+    {
+      "id": "f65",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        318.4,
+        705.14,
+        105.0,
+        16.88
+      ],
+      "label": "MIDDLE NAME"
+    },
+    {
+      "id": "f66",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        432.03,
+        705.05,
+        31.5,
+        16.88
+      ],
+      "label": "App sign area code"
+    },
+    {
+      "id": "f67",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        466.59,
+        705.05,
+        110.0,
+        16.88
+      ],
+      "label": "App sign phone no"
+    },
+    {
+      "id": "f68",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        428.4,
+        729.31,
+        147.53,
+        16.87
+      ],
+      "label": "Signature date"
+    },
+    {
+      "id": "f69",
+      "page": 2,
+      "type": "radio",
+      "bbox": [
+        280.65,
+        755.0,
+        53.71,
+        19.2
+      ],
+      "label": "click to"
+    },
+    {
+      "id": "f70",
+      "page": 2,
+      "type": "radio",
+      "bbox": [
+        337.98,
+        755.0,
+        53.7,
+        19.2
+      ],
+      "label": "click to 1"
+    },
+    {
+      "id": "f71",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        36.09,
+        72.45,
+        126.19,
+        16.74
+      ],
+      "label": "CF Number 1A"
+    },
+    {
+      "id": "f72",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        161.61,
+        72.45,
+        306.19,
+        16.74
+      ],
+      "label": "Vehicle Vessel ID Number 1"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

@@ -1,0 +1,5495 @@
+{
+  "pdf": "uscis_n400.pdf",
+  "pdf_id": "uscis_n400",
+  "source": "government",
+  "page_count": 14,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[0].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        85.0,
+        373.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[0].Part1_Eligibility[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        85.0,
+        355.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[0].Part1_Eligibility[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        85.0,
+        337.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[0].Part1_Eligibility[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        455.76,
+        288.0,
+        120.5,
+        18.0
+      ],
+      "label": "form1[0].#subform[0].#area[0].Line1_AlienNumber[0]"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        85.0,
+        493.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[0].Part1_Eligibility[3]",
+      "state": "Off"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        85.0,
+        523.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[0].Part1_Eligibility[4]",
+      "state": "Off"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        288.0,
+        552.23,
+        288.04,
+        17.77
+      ],
+      "label": "form1[0].#subform[0].Part1Line5_OtherExplain[0]"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        85.0,
+        555.95,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[0].Part1_Eligibility[5]",
+      "state": "Off"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        85.0,
+        402.99,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[0].Part1_Eligibility[6]",
+      "state": "Off"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "choice",
+      "bbox": [
+        102.0,
+        468.0,
+        474.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[0].DropDownList1[0]"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        444.0,
+        642.0,
+        132.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[0].P2_Line1_MiddleName[0]"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        276.0,
+        642.0,
+        162.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[0].P2_Line1_GivenName[0]"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        60.0,
+        642.0,
+        209.63,
+        18.0
+      ],
+      "label": "form1[0].#subform[0].P2_Line1_FamilyName[0]"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        443.94,
+        726.0,
+        131.98,
+        18.0
+      ],
+      "label": "form1[0].#subform[0].Line3_MiddleName2[0]"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        275.97,
+        726.0,
+        161.98,
+        18.0
+      ],
+      "label": "form1[0].#subform[0].Line3_GivenName2[0]"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        443.94,
+        708.0,
+        131.98,
+        18.0
+      ],
+      "label": "form1[0].#subform[0].Line3_MiddleName1[0]"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        275.97,
+        708.0,
+        161.98,
+        18.0
+      ],
+      "label": "form1[0].#subform[0].Line3_GivenName1[0]"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        60.0,
+        708.0,
+        209.63,
+        18.0
+      ],
+      "label": "form1[0].#subform[0].Line2_FamilyName1[0]"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        60.0,
+        726.0,
+        209.63,
+        18.0
+      ],
+      "label": "form1[0].#subform[0].Line2_FamilyName2[0]"
+    },
+    {
+      "id": "f21",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[1].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f22",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        455.76,
+        54.0,
+        119.29,
+        18.0
+      ],
+      "label": "form1[0].#subform[1].#area[1].Line1_AlienNumber[1]"
+    },
+    {
+      "id": "f23",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        60.0,
+        234.0,
+        132.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[1].P2_Line8_DateOfBirth[0]"
+    },
+    {
+      "id": "f24",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        281.73,
+        201.88,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[1].P2_Line7_Gender[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f25",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        329.19,
+        201.88,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[1].P2_Line7_Gender[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f26",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        71.74,
+        198.09,
+        174.09,
+        17.92
+      ],
+      "label": "form1[0].#subform[1].P2_Line6_USCISELISAcctNumber[0]"
+    },
+    {
+      "id": "f27",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        240.0,
+        300.0,
+        132.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[1].P2_Line9_DateBecamePermanentResident[0]"
+    },
+    {
+      "id": "f28",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        61.21,
+        372.0,
+        244.36,
+        18.0
+      ],
+      "label": "form1[0].#subform[1].P2_Line11_CountryOfNationality[0]"
+    },
+    {
+      "id": "f29",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        426.99,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[1].P2_Line10_claimdisability[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f30",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        427.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[1].P2_Line10_claimdisability[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f31",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        60.0,
+        625.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[1].Line12a_Checkbox[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f32",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        60.0,
+        607.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[1].Line12a_Checkbox[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f33",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        287.95,
+        642.1,
+        129.01,
+        18.0
+      ],
+      "label": "form1[0].#subform[1].Line12b_SSN[0]"
+    },
+    {
+      "id": "f34",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        539.52,
+        667.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[1].Line12\\.c_Checkbox[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f35",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        667.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[1].Line12\\.c_Checkbox[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f36",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        462.99,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[1].P2_Line11_claimdisability[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f37",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        462.99,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[1].P2_Line11_claimdisability[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f38",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        60.0,
+        336.0,
+        246.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[1].P2_Line10_CountryOfBirth[0]"
+    },
+    {
+      "id": "f39",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        443.94,
+        162.0,
+        131.98,
+        18.0
+      ],
+      "label": "form1[0].#subform[1].Part2Line4a_MiddleName[0]"
+    },
+    {
+      "id": "f40",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        276.19,
+        162.0,
+        161.98,
+        18.0
+      ],
+      "label": "form1[0].#subform[1].Part2Line4a_GivenName[0]"
+    },
+    {
+      "id": "f41",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        438.0,
+        114.96,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[1].P2_Line34_NameChange[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f42",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        396.0,
+        114.96,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[1].P2_Line34_NameChange[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f43",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        60.0,
+        162.0,
+        209.63,
+        18.0
+      ],
+      "label": "form1[0].#subform[1].Part2Line3_FamilyName[0]"
+    },
+    {
+      "id": "f44",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[2].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f45",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        455.76,
+        54.0,
+        119.29,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].#area[2].Line1_AlienNumber[2]"
+    },
+    {
+      "id": "f46",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        61.0,
+        160.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line2_Race[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f47",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        169.0,
+        160.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line2_Race[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f48",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        223.0,
+        160.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line2_Race[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f49",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        325.0,
+        160.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line2_Race[3]",
+      "state": "Off"
+    },
+    {
+      "id": "f50",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        445.0,
+        160.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line2_Race[4]",
+      "state": "Off"
+    },
+    {
+      "id": "f51",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        169.0,
+        124.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line1_Ethnicity[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f52",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        61.0,
+        124.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line1_Ethnicity[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f53",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        396.0,
+        186.0,
+        12.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line4_Pounds2[0]"
+    },
+    {
+      "id": "f54",
+      "page": 3,
+      "type": "choice",
+      "bbox": [
+        120.0,
+        186.0,
+        54.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line3_HeightFeet[0]"
+    },
+    {
+      "id": "f55",
+      "page": 3,
+      "type": "choice",
+      "bbox": [
+        210.0,
+        186.0,
+        54.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line3_HeightInches[0]"
+    },
+    {
+      "id": "f56",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        378.0,
+        186.0,
+        12.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line4_Pounds1[0]"
+    },
+    {
+      "id": "f57",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        414.0,
+        186.0,
+        12.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line4_Pounds3[0]"
+    },
+    {
+      "id": "f58",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        175.0,
+        226.01,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line5_Eye[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f59",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        127.0,
+        226.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line5_Eye[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f60",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        283.0,
+        226.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line5_Eye[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f61",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        337.0,
+        226.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line5_Eye[3]",
+      "state": "Off"
+    },
+    {
+      "id": "f62",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        228.99,
+        226.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line5_Eye[4]",
+      "state": "Off"
+    },
+    {
+      "id": "f63",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        61.0,
+        226.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line5_Eye[5]",
+      "state": "Off"
+    },
+    {
+      "id": "f64",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        445.0,
+        226.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line5_Eye[6]",
+      "state": "Off"
+    },
+    {
+      "id": "f65",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        385.0,
+        226.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line5_Eye[7]",
+      "state": "Off"
+    },
+    {
+      "id": "f66",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        493.0,
+        226.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line5_Eye[8]",
+      "state": "Off"
+    },
+    {
+      "id": "f67",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        61.0,
+        262.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line6_Hair[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f68",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        385.07,
+        262.07,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line6_Hair[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f69",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        337.0,
+        262.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line6_Hair[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f70",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        445.0,
+        262.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line6_Hair[3]",
+      "state": "Off"
+    },
+    {
+      "id": "f71",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        283.0,
+        262.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line6_Hair[4]",
+      "state": "Off"
+    },
+    {
+      "id": "f72",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        175.0,
+        262.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line6_Hair[5]",
+      "state": "Off"
+    },
+    {
+      "id": "f73",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        229.0,
+        262.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line6_Hair[6]",
+      "state": "Off"
+    },
+    {
+      "id": "f74",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        127.0,
+        262.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line6_Hair[7]",
+      "state": "Off"
+    },
+    {
+      "id": "f75",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        493.0,
+        262.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P7_Line6_Hair[8]",
+      "state": "Off"
+    },
+    {
+      "id": "f76",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        59.99,
+        618.0,
+        161.84,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_PhysicalAddress1[0]"
+    },
+    {
+      "id": "f77",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        59.99,
+        648.0,
+        161.84,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_PhysicalAddress2[0]"
+    },
+    {
+      "id": "f78",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        59.99,
+        678.0,
+        161.84,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_PhysicalAddress3[0]"
+    },
+    {
+      "id": "f79",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        222.0,
+        678.0,
+        66.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_CityTown3[0]"
+    },
+    {
+      "id": "f80",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        222.0,
+        648.0,
+        66.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_CityTown2[0]"
+    },
+    {
+      "id": "f81",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        222.0,
+        618.0,
+        66.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_CityTown1[0]"
+    },
+    {
+      "id": "f82",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        444.0,
+        618.0,
+        66.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_From1[0]"
+    },
+    {
+      "id": "f83",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        444.0,
+        648.0,
+        66.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_From2[0]"
+    },
+    {
+      "id": "f84",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        444.0,
+        678.0,
+        66.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_From3[0]"
+    },
+    {
+      "id": "f85",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        510.0,
+        648.0,
+        66.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_To2[0]"
+    },
+    {
+      "id": "f86",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        510.0,
+        678.0,
+        66.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_To3[0]"
+    },
+    {
+      "id": "f87",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        264.0,
+        733.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].Pt3_Line2a_Checkbox[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f88",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        60.0,
+        733.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].Pt3_Line2a_Checkbox[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f89",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        342.0,
+        618.0,
+        60.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_ZipCode1[0]"
+    },
+    {
+      "id": "f90",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        342.0,
+        648.0,
+        60.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_ZipCode2[0]"
+    },
+    {
+      "id": "f91",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        342.0,
+        678.0,
+        60.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_ZipCode3[0]"
+    },
+    {
+      "id": "f92",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        288.0,
+        618.0,
+        54.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_State1[0]"
+    },
+    {
+      "id": "f93",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        288.0,
+        648.0,
+        54.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_State2[0]"
+    },
+    {
+      "id": "f94",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        288.0,
+        678.0,
+        54.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_State3[0]"
+    },
+    {
+      "id": "f95",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        401.98,
+        618.0,
+        41.86,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_Country1[0]"
+    },
+    {
+      "id": "f96",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        401.98,
+        648.0,
+        41.86,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_Country2[0]"
+    },
+    {
+      "id": "f97",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        401.98,
+        678.0,
+        41.86,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_Country3[0]"
+    },
+    {
+      "id": "f98",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        60.14,
+        497.99,
+        377.86,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_City[0]"
+    },
+    {
+      "id": "f99",
+      "page": 3,
+      "type": "choice",
+      "bbox": [
+        444.0,
+        497.99,
+        65.99,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_State[0]"
+    },
+    {
+      "id": "f100",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        516.0,
+        497.99,
+        60.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_ZipCode[0]"
+    },
+    {
+      "id": "f101",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        222.0,
+        534.0,
+        126.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_PostalCode[0]"
+    },
+    {
+      "id": "f102",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        60.0,
+        534.0,
+        155.86,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_Province[0]"
+    },
+    {
+      "id": "f103",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        60.15,
+        461.99,
+        377.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_StreetName[0]"
+    },
+    {
+      "id": "f104",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        60.14,
+        425.99,
+        515.86,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_InCareOfName[0]"
+    },
+    {
+      "id": "f105",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        516.0,
+        461.99,
+        60.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_Number[0]"
+    },
+    {
+      "id": "f106",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        495.37,
+        465.99,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_Unit[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f107",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        471.37,
+        465.99,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_Unit[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f108",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        447.37,
+        465.99,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_Unit[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f109",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        480.0,
+        558.0,
+        96.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_DatesofResidence[0]"
+    },
+    {
+      "id": "f110",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        228.0,
+        558.0,
+        90.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_DatesofResidence[1]"
+    },
+    {
+      "id": "f111",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        510.0,
+        618.0,
+        66.0,
+        30.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line3_From1[1]"
+    },
+    {
+      "id": "f112",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        354.0,
+        534.0,
+        222.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[2].P4_Line1_Country[0]"
+    },
+    {
+      "id": "f113",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[3].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f114",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        456.5,
+        54.0,
+        119.5,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].#area[3].Line1_AlienNumber[3]"
+    },
+    {
+      "id": "f115",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        60.14,
+        179.99,
+        377.86,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P5_Line1b_City[0]"
+    },
+    {
+      "id": "f116",
+      "page": 4,
+      "type": "choice",
+      "bbox": [
+        444.0,
+        179.99,
+        65.99,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P4_Line1_State[1]"
+    },
+    {
+      "id": "f117",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        516.0,
+        179.99,
+        60.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P5_Line1b_ZipCode[0]"
+    },
+    {
+      "id": "f118",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        222.0,
+        216.0,
+        126.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P5_Line1b_PostalCode[0]"
+    },
+    {
+      "id": "f119",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        60.0,
+        216.0,
+        155.86,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P5_Line1b_Province[0]"
+    },
+    {
+      "id": "f120",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        60.15,
+        143.99,
+        377.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P5_Line1b_StreetName[0]"
+    },
+    {
+      "id": "f121",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        60.14,
+        107.99,
+        515.86,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P5_Line1b_InCareOfName[0]"
+    },
+    {
+      "id": "f122",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        516.0,
+        143.99,
+        60.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P5_Line1b_Number[0]"
+    },
+    {
+      "id": "f123",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        495.37,
+        147.99,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P5_Line1b_Unit[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f124",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        471.37,
+        147.99,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P5_Line1b_Unit[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f125",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        447.37,
+        147.99,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P5_Line1b_Unit[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f126",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        354.0,
+        216.0,
+        223.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P5_Line1b_Country[0]"
+    },
+    {
+      "id": "f127",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        534.0,
+        348.0,
+        42.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].Part9Line3_TimesMarried[0]"
+    },
+    {
+      "id": "f128",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        234.0,
+        295.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line1_MaritalStatus[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f129",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        60.0,
+        295.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line1_MaritalStatus[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f130",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        300.0,
+        295.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line1_MaritalStatus[2]",
+      "state": "Off"
+    },
+    {
+      "id": "f131",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        174.0,
+        295.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line1_MaritalStatus[3]",
+      "state": "Off"
+    },
+    {
+      "id": "f132",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        432.0,
+        295.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line1_MaritalStatus[4]",
+      "state": "Off"
+    },
+    {
+      "id": "f133",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        366.0,
+        295.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line1_MaritalStatus[5]",
+      "state": "Off"
+    },
+    {
+      "id": "f134",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        331.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P7_Line2_Forces[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f135",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        331.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P7_Line2_Forces[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f136",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        445.26,
+        546.0,
+        130.49,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line4a_MiddleName[0]"
+    },
+    {
+      "id": "f137",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        265.06,
+        546.0,
+        173.99,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line4a_GivenName[0]"
+    },
+    {
+      "id": "f138",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        59.99,
+        546.0,
+        198.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line4a_FamilyName[0]"
+    },
+    {
+      "id": "f139",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        59.98,
+        594.0,
+        132.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line4d_DateofBirth[0]"
+    },
+    {
+      "id": "f140",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        228.62,
+        594.0,
+        143.38,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line4e_DateEnterMarriage[0]"
+    },
+    {
+      "id": "f141",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        60.0,
+        655.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line5_Citizen[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f142",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        60.0,
+        637.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line5_Citizen[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f143",
+      "page": 4,
+      "type": "text",
+      "bbox": [
+        324.0,
+        726.0,
+        96.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line5b_DateBecame[0]"
+    },
+    {
+      "id": "f144",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        60.0,
+        691.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line5a_When[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f145",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        60.0,
+        709.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[3].P10_Line5a_When[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f146",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[4].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f147",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        456.5,
+        54.0,
+        119.5,
+        18.0
+      ],
+      "label": "form1[0].#subform[4].#area[4].Line1_AlienNumber[4]"
+    },
+    {
+      "id": "f148",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        367.63,
+        78.01,
+        129.01,
+        18.0
+      ],
+      "label": "form1[0].#subform[4].#area[5].P7_Line6_ANumber[0]"
+    },
+    {
+      "id": "f149",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        534.0,
+        102.0,
+        42.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[4].P10_Line4g_Employer[0]"
+    },
+    {
+      "id": "f150",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        258.0,
+        162.0,
+        318.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[4].TextField1[0]"
+    },
+    {
+      "id": "f151",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        533.87,
+        252.0,
+        42.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[4].P11_Line1_TotalChildren[0]"
+    },
+    {
+      "id": "f152",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        59.88,
+        396.0,
+        168.17,
+        30.0
+      ],
+      "label": "form1[0].#subform[4].P7_EmployerName1[0]"
+    },
+    {
+      "id": "f153",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        59.88,
+        426.0,
+        168.17,
+        30.0
+      ],
+      "label": "form1[0].#subform[4].P7_EmployerName2[0]"
+    },
+    {
+      "id": "f154",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        59.88,
+        456.0,
+        168.17,
+        30.0
+      ],
+      "label": "form1[0].#subform[4].P7_EmployerName3[0]"
+    },
+    {
+      "id": "f155",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        228.01,
+        396.0,
+        66.26,
+        30.0
+      ],
+      "label": "form1[0].#subform[4].P7_From1[0]"
+    },
+    {
+      "id": "f156",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        228.01,
+        426.0,
+        66.3,
+        30.0
+      ],
+      "label": "form1[0].#subform[4].P7_From2[0]"
+    },
+    {
+      "id": "f157",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        228.01,
+        456.0,
+        66.3,
+        30.0
+      ],
+      "label": "form1[0].#subform[4].P7_From3[0]"
+    },
+    {
+      "id": "f158",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        293.96,
+        396.0,
+        108.17,
+        30.0
+      ],
+      "label": "form1[0].#subform[4].P7_OccupationFieldStudy1[0]"
+    },
+    {
+      "id": "f159",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        293.97,
+        426.0,
+        108.16,
+        30.0
+      ],
+      "label": "form1[0].#subform[4].P7_OccupationFieldStudy2[0]"
+    },
+    {
+      "id": "f160",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        293.97,
+        456.0,
+        108.16,
+        30.0
+      ],
+      "label": "form1[0].#subform[4].P7_OccupationFieldStudy3[0]"
+    },
+    {
+      "id": "f161",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        402.11,
+        396.0,
+        96.15,
+        30.0
+      ],
+      "label": "form1[0].#subform[4].P7_OccupationFieldStudy1[1]"
+    },
+    {
+      "id": "f162",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        402.11,
+        426.0,
+        96.15,
+        30.0
+      ],
+      "label": "form1[0].#subform[4].P7_OccupationFieldStudy2[1]"
+    },
+    {
+      "id": "f163",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        402.11,
+        456.0,
+        96.15,
+        30.0
+      ],
+      "label": "form1[0].#subform[4].P7_OccupationFieldStudy3[1]"
+    },
+    {
+      "id": "f164",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        503.76,
+        404.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[4].P9_Line5a[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f165",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        542.66,
+        404.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[4].P9_Line5a[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f166",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        542.66,
+        434.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[4].P6_ChildTwo[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f167",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        503.76,
+        434.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[4].P6_ChildTwo[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f168",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        542.66,
+        464.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[4].P6_ChildThree[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f169",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        503.76,
+        464.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[4].P6_ChildThree[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f170",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        60.0,
+        678.0,
+        96.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P5_EmployerName1[0]"
+    },
+    {
+      "id": "f171",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        60.0,
+        702.0,
+        96.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P5_EmployerName2[0]"
+    },
+    {
+      "id": "f172",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        60.0,
+        726.0,
+        96.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P5_EmployerName3[0]"
+    },
+    {
+      "id": "f173",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        156.0,
+        726.0,
+        66.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_City3[0]"
+    },
+    {
+      "id": "f174",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        156.0,
+        702.0,
+        66.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_City2[0]"
+    },
+    {
+      "id": "f175",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        156.0,
+        678.0,
+        66.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_City1[0]"
+    },
+    {
+      "id": "f176",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        372.0,
+        678.0,
+        60.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_From1[1]"
+    },
+    {
+      "id": "f177",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        372.0,
+        702.0,
+        60.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_From2[1]"
+    },
+    {
+      "id": "f178",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        372.0,
+        726.0,
+        60.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_From3[1]"
+    },
+    {
+      "id": "f179",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        432.0,
+        702.0,
+        60.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_To2[0]"
+    },
+    {
+      "id": "f180",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        432.0,
+        726.0,
+        60.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_To3[0]"
+    },
+    {
+      "id": "f181",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        492.0,
+        678.0,
+        84.06,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_OccupationFieldStudy1[2]"
+    },
+    {
+      "id": "f182",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        492.0,
+        702.0,
+        84.06,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_OccupationFieldStudy2[2]"
+    },
+    {
+      "id": "f183",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        492.0,
+        726.0,
+        84.06,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_OccupationFieldStudy3[2]"
+    },
+    {
+      "id": "f184",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        222.0,
+        678.0,
+        42.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_State1[0]"
+    },
+    {
+      "id": "f185",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        222.0,
+        702.0,
+        42.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_State2[0]"
+    },
+    {
+      "id": "f186",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        222.0,
+        726.0,
+        42.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_State3[0]"
+    },
+    {
+      "id": "f187",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        264.0,
+        678.0,
+        54.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_ZipCode1[0]"
+    },
+    {
+      "id": "f188",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        264.0,
+        702.0,
+        54.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_ZipCode2[0]"
+    },
+    {
+      "id": "f189",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        264.0,
+        726.0,
+        54.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_ZipCode3[0]"
+    },
+    {
+      "id": "f190",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        318.0,
+        726.0,
+        54.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_Country3[0]"
+    },
+    {
+      "id": "f191",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        318.0,
+        702.0,
+        54.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_Country2[0]"
+    },
+    {
+      "id": "f192",
+      "page": 5,
+      "type": "text",
+      "bbox": [
+        318.0,
+        678.0,
+        54.0,
+        24.0
+      ],
+      "label": "form1[0].#subform[4].P7_Country1[0]"
+    },
+    {
+      "id": "f193",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[5].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f194",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        156.68,
+        204.0,
+        96.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_DateReturn1[0]"
+    },
+    {
+      "id": "f195",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        156.68,
+        240.0,
+        96.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_DateReturn3[0]"
+    },
+    {
+      "id": "f196",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        156.68,
+        276.0,
+        96.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_DateReturn5[0]"
+    },
+    {
+      "id": "f197",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        253.42,
+        294.0,
+        322.49,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_Countries6[0]"
+    },
+    {
+      "id": "f198",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        59.93,
+        294.0,
+        96.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_DateLeft6[0]"
+    },
+    {
+      "id": "f199",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        156.68,
+        294.0,
+        96.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_DateReturn6[0]"
+    },
+    {
+      "id": "f200",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        59.93,
+        276.0,
+        96.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_DateLeft5[0]"
+    },
+    {
+      "id": "f201",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        253.42,
+        276.0,
+        322.49,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_Countries5[0]"
+    },
+    {
+      "id": "f202",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        253.42,
+        258.0,
+        322.49,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_Countries4[0]"
+    },
+    {
+      "id": "f203",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        59.93,
+        258.0,
+        96.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_DateLeft4[0]"
+    },
+    {
+      "id": "f204",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        156.68,
+        258.0,
+        96.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_DateReturn4[0]"
+    },
+    {
+      "id": "f205",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        59.93,
+        240.0,
+        96.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_DateLeft3[0]"
+    },
+    {
+      "id": "f206",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        253.42,
+        240.0,
+        322.49,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_Countries3[0]"
+    },
+    {
+      "id": "f207",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        253.42,
+        222.0,
+        322.49,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_Countries2[0]"
+    },
+    {
+      "id": "f208",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        59.93,
+        222.0,
+        96.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_DateLeft2[0]"
+    },
+    {
+      "id": "f209",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        156.68,
+        222.0,
+        96.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_DateReturn2[0]"
+    },
+    {
+      "id": "f210",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        59.93,
+        204.0,
+        96.75,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P8_Line1_DateLeft1[0]"
+    },
+    {
+      "id": "f211",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        253.42,
+        204.0,
+        322.49,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].P9_Line1_Countries1[0]"
+    },
+    {
+      "id": "f212",
+      "page": 6,
+      "type": "text",
+      "bbox": [
+        456.5,
+        54.0,
+        119.5,
+        18.0
+      ],
+      "label": "form1[0].#subform[5].#area[6].Line1_AlienNumber[5]"
+    },
+    {
+      "id": "f213",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        426.91,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[5].P9_Line2[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f214",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        426.91,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[5].P9_Line2[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f215",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        409.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[5].P9_Line1[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f216",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        409.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[5].P9_Line1[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f217",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        468.95,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[5].P9_Line3[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f218",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        468.95,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[5].P9_Line3[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f219",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        488.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[5].P9_Line4[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f220",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        488.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[5].P9_Line4[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f221",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        548.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[5].P9_5a[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f222",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        548.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[5].P9_5a[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f223",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        576.94,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[5].P9_5b[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f224",
+      "page": 6,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        576.94,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[5].P9_5b[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f225",
+      "page": 7,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[6].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f226",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        108.96,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P12_6a[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f227",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        108.96,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P12_6a[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f228",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        128.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P12_6b[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f229",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        128.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P12_6b[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f230",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        158.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P12_6c[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f231",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        158.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P12_6c[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f232",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        205.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line7a[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f233",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        205.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line7a[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f234",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        223.02,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line7\\.b\\.[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f235",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        223.02,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line7\\.b\\.[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f236",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        241.02,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line7\\.c[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f237",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        241.02,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line7\\.c[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f238",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        539.97,
+        259.02,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P11_7d[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f239",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        497.97,
+        259.02,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P11_7d[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f240",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        539.97,
+        278.02,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line7\\.e[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f241",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        497.97,
+        278.02,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line7\\.e[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f242",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        539.97,
+        307.17,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line7\\.f[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f243",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        497.97,
+        307.17,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line7\\.f[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f244",
+      "page": 7,
+      "type": "text",
+      "bbox": [
+        456.5,
+        54.0,
+        119.5,
+        18.0
+      ],
+      "label": "form1[0].#subform[6].#area[7].Line1_AlienNumber[6]"
+    },
+    {
+      "id": "f245",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        540.12,
+        356.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line8a[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f246",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.62,
+        356.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line8a[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f247",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        540.12,
+        482.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line9[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f248",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.62,
+        482.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line9[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f249",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        539.95,
+        566.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line10b[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f250",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        596.1,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line10c[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f251",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        539.5,
+        596.1,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line10c[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f252",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.44,
+        566.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line10b[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f253",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        539.95,
+        536.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line10a[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f254",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.44,
+        536.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line10a[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f255",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        539.97,
+        326.06,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line7\\.g[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f256",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        497.97,
+        326.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line7\\.g[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f257",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        540.12,
+        386.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line8b[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f258",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.62,
+        386.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line8b[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f259",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        539.95,
+        626.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line11[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f260",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.44,
+        626.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line11[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f261",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        539.95,
+        655.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line12[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f262",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.44,
+        655.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line12[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f263",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        539.95,
+        674.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line13[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f264",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.44,
+        674.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line13[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f265",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        539.95,
+        716.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line14[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f266",
+      "page": 7,
+      "type": "checkbox",
+      "bbox": [
+        498.44,
+        716.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[6].P9_Line14[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f267",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[7].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f268",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        456.5,
+        54.0,
+        119.5,
+        18.0
+      ],
+      "label": "form1[0].#subform[7].#area[8].Line1_AlienNumber[7]"
+    },
+    {
+      "id": "f269",
+      "page": 8,
+      "type": "checkbox",
+      "bbox": [
+        540.15,
+        328.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[7].P9_Line15a[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f270",
+      "page": 8,
+      "type": "checkbox",
+      "bbox": [
+        498.15,
+        328.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[7].P9_Line15a[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f271",
+      "page": 8,
+      "type": "checkbox",
+      "bbox": [
+        540.15,
+        358.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[7].P9_Line15b[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f272",
+      "page": 8,
+      "type": "checkbox",
+      "bbox": [
+        498.15,
+        358.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[7].P9_Line15b[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f273",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        36.0,
+        492.01,
+        120.28,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_why1[0]"
+    },
+    {
+      "id": "f274",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        36.0,
+        522.01,
+        120.28,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_why2[0]"
+    },
+    {
+      "id": "f275",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        36.0,
+        552.01,
+        120.28,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_why3[0]"
+    },
+    {
+      "id": "f276",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        36.0,
+        582.01,
+        120.28,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_why4[0]"
+    },
+    {
+      "id": "f277",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        36.0,
+        611.99,
+        120.28,
+        30.02
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_why5[0]"
+    },
+    {
+      "id": "f278",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        156.05,
+        492.01,
+        78.06,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Date1[0]"
+    },
+    {
+      "id": "f279",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        156.05,
+        522.01,
+        78.02,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Date2[0]"
+    },
+    {
+      "id": "f280",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        156.05,
+        552.01,
+        78.06,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Date3[0]"
+    },
+    {
+      "id": "f281",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        156.05,
+        582.01,
+        78.06,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Date4[0]"
+    },
+    {
+      "id": "f282",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        156.05,
+        611.99,
+        78.06,
+        30.02
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Date5[0]"
+    },
+    {
+      "id": "f283",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        402.14,
+        611.99,
+        107.83,
+        30.02
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome5[0]"
+    },
+    {
+      "id": "f284",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        402.14,
+        582.01,
+        107.83,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome4[0]"
+    },
+    {
+      "id": "f285",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        402.14,
+        552.01,
+        107.83,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome3[0]"
+    },
+    {
+      "id": "f286",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        402.14,
+        522.01,
+        107.83,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome2[0]"
+    },
+    {
+      "id": "f287",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        402.14,
+        492.01,
+        107.83,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome1[0]"
+    },
+    {
+      "id": "f288",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        312.31,
+        611.99,
+        89.67,
+        30.02
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome5[1]"
+    },
+    {
+      "id": "f289",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        312.31,
+        582.01,
+        89.82,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome4[1]"
+    },
+    {
+      "id": "f290",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        312.31,
+        552.01,
+        89.73,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome3[1]"
+    },
+    {
+      "id": "f291",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        312.31,
+        522.01,
+        89.73,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome2[1]"
+    },
+    {
+      "id": "f292",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        312.31,
+        492.01,
+        89.73,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome1[1]"
+    },
+    {
+      "id": "f293",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        510.18,
+        611.99,
+        66.06,
+        30.02
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome5[2]"
+    },
+    {
+      "id": "f294",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        510.18,
+        582.02,
+        66.06,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome4[2]"
+    },
+    {
+      "id": "f295",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        510.18,
+        552.02,
+        66.06,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome3[2]"
+    },
+    {
+      "id": "f296",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        510.18,
+        522.02,
+        66.06,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome2[2]"
+    },
+    {
+      "id": "f297",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        510.18,
+        492.02,
+        66.06,
+        29.98
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_Outcome1[2]"
+    },
+    {
+      "id": "f298",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        234.07,
+        611.99,
+        78.06,
+        30.02
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_DateOfConv5[0]"
+    },
+    {
+      "id": "f299",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        234.07,
+        582.0,
+        78.06,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_DateOfConv4[0]"
+    },
+    {
+      "id": "f300",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        234.07,
+        552.0,
+        78.06,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_DateOfConv3[0]"
+    },
+    {
+      "id": "f301",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        234.07,
+        522.0,
+        78.02,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_DateOfConv2[0]"
+    },
+    {
+      "id": "f302",
+      "page": 8,
+      "type": "text",
+      "bbox": [
+        234.07,
+        492.0,
+        78.06,
+        30.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line29_DateOfConv1[0]"
+    },
+    {
+      "id": "f303",
+      "page": 8,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        650.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line16[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f304",
+      "page": 8,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        650.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[7].P12_Line16[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f305",
+      "page": 9,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[8].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f306",
+      "page": 9,
+      "type": "text",
+      "bbox": [
+        456.5,
+        54.0,
+        119.5,
+        18.0
+      ],
+      "label": "form1[0].#subform[8].#area[9].Line1_AlienNumber[8]"
+    },
+    {
+      "id": "f307",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        97.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P11_Line17A[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f308",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        97.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P11_Line17A[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f309",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        128.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P11_Line17B[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f310",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        128.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P11_Line17B[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f311",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        169.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P11_Line17C[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f312",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        169.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P11_Line17C[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f313",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.09,
+        187.01,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line17d[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f314",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.08,
+        187.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line17d[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f315",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        205.01,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line17e[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f316",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        205.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line17e[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f317",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        539.92,
+        271.01,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line17h[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f318",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        271.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line17h[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f319",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        242.01,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line17g[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f320",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.08,
+        242.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line17g[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f321",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        223.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line17f[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f322",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        223.01,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line17f[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f323",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        409.06,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line21[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f324",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        409.06,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line21[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f325",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        391.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line20[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f326",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        391.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line20[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f327",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        458.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P9_Line22a[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f328",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        458.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P9_Line22a[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f329",
+      "page": 9,
+      "type": "text",
+      "bbox": [
+        60.0,
+        534.0,
+        126.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[8].P9_Line22c_Date[0]"
+    },
+    {
+      "id": "f330",
+      "page": 9,
+      "type": "text",
+      "bbox": [
+        192.0,
+        534.0,
+        150.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[8].P9_Line22c_SSNumber[0]"
+    },
+    {
+      "id": "f331",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        487.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].Pt9_Line22b[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f332",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        487.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].Pt9_Line22b[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f333",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        320.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line19[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f334",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        320.02,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line19[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f335",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        290.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line18[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f336",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        290.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line18[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f337",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        607.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line23[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f338",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        607.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line23[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f339",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        625.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line24[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f340",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        625.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line24[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f341",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        643.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line25[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f342",
+      "page": 9,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        643.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[8].P12_Line25[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f343",
+      "page": 10,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[9].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f344",
+      "page": 10,
+      "type": "text",
+      "bbox": [
+        456.5,
+        54.0,
+        119.5,
+        18.0
+      ],
+      "label": "form1[0].#subform[9].#area[10].Line1_AlienNumber[9]"
+    },
+    {
+      "id": "f345",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        540.0,
+        97.01,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line26a[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f346",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        97.01,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line26a[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f347",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        539.54,
+        116.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line26b[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f348",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        116.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line26b[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f349",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        539.54,
+        169.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line26c[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f350",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        169.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line26c[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f351",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        539.54,
+        188.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P11_Line26d[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f352",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        188.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P11_Line26d[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f353",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        236.01,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line27[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f354",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        236.01,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line27[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f355",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        266.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line28[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f356",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        266.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line28[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f357",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        295.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P9_Line29[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f358",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        295.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P9_Line29[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f359",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        390.0,
+        342.95,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line30a[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f360",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        431.54,
+        342.95,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line30a[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f361",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        376.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line30b[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f362",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        376.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line30b[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f363",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        463.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line31[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f364",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        481.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line32[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f365",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        481.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line32[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f366",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        463.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line31[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f367",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        559.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line35[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f368",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        577.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line36[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f369",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        577.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line36[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f370",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        559.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line35[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f371",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        541.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line34[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f372",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        541.01,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line34[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f373",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        607.15,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line37[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f374",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        607.15,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line37[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f375",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        498.87,
+        502.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line33[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f376",
+      "page": 10,
+      "type": "checkbox",
+      "bbox": [
+        540.41,
+        502.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[9].P12_Line33[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f377",
+      "page": 10,
+      "type": "text",
+      "bbox": [
+        108.0,
+        390.0,
+        246.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[9].P9_NobilityTitles[0]"
+    },
+    {
+      "id": "f378",
+      "page": 11,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[10].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f379",
+      "page": 11,
+      "type": "text",
+      "bbox": [
+        456.5,
+        54.0,
+        119.5,
+        18.0
+      ],
+      "label": "form1[0].#subform[10].#area[11].Line1_AlienNumber[10]"
+    },
+    {
+      "id": "f380",
+      "page": 11,
+      "type": "text",
+      "bbox": [
+        59.85,
+        594.0,
+        378.15,
+        18.0
+      ],
+      "label": "form1[0].#subform[10].P12_SignatureApplicant[0]"
+    },
+    {
+      "id": "f381",
+      "page": 11,
+      "type": "text",
+      "bbox": [
+        444.0,
+        594.0,
+        132.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[10].P13_DateofSignature[0]"
+    },
+    {
+      "id": "f382",
+      "page": 11,
+      "type": "text",
+      "bbox": [
+        59.98,
+        438.0,
+        246.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[10].P12_Line5_Email[0]"
+    },
+    {
+      "id": "f383",
+      "page": 11,
+      "type": "text",
+      "bbox": [
+        59.98,
+        402.0,
+        246.28,
+        18.0
+      ],
+      "label": "form1[0].#subform[10].P12_Line3_Telephone[0]"
+    },
+    {
+      "id": "f384",
+      "page": 11,
+      "type": "text",
+      "bbox": [
+        335.99,
+        402.0,
+        240.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[10].P12_Line3_Mobile[0]"
+    },
+    {
+      "id": "f385",
+      "page": 11,
+      "type": "text",
+      "bbox": [
+        528.11,
+        216.0,
+        47.72,
+        18.0
+      ],
+      "label": "form1[0].#subform[10].P10_Line3_HouseHoldSize[0]"
+    },
+    {
+      "id": "f386",
+      "page": 11,
+      "type": "text",
+      "bbox": [
+        528.11,
+        240.0,
+        47.72,
+        18.0
+      ],
+      "label": "form1[0].#subform[10].P11_Line1_TotalChildren[1]"
+    },
+    {
+      "id": "f387",
+      "page": 11,
+      "type": "text",
+      "bbox": [
+        360.0,
+        282.0,
+        216.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[10].P10_Line5b_NameOfHousehold[0]"
+    },
+    {
+      "id": "f388",
+      "page": 11,
+      "type": "checkbox",
+      "bbox": [
+        60.0,
+        175.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[10].P10_Line1_Citizen[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f389",
+      "page": 11,
+      "type": "checkbox",
+      "bbox": [
+        60.0,
+        156.99,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[10].P10_Line1_Citizen[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f390",
+      "page": 11,
+      "type": "text",
+      "bbox": [
+        528.11,
+        192.0,
+        47.72,
+        18.0
+      ],
+      "label": "form1[0].#subform[10].P10_Line2_TotalHouseholdIn[0]"
+    },
+    {
+      "id": "f391",
+      "page": 11,
+      "type": "checkbox",
+      "bbox": [
+        539.54,
+        265.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[10].P10_Line5a[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f392",
+      "page": 11,
+      "type": "checkbox",
+      "bbox": [
+        498.0,
+        265.0,
+        10.0,
+        10.0
+      ],
+      "label": "form1[0].#subform[10].P10_Line5a[1]",
+      "state": "Off"
+    },
+    {
+      "id": "f393",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[11].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f394",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        456.5,
+        54.0,
+        119.5,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].#area[12].Line1_AlienNumber[11]"
+    },
+    {
+      "id": "f395",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        60.0,
+        156.0,
+        259.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P14_Line2_NameofBusinessorOrgName[0]"
+    },
+    {
+      "id": "f396",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        324.0,
+        114.0,
+        252.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P14_Line1_nterpreterGivenName[0]"
+    },
+    {
+      "id": "f397",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        60.0,
+        114.0,
+        258.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P14_Line1_nterpreterFamilyName[0]"
+    },
+    {
+      "id": "f398",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        60.0,
+        252.0,
+        246.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P14_Line5_EmailAddress[0]"
+    },
+    {
+      "id": "f399",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        60.0,
+        216.0,
+        246.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P14_Line4_Telephone[0]"
+    },
+    {
+      "id": "f400",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        330.0,
+        216.0,
+        246.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P14_Line5_Mobile[0]"
+    },
+    {
+      "id": "f401",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        300.0,
+        300.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P14_NameOfLanguage[0]"
+    },
+    {
+      "id": "f402",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        444.0,
+        360.0,
+        132.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P14_DateofSignature[0]"
+    },
+    {
+      "id": "f403",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        60.0,
+        360.0,
+        378.15,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P12_SignatureApplicant[1]"
+    },
+    {
+      "id": "f404",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        324.0,
+        474.0,
+        251.97,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P15_Line1_PreparerGivenName[0]"
+    },
+    {
+      "id": "f405",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        60.0,
+        474.0,
+        258.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P15_Line1_PreparerFamilyName[0]"
+    },
+    {
+      "id": "f406",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        60.0,
+        510.0,
+        258.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P15_Line2_NameofBusinessorOrgName[0]"
+    },
+    {
+      "id": "f407",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        59.98,
+        612.0,
+        246.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P15_Line6_Email[0]"
+    },
+    {
+      "id": "f408",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        59.98,
+        576.0,
+        246.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P15_Line4_Telephone[0]"
+    },
+    {
+      "id": "f409",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        335.99,
+        576.0,
+        240.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P15_Line5_Mobile[0]"
+    },
+    {
+      "id": "f410",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        444.0,
+        732.0,
+        132.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P15_DateofSignature[0]"
+    },
+    {
+      "id": "f411",
+      "page": 12,
+      "type": "text",
+      "bbox": [
+        60.0,
+        732.0,
+        378.15,
+        18.0
+      ],
+      "label": "form1[0].#subform[11].P12_SignatureApplicant[2]"
+    },
+    {
+      "id": "f412",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[12].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f413",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        456.5,
+        54.0,
+        119.5,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].#area[13].Line1_AlienNumber[12]"
+    },
+    {
+      "id": "f414",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        60.35,
+        444.0,
+        515.79,
+        90.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line5D[0]"
+    },
+    {
+      "id": "f415",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        60.36,
+        558.0,
+        65.4,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line6A[0]"
+    },
+    {
+      "id": "f416",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        138.0,
+        558.0,
+        59.84,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line6B[0]"
+    },
+    {
+      "id": "f417",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        210.0,
+        558.0,
+        62.13,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line6C[0]"
+    },
+    {
+      "id": "f418",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        60.35,
+        582.0,
+        515.79,
+        90.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line6D[0]"
+    },
+    {
+      "id": "f419",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        210.0,
+        420.0,
+        62.13,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line5C[0]"
+    },
+    {
+      "id": "f420",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        138.0,
+        420.0,
+        59.84,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line5B[0]"
+    },
+    {
+      "id": "f421",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        60.36,
+        420.0,
+        65.4,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line5A[0]"
+    },
+    {
+      "id": "f422",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        60.38,
+        180.0,
+        65.39,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line3A[0]"
+    },
+    {
+      "id": "f423",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        138.0,
+        180.0,
+        59.84,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line3B[0]"
+    },
+    {
+      "id": "f424",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        210.01,
+        180.0,
+        62.13,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line3C[0]"
+    },
+    {
+      "id": "f425",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        60.36,
+        204.0,
+        515.79,
+        72.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line3D[0]"
+    },
+    {
+      "id": "f426",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        60.07,
+        143.89,
+        209.63,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P2_Line1_FamilyName[1]"
+    },
+    {
+      "id": "f427",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        276.0,
+        143.89,
+        162.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P2_Line1_GivenName[1]"
+    },
+    {
+      "id": "f428",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        444.0,
+        143.89,
+        132.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P2_Line1_MiddleName[1]"
+    },
+    {
+      "id": "f429",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        60.36,
+        300.0,
+        65.4,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line4A[0]"
+    },
+    {
+      "id": "f430",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        137.99,
+        300.0,
+        59.84,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line4B[0]"
+    },
+    {
+      "id": "f431",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        210.0,
+        300.0,
+        62.13,
+        18.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line4C[0]"
+    },
+    {
+      "id": "f432",
+      "page": 13,
+      "type": "text",
+      "bbox": [
+        60.35,
+        324.0,
+        515.79,
+        72.0
+      ],
+      "label": "form1[0].#subform[12].P11_Line4D[0]"
+    },
+    {
+      "id": "f433",
+      "page": 14,
+      "type": "text",
+      "bbox": [
+        192.0,
+        762.0,
+        270.0,
+        18.0
+      ],
+      "label": "form1[0].#pageSet[0].Page1[13].PDF417BarCode1[0]"
+    },
+    {
+      "id": "f434",
+      "page": 14,
+      "type": "text",
+      "bbox": [
+        456.28,
+        54.0,
+        119.5,
+        18.0
+      ],
+      "label": "form1[0].#subform[13].#area[14].Line1_AlienNumber[13]"
+    },
+    {
+      "id": "f435",
+      "page": 14,
+      "type": "text",
+      "bbox": [
+        36.0,
+        186.0,
+        281.99,
+        18.0
+      ],
+      "label": "form1[0].#subform[13].Part15ApplicantsSignature[0]"
+    },
+    {
+      "id": "f436",
+      "page": 14,
+      "type": "text",
+      "bbox": [
+        324.0,
+        186.0,
+        252.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[13].Part15USCISSignature[0]"
+    },
+    {
+      "id": "f437",
+      "page": 14,
+      "type": "text",
+      "bbox": [
+        420.0,
+        132.0,
+        156.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[13].Part15DateofSignature[0]"
+    },
+    {
+      "id": "f438",
+      "page": 14,
+      "type": "text",
+      "bbox": [
+        36.0,
+        132.0,
+        372.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[13].Part15USCISName[0]"
+    },
+    {
+      "id": "f439",
+      "page": 14,
+      "type": "text",
+      "bbox": [
+        36.0,
+        438.0,
+        378.02,
+        18.0
+      ],
+      "label": "form1[0].#subform[13].ApplicantsSignature[0]"
+    },
+    {
+      "id": "f440",
+      "page": 14,
+      "type": "text",
+      "bbox": [
+        420.02,
+        438.0,
+        156.0,
+        18.0
+      ],
+      "label": "form1[0].#subform[13].Part15DateofSignature[1]"
+    }
+  ],
+  "warnings": [
+    "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+  ],
+  "error": null
+}

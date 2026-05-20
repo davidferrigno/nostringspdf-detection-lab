@@ -1,0 +1,658 @@
+{
+  "extracted_at": "2026-05-20",
+  "extractor_version": "v2",
+  "coordinate_convention": "top-left origin, PDF points",
+  "total_pdfs": 30,
+  "total_fields": 3047,
+  "total_warnings": 16,
+  "per_pdf": [
+    {
+      "pdf_id": "irs_w9",
+      "pdf": "irs_w9.pdf",
+      "page_count": 6,
+      "field_count": 23,
+      "manifest_count": 23,
+      "match_manifest": true,
+      "types": {
+        "text": 15,
+        "checkbox": 8
+      },
+      "per_page": {
+        "1": 23
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/irs_w9.json"
+    },
+    {
+      "pdf_id": "irs_w4",
+      "pdf": "irs_w4.pdf",
+      "page_count": 5,
+      "field_count": 48,
+      "manifest_count": 48,
+      "match_manifest": true,
+      "types": {
+        "text": 43,
+        "checkbox": 5
+      },
+      "per_page": {
+        "1": 19,
+        "3": 6,
+        "4": 23
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/irs_w4.json"
+    },
+    {
+      "pdf_id": "irs_1040",
+      "pdf": "irs_1040.pdf",
+      "page_count": 2,
+      "field_count": 199,
+      "manifest_count": 199,
+      "match_manifest": true,
+      "types": {
+        "text": 126,
+        "checkbox": 73
+      },
+      "per_page": {
+        "1": 128,
+        "2": 71
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/irs_1040.json"
+    },
+    {
+      "pdf_id": "irs_1040sb",
+      "pdf": "irs_1040sb.pdf",
+      "page_count": 1,
+      "field_count": 72,
+      "manifest_count": 72,
+      "match_manifest": true,
+      "types": {
+        "text": 66,
+        "checkbox": 6
+      },
+      "per_page": {
+        "1": 72
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/irs_1040sb.json"
+    },
+    {
+      "pdf_id": "irs_2848",
+      "pdf": "irs_2848.pdf",
+      "page_count": 2,
+      "field_count": 92,
+      "manifest_count": 92,
+      "match_manifest": true,
+      "types": {
+        "radio": 1,
+        "text": 70,
+        "checkbox": 21
+      },
+      "per_page": {
+        "1": 66,
+        "2": 26
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/irs_2848.json"
+    },
+    {
+      "pdf_id": "irs_8821",
+      "pdf": "irs_8821.pdf",
+      "page_count": 1,
+      "field_count": 45,
+      "manifest_count": 45,
+      "match_manifest": true,
+      "types": {
+        "text": 33,
+        "checkbox": 12
+      },
+      "per_page": {
+        "1": 45
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/irs_8821.json"
+    },
+    {
+      "pdf_id": "irs_4506t",
+      "pdf": "irs_4506t.pdf",
+      "page_count": 2,
+      "field_count": 29,
+      "manifest_count": 29,
+      "match_manifest": true,
+      "types": {
+        "text": 22,
+        "checkbox": 6,
+        "radio": 1
+      },
+      "per_page": {
+        "1": 29
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/irs_4506t.json"
+    },
+    {
+      "pdf_id": "uscis_i9",
+      "pdf": "uscis_i9.pdf",
+      "page_count": 4,
+      "field_count": 130,
+      "manifest_count": 130,
+      "match_manifest": true,
+      "types": {
+        "text": 117,
+        "choice": 5,
+        "checkbox": 8
+      },
+      "per_page": {
+        "1": 52,
+        "3": 39,
+        "4": 39
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/uscis_i9.json"
+    },
+    {
+      "pdf_id": "uscis_g1145",
+      "pdf": "uscis_g1145.pdf",
+      "page_count": 1,
+      "field_count": 6,
+      "manifest_count": 6,
+      "match_manifest": true,
+      "types": {
+        "text": 6
+      },
+      "per_page": {
+        "1": 6
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/uscis_g1145.json"
+    },
+    {
+      "pdf_id": "uscis_i90",
+      "pdf": "uscis_i90.pdf",
+      "page_count": 7,
+      "field_count": 195,
+      "manifest_count": 195,
+      "match_manifest": true,
+      "types": {
+        "text": 111,
+        "checkbox": 78,
+        "choice": 6
+      },
+      "per_page": {
+        "1": 35,
+        "2": 27,
+        "3": 48,
+        "4": 15,
+        "5": 38,
+        "6": 7,
+        "7": 25
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/uscis_i90.json"
+    },
+    {
+      "pdf_id": "uscis_n400",
+      "pdf": "uscis_n400.pdf",
+      "page_count": 14,
+      "field_count": 440,
+      "manifest_count": 440,
+      "match_manifest": true,
+      "types": {
+        "text": 237,
+        "checkbox": 198,
+        "choice": 5
+      },
+      "per_page": {
+        "1": 20,
+        "2": 23,
+        "3": 69,
+        "4": 33,
+        "5": 47,
+        "6": 32,
+        "7": 42,
+        "8": 38,
+        "9": 38,
+        "10": 35,
+        "11": 15,
+        "12": 19,
+        "13": 21,
+        "14": 8
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/uscis_n400.json"
+    },
+    {
+      "pdf_id": "va_21526ez",
+      "pdf": "va_21526ez.pdf",
+      "page_count": 15,
+      "field_count": 388,
+      "manifest_count": 388,
+      "match_manifest": true,
+      "types": {
+        "text": 292,
+        "checkbox": 93,
+        "signature": 3
+      },
+      "per_page": {
+        "9": 50,
+        "10": 50,
+        "11": 75,
+        "12": 88,
+        "13": 31,
+        "14": 11,
+        "15": 83
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/va_21526ez.json"
+    },
+    {
+      "pdf_id": "va_1010ez",
+      "pdf": "va_1010ez.pdf",
+      "page_count": 6,
+      "field_count": 151,
+      "manifest_count": 151,
+      "match_manifest": true,
+      "types": {
+        "checkbox": 71,
+        "text": 80
+      },
+      "per_page": {
+        "4": 66,
+        "5": 59,
+        "6": 26
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/va_1010ez.json"
+    },
+    {
+      "pdf_id": "ssa_521",
+      "pdf": "ssa_521.pdf",
+      "page_count": 2,
+      "field_count": 38,
+      "manifest_count": 38,
+      "match_manifest": true,
+      "types": {
+        "text": 23,
+        "checkbox": 12,
+        "signature": 1,
+        "radio": 2
+      },
+      "per_page": {
+        "1": 34,
+        "2": 4
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/ssa_521.json"
+    },
+    {
+      "pdf_id": "ssa_1696",
+      "pdf": "ssa_1696.pdf",
+      "page_count": 6,
+      "field_count": 91,
+      "manifest_count": 91,
+      "match_manifest": true,
+      "types": {
+        "text": 62,
+        "checkbox": 29
+      },
+      "per_page": {
+        "1": 2,
+        "2": 3,
+        "3": 25,
+        "4": 22,
+        "5": 11,
+        "6": 28
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/ssa_1696.json"
+    },
+    {
+      "pdf_id": "uscourts_ao240",
+      "pdf": "uscourts_ao240.pdf",
+      "page_count": 2,
+      "field_count": 34,
+      "manifest_count": 34,
+      "match_manifest": true,
+      "types": {
+        "choice": 1,
+        "text": 17,
+        "checkbox": 12,
+        "radio": 4
+      },
+      "per_page": {
+        "1": 22,
+        "2": 12
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/uscourts_ao240.json"
+    },
+    {
+      "pdf_id": "uscourts_b101",
+      "pdf": "uscourts_b101.pdf",
+      "page_count": 9,
+      "field_count": 246,
+      "manifest_count": 246,
+      "match_manifest": true,
+      "types": {
+        "choice": 1,
+        "text": 142,
+        "checkbox": 99,
+        "radio": 4
+      },
+      "per_page": {
+        "1": 35,
+        "2": 40,
+        "3": 36,
+        "4": 19,
+        "5": 13,
+        "6": 16,
+        "7": 49,
+        "8": 15,
+        "9": 23
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/uscourts_b101.json"
+    },
+    {
+      "pdf_id": "nj_mvc_ba49",
+      "pdf": "nj_mvc_ba49.pdf",
+      "page_count": 1,
+      "field_count": 58,
+      "manifest_count": 58,
+      "match_manifest": true,
+      "types": {
+        "text": 45,
+        "checkbox": 13
+      },
+      "per_page": {
+        "1": 58
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/nj_mvc_ba49.json"
+    },
+    {
+      "pdf_id": "ca_dmv_reg256",
+      "pdf": "ca_dmv_reg256.pdf",
+      "page_count": 2,
+      "field_count": 72,
+      "manifest_count": 72,
+      "match_manifest": true,
+      "types": {
+        "text": 41,
+        "checkbox": 27,
+        "radio": 4
+      },
+      "per_page": {
+        "1": 38,
+        "2": 34
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/ca_dmv_reg256.json"
+    },
+    {
+      "pdf_id": "ny_dtf_it201",
+      "pdf": "ny_dtf_it201.pdf",
+      "page_count": 4,
+      "field_count": 233,
+      "manifest_count": 233,
+      "match_manifest": true,
+      "types": {
+        "text": 201,
+        "checkbox": 32
+      },
+      "per_page": {
+        "1": 94,
+        "2": 44,
+        "3": 32,
+        "4": 63
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/ny_dtf_it201.json"
+    },
+    {
+      "pdf_id": "local_71061",
+      "pdf": "local_71061.pdf",
+      "page_count": 1,
+      "field_count": 6,
+      "manifest_count": 6,
+      "match_manifest": true,
+      "types": {
+        "text": 6
+      },
+      "per_page": {
+        "1": 6
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/local_71061.json"
+    },
+    {
+      "pdf_id": "local_ba_51",
+      "pdf": "local_ba_51.pdf",
+      "page_count": 1,
+      "field_count": 43,
+      "manifest_count": 43,
+      "match_manifest": true,
+      "types": {
+        "text": 39,
+        "checkbox": 4
+      },
+      "per_page": {
+        "1": 43
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/local_ba_51.json"
+    },
+    {
+      "pdf_id": "local_ba_62",
+      "pdf": "local_ba_62.pdf",
+      "page_count": 1,
+      "field_count": 9,
+      "manifest_count": 9,
+      "match_manifest": true,
+      "types": {
+        "text": 9
+      },
+      "per_page": {
+        "1": 9
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/local_ba_62.json"
+    },
+    {
+      "pdf_id": "local_f1099nec",
+      "pdf": "local_f1099nec.pdf",
+      "page_count": 6,
+      "field_count": 80,
+      "manifest_count": 80,
+      "match_manifest": true,
+      "types": {
+        "text": 68,
+        "checkbox": 12
+      },
+      "per_page": {
+        "2": 21,
+        "3": 20,
+        "4": 19,
+        "6": 20
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/local_f1099nec.json"
+    },
+    {
+      "pdf_id": "local_njw4",
+      "pdf": "local_njw4.pdf",
+      "page_count": 2,
+      "field_count": 18,
+      "manifest_count": 18,
+      "match_manifest": true,
+      "types": {
+        "text": 13,
+        "checkbox": 5
+      },
+      "per_page": {
+        "1": 18
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/local_njw4.json"
+    },
+    {
+      "pdf_id": "local_ppb_11_01_23",
+      "pdf": "local_ppb_11_01_23.pdf",
+      "page_count": 1,
+      "field_count": 66,
+      "manifest_count": 66,
+      "match_manifest": true,
+      "types": {
+        "text": 43,
+        "choice": 1,
+        "checkbox": 21,
+        "radio": 1
+      },
+      "per_page": {
+        "1": 66
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/local_ppb_11_01_23.json"
+    },
+    {
+      "pdf_id": "local_ppb_7_2_2025",
+      "pdf": "local_ppb_7_2_2025.pdf",
+      "page_count": 1,
+      "field_count": 54,
+      "manifest_count": 54,
+      "match_manifest": true,
+      "types": {
+        "text": 41,
+        "choice": 2,
+        "checkbox": 11
+      },
+      "per_page": {
+        "1": 54
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/local_ppb_7_2_2025.json"
+    },
+    {
+      "pdf_id": "local_sp_066",
+      "pdf": "local_sp_066.pdf",
+      "page_count": 1,
+      "field_count": 25,
+      "manifest_count": 25,
+      "match_manifest": true,
+      "types": {
+        "radio": 1,
+        "text": 22,
+        "choice": 1,
+        "checkbox": 1
+      },
+      "per_page": {
+        "1": 25
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/local_sp_066.json"
+    },
+    {
+      "pdf_id": "local_ss_5",
+      "pdf": "local_ss_5.pdf",
+      "page_count": 5,
+      "field_count": 70,
+      "manifest_count": 70,
+      "match_manifest": true,
+      "types": {
+        "text": 46,
+        "checkbox": 24
+      },
+      "per_page": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 2,
+        "5": 63
+      },
+      "warnings_count": 1,
+      "warnings": [
+        "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+      ],
+      "ground_truth_file": "benchmarks/ground_truth/local_ss_5.json"
+    },
+    {
+      "pdf_id": "local_sts_033",
+      "pdf": "local_sts_033.pdf",
+      "page_count": 1,
+      "field_count": 86,
+      "manifest_count": 86,
+      "match_manifest": true,
+      "types": {
+        "checkbox": 45,
+        "text": 40,
+        "radio": 1
+      },
+      "per_page": {
+        "1": 86
+      },
+      "warnings_count": 0,
+      "warnings": [],
+      "ground_truth_file": "benchmarks/ground_truth/local_sts_033.json"
+    }
+  ],
+  "errors": []
+}

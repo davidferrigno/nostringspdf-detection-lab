@@ -1,0 +1,569 @@
+{
+  "pdf": "irs_8821.pdf",
+  "pdf_id": "irs_8821",
+  "source": "government",
+  "page_count": 1,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        521.6,
+        51.0,
+        54.4,
+        9.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Pg1Header[0].f1_1[0]"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        506.1,
+        60.0,
+        69.9,
+        9.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Pg1Header[0].f1_2[0]"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        515.85,
+        69.0,
+        60.15,
+        9.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Pg1Header[0].f1_3[0]"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        512.6,
+        78.0,
+        63.4,
+        9.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Pg1Header[0].f1_4[0]"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        503.6,
+        87.0,
+        72.4,
+        9.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Pg1Header[0].f1_5[0]"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.0,
+        120.0,
+        308.85,
+        36.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_6[0]"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        345.6,
+        120.0,
+        230.4,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_7[0]"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        345.6,
+        144.0,
+        115.2,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_8[0]"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        460.8,
+        144.0,
+        115.2,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_9[0]"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        173.8,
+        169.5,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_1[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.0,
+        192.0,
+        280.05,
+        36.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_10[0]"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        301.0,
+        230.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_2[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        358.8,
+        180.0,
+        217.2,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_11[0]"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        343.81,
+        192.0,
+        232.19,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_12[0]"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        383.99,
+        204.0,
+        192.01,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_13[0]"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        355.19,
+        216.0,
+        220.81,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_14[0]"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        418.8,
+        230.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_3[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        505.2,
+        230.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_4[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        564.0,
+        230.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_5[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.0,
+        252.0,
+        280.05,
+        36.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_15[0]"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        301.0,
+        290.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_6[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        358.8,
+        240.0,
+        217.2,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_16[0]"
+    },
+    {
+      "id": "f23",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        343.81,
+        252.0,
+        232.19,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_17[0]"
+    },
+    {
+      "id": "f24",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        383.99,
+        264.0,
+        192.01,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_18[0]"
+    },
+    {
+      "id": "f25",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        355.19,
+        276.0,
+        220.81,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_19[0]"
+    },
+    {
+      "id": "f26",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        418.8,
+        290.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_7[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f27",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        505.2,
+        290.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_8[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f28",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        564.0,
+        290.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_9[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f29",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        57.6,
+        332.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_10[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f30",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.0,
+        396.0,
+        150.45,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_20[0]"
+    },
+    {
+      "id": "f31",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        187.2,
+        396.0,
+        129.6,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_21[0]"
+    },
+    {
+      "id": "f32",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        317.8,
+        396.0,
+        127.85,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_22[0]"
+    },
+    {
+      "id": "f33",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        447.4,
+        396.0,
+        128.6,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_23[0]"
+    },
+    {
+      "id": "f34",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.0,
+        420.0,
+        150.45,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_24[0]"
+    },
+    {
+      "id": "f35",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        187.2,
+        420.0,
+        129.6,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_25[0]"
+    },
+    {
+      "id": "f36",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        317.8,
+        420.0,
+        127.85,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_26[0]"
+    },
+    {
+      "id": "f37",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        447.4,
+        420.0,
+        128.6,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_27[0]"
+    },
+    {
+      "id": "f38",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        36.0,
+        444.0,
+        150.45,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_28[0]"
+    },
+    {
+      "id": "f39",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        187.2,
+        444.0,
+        129.6,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_29[0]"
+    },
+    {
+      "id": "f40",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        317.8,
+        444.0,
+        127.85,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_30[0]"
+    },
+    {
+      "id": "f41",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        447.4,
+        444.0,
+        128.6,
+        12.0
+      ],
+      "label": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_31[0]"
+    },
+    {
+      "id": "f42",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        563.6,
+        470.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_11[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f43",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        563.6,
+        518.0,
+        8.0,
+        8.0
+      ],
+      "label": "topmostSubform[0].Page1[0].c1_12[0]",
+      "state": "Off"
+    },
+    {
+      "id": "f44",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        57.6,
+        672.0,
+        374.4,
+        24.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_32[0]"
+    },
+    {
+      "id": "f45",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        432.0,
+        672.0,
+        122.4,
+        24.0
+      ],
+      "label": "topmostSubform[0].Page1[0].f1_33[0]"
+    }
+  ],
+  "warnings": [
+    "XFA dictionary present alongside AcroForm \u2014 possible hybrid form"
+  ],
+  "error": null
+}

@@ -1,0 +1,674 @@
+{
+  "pdf": "local_ppb_7_2_2025.pdf",
+  "pdf_id": "local_ppb_7_2_2025",
+  "source": "local",
+  "page_count": 1,
+  "labeled_at": "2026-05-20",
+  "labeled_by": "extract_ground_truth.py v2",
+  "review_status": "draft",
+  "extraction_method": "acroform_widgets",
+  "coordinate_convention": "top-left origin, PDF points",
+  "fields": [
+    {
+      "id": "f1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.68,
+        158.25,
+        190.81,
+        19.85
+      ],
+      "label": "Name Last"
+    },
+    {
+      "id": "f2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        221.16,
+        158.14,
+        147.4,
+        19.75
+      ],
+      "label": "First"
+    },
+    {
+      "id": "f3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        370.14,
+        158.14,
+        22.37,
+        19.86
+      ],
+      "label": "MI"
+    },
+    {
+      "id": "f4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        394.25,
+        157.91,
+        100.26,
+        20.29
+      ],
+      "label": "Date of BirthmmddyyyyRow1"
+    },
+    {
+      "id": "f5",
+      "page": 1,
+      "type": "choice",
+      "bbox": [
+        496.13,
+        158.36,
+        87.85,
+        19.56
+      ],
+      "label": "Sex"
+    },
+    {
+      "id": "f6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        75.18,
+        194.36,
+        81.75,
+        19.59
+      ],
+      "label": "SS"
+    },
+    {
+      "id": "f7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        158.51,
+        194.2,
+        151.41,
+        19.99
+      ],
+      "label": "NY Drivers License  or NY NonDrivers IDxxxxx"
+    },
+    {
+      "id": "f8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        311.79,
+        194.5,
+        56.56,
+        19.47
+      ],
+      "label": "License State"
+    },
+    {
+      "id": "f9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        370.2,
+        194.32,
+        213.71,
+        19.66
+      ],
+      "label": "Registration#"
+    },
+    {
+      "id": "f10",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.43,
+        230.24,
+        281.53,
+        19.83
+      ],
+      "label": "Mailing AddressRow1"
+    },
+    {
+      "id": "f11",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        311.76,
+        230.24,
+        151.2,
+        19.91
+      ],
+      "label": "CityRow1"
+    },
+    {
+      "id": "f12",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        464.64,
+        230.24,
+        29.89,
+        19.91
+      ],
+      "label": "StateRow1"
+    },
+    {
+      "id": "f13",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        496.2,
+        230.24,
+        87.6,
+        19.75
+      ],
+      "label": "ZipRow1"
+    },
+    {
+      "id": "f14",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.43,
+        267.24,
+        281.53,
+        20.26
+      ],
+      "label": "Email AddressRow1"
+    },
+    {
+      "id": "f15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        311.76,
+        267.24,
+        124.2,
+        20.34
+      ],
+      "label": "Phone Row1"
+    },
+    {
+      "id": "f16",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        437.76,
+        267.24,
+        146.04,
+        20.18
+      ],
+      "label": "BUSINESS#"
+    },
+    {
+      "id": "f17",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.37,
+        320.28,
+        191.03,
+        19.83
+      ],
+      "label": "Name Last2"
+    },
+    {
+      "id": "f18",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        221.17,
+        320.37,
+        147.36,
+        19.58
+      ],
+      "label": "First2"
+    },
+    {
+      "id": "f19",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        370.18,
+        320.12,
+        22.45,
+        20.15
+      ],
+      "label": "MI2"
+    },
+    {
+      "id": "f20",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        393.94,
+        320.13,
+        100.73,
+        19.99
+      ],
+      "label": "Date of BirthmmddyyyyRow12"
+    },
+    {
+      "id": "f21",
+      "page": 1,
+      "type": "choice",
+      "bbox": [
+        496.15,
+        320.19,
+        87.9,
+        20.0
+      ],
+      "label": "Sex2"
+    },
+    {
+      "id": "f22",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        74.87,
+        356.4,
+        82.1,
+        19.51
+      ],
+      "label": "SS2"
+    },
+    {
+      "id": "f23",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        158.51,
+        356.33,
+        151.28,
+        19.75
+      ],
+      "label": "NY 2Drivers License  or NY NonDrivers IDxxxxx"
+    },
+    {
+      "id": "f24",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        311.92,
+        356.5,
+        56.67,
+        19.47
+      ],
+      "label": "License State2"
+    },
+    {
+      "id": "f25",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        370.14,
+        356.3,
+        213.77,
+        19.75
+      ],
+      "label": "position/title2"
+    },
+    {
+      "id": "f26",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.63,
+        392.42,
+        281.28,
+        19.64
+      ],
+      "label": "Mailing AddressRow12"
+    },
+    {
+      "id": "f27",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        311.81,
+        392.38,
+        151.2,
+        19.42
+      ],
+      "label": "CityRow12"
+    },
+    {
+      "id": "f28",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        464.66,
+        392.38,
+        29.64,
+        19.64
+      ],
+      "label": "StateRow12"
+    },
+    {
+      "id": "f29",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        496.38,
+        392.49,
+        87.6,
+        19.53
+      ],
+      "label": "ZipRow12"
+    },
+    {
+      "id": "f30",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.65,
+        429.51,
+        281.5,
+        19.91
+      ],
+      "label": "Email AddressRow12"
+    },
+    {
+      "id": "f31",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        311.8,
+        429.58,
+        124.2,
+        19.91
+      ],
+      "label": "Phone Row12"
+    },
+    {
+      "id": "f32",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        437.81,
+        429.29,
+        146.04,
+        20.13
+      ],
+      "label": "BUSINESS#2"
+    },
+    {
+      "id": "f33",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.49,
+        483.13,
+        161.58,
+        19.38
+      ],
+      "label": "manufacturer"
+    },
+    {
+      "id": "f34",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        191.7,
+        483.25,
+        135.51,
+        19.38
+      ],
+      "label": "model"
+    },
+    {
+      "id": "f35",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        328.63,
+        483.11,
+        119.42,
+        19.38
+      ],
+      "label": "caliber"
+    },
+    {
+      "id": "f36",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        449.6,
+        483.21,
+        134.42,
+        19.22
+      ],
+      "label": "serial"
+    },
+    {
+      "id": "f37",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.51,
+        518.12,
+        281.61,
+        19.91
+      ],
+      "label": "Mailing AddressRow13"
+    },
+    {
+      "id": "f38",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        311.74,
+        518.36,
+        151.53,
+        19.66
+      ],
+      "label": "CityRow13"
+    },
+    {
+      "id": "f39",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        464.59,
+        518.19,
+        29.89,
+        19.83
+      ],
+      "label": "StateRow13"
+    },
+    {
+      "id": "f40",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        496.07,
+        518.19,
+        87.85,
+        19.99
+      ],
+      "label": "ZipRow13"
+    },
+    {
+      "id": "f41",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        128.81,
+        541.23,
+        18.0,
+        18.0
+      ],
+      "label": "Check Box1",
+      "state": "Off"
+    },
+    {
+      "id": "f42",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        229.73,
+        541.23,
+        18.0,
+        18.0
+      ],
+      "label": "Check Box2",
+      "state": "Off"
+    },
+    {
+      "id": "f43",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        310.83,
+        541.23,
+        18.0,
+        18.0
+      ],
+      "label": "Check Box3",
+      "state": "Off"
+    },
+    {
+      "id": "f44",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        391.7,
+        541.23,
+        18.0,
+        18.0
+      ],
+      "label": "Check Box4",
+      "state": "Off"
+    },
+    {
+      "id": "f45",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        437.41,
+        540.17,
+        146.59,
+        20.97
+      ],
+      "label": "other"
+    },
+    {
+      "id": "f46",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        455.25,
+        562.38,
+        18.0,
+        16.08
+      ],
+      "label": "Group1",
+      "state": "Off"
+    },
+    {
+      "id": "f47",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        455.25,
+        580.53,
+        18.0,
+        16.07
+      ],
+      "label": "Group2",
+      "state": "Off"
+    },
+    {
+      "id": "f48",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        455.25,
+        598.84,
+        18.0,
+        16.07
+      ],
+      "label": "Group3",
+      "state": "Off"
+    },
+    {
+      "id": "f49",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        32.58,
+        638.21,
+        13.09,
+        12.44
+      ],
+      "label": "Check Box11",
+      "state": "Off"
+    },
+    {
+      "id": "f50",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        125.94,
+        691.22,
+        302.52,
+        22.9
+      ],
+      "label": "signature"
+    },
+    {
+      "id": "f51",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        462.0,
+        691.22,
+        121.69,
+        23.23
+      ],
+      "label": "date2"
+    },
+    {
+      "id": "f52",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        529.59,
+        562.99,
+        18.0,
+        16.08
+      ],
+      "label": "Group1",
+      "state": "Off"
+    },
+    {
+      "id": "f53",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        529.59,
+        581.18,
+        18.0,
+        16.07
+      ],
+      "label": "Group2",
+      "state": "Off"
+    },
+    {
+      "id": "f54",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        529.59,
+        598.72,
+        18.0,
+        16.08
+      ],
+      "label": "Group3",
+      "state": "Off"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}
