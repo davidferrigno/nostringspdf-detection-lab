@@ -1,0 +1,2085 @@
+{
+  "schema_version": "1.0",
+  "pdf_id": "uoa_intake_paperwork",
+  "pdf": "local_uoa_intake_paperwork_packet.pdf",
+  "page_count": 4,
+  "extraction_method": "flat_pdf_bootstrap",
+  "bootstrap_backend": "heuristic_lab_v2",
+  "bootstrap_timestamp": "2026-05-21T02:01:34.812237",
+  "review_status": "draft",
+  "needs_review": true,
+  "fields": [
+    {
+      "id": "g1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        172.2,
+        469.9,
+        414.6,
+        12.0
+      ],
+      "label": "Arthritis/DJD \uf06f \uf06f",
+      "_source_detection_id": "d1",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        172.2,
+        486.2,
+        414.6,
+        12.0
+      ],
+      "label": "Cancer \uf06f \uf06f",
+      "_source_detection_id": "d2",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        172.2,
+        502.7,
+        414.6,
+        12.0
+      ],
+      "label": "\uf06f \uf06f",
+      "_source_detection_id": "d3",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        172.2,
+        519.0,
+        414.6,
+        12.0
+      ],
+      "label": "Genetic Disease \uf06f \uf06f",
+      "_source_detection_id": "d4",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        171.5,
+        535.4,
+        415.3,
+        12.0
+      ],
+      "label": "Osteoporosis \uf06f \uf06f",
+      "_source_detection_id": "d5",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        122.6,
+        763.6,
+        464.2,
+        12.0
+      ],
+      "label": "List Activities",
+      "_source_detection_id": "d6",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g7",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        445.0,
+        173.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d7",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g8",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        400.8,
+        322.8,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d8",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g9",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        423.2,
+        431.2,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d9",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g10",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        119.2,
+        467.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d10",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g11",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        150.6,
+        467.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d11",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g12",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        119.2,
+        483.6,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d12",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g13",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        150.6,
+        483.6,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d13",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g14",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        119.2,
+        499.9,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d14",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g15",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        150.6,
+        499.9,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d15",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g16",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        119.2,
+        516.4,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d16",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g17",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        150.6,
+        516.4,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d17",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g18",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        119.2,
+        532.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d18",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g19",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        150.6,
+        532.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d19",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g20",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        128.6,
+        590.6,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d20",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g21",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        170.9,
+        590.6,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d21",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g22",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        263.6,
+        590.6,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d22",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g23",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        307.1,
+        590.6,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d23",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g24",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        369.5,
+        590.6,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d24",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g25",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        355.3,
+        609.5,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d25",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g26",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        396.0,
+        609.5,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d26",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g27",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        128.6,
+        628.5,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d27",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g28",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        332.4,
+        628.5,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d28",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g29",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        362.2,
+        628.5,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d29",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g30",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        392.2,
+        628.5,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d30",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g31",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        312.6,
+        647.4,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d31",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g32",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        369.6,
+        647.4,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d32",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g33",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        431.0,
+        647.4,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d33",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g34",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        128.6,
+        666.4,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d34",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g35",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        263.6,
+        666.4,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d35",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g36",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        128.6,
+        685.4,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d36",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g37",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        209.6,
+        685.4,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d37",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g38",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        262.4,
+        685.4,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d38",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g39",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        487.2,
+        685.4,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d39",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g40",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        527.9,
+        685.4,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d40",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g41",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        128.6,
+        704.3,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d41",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g42",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        209.6,
+        704.3,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d42",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g43",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        262.4,
+        704.3,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d43",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g44",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        487.2,
+        704.3,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d44",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g45",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        527.9,
+        704.3,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d45",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g46",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        128.6,
+        738.9,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d46",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g47",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        209.6,
+        738.9,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d47",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g48",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        262.4,
+        738.9,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d48",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g49",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        376.9,
+        738.9,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d49",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g50",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        414.2,
+        738.9,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d50",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g51",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        197.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d51",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g52",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        204.4,
+        197.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d52",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g53",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        384.6,
+        197.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d53",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g54",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        213.6,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d54",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g55",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        204.4,
+        213.6,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d55",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g56",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        384.6,
+        213.6,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d56",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g57",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        229.5,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d57",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g58",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        204.4,
+        229.5,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d58",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g59",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        384.6,
+        229.5,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d59",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g60",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        245.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d60",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g61",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        204.4,
+        245.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d61",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g62",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        384.6,
+        245.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d62",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g63",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        261.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d63",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g64",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        204.4,
+        261.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d64",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g65",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        384.6,
+        261.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d65",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g66",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        277.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d66",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g67",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        204.4,
+        277.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d67",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g68",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        384.6,
+        277.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d68",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g69",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        425.6,
+        97.4,
+        162.0,
+        12.0
+      ],
+      "label": "trast Dye \uf06f Latex \uf06fMedications",
+      "_source_detection_id": "d69",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g70",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        424.9,
+        113.8,
+        162.7,
+        12.0
+      ],
+      "label": "neral/Local Anesthetic \uf06f Other",
+      "_source_detection_id": "d70",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g71",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        15.2,
+        171.6,
+        571.6,
+        12.0
+      ],
+      "label": "1. 2. 3.",
+      "_source_detection_id": "d71",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g72",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        15.2,
+        187.9,
+        571.6,
+        12.0
+      ],
+      "label": "4. 5. 6.",
+      "_source_detection_id": "d72",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g73",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        28.8,
+        235.9,
+        133.3,
+        12.0
+      ],
+      "label": "R",
+      "_source_detection_id": "d73",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g74",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        134.6,
+        407.4,
+        452.2,
+        12.0
+      ],
+      "label": "Location of Pain:",
+      "_source_detection_id": "d74",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g75",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        459.6,
+        71.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d75",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g76",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        446.4,
+        148.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d76",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g77",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        170.4,
+        201.6,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d77",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g78",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        349.2,
+        201.6,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d78",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g79",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        398.8,
+        201.6,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d79",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g80",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        488.5,
+        201.6,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d80",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g81",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        140.0,
+        435.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d81",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g82",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        212.7,
+        435.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d82",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g83",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        269.4,
+        435.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d83",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g84",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        329.4,
+        435.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d84",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g85",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        403.2,
+        435.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d85",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g86",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        504.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d86",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g87",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        148.6,
+        504.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d87",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g88",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        504.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d88",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g89",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        425.6,
+        504.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d89",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g90",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        520.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d90",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g91",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        148.6,
+        520.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d91",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g92",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        520.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d92",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g93",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        425.6,
+        520.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d93",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g94",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        535.9,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d94",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g95",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        148.6,
+        535.9,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d95",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g96",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        535.9,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d96",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g97",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        425.6,
+        535.9,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d97",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g98",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        551.8,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d98",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g99",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        148.6,
+        551.8,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d99",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g100",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        551.8,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d100",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g101",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        425.6,
+        551.8,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d101",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g102",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        567.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d102",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g103",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        148.6,
+        567.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d103",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g104",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        567.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d104",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g105",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        425.6,
+        567.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d105",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g106",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        583.6,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d106",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g107",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        148.6,
+        583.6,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d107",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g108",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        583.6,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d108",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g109",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        425.6,
+        583.6,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d109",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g110",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        599.4,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d110",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g111",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        148.6,
+        599.4,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d111",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g112",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        599.4,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d112",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g113",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        425.6,
+        599.4,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d113",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g114",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        615.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d114",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g115",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        148.6,
+        615.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d115",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g116",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        615.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d116",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g117",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        425.6,
+        615.3,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d117",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g118",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        631.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d118",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g119",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        148.6,
+        631.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d119",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g120",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        631.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d120",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g121",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        425.6,
+        631.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d121",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g122",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        647.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d122",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g123",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        148.6,
+        647.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d123",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g124",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        647.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d124",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g125",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        425.6,
+        647.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d125",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g126",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        662.9,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d126",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g127",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        148.6,
+        662.9,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d127",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g128",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        662.9,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d128",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g129",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        678.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d129",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g130",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        148.6,
+        678.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d130",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g131",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        678.7,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d131",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g132",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        95.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d132",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g133",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        102.6,
+        95.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d133",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g134",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        197.0,
+        95.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d134",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g135",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        350.0,
+        95.1,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d135",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g136",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        20.6,
+        111.4,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d136",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g137",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        102.6,
+        111.4,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d137",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g138",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        197.0,
+        111.4,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d138",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g139",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        350.0,
+        111.4,
+        14.4,
+        14.4
+      ],
+      "label": null,
+      "_source_detection_id": "d139",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g140",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        36.0,
+        220.9,
+        122.3,
+        12.0
+      ],
+      "label": "P",
+      "_source_detection_id": "d140",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g141",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        36.0,
+        303.7,
+        184.3,
+        12.0
+      ],
+      "label": null,
+      "_source_detection_id": "d141",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g142",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        36.0,
+        386.5,
+        129.4,
+        12.0
+      ],
+      "label": "P",
+      "_source_detection_id": "d142",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g143",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        45.0,
+        395.3,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d143",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g144",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        45.0,
+        409.8,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d144",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g145",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        233.9,
+        523.1,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d145",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g146",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        263.3,
+        523.1,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d146",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g147",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        45.0,
+        689.3,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d147",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g148",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        74.7,
+        689.3,
+        13.2,
+        13.2
+      ],
+      "label": null,
+      "_source_detection_id": "d148",
+      "_reviewer_status": "draft"
+    }
+  ]
+}

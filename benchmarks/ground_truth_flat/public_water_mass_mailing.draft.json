@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "pdf_id": "public_water_mass_mailing",
+  "pdf": "local_publicwatermassmailing.pdf",
+  "page_count": 8,
+  "extraction_method": "flat_pdf_bootstrap",
+  "bootstrap_backend": "heuristic_lab_v2",
+  "bootstrap_timestamp": "2026-05-21T02:01:34.141785",
+  "review_status": "draft",
+  "needs_review": true,
+  "fields": []
+}

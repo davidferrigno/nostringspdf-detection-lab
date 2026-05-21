@@ -103,6 +103,7 @@ def bootstrap_draft(pdf_path: Path, pdf_id: str, backend_name: str, dry_run: boo
         })
 
     return {
+        "schema_version": "1.0",
         "pdf_id": pdf_id,
         "pdf": pdf_path.name,
         "page_count": page_count,
@@ -110,6 +111,7 @@ def bootstrap_draft(pdf_path: Path, pdf_id: str, backend_name: str, dry_run: boo
         "bootstrap_backend": backend_name,
         "bootstrap_timestamp": datetime.now().isoformat(),
         "review_status": "draft",
+        "needs_review": True,
         "fields": gt_fields,
     }
 
@@ -139,6 +141,7 @@ def promote_draft(pdf_id: str, force: bool) -> int:
         return 4
 
     promoted = {
+        "schema_version": draft.get("schema_version", "1.0"),
         "pdf_id": draft["pdf_id"],
         "pdf": draft["pdf"],
         "page_count": draft["page_count"],

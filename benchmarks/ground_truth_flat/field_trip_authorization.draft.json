@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "pdf_id": "field_trip_authorization",
+  "pdf": "local_center_travel_field_trip_authorization_form.pdf",
+  "page_count": 1,
+  "extraction_method": "flat_pdf_bootstrap",
+  "bootstrap_backend": "heuristic_lab_v2",
+  "bootstrap_timestamp": "2026-05-21T02:01:32.592369",
+  "review_status": "draft",
+  "needs_review": true,
+  "fields": []
+}
