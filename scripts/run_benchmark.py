@@ -17,14 +17,22 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from backend_registry import BACKENDS, get_backend, list_backends
+from backend_registry import (
+    BACKENDS,
+    get_backend,
+    get_backend_metadata,
+    get_lanes_for_backend,
+    list_backends,
+)
 
 
 BENCHMARK_VERSION = "v1.1"
 
 ROOT = Path(__file__).resolve().parent.parent
 ACROFORM_MANIFEST = ROOT / "samples" / "acroforms" / "manifest.json"
+FLAT_MANIFEST = ROOT / "samples" / "flat" / "manifest.json"
 GROUND_TRUTH_DIR = ROOT / "benchmarks" / "ground_truth"
+GROUND_TRUTH_FLAT_DIR = ROOT / "benchmarks" / "ground_truth_flat"
 REPORTS_DIR = ROOT / "reports" / "benchmarks"
 
 
@@ -158,7 +166,7 @@ def benchmark_pdf(pdf_path: Path, ground_truth: dict, backend_fn, iou_threshold:
 
 
 def write_reports(results: list, run_dir: Path, backend_name: str, iou_threshold: float,
-                  run_id: str, total_duration: float) -> None:
+                  run_id: str, total_duration: float, lane: str, schema_version: str) -> None:
     total_tp = sum(r["metrics"]["tp"] for r in results if "metrics" in r)
     total_fp = sum(r["metrics"]["fp"] for r in results if "metrics" in r)
     total_fn = sum(r["metrics"]["fn"] for r in results if "metrics" in r)
@@ -177,7 +185,8 @@ def write_reports(results: list, run_dir: Path, backend_name: str, iou_threshold
     n_errors = sum(1 for r in results if r.get("error"))
 
     aggregate = {
-        "run_id": run_id, "backend": backend_name,
+        "run_id": run_id, "backend": backend_name, "lane": lane,
+        "schema_version": schema_version,
         "benchmark_version": BENCHMARK_VERSION, "iou_threshold": iou_threshold,
         "pdfs_processed": len(results), "pdfs_perfect": n_perfect, "pdfs_with_errors": n_errors,
         "total_tp": total_tp, "total_fp": total_fp, "total_fn": total_fn,
@@ -243,6 +252,8 @@ def write_reports(results: list, run_dir: Path, backend_name: str, iou_threshold
         "",
         f"**Run ID:** `{run_id}`",
         f"**Backend:** `{backend_name}`",
+        f"**Lane:** `{lane}`",
+        f"**Schema version:** `{schema_version}`",
         f"**Benchmark version:** `{BENCHMARK_VERSION}`",
         f"**IoU threshold:** {iou_threshold}",
         f"**Total duration:** {aggregate['total_duration_seconds']}s",
@@ -303,6 +314,10 @@ def main():
                         help=f"Detection backend (available: {', '.join(list_backends())})")
     parser.add_argument("--iou", type=float, default=0.5,
                         help="IoU threshold for match (default: 0.5)")
+    parser.add_argument("--lane", choices=["A", "B"], default="A",
+                        help="Scoring lane: A=AcroForm widgets, B=flat-PDF fill zones")
+    parser.add_argument("--force-lane-mismatch", action="store_true",
+                        help="Run even if the backend is not declared for the selected lane")
     parser.add_argument("--pdf", default=None,
                         help="Benchmark only the PDF with this pdf_id")
     parser.add_argument("--dry-run", action="store_true",
@@ -312,36 +327,56 @@ def main():
     if not (0.0 < args.iou <= 1.0):
         print(f"ERROR: --iou must be in (0.0, 1.0], got {args.iou}", file=sys.stderr)
         sys.exit(1)
-    if not ACROFORM_MANIFEST.exists():
-        print(f"ERROR: {ACROFORM_MANIFEST} not found", file=sys.stderr)
+
+    declared_lanes = get_lanes_for_backend(args.backend)
+    if args.lane not in declared_lanes and not args.force_lane_mismatch:
+        print(f"ERROR: backend '{args.backend}' is not declared for lane '{args.lane}'.")
+        print(f"  Declared lanes: {declared_lanes}")
+        print(f"  To force anyway: --force-lane-mismatch")
+        sys.exit(2)
+
+    if args.lane == "A":
+        manifest_path = ACROFORM_MANIFEST
+        ground_truth_dir = GROUND_TRUTH_DIR
+    else:
+        manifest_path = FLAT_MANIFEST
+        ground_truth_dir = GROUND_TRUTH_FLAT_DIR
+
+    if not manifest_path.exists():
+        print(f"ERROR: {manifest_path} not found", file=sys.stderr)
         sys.exit(1)
-    if not GROUND_TRUTH_DIR.exists():
-        print(f"ERROR: {GROUND_TRUTH_DIR} not found.", file=sys.stderr)
+    if not ground_truth_dir.exists():
+        print(f"ERROR: {ground_truth_dir} not found.", file=sys.stderr)
         sys.exit(1)
 
-    manifest = json.loads(ACROFORM_MANIFEST.read_text())
+    manifest = json.loads(manifest_path.read_text())
     manifest_by_id = {e["id"]: e for e in manifest}
 
-    gt_files = sorted(p for p in GROUND_TRUTH_DIR.glob("*.json") if not p.name.startswith("_"))
+    gt_files = sorted(p for p in ground_truth_dir.glob("*.json") if not p.name.startswith("_") and not p.name.endswith(".draft.json"))
     if args.pdf:
         gt_files = [p for p in gt_files if p.stem == args.pdf]
         if not gt_files:
-            print(f"ERROR: no ground truth for pdf_id '{args.pdf}'", file=sys.stderr)
+            print(f"ERROR: no ground truth for pdf_id '{args.pdf}' in lane {args.lane}", file=sys.stderr)
             sys.exit(1)
 
     run_timestamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
-    run_id = f"{run_timestamp}_{args.backend}"
+    run_id = f"{run_timestamp}_{args.backend}_lane{args.lane}"
     run_dir = REPORTS_DIR / run_id
 
     backend_fn = get_backend(args.backend)
+    backend_metadata = get_backend_metadata(args.backend)
+    schema_version = backend_metadata["schema_version"]
 
     print(f"{'='*72}")
     print(f"run_benchmark.py {BENCHMARK_VERSION}")
     if args.dry_run:
         print("MODE: DRY RUN -- no reports will be written")
     print(f"Backend: {args.backend}")
+    print(f"Lane: {args.lane}")
+    print(f"Schema version: {schema_version}")
     print(f"IoU threshold: {args.iou}")
-    print(f"Ground truth dir: {GROUND_TRUTH_DIR}")
+    print(f"Manifest: {manifest_path}")
+    print(f"Ground truth dir: {ground_truth_dir}")
     print(f"PDFs to benchmark: {len(gt_files)}")
     print(f"Run ID: {run_id}")
     print(f"{'='*72}")
@@ -411,7 +446,7 @@ def main():
 
     if not args.dry_run:
         run_dir.mkdir(parents=True, exist_ok=True)
-        write_reports(results, run_dir, args.backend, args.iou, run_id, total_duration)
+        write_reports(results, run_dir, args.backend, args.iou, run_id, total_duration, args.lane, schema_version)
         print(f"\nReports written to: {run_dir.relative_to(ROOT)}")
     else:
         print(f"\n(dry-run: no reports written)")
