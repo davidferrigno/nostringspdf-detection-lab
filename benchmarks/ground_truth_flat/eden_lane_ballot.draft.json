@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "pdf_id": "eden_lane_ballot",
+  "pdf": "local_post_5403785_eden_valid_ballot_2026.pdf",
+  "page_count": 1,
+  "extraction_method": "flat_pdf_bootstrap",
+  "bootstrap_backend": "heuristic_lab_v2",
+  "bootstrap_timestamp": "2026-05-21T02:01:34.005736",
+  "review_status": "draft",
+  "needs_review": true,
+  "fields": [
+    {
+      "id": "g1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        254.0,
+        203.9,
+        104.2,
+        12.0
+      ],
+      "label": null,
+      "_source_detection_id": "d1",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        95.2,
+        308.1,
+        265.8,
+        12.0
+      ],
+      "label": "(P",
+      "_source_detection_id": "d2",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g3",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        96.3,
+        681.1,
+        12.0,
+        14.6
+      ],
+      "label": "Name___________________",
+      "_source_detection_id": "d3",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g4",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        91.4,
+        337.2,
+        23.9,
+        23.9
+      ],
+      "label": null,
+      "_source_detection_id": "d4",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g5",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        90.0,
+        492.0,
+        23.9,
+        23.9
+      ],
+      "label": null,
+      "_source_detection_id": "d5",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g6",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        90.0,
+        587.9,
+        23.9,
+        23.9
+      ],
+      "label": null,
+      "_source_detection_id": "d6",
+      "_reviewer_status": "draft"
+    }
+  ]
+}

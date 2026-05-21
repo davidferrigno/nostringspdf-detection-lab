@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "pdf_id": "72010",
+  "pdf": "local_72010.pdf",
+  "page_count": 3,
+  "extraction_method": "flat_pdf_bootstrap",
+  "bootstrap_backend": "heuristic_lab_v2",
+  "bootstrap_timestamp": "2026-05-21T02:01:32.221904",
+  "review_status": "draft",
+  "needs_review": true,
+  "fields": [
+    {
+      "id": "g1",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        378.0,
+        257.8,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d1",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g2",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        378.0,
+        285.8,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d2",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g3",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        58.1,
+        594.6,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d3",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g4",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        101.8,
+        594.6,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d4",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g5",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        58.1,
+        622.6,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d5",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g6",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        101.8,
+        622.6,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d6",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g7",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        58.1,
+        671.2,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d7",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g8",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        101.8,
+        671.2,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d8",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g9",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        58.1,
+        740.6,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d9",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g10",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        101.8,
+        740.6,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d10",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g11",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        219.4,
+        390.7,
+        173.2,
+        12.0
+      ],
+      "label": "A",
+      "_source_detection_id": "d11",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g12",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        186.7,
+        473.5,
+        238.6,
+        12.0
+      ],
+      "label": "I",
+      "_source_detection_id": "d12",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g13",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        58.1,
+        71.6,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d13",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g14",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        101.8,
+        71.6,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d14",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g15",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        58.1,
+        120.2,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d15",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g16",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        101.8,
+        120.2,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d16",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g17",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        58.1,
+        210.2,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d17",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g18",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        101.8,
+        210.2,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d18",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g19",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        58.1,
+        279.5,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d19",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g20",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        101.8,
+        279.5,
+        16.8,
+        16.8
+      ],
+      "label": null,
+      "_source_detection_id": "d20",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g21",
+      "page": 3,
+      "type": "text",
+      "bbox": [
+        157.8,
+        18.6,
+        332.4,
+        12.0
+      ],
+      "label": "F",
+      "_source_detection_id": "d21",
+      "_reviewer_status": "draft"
+    }
+  ]
+}

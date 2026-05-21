@@ -15,7 +15,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "irs_w4",
@@ -33,7 +35,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "irs_1040",
@@ -51,7 +55,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "irs_1040sb",
@@ -69,7 +75,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "irs_2848",
@@ -87,7 +95,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "irs_8821",
@@ -105,7 +115,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "irs_4506t",
@@ -123,7 +135,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "uscis_i9",
@@ -141,7 +155,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "uscis_g1145",
@@ -159,7 +175,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "uscis_i90",
@@ -177,7 +195,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "uscis_n400",
@@ -195,7 +215,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "va_21526ez",
@@ -213,7 +235,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "va_1010ez",
@@ -231,7 +255,9 @@
     "is_xfa_only": false,
     "download_status": "downloaded",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "ssa_521",
@@ -249,7 +275,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "ssa_1696",
@@ -267,7 +295,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "uscourts_ao240",
@@ -285,7 +315,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "uscourts_b101",
@@ -303,7 +335,9 @@
     "is_xfa_only": false,
     "download_status": "downloaded",
     "download_error": null,
-    "license_notes": "U.S. government work, public domain"
+    "license_notes": "U.S. government work, public domain",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "nj_mvc_ba49",
@@ -321,7 +355,9 @@
     "is_xfa_only": false,
     "download_status": "downloaded",
     "download_error": null,
-    "license_notes": "State government work \u2014 research/benchmark use only"
+    "license_notes": "State government work \u2014 research/benchmark use only",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "ca_dmv_reg256",
@@ -339,7 +375,9 @@
     "is_xfa_only": false,
     "download_status": "existing",
     "download_error": null,
-    "license_notes": "State government work \u2014 research/benchmark use only"
+    "license_notes": "State government work \u2014 research/benchmark use only",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "ny_dtf_it201",
@@ -357,7 +395,9 @@
     "is_xfa_only": false,
     "download_status": "downloaded",
     "download_error": null,
-    "license_notes": "State government work \u2014 research/benchmark use only"
+    "license_notes": "State government work \u2014 research/benchmark use only",
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "local_71061",
@@ -380,7 +420,9 @@
     "download_error": null,
     "license_notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
     "had_pii_at_import": false,
-    "pii_stripped": false
+    "pii_stripped": false,
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "local_ba_51",
@@ -403,7 +445,9 @@
     "download_error": null,
     "license_notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
     "had_pii_at_import": false,
-    "pii_stripped": false
+    "pii_stripped": false,
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "local_ba_62",
@@ -426,7 +470,9 @@
     "download_error": null,
     "license_notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
     "had_pii_at_import": false,
-    "pii_stripped": false
+    "pii_stripped": false,
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "local_f1099nec",
@@ -449,7 +495,9 @@
     "download_error": null,
     "license_notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
     "had_pii_at_import": false,
-    "pii_stripped": false
+    "pii_stripped": false,
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "local_njw4",
@@ -472,7 +520,9 @@
     "download_error": null,
     "license_notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
     "had_pii_at_import": false,
-    "pii_stripped": false
+    "pii_stripped": false,
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "local_ppb_11_01_23",
@@ -495,7 +545,9 @@
     "download_error": null,
     "license_notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
     "had_pii_at_import": false,
-    "pii_stripped": false
+    "pii_stripped": false,
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "local_ppb_7_2_2025",
@@ -518,7 +570,9 @@
     "download_error": null,
     "license_notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
     "had_pii_at_import": false,
-    "pii_stripped": false
+    "pii_stripped": false,
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "local_sp_066",
@@ -541,7 +595,9 @@
     "download_error": null,
     "license_notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
     "had_pii_at_import": false,
-    "pii_stripped": false
+    "pii_stripped": false,
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "local_ss_5",
@@ -564,7 +620,9 @@
     "download_error": null,
     "license_notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
     "had_pii_at_import": false,
-    "pii_stripped": false
+    "pii_stripped": false,
+    "lane": "acroform",
+    "expected_lane": "A"
   },
   {
     "id": "local_sts_033",
@@ -587,6 +645,8 @@
     "download_error": null,
     "license_notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
     "had_pii_at_import": false,
-    "pii_stripped": false
+    "pii_stripped": false,
+    "lane": "acroform",
+    "expected_lane": "A"
   }
 ]

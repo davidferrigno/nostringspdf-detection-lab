@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "pdf_id": "sp650",
+  "pdf": "local_sp_650_non_fill.pdf",
+  "page_count": 2,
+  "extraction_method": "flat_pdf_bootstrap",
+  "bootstrap_backend": "heuristic_lab_v2",
+  "bootstrap_timestamp": "2026-05-21T02:01:34.446310",
+  "review_status": "draft",
+  "needs_review": true,
+  "fields": [
+    {
+      "id": "g1",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        297.1,
+        483.8,
+        9.5,
+        9.5
+      ],
+      "label": "evolverPistol",
+      "_source_detection_id": "d1",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g2",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        381.1,
+        483.8,
+        9.5,
+        9.5
+      ],
+      "label": "istolRifle",
+      "_source_detection_id": "d2",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g3",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        453.1,
+        483.8,
+        9.5,
+        9.5
+      ],
+      "label": "ifleShotgun",
+      "_source_detection_id": "d3",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g4",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        519.1,
+        483.8,
+        9.5,
+        9.5
+      ],
+      "label": "hotgun",
+      "_source_detection_id": "d4",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g5",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        315.1,
+        631.2,
+        9.5,
+        9.5
+      ],
+      "label": "eosWtharosufigrehaarmwiallc?quiredNY",
+      "_source_detection_id": "d5",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g6",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        441.1,
+        631.2,
+        9.5,
+        9.5
+      ],
+      "label": "eosDneexatthofokfin?YNeos",
+      "_source_detection_id": "d6",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g7",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        543.1,
+        631.2,
+        9.5,
+        9.5
+      ],
+      "label": "eos",
+      "_source_detection_id": "d7",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g8",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        207.1,
+        631.2,
+        9.5,
+        9.5
+      ],
+      "label": "eosWacaqsufiirreedarimnNJ?NYeos",
+      "_source_detection_id": "d8",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g9",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        315.1,
+        618.8,
+        9.5,
+        9.5
+      ],
+      "label": "eosWtharosufigrehaarmwiallc?quiredNY",
+      "_source_detection_id": "d9",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g10",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        441.1,
+        618.8,
+        9.5,
+        9.5
+      ],
+      "label": "eosDneexatthofokfin?YNeos",
+      "_source_detection_id": "d10",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g11",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        543.1,
+        618.8,
+        9.5,
+        9.5
+      ],
+      "label": "eos",
+      "_source_detection_id": "d11",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g12",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        207.1,
+        618.8,
+        9.5,
+        9.5
+      ],
+      "label": "eosWacaqsufiirreedarimnNJ?NYeos",
+      "_source_detection_id": "d12",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g13",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        73.4,
+        455.9,
+        207.6,
+        12.0
+      ],
+      "label": "ht",
+      "_source_detection_id": "d13",
+      "_reviewer_status": "draft"
+    }
+  ]
+}

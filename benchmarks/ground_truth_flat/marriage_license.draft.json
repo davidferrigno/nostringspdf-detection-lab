@@ -1,0 +1,1161 @@
+{
+  "schema_version": "1.0",
+  "pdf_id": "marriage_license",
+  "pdf": "local_marriage_civil_union_license_application_form_pdf.pdf",
+  "page_count": 2,
+  "extraction_method": "flat_pdf_bootstrap",
+  "bootstrap_backend": "heuristic_lab_v2",
+  "bootstrap_timestamp": "2026-05-21T02:01:33.453075",
+  "review_status": "draft",
+  "needs_review": true,
+  "fields": [
+    {
+      "id": "g1",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        118.8,
+        298.4,
+        176.4,
+        12.0
+      ],
+      "label": "Widowed",
+      "_source_detection_id": "d1",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g2",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        406.8,
+        298.4,
+        176.4,
+        12.0
+      ],
+      "label": "Widowed Widowed",
+      "_source_detection_id": "d2",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g3",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        118.8,
+        312.4,
+        176.4,
+        12.0
+      ],
+      "label": "Divorced",
+      "_source_detection_id": "d3",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g4",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        406.8,
+        312.4,
+        176.4,
+        12.0
+      ],
+      "label": "Divorced Divorced",
+      "_source_detection_id": "d4",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g5",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        118.8,
+        326.4,
+        176.4,
+        12.0
+      ],
+      "label": "Annulled",
+      "_source_detection_id": "d5",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g6",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        406.8,
+        326.4,
+        176.4,
+        12.0
+      ],
+      "label": "Annulled Annulled",
+      "_source_detection_id": "d6",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g7",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        118.8,
+        347.4,
+        176.4,
+        12.0
+      ],
+      "label": "Partner",
+      "_source_detection_id": "d7",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g8",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        406.8,
+        347.4,
+        176.4,
+        12.0
+      ],
+      "label": "Partner Partner",
+      "_source_detection_id": "d8",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g9",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        118.8,
+        368.4,
+        176.4,
+        12.0
+      ],
+      "label": "Partner",
+      "_source_detection_id": "d9",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g10",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        406.8,
+        368.4,
+        176.4,
+        12.0
+      ],
+      "label": "Partner Partner",
+      "_source_detection_id": "d10",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g11",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        118.8,
+        389.4,
+        176.4,
+        12.0
+      ],
+      "label": "Union Partner",
+      "_source_detection_id": "d11",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g12",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        406.8,
+        389.4,
+        176.4,
+        12.0
+      ],
+      "label": "Union Partner Union Partner",
+      "_source_detection_id": "d12",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g13",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        118.8,
+        410.4,
+        176.4,
+        12.0
+      ],
+      "label": "Union Partner",
+      "_source_detection_id": "d13",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g14",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        406.8,
+        410.4,
+        176.4,
+        12.0
+      ],
+      "label": "Union Partner Union Partner",
+      "_source_detection_id": "d14",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g15",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        28.8,
+        417.6,
+        266.4,
+        12.0
+      ],
+      "label": "Union Partner",
+      "_source_detection_id": "d15",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g16",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        316.8,
+        417.6,
+        266.4,
+        12.0
+      ],
+      "label": "Union Partner",
+      "_source_detection_id": "d16",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g17",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        118.8,
+        461.4,
+        176.4,
+        12.0
+      ],
+      "label": "Civil Union",
+      "_source_detection_id": "d17",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g18",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        406.8,
+        461.4,
+        176.4,
+        12.0
+      ],
+      "label": "Civil Union Civil Union",
+      "_source_detection_id": "d18",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g19",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        126.2,
+        469.4,
+        169.0,
+        12.0
+      ],
+      "label": null,
+      "_source_detection_id": "d19",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g20",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        414.0,
+        469.4,
+        169.2,
+        12.0
+      ],
+      "label": null,
+      "_source_detection_id": "d20",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g21",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        55.1,
+        52.2,
+        9.2,
+        9.2
+      ],
+      "label": "MARRIAGEREM",
+      "_source_detection_id": "d21",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g22",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        159.5,
+        52.2,
+        9.2,
+        9.2
+      ],
+      "label": "REMARRIAAGPEPLICATIOCNI",
+      "_source_detection_id": "d22",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g23",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        278.3,
+        52.2,
+        9.2,
+        9.2
+      ],
+      "label": "CNIVFILOURNILOINCENSEREA",
+      "_source_detection_id": "d23",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g24",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        386.3,
+        52.2,
+        9.2,
+        9.2
+      ],
+      "label": "REAFFIRMATIONOFCIVIL",
+      "_source_detection_id": "d24",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g25",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        192.2,
+        232.9,
+        8.0,
+        8.0
+      ],
+      "label": "MF5(S.eAegeNote2)3.Birth",
+      "_source_detection_id": "d25",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g26",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        219.1,
+        232.9,
+        8.0,
+        8.0
+      ],
+      "label": "F5(S.eAegeNote2)3.Birthplace",
+      "_source_detection_id": "d26",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g27",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        480.2,
+        232.9,
+        8.0,
+        8.0
+      ],
+      "label": "MF5(S.eAegeNote2)",
+      "_source_detection_id": "d27",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g28",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        507.1,
+        232.9,
+        8.0,
+        8.0
+      ],
+      "label": "F5(S.eAegeNote2)",
+      "_source_detection_id": "d28",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g29",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        168.8,
+        245.3,
+        8.0,
+        8.0
+      ],
+      "label": "NUexonnd-eBsiniMganryated/F(SeeNote2)",
+      "_source_detection_id": "d29",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g30",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        456.8,
+        245.3,
+        8.0,
+        8.0
+      ],
+      "label": "NUexonnd-eBsiniMganryated/F(SeeNote2)",
+      "_source_detection_id": "d30",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g31",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        31.7,
+        286.1,
+        8.0,
+        8.0
+      ],
+      "label": "ingleDate",
+      "_source_detection_id": "d31",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g32",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        319.7,
+        286.1,
+        8.0,
+        8.0
+      ],
+      "label": "ingleDate",
+      "_source_detection_id": "d32",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g33",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        31.7,
+        301.1,
+        8.0,
+        8.0
+      ],
+      "label": "idowed",
+      "_source_detection_id": "d33",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g34",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        319.7,
+        301.1,
+        8.0,
+        8.0
+      ],
+      "label": "idowed",
+      "_source_detection_id": "d34",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g35",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        31.7,
+        315.1,
+        8.0,
+        8.0
+      ],
+      "label": "ivorced",
+      "_source_detection_id": "d35",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g36",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        319.7,
+        315.1,
+        8.0,
+        8.0
+      ],
+      "label": "ivorced",
+      "_source_detection_id": "d36",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g37",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        31.7,
+        329.2,
+        8.0,
+        8.0
+      ],
+      "label": "nnulled",
+      "_source_detection_id": "d37",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g38",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        319.7,
+        329.2,
+        8.0,
+        8.0
+      ],
+      "label": "nnulled",
+      "_source_detection_id": "d38",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g39",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        31.7,
+        340.9,
+        8.0,
+        8.0
+      ],
+      "label": "PnuanrrrtuenlneletrdDomestic",
+      "_source_detection_id": "d39",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g40",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        319.7,
+        340.9,
+        8.0,
+        8.0
+      ],
+      "label": "PnuanrrrtuenlneletrdDomestic",
+      "_source_detection_id": "d40",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g41",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        31.7,
+        361.9,
+        8.0,
+        8.0
+      ],
+      "label": "PPoaarrrmttnneeerrrDomestic",
+      "_source_detection_id": "d41",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g42",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        319.7,
+        361.9,
+        8.0,
+        8.0
+      ],
+      "label": "PPoaarrrmttnneeerrrDomestic",
+      "_source_detection_id": "d42",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g43",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        31.7,
+        382.9,
+        8.0,
+        8.0
+      ],
+      "label": "PUuanrrirotennnetPrCarivtniler",
+      "_source_detection_id": "d43",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g44",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        319.7,
+        382.9,
+        8.0,
+        8.0
+      ],
+      "label": "PUuanrrirotennnetPrCarivtniler",
+      "_source_detection_id": "d44",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g45",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        31.7,
+        403.9,
+        8.0,
+        8.0
+      ],
+      "label": "UUonnriimoonnerPPCaairrvttnnileerr",
+      "_source_detection_id": "d45",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g46",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        319.7,
+        403.9,
+        8.0,
+        8.0
+      ],
+      "label": "UUonnriimoonnerPPCaairrvttnnileerr",
+      "_source_detection_id": "d46",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g47",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        31.7,
+        453.8,
+        8.0,
+        8.0
+      ],
+      "label": "iavrilriUagneionDate",
+      "_source_detection_id": "d47",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g48",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        319.7,
+        453.8,
+        8.0,
+        8.0
+      ],
+      "label": "iavrilriUagneionDate",
+      "_source_detection_id": "d48",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g49",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        31.7,
+        464.2,
+        8.0,
+        8.0
+      ],
+      "label": "iavrilriUagneion",
+      "_source_detection_id": "d49",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g50",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        319.7,
+        464.2,
+        8.0,
+        8.0
+      ],
+      "label": "iavrilriUagneion",
+      "_source_detection_id": "d50",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g51",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        181.1,
+        622.4,
+        8.0,
+        8.0
+      ],
+      "label": "esNo11.AI",
+      "_source_detection_id": "d51",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g52",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        235.1,
+        622.4,
+        8.0,
+        8.0
+      ],
+      "label": "o11.AIfr\u201ceYyEoSu,\u201drehloawte?dt",
+      "_source_detection_id": "d52",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g53",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        469.1,
+        622.4,
+        8.0,
+        8.0
+      ],
+      "label": "esNo",
+      "_source_detection_id": "d53",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g54",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        523.1,
+        622.4,
+        8.0,
+        8.0
+      ],
+      "label": "o",
+      "_source_detection_id": "d54",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g55",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        180.0,
+        66.4,
+        360.0,
+        12.0
+      ],
+      "label": "1. Name (First, Middle, Last):",
+      "_source_detection_id": "d55",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g56",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        208.8,
+        84.4,
+        331.2,
+        12.0
+      ],
+      "label": "iling Address (Street/PO Box):",
+      "_source_detection_id": "d56",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g57",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        93.6,
+        102.4,
+        252.0,
+        12.0
+      ],
+      "label": "City:",
+      "_source_detection_id": "d57",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g58",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        381.6,
+        102.4,
+        39.6,
+        12.0
+      ],
+      "label": "City: State:",
+      "_source_detection_id": "d58",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g59",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        475.2,
+        102.4,
+        64.8,
+        12.0
+      ],
+      "label": "City: State: Zip Code:",
+      "_source_detection_id": "d59",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g60",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        140.4,
+        166.4,
+        399.6,
+        12.0
+      ],
+      "label": "If \u201cYes, \u201c explain:",
+      "_source_detection_id": "d60",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g61",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        172.8,
+        289.4,
+        216.0,
+        12.0
+      ],
+      "label": "Signature of Applicant A:",
+      "_source_detection_id": "d61",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g62",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        432.0,
+        289.4,
+        108.0,
+        12.0
+      ],
+      "label": "ignature of Applicant A: Date:",
+      "_source_detection_id": "d62",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g63",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        172.8,
+        307.4,
+        216.0,
+        12.0
+      ],
+      "label": "Signature of Applicant B:",
+      "_source_detection_id": "d63",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g64",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        432.0,
+        307.4,
+        108.0,
+        12.0
+      ],
+      "label": "ignature of Applicant B: Date:",
+      "_source_detection_id": "d64",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g65",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        172.8,
+        325.4,
+        216.0,
+        12.0
+      ],
+      "label": "Signature of Witness:",
+      "_source_detection_id": "d65",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g66",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        432.0,
+        325.4,
+        108.0,
+        12.0
+      ],
+      "label": "Signature of Witness: Date:",
+      "_source_detection_id": "d66",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g67",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        172.8,
+        351.4,
+        216.0,
+        12.0
+      ],
+      "label": "Witness (if necessary):",
+      "_source_detection_id": "d67",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g68",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        432.0,
+        351.4,
+        108.0,
+        12.0
+      ],
+      "label": "Witness (if necessary): Date:",
+      "_source_detection_id": "d68",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g69",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        90.0,
+        395.4,
+        82.8,
+        12.0
+      ],
+      "label": "this",
+      "_source_detection_id": "d69",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g70",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        212.4,
+        395.4,
+        108.0,
+        12.0
+      ],
+      "label": "this day of",
+      "_source_detection_id": "d70",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g71",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        345.6,
+        395.4,
+        32.4,
+        12.0
+      ],
+      "label": "this day of , 20",
+      "_source_detection_id": "d71",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g72",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        396.0,
+        395.4,
+        54.0,
+        12.0
+      ],
+      "label": null,
+      "_source_detection_id": "d72",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g73",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        471.6,
+        395.4,
+        54.0,
+        12.0
+      ],
+      "label": null,
+      "_source_detection_id": "d73",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g74",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        172.8,
+        413.4,
+        374.4,
+        12.0
+      ],
+      "label": "Signature of Registrar:",
+      "_source_detection_id": "d74",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g75",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        144.0,
+        458.4,
+        158.4,
+        12.0
+      ],
+      "label": "License Number:",
+      "_source_detection_id": "d75",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g76",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        388.8,
+        458.4,
+        158.4,
+        12.0
+      ],
+      "label": "License Number: Date of Issue:",
+      "_source_detection_id": "d76",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g77",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        259.2,
+        476.4,
+        288.0,
+        12.0
+      ],
+      "label": "rmed in (City, Borough, Twp.):",
+      "_source_detection_id": "d77",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g78",
+      "page": 2,
+      "type": "text",
+      "bbox": [
+        158.4,
+        494.4,
+        201.6,
+        12.0
+      ],
+      "label": "Date of Ceremony:",
+      "_source_detection_id": "d78",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g79",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        401.5,
+        121.8,
+        9.2,
+        9.2
+      ],
+      "label": "esNo",
+      "_source_detection_id": "d79",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g80",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        464.5,
+        121.8,
+        9.2,
+        9.2
+      ],
+      "label": "o",
+      "_source_detection_id": "d80",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g81",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        401.5,
+        149.9,
+        9.2,
+        9.2
+      ],
+      "label": "esNo",
+      "_source_detection_id": "d81",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g82",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        464.5,
+        149.9,
+        9.2,
+        9.2
+      ],
+      "label": "o",
+      "_source_detection_id": "d82",
+      "_reviewer_status": "draft"
+    }
+  ]
+}
