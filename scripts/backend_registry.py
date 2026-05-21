@@ -7,7 +7,7 @@ Single source of truth for all detection backends in the lab.
 To add a new backend:
     1. Put backend module under scripts/backends/<name>.py
     2. Import its detect function in this file
-    3. Add to BACKENDS dict
+    3. Add to BACKEND_METADATA
 """
 
 from pathlib import Path
@@ -130,14 +130,35 @@ except ImportError:
     _v2_available = False
 
 
-BACKENDS: dict = {
-    "acroform_self": _backend_acroform_self,
+BACKEND_METADATA: dict = {
+    "acroform_self": {
+        "fn": _backend_acroform_self,
+        "lanes": ["A"],
+        "description": "Re-extracts AcroForm widgets via pikepdf - sanity check",
+        "schema_version": "1.0",
+    },
 }
 
 if _v1_available:
-    BACKENDS["heuristic_lab_v1"] = _backend_heuristic_lab_v1
+    BACKEND_METADATA["heuristic_lab_v1"] = {
+        "fn": _backend_heuristic_lab_v1,
+        "lanes": ["A", "B"],
+        "description": "Generic content-stream heuristic (v1 baseline)",
+        "schema_version": "1.0",
+    }
 if _v2_available:
-    BACKENDS["heuristic_lab_v2"] = _backend_heuristic_lab_v2
+    BACKEND_METADATA["heuristic_lab_v2"] = {
+        "fn": _backend_heuristic_lab_v2,
+        "lanes": ["B"],
+        "description": "v1 + char-box detection (flat-PDF candidate)",
+        "schema_version": "1.0",
+    }
+
+
+BACKENDS: dict = {
+    name: metadata["fn"]
+    for name, metadata in BACKEND_METADATA.items()
+}
 
 
 def get_backend(name: str):
@@ -149,3 +170,18 @@ def get_backend(name: str):
 
 def list_backends() -> list[str]:
     return sorted(BACKENDS.keys())
+
+def get_lanes_for_backend(name: str) -> list[str]:
+    return BACKEND_METADATA[name]["lanes"]
+
+
+def list_backends_for_lane(lane: str) -> list[str]:
+    return sorted([
+        name
+        for name, metadata in BACKEND_METADATA.items()
+        if lane in metadata["lanes"]
+    ])
+
+
+def get_backend_metadata(name: str) -> dict:
+    return BACKEND_METADATA[name]
