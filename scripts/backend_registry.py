@@ -4,16 +4,6 @@ backend_registry.py
 
 Single source of truth for all detection backends in the lab.
 
-Each backend implements:
-    def detect(pdf_path: Path) -> list[dict]
-
-where each returned dict has:
-    {"id": str, "page": int, "type": str, "bbox": [x,y,w,h], "label": str | None}
-
-Backends register themselves by being importable here. Both
-run_benchmark.py and render_detection_comparison.py import BACKENDS from
-this file.
-
 To add a new backend:
     1. Put backend module under scripts/backends/<name>.py
     2. Import its detect function in this file
@@ -23,22 +13,12 @@ To add a new backend:
 from pathlib import Path
 import sys
 
-# Make scripts/ importable so we can import backends/<name>
 _THIS_DIR = Path(__file__).resolve().parent
 if str(_THIS_DIR) not in sys.path:
     sys.path.insert(0, str(_THIS_DIR))
 
 
-# ---------------------------------------------------------------------------
-# acroform_self backend (pikepdf-based widget re-extraction)
-#
-# This is the canonical sanity-check backend. Score should always be
-# 1.0 / 1.0 against AcroForm ground truth. Used to validate scoring
-# infrastructure itself.
-# ---------------------------------------------------------------------------
-
 def _backend_acroform_self(pdf_path: Path) -> list:
-    """Re-extract AcroForm widgets via pikepdf."""
     import pikepdf
     fields = []
     field_counter = 0
@@ -134,33 +114,33 @@ def _backend_acroform_self(pdf_path: Path) -> list:
     return fields
 
 
-# ---------------------------------------------------------------------------
-# heuristic_lab_v1 backend (content-stream-based generic detection)
-# ---------------------------------------------------------------------------
-
+# Lab backends — imported optionally so registry doesn't fail if one breaks
 try:
     from backends.heuristic_lab_v1 import detect as _backend_heuristic_lab_v1
-    _heuristic_lab_v1_available = True
-except ImportError as e:
+    _v1_available = True
+except ImportError:
     _backend_heuristic_lab_v1 = None
-    _heuristic_lab_v1_available = False
-    _heuristic_lab_v1_error = str(e)
+    _v1_available = False
 
+try:
+    from backends.heuristic_lab_v2 import detect as _backend_heuristic_lab_v2
+    _v2_available = True
+except ImportError:
+    _backend_heuristic_lab_v2 = None
+    _v2_available = False
 
-# ---------------------------------------------------------------------------
-# Public registry
-# ---------------------------------------------------------------------------
 
 BACKENDS: dict = {
     "acroform_self": _backend_acroform_self,
 }
 
-if _heuristic_lab_v1_available:
+if _v1_available:
     BACKENDS["heuristic_lab_v1"] = _backend_heuristic_lab_v1
+if _v2_available:
+    BACKENDS["heuristic_lab_v2"] = _backend_heuristic_lab_v2
 
 
 def get_backend(name: str):
-    """Look up a backend by name. Raises KeyError if not found."""
     if name not in BACKENDS:
         available = ", ".join(sorted(BACKENDS.keys()))
         raise KeyError(f"Unknown backend '{name}'. Available: {available}")
