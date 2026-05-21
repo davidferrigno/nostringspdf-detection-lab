@@ -1,7 +1,7 @@
 ========================================================================
 compare_to_baseline.py
-Baseline:  reports/benchmarks/2026-05-21_020944_acroform_self_laneA
-Candidate: reports/benchmarks/2026-05-21_020944_heuristic_lab_v1_laneA
+Baseline:  reports/benchmarks/2026-05-21_021624_acroform_self_laneA
+Candidate: reports/benchmarks/2026-05-21_021625_heuristic_lab_v1_laneA
 Significance threshold: 0.01
 ========================================================================
 
@@ -43,7 +43,7 @@ F1:        1.0000 -> 0.4201 (-0.5799)
   ny_dtf_it201                    ΔP=-0.5732  ΔR=-0.8498
   ... and 10 more
 
-Reports written: reports/comparisons/2026-05-21_020955_vs_baseline/
+Reports written: reports/comparisons/2026-05-21_021635_vs_baseline/
   - comparison.json
   - comparison.csv
   - comparison.md
