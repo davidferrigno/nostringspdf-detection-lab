@@ -1,0 +1,10 @@
+metric,value
+total_candidates,249
+reviewed_candidates,0
+unreviewed_candidates,249
+good_count,0
+bad_count,0
+duplicate_count,0
+needs_adjustment_count,0
+uncertain_count,0
+precision_like,

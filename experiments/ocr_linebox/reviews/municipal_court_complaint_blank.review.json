@@ -1,0 +1,6565 @@
+{
+  "schema_version": "linebox_review_v1",
+  "doc_id": "municipal_court_complaint_blank",
+  "source_result_path": "experiments/ocr_linebox/runs/latest/results/municipal_court_complaint_blank.json",
+  "created_at": "2026-06-09T10:49:30+00:00",
+  "reviewed_at": null,
+  "reviewer": "manual_review",
+  "review_guidance": {
+    "labels": [
+      "unreviewed",
+      "good",
+      "bad",
+      "duplicate",
+      "needs_adjustment",
+      "uncertain"
+    ],
+    "page_missing_notes": "Use page_reviews[].expected_missing_notes for missing fields when no full ground truth exists."
+  },
+  "page_reviews": [
+    {
+      "page": 1,
+      "overlay": "experiments/ocr_linebox/runs/latest/overlays/municipal_court_complaint_blank_p1.png",
+      "candidate_count": 20,
+      "candidate_counts_by_type": {
+        "checkbox": 17,
+        "date_field": 1,
+        "text_line": 2
+      },
+      "expected_missing_notes": [],
+      "reviewer_notes": ""
+    },
+    {
+      "page": 2,
+      "overlay": "experiments/ocr_linebox/runs/latest/overlays/municipal_court_complaint_blank_p2.png",
+      "candidate_count": 18,
+      "candidate_counts_by_type": {
+        "checkbox": 9,
+        "date_field": 3,
+        "text_line": 6
+      },
+      "expected_missing_notes": [],
+      "reviewer_notes": ""
+    },
+    {
+      "page": 3,
+      "overlay": "experiments/ocr_linebox/runs/latest/overlays/municipal_court_complaint_blank_p3.png",
+      "candidate_count": 102,
+      "candidate_counts_by_type": {
+        "checkbox": 20,
+        "date_field": 7,
+        "narrative_box": 25,
+        "text_box": 26,
+        "text_line": 24
+      },
+      "expected_missing_notes": [],
+      "reviewer_notes": ""
+    },
+    {
+      "page": 4,
+      "overlay": "experiments/ocr_linebox/runs/latest/overlays/municipal_court_complaint_blank_p4.png",
+      "candidate_count": 41,
+      "candidate_counts_by_type": {
+        "checkbox": 8,
+        "date_field": 6,
+        "narrative_box": 2,
+        "signature_line": 2,
+        "text_box": 3,
+        "text_line": 20
+      },
+      "expected_missing_notes": [],
+      "reviewer_notes": ""
+    },
+    {
+      "page": 5,
+      "overlay": "experiments/ocr_linebox/runs/latest/overlays/municipal_court_complaint_blank_p5.png",
+      "candidate_count": 68,
+      "candidate_counts_by_type": {
+        "checkbox": 6,
+        "date_field": 14,
+        "narrative_box": 3,
+        "signature_line": 2,
+        "text_box": 4,
+        "text_line": 39
+      },
+      "expected_missing_notes": [],
+      "reviewer_notes": ""
+    }
+  ],
+  "candidate_reviews": [
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0001_65d8b6d5",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        226.56,
+        122.88,
+        6.72,
+        8.64
+      ],
+      "image_bbox": [
+        472,
+        256,
+        14,
+        18
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0002_0f854872",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        296.16,
+        122.88,
+        6.72,
+        8.64
+      ],
+      "image_bbox": [
+        617,
+        256,
+        14,
+        18
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0003_0b0cf811",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        318.72,
+        122.88,
+        7.2,
+        8.64
+      ],
+      "image_bbox": [
+        664,
+        256,
+        15,
+        18
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0004_9497f702",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        349.44,
+        122.88,
+        6.72,
+        8.64
+      ],
+      "image_bbox": [
+        728,
+        256,
+        14,
+        18
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0005_6415d373",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        360.96,
+        122.88,
+        7.2,
+        8.64
+      ],
+      "image_bbox": [
+        752,
+        256,
+        15,
+        18
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0006_d296ab73",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        370.56,
+        122.88,
+        8.16,
+        8.64
+      ],
+      "image_bbox": [
+        772,
+        256,
+        17,
+        18
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0007_5b9c048b",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        380.64,
+        122.88,
+        7.2,
+        8.64
+      ],
+      "image_bbox": [
+        793,
+        256,
+        15,
+        18
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0008_8e8c40be",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        160.8,
+        123.36,
+        8.16,
+        8.64
+      ],
+      "image_bbox": [
+        335,
+        257,
+        17,
+        18
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0009_f5b6d642",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        187.68,
+        123.36,
+        7.68,
+        8.64
+      ],
+      "image_bbox": [
+        391,
+        257,
+        16,
+        18
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0010_731d4f4f",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        197.28,
+        123.36,
+        7.68,
+        8.64
+      ],
+      "image_bbox": [
+        411,
+        257,
+        16,
+        18
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0011_8938ed3e",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        336.96,
+        152.16,
+        6.24,
+        7.68
+      ],
+      "image_bbox": [
+        702,
+        317,
+        13,
+        16
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_text_line_0012_a21f9e49",
+      "page": 1,
+      "type": "text_line",
+      "bbox": [
+        204.48,
+        154.08,
+        100.8,
+        8.64
+      ],
+      "image_bbox": [
+        426,
+        321,
+        210,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0013_05f2f5a3",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        229.44,
+        154.56,
+        5.28,
+        5.28
+      ],
+      "image_bbox": [
+        478,
+        322,
+        11,
+        11
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0014_9cb7d61c",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        253.92,
+        154.56,
+        5.28,
+        5.28
+      ],
+      "image_bbox": [
+        529,
+        322,
+        11,
+        11
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0015_23c7a63b",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        154.56,
+        5.28,
+        5.28
+      ],
+      "image_bbox": [
+        615,
+        322,
+        11,
+        11
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0016_1213e27e",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        344.64,
+        154.56,
+        5.28,
+        5.28
+      ],
+      "image_bbox": [
+        718,
+        322,
+        11,
+        11
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0017_e5886a1a",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        51.84,
+        243.84,
+        6.24,
+        7.68
+      ],
+      "image_bbox": [
+        108,
+        508,
+        13,
+        16
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_text_line_0018_56cd3134",
+      "page": 1,
+      "type": "text_line",
+      "bbox": [
+        425.28,
+        244.32,
+        45.12,
+        8.64
+      ],
+      "image_bbox": [
+        886,
+        509,
+        94,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_checkbox_0019_6ffa5bc9",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        188.16,
+        270.72,
+        5.28,
+        6.24
+      ],
+      "image_bbox": [
+        392,
+        564,
+        11,
+        13
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p1_date_field_0020_0e183067",
+      "page": 1,
+      "type": "date_field",
+      "bbox": [
+        220.32,
+        439.2,
+        120.48,
+        8.64
+      ],
+      "image_bbox": [
+        459,
+        915,
+        251,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_checkbox_0021_c57e8245",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        221.76,
+        88.32,
+        6.24,
+        7.68
+      ],
+      "image_bbox": [
+        462,
+        184,
+        13,
+        16
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_checkbox_0022_9c8057a6",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        278.88,
+        88.8,
+        6.72,
+        8.16
+      ],
+      "image_bbox": [
+        581,
+        185,
+        14,
+        17
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_checkbox_0023_06475035",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        323.52,
+        89.76,
+        6.24,
+        7.2
+      ],
+      "image_bbox": [
+        674,
+        187,
+        13,
+        15
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_text_line_0024_1c25e4bb",
+      "page": 2,
+      "type": "text_line",
+      "bbox": [
+        188.16,
+        90.72,
+        153.6,
+        8.64
+      ],
+      "image_bbox": [
+        392,
+        189,
+        320,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_checkbox_0025_65bdde5f",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        200.64,
+        90.72,
+        5.28,
+        5.28
+      ],
+      "image_bbox": [
+        418,
+        189,
+        11,
+        11
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_checkbox_0026_5c071797",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        287.52,
+        91.68,
+        5.28,
+        5.28
+      ],
+      "image_bbox": [
+        599,
+        191,
+        11,
+        11
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_checkbox_0027_bbcae9af",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        313.44,
+        91.68,
+        5.28,
+        5.28
+      ],
+      "image_bbox": [
+        653,
+        191,
+        11,
+        11
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_checkbox_0028_3d68a84d",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        219.36,
+        179.04,
+        5.76,
+        7.68
+      ],
+      "image_bbox": [
+        457,
+        373,
+        12,
+        16
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_text_line_0029_01dd5f4b",
+      "page": 2,
+      "type": "text_line",
+      "bbox": [
+        225.6,
+        181.44,
+        61.92,
+        8.64
+      ],
+      "image_bbox": [
+        470,
+        378,
+        129,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_checkbox_0030_90dd6b45",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        227.04,
+        181.44,
+        5.28,
+        5.28
+      ],
+      "image_bbox": [
+        473,
+        378,
+        11,
+        11
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_text_line_0031_beb5b074",
+      "page": 2,
+      "type": "text_line",
+      "bbox": [
+        294.24,
+        181.44,
+        43.2,
+        8.64
+      ],
+      "image_bbox": [
+        613,
+        378,
+        90,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_checkbox_0032_b96732a3",
+      "page": 2,
+      "type": "checkbox",
+      "bbox": [
+        183.36,
+        205.44,
+        5.76,
+        5.28
+      ],
+      "image_bbox": [
+        382,
+        428,
+        12,
+        11
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_date_field_0033_662c6297",
+      "page": 2,
+      "type": "date_field",
+      "bbox": [
+        308.16,
+        474.24,
+        95.52,
+        8.64
+      ],
+      "image_bbox": [
+        642,
+        988,
+        199,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_text_line_0034_8833a476",
+      "page": 2,
+      "type": "text_line",
+      "bbox": [
+        155.52,
+        502.56,
+        24.0,
+        8.64
+      ],
+      "image_bbox": [
+        324,
+        1047,
+        50,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_text_line_0035_b6b11d82",
+      "page": 2,
+      "type": "text_line",
+      "bbox": [
+        191.04,
+        502.56,
+        26.4,
+        8.64
+      ],
+      "image_bbox": [
+        398,
+        1047,
+        55,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_text_line_0036_be50b77d",
+      "page": 2,
+      "type": "text_line",
+      "bbox": [
+        348.96,
+        504.0,
+        32.16,
+        8.64
+      ],
+      "image_bbox": [
+        727,
+        1050,
+        67,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_date_field_0037_bea2ba56",
+      "page": 2,
+      "type": "date_field",
+      "bbox": [
+        156.48,
+        565.44,
+        57.6,
+        8.64
+      ],
+      "image_bbox": [
+        326,
+        1178,
+        120,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p2_date_field_0038_b1c64b6c",
+      "page": 2,
+      "type": "date_field",
+      "bbox": [
+        340.32,
+        565.44,
+        40.32,
+        8.64
+      ],
+      "image_bbox": [
+        709,
+        1178,
+        84,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0039_52ef1b48",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        32.64,
+        50.88,
+        513.12,
+        8.64
+      ],
+      "image_bbox": [
+        68,
+        106,
+        1069,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0040_d7c149f2",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        43.2,
+        55.2,
+        30.24,
+        8.64
+      ],
+      "image_bbox": [
+        90,
+        115,
+        63,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0041_36600d1b",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        33.12,
+        58.56,
+        512.16,
+        92.64
+      ],
+      "image_bbox": [
+        69,
+        122,
+        1067,
+        193
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0042_473fc3df",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        33.12,
+        58.56,
+        512.16,
+        60.0
+      ],
+      "image_bbox": [
+        69,
+        122,
+        1067,
+        125
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0043_34856b30",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        34.08,
+        58.56,
+        328.8,
+        189.6
+      ],
+      "image_bbox": [
+        71,
+        122,
+        685,
+        395
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0044_dcf5cee4",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        36.96,
+        58.56,
+        134.88,
+        221.76
+      ],
+      "image_bbox": [
+        77,
+        122,
+        281,
+        462
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0045_d7dfeb68",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        188.64,
+        58.56,
+        356.64,
+        221.76
+      ],
+      "image_bbox": [
+        393,
+        122,
+        743,
+        462
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0046_4ca666ec",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        204.48,
+        58.56,
+        340.8,
+        125.28
+      ],
+      "image_bbox": [
+        426,
+        122,
+        710,
+        261
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0047_4590bca7",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        258.72,
+        82.08,
+        6.72,
+        6.72
+      ],
+      "image_bbox": [
+        539,
+        171,
+        14,
+        14
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0048_38950426",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        231.36,
+        83.04,
+        5.28,
+        5.76
+      ],
+      "image_bbox": [
+        482,
+        173,
+        11,
+        12
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0049_4664abc9",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        266.4,
+        83.04,
+        5.28,
+        5.76
+      ],
+      "image_bbox": [
+        555,
+        173,
+        11,
+        12
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0050_6b83983f",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        289.44,
+        83.04,
+        5.28,
+        5.76
+      ],
+      "image_bbox": [
+        603,
+        173,
+        11,
+        12
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0051_7c448f14",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        194.88,
+        99.84,
+        8.16,
+        9.6
+      ],
+      "image_bbox": [
+        406,
+        208,
+        17,
+        20
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0052_dcf2b004",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        280.32,
+        102.72,
+        6.72,
+        6.72
+      ],
+      "image_bbox": [
+        584,
+        214,
+        14,
+        14
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0053_d9dbb7f1",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        43.68,
+        105.6,
+        37.44,
+        8.64
+      ],
+      "image_bbox": [
+        91,
+        220,
+        78,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0054_7a5b7bfa",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        33.12,
+        110.88,
+        513.12,
+        8.64
+      ],
+      "image_bbox": [
+        69,
+        231,
+        1069,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0055_fd76129e",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        33.12,
+        118.56,
+        512.64,
+        32.64
+      ],
+      "image_bbox": [
+        69,
+        247,
+        1068,
+        68
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0056_4706a928",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        33.6,
+        118.56,
+        369.12,
+        97.44
+      ],
+      "image_bbox": [
+        70,
+        247,
+        769,
+        203
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0057_4a1eebe0",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        34.08,
+        118.56,
+        328.8,
+        129.6
+      ],
+      "image_bbox": [
+        71,
+        247,
+        685,
+        270
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0058_4c6900c0",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        204.48,
+        118.56,
+        341.28,
+        65.28
+      ],
+      "image_bbox": [
+        426,
+        247,
+        711,
+        136
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0059_21b6eb63",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        33.12,
+        143.52,
+        513.6,
+        8.64
+      ],
+      "image_bbox": [
+        69,
+        299,
+        1070,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0060_a84958da",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        33.6,
+        151.2,
+        369.12,
+        64.8
+      ],
+      "image_bbox": [
+        70,
+        315,
+        769,
+        135
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0061_3dcdb7c5",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        36.96,
+        151.2,
+        134.88,
+        129.12
+      ],
+      "image_bbox": [
+        77,
+        315,
+        281,
+        269
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0062_3d5934eb",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        188.64,
+        151.2,
+        357.6,
+        129.12
+      ],
+      "image_bbox": [
+        393,
+        315,
+        745,
+        269
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0063_430556be",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        204.48,
+        151.2,
+        341.76,
+        32.64
+      ],
+      "image_bbox": [
+        426,
+        315,
+        712,
+        68
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0064_00d2f3cd",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        204.48,
+        176.16,
+        342.72,
+        8.64
+      ],
+      "image_bbox": [
+        426,
+        367,
+        714,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0065_8a881720",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        204.48,
+        183.84,
+        342.24,
+        96.48
+      ],
+      "image_bbox": [
+        426,
+        383,
+        713,
+        201
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0066_8b1710f9",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        33.6,
+        208.32,
+        369.6,
+        8.64
+      ],
+      "image_bbox": [
+        70,
+        434,
+        770,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0067_051cfe88",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        412.8,
+        208.32,
+        134.4,
+        8.64
+      ],
+      "image_bbox": [
+        860,
+        434,
+        280,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0068_919e5e99",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        34.08,
+        216.0,
+        328.8,
+        32.16
+      ],
+      "image_bbox": [
+        71,
+        450,
+        685,
+        67
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0069_8dbd7a88",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        36.96,
+        216.0,
+        134.88,
+        64.32
+      ],
+      "image_bbox": [
+        77,
+        450,
+        281,
+        134
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0070_d264beda",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        34.08,
+        240.48,
+        329.28,
+        8.64
+      ],
+      "image_bbox": [
+        71,
+        501,
+        686,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0071_2064e77e",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        375.84,
+        240.48,
+        34.56,
+        8.64
+      ],
+      "image_bbox": [
+        783,
+        501,
+        72,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0072_988ba6e2",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        433.92,
+        240.48,
+        102.72,
+        8.64
+      ],
+      "image_bbox": [
+        904,
+        501,
+        214,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0073_0ecefbef",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        36.96,
+        248.16,
+        134.88,
+        32.16
+      ],
+      "image_bbox": [
+        77,
+        517,
+        281,
+        67
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0074_561d4e31",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        188.64,
+        269.76,
+        359.04,
+        11.52
+      ],
+      "image_bbox": [
+        393,
+        562,
+        748,
+        24
+      ],
+      "confidence": 0.52,
+      "source": "linebox_v1",
+      "source_notes": "wide horizontal rule inside narrative region",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0075_0dbe6517",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        36.96,
+        272.64,
+        135.36,
+        8.64
+      ],
+      "image_bbox": [
+        77,
+        568,
+        282,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0076_8297a11c",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        188.64,
+        280.32,
+        358.56,
+        32.16
+      ],
+      "image_bbox": [
+        393,
+        584,
+        747,
+        67
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0077_3d65e8ee",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        204.0,
+        280.32,
+        339.36,
+        329.28
+      ],
+      "image_bbox": [
+        425,
+        584,
+        707,
+        686
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0078_41c79eee",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        220.8,
+        280.32,
+        322.56,
+        224.64
+      ],
+      "image_bbox": [
+        460,
+        584,
+        672,
+        468
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0079_2d8087bf",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        312.0,
+        280.32,
+        231.84,
+        192.48
+      ],
+      "image_bbox": [
+        650,
+        584,
+        483,
+        401
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0080_c3030b33",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        34.08,
+        301.92,
+        514.08,
+        11.52
+      ],
+      "image_bbox": [
+        71,
+        629,
+        1071,
+        24
+      ],
+      "confidence": 0.52,
+      "source": "linebox_v1",
+      "source_notes": "wide horizontal rule inside narrative region",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0081_aa5f0ebc",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        34.56,
+        312.48,
+        306.72,
+        72.48
+      ],
+      "image_bbox": [
+        72,
+        651,
+        639,
+        151
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0082_80bb92d4",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        35.04,
+        312.48,
+        512.64,
+        220.8
+      ],
+      "image_bbox": [
+        73,
+        651,
+        1068,
+        460
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0083_42e65c4b",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        35.52,
+        312.48,
+        512.16,
+        332.64
+      ],
+      "image_bbox": [
+        74,
+        651,
+        1067,
+        693
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0084_26a8f4e8",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        37.92,
+        312.48,
+        395.52,
+        31.68
+      ],
+      "image_bbox": [
+        79,
+        651,
+        824,
+        66
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0085_938f1521",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        268.8,
+        312.48,
+        275.04,
+        208.32
+      ],
+      "image_bbox": [
+        560,
+        651,
+        573,
+        434
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0086_4f7f729f",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        182.4,
+        317.28,
+        5.28,
+        5.76
+      ],
+      "image_bbox": [
+        380,
+        661,
+        11,
+        12
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0087_374c8e56",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        37.92,
+        333.6,
+        396.0,
+        11.52
+      ],
+      "image_bbox": [
+        79,
+        695,
+        825,
+        24
+      ],
+      "confidence": 0.52,
+      "source": "linebox_v1",
+      "source_notes": "wide horizontal rule inside narrative region",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0088_02cb0a02",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        456.48,
+        336.48,
+        91.68,
+        8.64
+      ],
+      "image_bbox": [
+        951,
+        701,
+        191,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0089_403fc220",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        37.92,
+        344.16,
+        395.52,
+        300.96
+      ],
+      "image_bbox": [
+        79,
+        717,
+        824,
+        627
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0090_3e27e19c",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        37.92,
+        344.16,
+        395.52,
+        189.12
+      ],
+      "image_bbox": [
+        79,
+        717,
+        824,
+        394
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0091_60b8baa5",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        37.92,
+        344.16,
+        303.36,
+        40.8
+      ],
+      "image_bbox": [
+        79,
+        717,
+        632,
+        85
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0092_a082f9ba",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        468.48,
+        348.48,
+        9.6,
+        9.6
+      ],
+      "image_bbox": [
+        976,
+        726,
+        20,
+        20
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0093_f8139395",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        513.6,
+        348.48,
+        9.12,
+        9.6
+      ],
+      "image_bbox": [
+        1070,
+        726,
+        19,
+        20
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0094_0ab27503",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        34.56,
+        377.28,
+        307.2,
+        8.64
+      ],
+      "image_bbox": [
+        72,
+        786,
+        640,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0095_03f55006",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        358.56,
+        377.28,
+        105.12,
+        8.64
+      ],
+      "image_bbox": [
+        747,
+        786,
+        219,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0096_aa680d09",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        507.36,
+        377.28,
+        40.8,
+        8.64
+      ],
+      "image_bbox": [
+        1057,
+        786,
+        85,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0097_c16bce33",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        35.04,
+        384.96,
+        306.24,
+        148.32
+      ],
+      "image_bbox": [
+        73,
+        802,
+        638,
+        309
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0098_768f08cd",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        35.52,
+        384.96,
+        305.76,
+        260.16
+      ],
+      "image_bbox": [
+        74,
+        802,
+        637,
+        542
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0099_4766f4df",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        49.44,
+        420.0,
+        399.36,
+        11.52
+      ],
+      "image_bbox": [
+        103,
+        875,
+        832,
+        24
+      ],
+      "confidence": 0.52,
+      "source": "linebox_v1",
+      "source_notes": "wide horizontal rule inside narrative region",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0100_8a76c19c",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        456.48,
+        422.88,
+        92.16,
+        8.64
+      ],
+      "image_bbox": [
+        951,
+        881,
+        192,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0101_f29215d3",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        49.92,
+        465.12,
+        162.72,
+        8.64
+      ],
+      "image_bbox": [
+        104,
+        969,
+        339,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_date_field_0102_acda48ef",
+      "page": 3,
+      "type": "date_field",
+      "bbox": [
+        220.8,
+        465.12,
+        62.4,
+        8.64
+      ],
+      "image_bbox": [
+        460,
+        969,
+        130,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0103_c0831227",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        312.0,
+        465.12,
+        232.32,
+        8.64
+      ],
+      "image_bbox": [
+        650,
+        969,
+        484,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0104_5c8eefe2",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        312.0,
+        472.8,
+        231.84,
+        172.32
+      ],
+      "image_bbox": [
+        650,
+        985,
+        483,
+        359
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0105_34c1fe73",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        312.0,
+        472.8,
+        231.84,
+        60.48
+      ],
+      "image_bbox": [
+        650,
+        985,
+        483,
+        126
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0106_ea3a067e",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        312.0,
+        472.8,
+        231.36,
+        32.16
+      ],
+      "image_bbox": [
+        650,
+        985,
+        482,
+        67
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_date_field_0107_66839837",
+      "page": 3,
+      "type": "date_field",
+      "bbox": [
+        49.92,
+        480.96,
+        53.28,
+        8.64
+      ],
+      "image_bbox": [
+        104,
+        1002,
+        111,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0108_92a6196a",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        155.52,
+        480.96,
+        24.0,
+        8.64
+      ],
+      "image_bbox": [
+        324,
+        1002,
+        50,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0109_715eff5c",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        255.84,
+        480.96,
+        288.48,
+        8.64
+      ],
+      "image_bbox": [
+        533,
+        1002,
+        601,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0110_453e4d02",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        255.84,
+        488.64,
+        287.52,
+        120.96
+      ],
+      "image_bbox": [
+        533,
+        1018,
+        599,
+        252
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0111_635521aa",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        255.84,
+        488.64,
+        288.0,
+        44.64
+      ],
+      "image_bbox": [
+        533,
+        1018,
+        600,
+        93
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0112_fab23d1a",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        268.8,
+        488.64,
+        275.04,
+        32.16
+      ],
+      "image_bbox": [
+        560,
+        1018,
+        573,
+        67
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_date_field_0113_c24e3c10",
+      "page": 3,
+      "type": "date_field",
+      "bbox": [
+        79.68,
+        497.28,
+        131.04,
+        8.64
+      ],
+      "image_bbox": [
+        166,
+        1036,
+        273,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0114_e2b5774f",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        220.8,
+        497.28,
+        323.04,
+        8.64
+      ],
+      "image_bbox": [
+        460,
+        1036,
+        673,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0115_127cdbcf",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        220.8,
+        504.96,
+        322.56,
+        140.16
+      ],
+      "image_bbox": [
+        460,
+        1052,
+        672,
+        292
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0116_b8962416",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        220.8,
+        504.96,
+        322.56,
+        28.32
+      ],
+      "image_bbox": [
+        460,
+        1052,
+        672,
+        59
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0117_127fea7f",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        49.92,
+        513.12,
+        162.72,
+        8.64
+      ],
+      "image_bbox": [
+        104,
+        1069,
+        339,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_date_field_0118_6677cbc0",
+      "page": 3,
+      "type": "date_field",
+      "bbox": [
+        221.28,
+        513.12,
+        40.8,
+        8.64
+      ],
+      "image_bbox": [
+        461,
+        1069,
+        85,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_line_0119_a9b0e71b",
+      "page": 3,
+      "type": "text_line",
+      "bbox": [
+        268.8,
+        513.12,
+        275.52,
+        8.64
+      ],
+      "image_bbox": [
+        560,
+        1069,
+        574,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0120_ffa0165c",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        268.8,
+        520.8,
+        274.56,
+        88.8
+      ],
+      "image_bbox": [
+        560,
+        1085,
+        572,
+        185
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0121_63036491",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        35.04,
+        522.72,
+        513.6,
+        11.52
+      ],
+      "image_bbox": [
+        73,
+        1089,
+        1070,
+        24
+      ],
+      "confidence": 0.52,
+      "source": "linebox_v1",
+      "source_notes": "wide horizontal rule inside narrative region",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0122_6c1d510d",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        35.52,
+        533.28,
+        512.64,
+        111.84
+      ],
+      "image_bbox": [
+        74,
+        1111,
+        1068,
+        233
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0123_4500dc7a",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        204.0,
+        533.28,
+        339.36,
+        76.32
+      ],
+      "image_bbox": [
+        425,
+        1111,
+        707,
+        159
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0124_faa58ed7",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        261.6,
+        548.16,
+        6.72,
+        7.68
+      ],
+      "image_bbox": [
+        545,
+        1142,
+        14,
+        16
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0125_4a045164",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        295.2,
+        548.16,
+        6.72,
+        7.68
+      ],
+      "image_bbox": [
+        615,
+        1142,
+        14,
+        16
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0126_52508fef",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        319.2,
+        548.16,
+        7.68,
+        8.16
+      ],
+      "image_bbox": [
+        665,
+        1142,
+        16,
+        17
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_date_field_0127_eedd8a65",
+      "page": 3,
+      "type": "date_field",
+      "bbox": [
+        239.04,
+        550.08,
+        104.64,
+        8.64
+      ],
+      "image_bbox": [
+        498,
+        1146,
+        218,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0128_03e5ec7f",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        246.72,
+        550.08,
+        6.24,
+        5.76
+      ],
+      "image_bbox": [
+        514,
+        1146,
+        13,
+        12
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0129_9effd6d5",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        269.76,
+        550.08,
+        5.76,
+        5.76
+      ],
+      "image_bbox": [
+        562,
+        1146,
+        12,
+        12
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0130_f7ffaa62",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        41.76,
+        578.4,
+        5.76,
+        6.72
+      ],
+      "image_bbox": [
+        87,
+        1205,
+        12,
+        14
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0131_962c6d87",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        126.24,
+        578.4,
+        5.76,
+        6.24
+      ],
+      "image_bbox": [
+        263,
+        1205,
+        12,
+        13
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0132_af69f5eb",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        425.28,
+        578.4,
+        5.28,
+        6.72
+      ],
+      "image_bbox": [
+        886,
+        1205,
+        11,
+        14
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_date_field_0133_b73e493a",
+      "page": 3,
+      "type": "date_field",
+      "bbox": [
+        219.84,
+        578.88,
+        47.52,
+        8.64
+      ],
+      "image_bbox": [
+        458,
+        1206,
+        99,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_date_field_0134_c1fd6efd",
+      "page": 3,
+      "type": "date_field",
+      "bbox": [
+        453.6,
+        578.88,
+        90.72,
+        8.64
+      ],
+      "image_bbox": [
+        945,
+        1206,
+        189,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0135_de2c416a",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        204.0,
+        599.04,
+        339.84,
+        11.52
+      ],
+      "image_bbox": [
+        425,
+        1248,
+        708,
+        24
+      ],
+      "confidence": 0.52,
+      "source": "linebox_v1",
+      "source_notes": "wide horizontal rule inside narrative region",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0136_6f57d67d",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        41.76,
+        600.96,
+        5.28,
+        5.76
+      ],
+      "image_bbox": [
+        87,
+        1252,
+        11,
+        12
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0137_e4c16a59",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        106.56,
+        600.96,
+        5.76,
+        6.72
+      ],
+      "image_bbox": [
+        222,
+        1252,
+        12,
+        14
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_text_box_0138_7f3e6448",
+      "page": 3,
+      "type": "text_box",
+      "bbox": [
+        204.0,
+        609.6,
+        339.36,
+        35.52
+      ],
+      "image_bbox": [
+        425,
+        1270,
+        707,
+        74
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_checkbox_0139_6b7c6c6b",
+      "page": 3,
+      "type": "checkbox",
+      "bbox": [
+        365.76,
+        625.92,
+        7.2,
+        5.76
+      ],
+      "image_bbox": [
+        762,
+        1304,
+        15,
+        12
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p3_narrative_box_0140_382e52d0",
+      "page": 3,
+      "type": "narrative_box",
+      "bbox": [
+        35.52,
+        634.56,
+        513.12,
+        11.52
+      ],
+      "image_bbox": [
+        74,
+        1322,
+        1069,
+        24
+      ],
+      "confidence": 0.52,
+      "source": "linebox_v1",
+      "source_notes": "wide horizontal rule inside narrative region",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0141_526a1029",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        48.48,
+        72.48,
+        171.36,
+        8.64
+      ],
+      "image_bbox": [
+        101,
+        151,
+        357,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0142_caabeedc",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        244.32,
+        72.48,
+        209.28,
+        8.64
+      ],
+      "image_bbox": [
+        509,
+        151,
+        436,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0143_2e30710f",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        56.16,
+        81.12,
+        37.92,
+        8.64
+      ],
+      "image_bbox": [
+        117,
+        169,
+        79,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_checkbox_0144_572cf027",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        143.04,
+        123.36,
+        7.2,
+        8.64
+      ],
+      "image_bbox": [
+        298,
+        257,
+        15,
+        18
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_checkbox_0145_cdd53350",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        299.04,
+        123.36,
+        6.72,
+        9.12
+      ],
+      "image_bbox": [
+        623,
+        257,
+        14,
+        19
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_checkbox_0146_dc0001f9",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        356.16,
+        123.84,
+        7.2,
+        8.16
+      ],
+      "image_bbox": [
+        742,
+        258,
+        15,
+        17
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_checkbox_0147_967bb459",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        200.16,
+        126.24,
+        5.76,
+        5.76
+      ],
+      "image_bbox": [
+        417,
+        263,
+        12,
+        12
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_checkbox_0148_f06e91b8",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        264.0,
+        126.24,
+        6.24,
+        6.24
+      ],
+      "image_bbox": [
+        550,
+        263,
+        13,
+        13
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_checkbox_0149_99fd79bc",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        284.16,
+        126.24,
+        5.76,
+        5.76
+      ],
+      "image_bbox": [
+        592,
+        263,
+        12,
+        12
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_checkbox_0150_44ff220c",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        312.96,
+        126.24,
+        5.76,
+        5.76
+      ],
+      "image_bbox": [
+        652,
+        263,
+        12,
+        12
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_checkbox_0151_b47dce6f",
+      "page": 4,
+      "type": "checkbox",
+      "bbox": [
+        365.28,
+        126.24,
+        5.76,
+        6.24
+      ],
+      "image_bbox": [
+        761,
+        263,
+        12,
+        13
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0152_91ea45d5",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        63.84,
+        131.04,
+        144.96,
+        8.64
+      ],
+      "image_bbox": [
+        133,
+        273,
+        302,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0153_a1c1718c",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        229.44,
+        131.04,
+        68.16,
+        8.64
+      ],
+      "image_bbox": [
+        478,
+        273,
+        142,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0154_98c8b894",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        314.4,
+        131.04,
+        136.32,
+        8.64
+      ],
+      "image_bbox": [
+        655,
+        273,
+        284,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0155_47e1d117",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        81.6,
+        162.72,
+        43.68,
+        8.64
+      ],
+      "image_bbox": [
+        170,
+        339,
+        91,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0156_60a93009",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        132.48,
+        162.72,
+        96.48,
+        8.64
+      ],
+      "image_bbox": [
+        276,
+        339,
+        201,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0157_00336a02",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        257.28,
+        162.72,
+        53.76,
+        8.64
+      ],
+      "image_bbox": [
+        536,
+        339,
+        112,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0158_b961b920",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        322.56,
+        162.72,
+        62.4,
+        8.64
+      ],
+      "image_bbox": [
+        672,
+        339,
+        130,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0159_63498d03",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        290.88,
+        194.4,
+        87.84,
+        8.64
+      ],
+      "image_bbox": [
+        606,
+        405,
+        183,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0160_51417949",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        49.92,
+        223.2,
+        118.08,
+        8.64
+      ],
+      "image_bbox": [
+        104,
+        465,
+        246,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0161_2b987d44",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        176.64,
+        223.2,
+        56.16,
+        8.64
+      ],
+      "image_bbox": [
+        368,
+        465,
+        117,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0162_c5135ac3",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        259.2,
+        223.2,
+        180.0,
+        8.64
+      ],
+      "image_bbox": [
+        540,
+        465,
+        375,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0163_6591f97f",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        129.6,
+        258.24,
+        164.64,
+        8.64
+      ],
+      "image_bbox": [
+        270,
+        538,
+        343,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0164_f40dd266",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        50.4,
+        311.04,
+        47.52,
+        8.64
+      ],
+      "image_bbox": [
+        105,
+        648,
+        99,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0165_fe42e3a5",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        338.88,
+        311.04,
+        44.16,
+        8.64
+      ],
+      "image_bbox": [
+        706,
+        648,
+        92,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0166_1416dbd8",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        51.84,
+        342.24,
+        287.04,
+        8.64
+      ],
+      "image_bbox": [
+        108,
+        713,
+        598,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0167_9ddc2d05",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        345.6,
+        342.24,
+        156.0,
+        8.64
+      ],
+      "image_bbox": [
+        720,
+        713,
+        325,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_narrative_box_0168_917e2c75",
+      "page": 4,
+      "type": "narrative_box",
+      "bbox": [
+        352.8,
+        349.92,
+        146.4,
+        332.16
+      ],
+      "image_bbox": [
+        735,
+        729,
+        305,
+        692
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_narrative_box_0169_114ea35f",
+      "page": 4,
+      "type": "narrative_box",
+      "bbox": [
+        362.4,
+        349.92,
+        138.72,
+        244.32
+      ],
+      "image_bbox": [
+        755,
+        729,
+        289,
+        509
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_date_field_0170_4daa3a6c",
+      "page": 4,
+      "type": "date_field",
+      "bbox": [
+        51.36,
+        586.56,
+        144.96,
+        8.64
+      ],
+      "image_bbox": [
+        107,
+        1222,
+        302,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_date_field_0171_9ec1e2e2",
+      "page": 4,
+      "type": "date_field",
+      "bbox": [
+        233.76,
+        586.56,
+        40.32,
+        8.64
+      ],
+      "image_bbox": [
+        487,
+        1222,
+        84,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_date_field_0172_d3d63f34",
+      "page": 4,
+      "type": "date_field",
+      "bbox": [
+        289.44,
+        586.56,
+        41.76,
+        8.64
+      ],
+      "image_bbox": [
+        603,
+        1222,
+        87,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_date_field_0173_30518004",
+      "page": 4,
+      "type": "date_field",
+      "bbox": [
+        362.4,
+        586.56,
+        139.2,
+        8.64
+      ],
+      "image_bbox": [
+        755,
+        1222,
+        290,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_box_0174_eb9ab1a9",
+      "page": 4,
+      "type": "text_box",
+      "bbox": [
+        55.2,
+        594.24,
+        140.64,
+        87.84
+      ],
+      "image_bbox": [
+        115,
+        1238,
+        293,
+        183
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_box_0175_d963f6e0",
+      "page": 4,
+      "type": "text_box",
+      "bbox": [
+        362.4,
+        594.24,
+        136.8,
+        87.84
+      ],
+      "image_bbox": [
+        755,
+        1238,
+        285,
+        183
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_date_field_0176_db901b73",
+      "page": 4,
+      "type": "date_field",
+      "bbox": [
+        83.52,
+        645.6,
+        81.12,
+        8.64
+      ],
+      "image_bbox": [
+        174,
+        1345,
+        169,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_signature_line_0177_cda8c527",
+      "page": 4,
+      "type": "signature_line",
+      "bbox": [
+        264.0,
+        645.6,
+        233.28,
+        8.64
+      ],
+      "image_bbox": [
+        550,
+        1345,
+        486,
+        18
+      ],
+      "confidence": 0.64,
+      "source": "linebox_v1",
+      "source_notes": "lower-page horizontal rule, possible signature line",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_box_0178_cc2b4c9e",
+      "page": 4,
+      "type": "text_box",
+      "bbox": [
+        352.8,
+        653.28,
+        144.0,
+        28.8
+      ],
+      "image_bbox": [
+        735,
+        1361,
+        300,
+        60
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_signature_line_0179_552c13ef",
+      "page": 4,
+      "type": "signature_line",
+      "bbox": [
+        55.2,
+        674.4,
+        165.12,
+        8.64
+      ],
+      "image_bbox": [
+        115,
+        1405,
+        344,
+        18
+      ],
+      "confidence": 0.64,
+      "source": "linebox_v1",
+      "source_notes": "lower-page horizontal rule, possible signature line",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_text_line_0180_a8954ade",
+      "page": 4,
+      "type": "text_line",
+      "bbox": [
+        240.48,
+        674.4,
+        26.88,
+        8.64
+      ],
+      "image_bbox": [
+        501,
+        1405,
+        56,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p4_date_field_0181_c007b26f",
+      "page": 4,
+      "type": "date_field",
+      "bbox": [
+        352.8,
+        674.4,
+        146.88,
+        8.64
+      ],
+      "image_bbox": [
+        735,
+        1405,
+        306,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0182_e70ff060",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        40.32,
+        80.16,
+        74.88,
+        8.64
+      ],
+      "image_bbox": [
+        84,
+        167,
+        156,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0183_05f68fa6",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        135.36,
+        80.16,
+        244.8,
+        8.64
+      ],
+      "image_bbox": [
+        282,
+        167,
+        510,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0184_f7a1edbd",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        420.0,
+        80.16,
+        70.08,
+        8.64
+      ],
+      "image_bbox": [
+        875,
+        167,
+        146,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_checkbox_0185_2f44e9aa",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        118.56,
+        127.2,
+        6.24,
+        7.2
+      ],
+      "image_bbox": [
+        247,
+        265,
+        13,
+        15
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_checkbox_0186_fa0b5157",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        182.4,
+        127.68,
+        5.28,
+        7.2
+      ],
+      "image_bbox": [
+        380,
+        266,
+        11,
+        15
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_checkbox_0187_c38b9ea7",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        279.84,
+        128.64,
+        5.28,
+        6.24
+      ],
+      "image_bbox": [
+        583,
+        268,
+        11,
+        13
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_checkbox_0188_cc7e7b54",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        270.24,
+        140.64,
+        5.28,
+        7.2
+      ],
+      "image_bbox": [
+        563,
+        293,
+        11,
+        15
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0189_5d1bcc29",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        43.2,
+        142.08,
+        39.36,
+        8.64
+      ],
+      "image_bbox": [
+        90,
+        296,
+        82,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0190_7595129a",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        35.52,
+        148.32,
+        59.52,
+        8.64
+      ],
+      "image_bbox": [
+        74,
+        309,
+        124,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0191_d488392f",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        104.16,
+        148.32,
+        53.76,
+        8.64
+      ],
+      "image_bbox": [
+        217,
+        309,
+        112,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0192_815a2545",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        475.68,
+        148.32,
+        38.88,
+        8.64
+      ],
+      "image_bbox": [
+        991,
+        309,
+        81,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0193_2cf8e563",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        49.92,
+        179.04,
+        70.08,
+        8.64
+      ],
+      "image_bbox": [
+        104,
+        373,
+        146,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0194_51fcfe8b",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        269.76,
+        179.04,
+        245.28,
+        8.64
+      ],
+      "image_bbox": [
+        562,
+        373,
+        511,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0195_362fffb9",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        79.2,
+        209.28,
+        41.28,
+        8.64
+      ],
+      "image_bbox": [
+        165,
+        436,
+        86,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0196_7062e7a6",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        125.76,
+        209.28,
+        156.48,
+        8.64
+      ],
+      "image_bbox": [
+        262,
+        436,
+        326,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0197_42c12e3b",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        311.04,
+        209.28,
+        146.4,
+        8.64
+      ],
+      "image_bbox": [
+        648,
+        436,
+        305,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0198_ff6ccfc5",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        88.32,
+        240.0,
+        134.88,
+        8.64
+      ],
+      "image_bbox": [
+        184,
+        500,
+        281,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0199_7ea8f6ac",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        230.88,
+        240.0,
+        39.36,
+        8.64
+      ],
+      "image_bbox": [
+        481,
+        500,
+        82,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0200_46b7ba28",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        323.52,
+        240.0,
+        35.04,
+        8.64
+      ],
+      "image_bbox": [
+        674,
+        500,
+        73,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0201_0fc8e1a0",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        386.88,
+        240.0,
+        96.0,
+        8.64
+      ],
+      "image_bbox": [
+        806,
+        500,
+        200,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0202_b3c32e91",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        36.0,
+        270.24,
+        37.92,
+        8.64
+      ],
+      "image_bbox": [
+        75,
+        563,
+        79,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0203_4dee1b2d",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        84.0,
+        270.24,
+        204.0,
+        8.64
+      ],
+      "image_bbox": [
+        175,
+        563,
+        425,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0204_6b1c8003",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        350.88,
+        270.24,
+        79.2,
+        8.64
+      ],
+      "image_bbox": [
+        731,
+        563,
+        165,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0205_1e9df27a",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        456.96,
+        270.24,
+        49.92,
+        8.64
+      ],
+      "image_bbox": [
+        952,
+        563,
+        104,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0206_b57f1d6f",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        36.0,
+        300.48,
+        187.2,
+        8.64
+      ],
+      "image_bbox": [
+        75,
+        626,
+        390,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0207_dc35c487",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        231.84,
+        300.48,
+        25.92,
+        8.64
+      ],
+      "image_bbox": [
+        483,
+        626,
+        54,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0208_dc81c32f",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        327.84,
+        300.48,
+        168.0,
+        8.64
+      ],
+      "image_bbox": [
+        683,
+        626,
+        350,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_box_0209_23053f0a",
+      "page": 5,
+      "type": "text_box",
+      "bbox": [
+        36.0,
+        308.16,
+        186.72,
+        98.88
+      ],
+      "image_bbox": [
+        75,
+        642,
+        389,
+        206
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_box_0210_ed3c3383",
+      "page": 5,
+      "type": "text_box",
+      "bbox": [
+        36.0,
+        308.16,
+        186.72,
+        30.72
+      ],
+      "image_bbox": [
+        75,
+        642,
+        389,
+        64
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0211_e5f13c36",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        36.0,
+        331.2,
+        246.72,
+        8.64
+      ],
+      "image_bbox": [
+        75,
+        690,
+        514,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0212_1fb8ead9",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        349.92,
+        331.2,
+        105.12,
+        8.64
+      ],
+      "image_bbox": [
+        729,
+        690,
+        219,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0213_b23b7cd2",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        468.0,
+        331.2,
+        48.0,
+        8.64
+      ],
+      "image_bbox": [
+        975,
+        690,
+        100,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_box_0214_8cf4952f",
+      "page": 5,
+      "type": "text_box",
+      "bbox": [
+        36.0,
+        338.88,
+        246.24,
+        68.16
+      ],
+      "image_bbox": [
+        75,
+        706,
+        513,
+        142
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0215_69909efb",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        291.84,
+        361.44,
+        55.68,
+        8.64
+      ],
+      "image_bbox": [
+        608,
+        753,
+        116,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_checkbox_0216_6807f10e",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        442.08,
+        372.96,
+        9.12,
+        9.12
+      ],
+      "image_bbox": [
+        921,
+        777,
+        19,
+        19
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_checkbox_0217_26e1007a",
+      "page": 5,
+      "type": "checkbox",
+      "bbox": [
+        483.84,
+        373.44,
+        8.64,
+        8.64
+      ],
+      "image_bbox": [
+        1008,
+        778,
+        18,
+        18
+      ],
+      "confidence": 0.48,
+      "source": "geometry_v1",
+      "source_notes": "square-ish dark component candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_narrative_box_0218_b1f264e2",
+      "page": 5,
+      "type": "narrative_box",
+      "bbox": [
+        36.0,
+        396.48,
+        480.0,
+        11.52
+      ],
+      "image_bbox": [
+        75,
+        826,
+        1000,
+        24
+      ],
+      "confidence": 0.52,
+      "source": "linebox_v1",
+      "source_notes": "wide horizontal rule inside narrative region",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_narrative_box_0219_6678490d",
+      "page": 5,
+      "type": "narrative_box",
+      "bbox": [
+        36.0,
+        427.2,
+        352.8,
+        11.52
+      ],
+      "image_bbox": [
+        75,
+        890,
+        735,
+        24
+      ],
+      "confidence": 0.52,
+      "source": "linebox_v1",
+      "source_notes": "wide horizontal rule inside narrative region",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0220_9a97092f",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        405.6,
+        430.08,
+        110.4,
+        8.64
+      ],
+      "image_bbox": [
+        845,
+        896,
+        230,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_narrative_box_0221_95dd8b9a",
+      "page": 5,
+      "type": "narrative_box",
+      "bbox": [
+        36.0,
+        437.76,
+        199.2,
+        144.96
+      ],
+      "image_bbox": [
+        75,
+        912,
+        415,
+        302
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0222_10d64526",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        62.4,
+        478.08,
+        32.16,
+        8.64
+      ],
+      "image_bbox": [
+        130,
+        996,
+        67,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0223_b907b3f1",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        202.08,
+        478.08,
+        64.32,
+        8.64
+      ],
+      "image_bbox": [
+        421,
+        996,
+        134,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0224_1f40a3db",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        327.36,
+        478.08,
+        189.12,
+        8.64
+      ],
+      "image_bbox": [
+        682,
+        996,
+        394,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0225_4bbe8b11",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        68.16,
+        518.4,
+        125.76,
+        8.64
+      ],
+      "image_bbox": [
+        142,
+        1080,
+        262,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0226_8edf97ad",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        263.04,
+        518.4,
+        70.56,
+        8.64
+      ],
+      "image_bbox": [
+        548,
+        1080,
+        147,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0227_6c67bdac",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        48.96,
+        533.28,
+        153.6,
+        8.64
+      ],
+      "image_bbox": [
+        102,
+        1111,
+        320,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0228_ef10420a",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        214.08,
+        533.28,
+        26.4,
+        8.64
+      ],
+      "image_bbox": [
+        446,
+        1111,
+        55,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0229_34bdeda8",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        254.88,
+        533.28,
+        91.68,
+        8.64
+      ],
+      "image_bbox": [
+        531,
+        1111,
+        191,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0230_4c0efd1c",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        354.24,
+        533.28,
+        60.96,
+        8.64
+      ],
+      "image_bbox": [
+        738,
+        1111,
+        127,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0231_6bbb6b61",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        429.6,
+        533.28,
+        25.44,
+        8.64
+      ],
+      "image_bbox": [
+        895,
+        1111,
+        53,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0232_938dd6c6",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        466.08,
+        533.28,
+        46.08,
+        8.64
+      ],
+      "image_bbox": [
+        971,
+        1111,
+        96,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0233_07518ca2",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        89.28,
+        548.16,
+        25.92,
+        8.64
+      ],
+      "image_bbox": [
+        186,
+        1142,
+        54,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0234_860f21f6",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        163.68,
+        548.16,
+        38.4,
+        8.64
+      ],
+      "image_bbox": [
+        341,
+        1142,
+        80,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0235_be38792c",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        209.76,
+        548.16,
+        76.8,
+        8.64
+      ],
+      "image_bbox": [
+        437,
+        1142,
+        160,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0236_4adf54f2",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        48.96,
+        563.52,
+        153.12,
+        8.64
+      ],
+      "image_bbox": [
+        102,
+        1174,
+        319,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0237_5cc719ae",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        210.24,
+        563.52,
+        33.6,
+        8.64
+      ],
+      "image_bbox": [
+        438,
+        1174,
+        70,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0238_075f9901",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        255.36,
+        563.52,
+        223.68,
+        8.64
+      ],
+      "image_bbox": [
+        532,
+        1174,
+        466,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0239_4e8eeb9b",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        483.84,
+        563.52,
+        25.92,
+        8.64
+      ],
+      "image_bbox": [
+        1008,
+        1174,
+        54,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0240_5b0e0313",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        36.0,
+        575.04,
+        199.68,
+        8.64
+      ],
+      "image_bbox": [
+        75,
+        1198,
+        416,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_line_0241_6a0a86d2",
+      "page": 5,
+      "type": "text_line",
+      "bbox": [
+        258.72,
+        575.04,
+        257.28,
+        8.64
+      ],
+      "image_bbox": [
+        539,
+        1198,
+        536,
+        18
+      ],
+      "confidence": 0.58,
+      "source": "linebox_v1",
+      "source_notes": "horizontal rule/underline candidate",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0242_3a15d036",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        227.04,
+        598.08,
+        97.44,
+        8.64
+      ],
+      "image_bbox": [
+        473,
+        1246,
+        203,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0243_d64b6b10",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        182.88,
+        625.92,
+        70.08,
+        8.64
+      ],
+      "image_bbox": [
+        381,
+        1304,
+        146,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0244_2c77cf9d",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        427.2,
+        625.92,
+        55.2,
+        8.64
+      ],
+      "image_bbox": [
+        890,
+        1304,
+        115,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_signature_line_0245_96bf16b0",
+      "page": 5,
+      "type": "signature_line",
+      "bbox": [
+        182.88,
+        647.52,
+        328.32,
+        8.64
+      ],
+      "image_bbox": [
+        381,
+        1349,
+        684,
+        18
+      ],
+      "confidence": 0.64,
+      "source": "linebox_v1",
+      "source_notes": "lower-page horizontal rule, possible signature line",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_text_box_0246_9accf040",
+      "page": 5,
+      "type": "text_box",
+      "bbox": [
+        288.96,
+        655.2,
+        221.76,
+        33.6
+      ],
+      "image_bbox": [
+        602,
+        1365,
+        462,
+        70
+      ],
+      "confidence": 0.54,
+      "source": "geometry_v1",
+      "source_notes": "rectangle-like region from horizontal/vertical rules",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0247_6dd00471",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        35.04,
+        681.12,
+        96.0,
+        8.64
+      ],
+      "image_bbox": [
+        73,
+        1419,
+        200,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_date_field_0248_84418870",
+      "page": 5,
+      "type": "date_field",
+      "bbox": [
+        157.92,
+        681.12,
+        100.8,
+        8.64
+      ],
+      "image_bbox": [
+        329,
+        1419,
+        210,
+        18
+      ],
+      "confidence": 0.55,
+      "source": "linebox_v1",
+      "source_notes": "short lower-page horizontal rule, possible date field",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    },
+    {
+      "candidate_id": "municipal_court_complaint_blank_p5_signature_line_0249_fa37db16",
+      "page": 5,
+      "type": "signature_line",
+      "bbox": [
+        288.96,
+        681.12,
+        222.24,
+        8.64
+      ],
+      "image_bbox": [
+        602,
+        1419,
+        463,
+        18
+      ],
+      "confidence": 0.64,
+      "source": "linebox_v1",
+      "source_notes": "lower-page horizontal rule, possible signature line",
+      "label": "unreviewed",
+      "expected_type": "",
+      "corrected_bbox": null,
+      "notes": "",
+      "group_id": "",
+      "matched_ground_truth_id": ""
+    }
+  ]
+}
