@@ -1,0 +1,636 @@
+{
+  "schema_version": "lab_queue_manifest_v1",
+  "privacy_rule": "Committed corpus PDFs may only be blank, public blank forms, or synthetic-value test PDFs. Filled real-user PDFs must be sensitive_do_not_store and local-only.",
+  "entries": [
+    {
+      "id": "irs_w9",
+      "filename": "irs_w9.pdf",
+      "path": "samples/acroforms/raw/irs/irs_w9.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/irs_w9.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "irs_w4",
+      "filename": "irs_w4.pdf",
+      "path": "samples/acroforms/raw/irs/irs_w4.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/irs_w4.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "irs_1040",
+      "filename": "irs_1040.pdf",
+      "path": "samples/acroforms/raw/irs/irs_1040.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/irs_1040.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "irs_1040sb",
+      "filename": "irs_1040sb.pdf",
+      "path": "samples/acroforms/raw/irs/irs_1040sb.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/irs_1040sb.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "irs_2848",
+      "filename": "irs_2848.pdf",
+      "path": "samples/acroforms/raw/irs/irs_2848.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/irs_2848.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "irs_8821",
+      "filename": "irs_8821.pdf",
+      "path": "samples/acroforms/raw/irs/irs_8821.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/irs_8821.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "irs_4506t",
+      "filename": "irs_4506t.pdf",
+      "path": "samples/acroforms/raw/irs/irs_4506t.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/irs_4506t.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "uscis_i9",
+      "filename": "uscis_i9.pdf",
+      "path": "samples/acroforms/raw/uscis/uscis_i9.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/uscis_i9.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "uscis_g1145",
+      "filename": "uscis_g1145.pdf",
+      "path": "samples/acroforms/raw/uscis/uscis_g1145.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/uscis_g1145.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "uscis_i90",
+      "filename": "uscis_i90.pdf",
+      "path": "samples/acroforms/raw/uscis/uscis_i90.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/uscis_i90.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "uscis_n400",
+      "filename": "uscis_n400.pdf",
+      "path": "samples/acroforms/raw/uscis/uscis_n400.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/uscis_n400.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "va_21526ez",
+      "filename": "va_21526ez.pdf",
+      "path": "samples/acroforms/raw/va/va_21526ez.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/va_21526ez.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "va_1010ez",
+      "filename": "va_1010ez.pdf",
+      "path": "samples/acroforms/raw/va/va_1010ez.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/va_1010ez.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "ssa_521",
+      "filename": "ssa_521.pdf",
+      "path": "samples/acroforms/raw/misc/ssa_521.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/ssa_521.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "ssa_1696",
+      "filename": "ssa_1696.pdf",
+      "path": "samples/acroforms/raw/misc/ssa_1696.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/ssa_1696.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "uscourts_ao240",
+      "filename": "uscourts_ao240.pdf",
+      "path": "samples/acroforms/raw/courts/uscourts_ao240.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/uscourts_ao240.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "uscourts_b101",
+      "filename": "uscourts_b101.pdf",
+      "path": "samples/acroforms/raw/courts/uscourts_b101.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/uscourts_b101.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "U.S. government work, public domain",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "nj_mvc_ba49",
+      "filename": "nj_mvc_ba49.pdf",
+      "path": "samples/acroforms/raw/state/nj_mvc_ba49.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/nj_mvc_ba49.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "State government work \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "ca_dmv_reg256",
+      "filename": "ca_dmv_reg256.pdf",
+      "path": "samples/acroforms/raw/state/ca_dmv_reg256.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/ca_dmv_reg256.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "State government work \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "ny_dtf_it201",
+      "filename": "ny_dtf_it201.pdf",
+      "path": "samples/acroforms/raw/state/ny_dtf_it201.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/ny_dtf_it201.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "State government work \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "local_71061",
+      "filename": "local_71061.pdf",
+      "path": "samples/acroforms/raw/local/local_71061.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/local_71061.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "local_ba_51",
+      "filename": "local_ba_51.pdf",
+      "path": "samples/acroforms/raw/local/local_ba_51.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/local_ba_51.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "local_ba_62",
+      "filename": "local_ba_62.pdf",
+      "path": "samples/acroforms/raw/local/local_ba_62.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/local_ba_62.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "local_f1099nec",
+      "filename": "local_f1099nec.pdf",
+      "path": "samples/acroforms/raw/local/local_f1099nec.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/local_f1099nec.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "local_njw4",
+      "filename": "local_njw4.pdf",
+      "path": "samples/acroforms/raw/local/local_njw4.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/local_njw4.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "local_ppb_11_01_23",
+      "filename": "local_ppb_11_01_23.pdf",
+      "path": "samples/acroforms/raw/local/local_ppb_11_01_23.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/local_ppb_11_01_23.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "local_ppb_7_2_2025",
+      "filename": "local_ppb_7_2_2025.pdf",
+      "path": "samples/acroforms/raw/local/local_ppb_7_2_2025.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/local_ppb_7_2_2025.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "local_sp_066",
+      "filename": "local_sp_066.pdf",
+      "path": "samples/acroforms/raw/local/local_sp_066.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/local_sp_066.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "local_ss_5",
+      "filename": "local_ss_5.pdf",
+      "path": "samples/acroforms/raw/local/local_ss_5.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/local_ss_5.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "local_sts_033",
+      "filename": "local_sts_033.pdf",
+      "path": "samples/acroforms/raw/local/local_sts_033.pdf",
+      "lanes": [
+        "acroform"
+      ],
+      "expected_lane": "A",
+      "ground_truth_path": "benchmarks/ground_truth/local_sts_033.json",
+      "needs_ground_truth": false,
+      "needs_manual_review": false,
+      "known_failure": false,
+      "notes": "Locally-supplied; redistribution rights vary by source \u2014 research/benchmark use only",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "71048",
+      "filename": "local_71048.pdf",
+      "path": "samples/flat/digital/local_71048.pdf",
+      "lanes": [
+        "flat_text"
+      ],
+      "expected_lane": "B",
+      "ground_truth_path": "benchmarks/ground_truth_flat/71048.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "72010",
+      "filename": "local_72010.pdf",
+      "path": "samples/flat/digital/local_72010.pdf",
+      "lanes": [
+        "flat_text"
+      ],
+      "expected_lane": "B",
+      "ground_truth_path": "benchmarks/ground_truth_flat/72010.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "75710",
+      "filename": "local_75710.pdf",
+      "path": "samples/flat/digital/local_75710.pdf",
+      "lanes": [
+        "flat_text"
+      ],
+      "expected_lane": "B",
+      "ground_truth_path": "benchmarks/ground_truth_flat/75710.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "field_trip_authorization",
+      "filename": "local_center_travel_field_trip_authorization_form.pdf",
+      "path": "samples/flat/digital/local_center_travel_field_trip_authorization_form.pdf",
+      "lanes": [
+        "flat_text"
+      ],
+      "expected_lane": "B",
+      "ground_truth_path": "benchmarks/ground_truth_flat/field_trip_authorization.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "instructions",
+      "filename": "local_instructions.pdf",
+      "path": "samples/flat/digital/local_instructions.pdf",
+      "lanes": [
+        "flat_text"
+      ],
+      "expected_lane": "B",
+      "ground_truth_path": "benchmarks/ground_truth_flat/instructions.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "marriage_license",
+      "filename": "local_marriage_civil_union_license_application_form_pdf.pdf",
+      "path": "samples/flat/digital/local_marriage_civil_union_license_application_form_pdf.pdf",
+      "lanes": [
+        "flat_text"
+      ],
+      "expected_lane": "B",
+      "ground_truth_path": "benchmarks/ground_truth_flat/marriage_license.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "medical_history_intake",
+      "filename": "local_medical_history_intake_form.pdf",
+      "path": "samples/flat/digital/local_medical_history_intake_form.pdf",
+      "lanes": [
+        "flat_text"
+      ],
+      "expected_lane": "B",
+      "ground_truth_path": "benchmarks/ground_truth_flat/medical_history_intake.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "el_nomination_form",
+      "filename": "local_post_5330469_2026_el_nomination_form_1.pdf",
+      "path": "samples/flat/digital/local_post_5330469_2026_el_nomination_form_1.pdf",
+      "lanes": [
+        "flat_text"
+      ],
+      "expected_lane": "B",
+      "ground_truth_path": "benchmarks/ground_truth_flat/el_nomination_form.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "eden_lane_ballot",
+      "filename": "local_post_5403785_eden_valid_ballot_2026.pdf",
+      "path": "samples/flat/digital/local_post_5403785_eden_valid_ballot_2026.pdf",
+      "lanes": [
+        "flat_text"
+      ],
+      "expected_lane": "B",
+      "ground_truth_path": "benchmarks/ground_truth_flat/eden_lane_ballot.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "public_water_mass_mailing",
+      "filename": "local_publicwatermassmailing.pdf",
+      "path": "samples/flat/digital/local_publicwatermassmailing.pdf",
+      "lanes": [
+        "flat_text"
+      ],
+      "expected_lane": "B",
+      "ground_truth_path": "benchmarks/ground_truth_flat/public_water_mass_mailing.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "sp650",
+      "filename": "local_sp_650_non_fill.pdf",
+      "path": "samples/flat/digital/local_sp_650_non_fill.pdf",
+      "lanes": [
+        "flat_text"
+      ],
+      "expected_lane": "B",
+      "ground_truth_path": "benchmarks/ground_truth_flat/sp650.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
+      "privacy_status": "blank"
+    },
+    {
+      "id": "uoa_intake_paperwork",
+      "filename": "local_uoa_intake_paperwork_packet.pdf",
+      "path": "samples/flat/digital/local_uoa_intake_paperwork_packet.pdf",
+      "lanes": [
+        "flat_text"
+      ],
+      "expected_lane": "B",
+      "ground_truth_path": "benchmarks/ground_truth_flat/uoa_intake_paperwork.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
+      "privacy_status": "blank"
+    }
+  ]
+}

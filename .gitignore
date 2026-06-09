@@ -55,3 +55,6 @@ reports/integrity/
 # Comparison reports (regenerable)
 reports/comparisons/
 
+# Lab queue runs (regenerable)
+runs/
+
