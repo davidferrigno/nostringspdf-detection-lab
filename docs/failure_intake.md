@@ -61,6 +61,18 @@ documents. Do not attach or copy a filled real-user PDF into the repo.
 - May the PDF be committed? yes, after visual privacy review
 - Next lab action: OCR line/box experiment targeting pages 3-5
 
+## Example: Eden Geometry Alignment
+
+- Filename: `local_post_5330469_2026_el_nomination_form_1.pdf`
+- Document type: condominium candidate nomination form
+- Lane: flat_text / checkbox_radio / known_failure / geometry_alignment
+- Failure type: detected boxes can drift from underlines, paragraph checkboxes,
+  signature lines, and date targets
+- Privacy status: blank
+- May the PDF be committed? already in blank lab corpus
+- Next lab action: reviewed geometry ground truth and overlay-based alignment
+  metrics
+
 ## Privacy Rule
 
 Real filled forms with personal data must be marked `sensitive_do_not_store`.

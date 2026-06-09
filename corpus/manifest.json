@@ -649,6 +649,24 @@
       "known_failure": true,
       "privacy_status": "blank",
       "notes": "Scanned/image-only municipal court complaint form; no extractable text; no AcroForm widgets; one image per page; current detector returns zero fields; pages 3-5 contain rasterized form fields; needs OCR/linebox/checkbox/signature-line experiment."
+    },
+    {
+      "id": "eden_nomination_form",
+      "filename": "local_post_5330469_2026_el_nomination_form_1.pdf",
+      "path": "samples/flat/digital/local_post_5330469_2026_el_nomination_form_1.pdf",
+      "lanes": [
+        "flat_text",
+        "checkbox_radio",
+        "known_failure",
+        "geometry_alignment"
+      ],
+      "expected_lane": "flat_text",
+      "ground_truth_path": "benchmarks/ground_truth_flat/el_nomination_form.draft.json",
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "privacy_status": "blank",
+      "notes": "Eden Lane nomination form; known geometry/alignment failure; autodetect field placement drifts from underlines; checkboxes in paragraph/mid-text areas are misjudged; text placement can appear below printed lines; track as geometry regression, not just detection count."
     }
   ]
 }
