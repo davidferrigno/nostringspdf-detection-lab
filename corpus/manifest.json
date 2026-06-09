@@ -631,6 +631,24 @@
       "known_failure": true,
       "notes": "Flat-PDF lane candidate; draft ground truth requires human review before production promotion.",
       "privacy_status": "blank"
+    },
+    {
+      "id": "municipal_court_complaint_blank",
+      "filename": "municipal_court_complaint_blank.pdf",
+      "path": "samples/scanned/raw/municipal/municipal_court_complaint_blank.pdf",
+      "lanes": [
+        "scanned_image",
+        "checkbox_radio",
+        "signature_targets",
+        "known_failure"
+      ],
+      "expected_lane": "scanned_image",
+      "ground_truth_path": null,
+      "needs_ground_truth": true,
+      "needs_manual_review": true,
+      "known_failure": true,
+      "privacy_status": "blank",
+      "notes": "Scanned/image-only municipal court complaint form; no extractable text; no AcroForm widgets; one image per page; current detector returns zero fields; pages 3-5 contain rasterized form fields; needs OCR/linebox/checkbox/signature-line experiment."
     }
   ]
 }

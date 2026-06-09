@@ -37,12 +37,36 @@ documents. Do not attach or copy a filled real-user PDF into the repo.
 - Bootstrap ground truth:
 - Hand-review/promote ground truth:
 - Run queue:
+- Run pipeline:
 - Run lane benchmark:
 - Render overlays:
+- Route to OCR line/box experiment:
 - Other:
+
+## Pipeline Tracking
+
+- Added to `corpus/manifest.json`:
+- Latest run id:
+- Latest scorecard path:
+- Compare result:
+- Promotion gate impact:
+
+## Example: Scanned Municipal Complaint
+
+- Filename: `municipal_court_complaint_blank.pdf`
+- Document type: municipal court complaint packet
+- Lane: scanned_image / checkbox_radio / signature_targets / known_failure
+- Failure type: image-only form; baseline detectors return zero fields
+- Privacy status: blank
+- May the PDF be committed? yes, after visual privacy review
+- Next lab action: OCR line/box experiment targeting pages 3-5
 
 ## Privacy Rule
 
 Real filled forms with personal data must be marked `sensitive_do_not_store`.
 They must not be committed, copied into `samples/`, or used to generate
 reusable templates from filled user values.
+
+Sensitive files may be referenced only by local path when needed for a private
+run. The queue and pipeline must skip them when unavailable and must never copy
+them into the committed corpus.
