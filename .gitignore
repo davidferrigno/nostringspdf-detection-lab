@@ -58,3 +58,6 @@ reports/comparisons/
 # Lab queue runs (regenerable)
 runs/
 
+# OCR/linebox experiment runs (regenerable)
+experiments/ocr_linebox/runs/
+
