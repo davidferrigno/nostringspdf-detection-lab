@@ -1,0 +1,44 @@
+{
+  "review_schema_version": "1.0",
+  "form_id": "eden_nomination_form",
+  "source_pdf_sha256": "fa9ad760cc636cbbc783aa9b92c9d986599e00758391286535c2b9cc65f4ec42",
+  "source_gt_sha256": "b0872e35c9116966c06e59f00e64e4848827cddd4d14cb64ae579bb3fd7db1d8",
+  "source_gt_provenance": "detector-bootstrapped draft via heuristic_lab_v2",
+  "packet_manifest": "reports/review_packets/eden_nomination_form/form_manifest.json",
+  "reviewer": "",
+  "reviewed_at": "",
+  "review_status": "review_template",
+  "document_decision": "pending",
+  "fields": [
+    {
+      "field_id": "g1",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g2",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g3",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    }
+  ],
+  "additions": [],
+  "page_notes": [],
+  "document_notes": ""
+}

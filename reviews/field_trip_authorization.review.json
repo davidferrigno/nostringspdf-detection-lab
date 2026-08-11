@@ -1,0 +1,16 @@
+{
+  "review_schema_version": "1.0",
+  "form_id": "field_trip_authorization",
+  "source_pdf_sha256": "4e783cddac59d0227816ad81c3c0f3c631836a30e3964f19aa73392641f84f3a",
+  "source_gt_sha256": "440fef685814fc7f6ae9429df64863ed762e08f4a82d6ced7534cc14321621ba",
+  "source_gt_provenance": "detector-bootstrapped draft via heuristic_lab_v2",
+  "packet_manifest": "reports/review_packets/field_trip_authorization/form_manifest.json",
+  "reviewer": "",
+  "reviewed_at": "",
+  "review_status": "review_template",
+  "document_decision": "pending",
+  "fields": [],
+  "additions": [],
+  "page_notes": [],
+  "document_notes": ""
+}

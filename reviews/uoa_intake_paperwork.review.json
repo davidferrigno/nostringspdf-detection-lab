@@ -1,0 +1,1349 @@
+{
+  "review_schema_version": "1.0",
+  "form_id": "uoa_intake_paperwork",
+  "source_pdf_sha256": "6db25c0a0cbe139fc784b4109051f827e762f1427c807943c60f90efc7b48b2f",
+  "source_gt_sha256": "34f9c05fbb797a050684d703474831d4cdd837af612bf3258202c3f8fc659ae9",
+  "source_gt_provenance": "detector-bootstrapped draft via heuristic_lab_v2",
+  "packet_manifest": "reports/review_packets/uoa_intake_paperwork/form_manifest.json",
+  "reviewer": "",
+  "reviewed_at": "",
+  "review_status": "review_template",
+  "document_decision": "pending",
+  "fields": [
+    {
+      "field_id": "g1",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g2",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g3",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g4",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g5",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g6",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g7",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g8",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g9",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g10",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g11",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g12",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g13",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g14",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g15",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g16",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g17",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g18",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g19",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g20",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g21",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g22",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g23",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g24",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g25",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g26",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g27",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g28",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g29",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g30",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g31",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g32",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g33",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g34",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g35",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g36",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g37",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g38",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g39",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g40",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g41",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g42",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g43",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g44",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g45",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g46",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g47",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g48",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g49",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g50",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g51",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g52",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g53",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g54",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g55",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g56",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g57",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g58",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g59",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g60",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g61",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g62",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g63",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g64",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g65",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g66",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g67",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g68",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g69",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g70",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g71",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g72",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g73",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g74",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g75",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g76",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g77",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g78",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g79",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g80",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g81",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g82",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g83",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g84",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g85",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g86",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g87",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g88",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g89",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g90",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g91",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g92",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g93",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g94",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g95",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g96",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g97",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g98",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g99",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g100",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g101",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g102",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g103",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g104",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g105",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g106",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g107",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g108",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g109",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g110",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g111",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g112",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g113",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g114",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g115",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g116",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g117",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g118",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g119",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g120",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g121",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g122",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g123",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g124",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g125",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g126",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g127",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g128",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g129",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g130",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g131",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g132",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g133",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g134",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g135",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g136",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g137",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g138",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g139",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g140",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g141",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g142",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g143",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g144",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g145",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g146",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g147",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g148",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    }
+  ],
+  "additions": [],
+  "page_notes": [],
+  "document_notes": ""
+}

@@ -1,0 +1,134 @@
+{
+  "review_schema_version": "1.0",
+  "form_id": "sp650",
+  "source_pdf_sha256": "415fcf0dc51680b75db9b2e4a10834fbca2332ea24f6e3274964cdd8a30ccf03",
+  "source_gt_sha256": "858bac8431ddd4e427832e38a12e3eb8d2f93aca5ffb5472d2c7d6a5f5b631bd",
+  "source_gt_provenance": "detector-bootstrapped draft via heuristic_lab_v2",
+  "packet_manifest": "reports/review_packets/sp650/form_manifest.json",
+  "reviewer": "",
+  "reviewed_at": "",
+  "review_status": "review_template",
+  "document_decision": "pending",
+  "fields": [
+    {
+      "field_id": "g1",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g2",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g3",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g4",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g5",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g6",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g7",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g8",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g9",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g10",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g11",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g12",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g13",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    }
+  ],
+  "additions": [],
+  "page_notes": [],
+  "document_notes": ""
+}

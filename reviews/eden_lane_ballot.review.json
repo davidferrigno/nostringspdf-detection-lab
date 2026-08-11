@@ -1,0 +1,71 @@
+{
+  "review_schema_version": "1.0",
+  "form_id": "eden_lane_ballot",
+  "source_pdf_sha256": "abb291202beeb4713adbe3cf7737ea361df96c02efaebab2a080bf9b5c466cc0",
+  "source_gt_sha256": "e45e8beb8df16f60a106d4cdbb5d4ed2277d67e2a1971cd68e09bbda3d028c3c",
+  "source_gt_provenance": "detector-bootstrapped draft via heuristic_lab_v2",
+  "packet_manifest": "reports/review_packets/eden_lane_ballot/form_manifest.json",
+  "reviewer": "",
+  "reviewed_at": "",
+  "review_status": "review_template",
+  "document_decision": "pending",
+  "fields": [
+    {
+      "field_id": "g1",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g2",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g3",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g4",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g5",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    },
+    {
+      "field_id": "g6",
+      "decision": "pending",
+      "new_type": null,
+      "new_geometry": null,
+      "new_label": null,
+      "group_id": null,
+      "comment": ""
+    }
+  ],
+  "additions": [],
+  "page_notes": [],
+  "document_notes": ""
+}
