@@ -20,7 +20,9 @@ from review_packet_schema import (
     confirmation_binding,
     confirmation_token,
     draw_field_overlay,
+    draw_review_annotation_overlay,
     html_page,
+    html_table,
     infer_gt_provenance,
     load_json,
     render_pdf_pages,
@@ -107,6 +109,7 @@ def _candidate_payload(context: dict[str, Any], validated: dict[str, Any]) -> di
     review_hash = sha256_file(context["review_path"])
     manifest_hash = sha256_file(context["manifest_path"])
     candidate = dict(source_gt)
+    candidate.pop("review_annotations", None)
     candidate.update({
         "schema_version": source_gt.get("schema_version", "1.0"),
         "pdf_id": source_gt.get("pdf_id") or context["form_id"],
@@ -133,6 +136,14 @@ def _candidate_payload(context: dict[str, Any], validated: dict[str, Any]) -> di
             "packet_generator_version": GENERATOR_VERSION,
         },
     })
+    review_annotations = validated["review_annotations"]
+    if review_annotations:
+        candidate["review_annotations"] = review_annotations
+        candidate["provenance"]["review_annotations"] = {
+            "source": "owner_supplied_review_metadata",
+            "contract": "lab_review_metadata_not_field_schema",
+            "field_ids": sorted(review_annotations),
+        }
     return candidate
 
 
@@ -159,14 +170,27 @@ def _candidate_overlay(
         banner = "HUMAN REVIEW CANDIDATE - NOT APPROVED"
         footer = "This overlay confirms a candidate only. It is not locked ground truth."
     figures = []
+    annotation_rows = []
     for page in context["rendered"]:
         page_number = page["page"]
         fields = [field for field in candidate["fields"] if int(field["page"]) == page_number]
+        field_ids = {field["id"] for field in fields}
+        page_annotations = {
+            field_id: annotation
+            for field_id, annotation in candidate.get("review_annotations", {}).items()
+            if field_id in field_ids
+        }
         image = draw_field_overlay(
             page["image"],
             fields,
             page["scale_px_per_point"],
             (30, 135, 75),
+        )
+        image = draw_review_annotation_overlay(
+            image,
+            fields,
+            page_annotations,
+            page["scale_px_per_point"],
         )
         image = add_banner(
             image,
@@ -179,6 +203,20 @@ def _candidate_overlay(
         figures.append(
             f'<figure><figcaption>Page {page_number}</figcaption><img src="{name}" alt="Candidate overlay page {page_number}"></figure>'
         )
+        fields_by_id = {field["id"]: field for field in fields}
+        for field_id, annotation in page_annotations.items():
+            field = fields_by_id[field_id]
+            max_words = annotation.get("max_words")
+            annotation_rows.append([
+                field_id,
+                page_number,
+                sanitize_text(field.get("label")) or field_id,
+                "MULTILINE",
+                f"{annotation['line_count']} RULED LINES",
+                f"{max_words} WORDS MAX" if max_words else "Not specified",
+                "ONE LOGICAL FIELD",
+                "NOT APPROVED",
+            ])
     if zero_fields_confirmed:
         warning = (
             "OWNER REVIEW CANDIDATE - ZERO FILLABLE FIELDS AFFIRMATIVELY "
@@ -190,7 +228,22 @@ def _candidate_overlay(
             "HUMAN REVIEW CANDIDATE - NOT APPROVED. Inspect every page before "
             "using the separate owner approval command."
         )
-    body = f'<div class="warning">{warning}</div><div class="layers">{"".join(figures)}</div>'
+    annotation_section = ""
+    if annotation_rows:
+        annotation_section = (
+            "<h2>Owner-supplied review annotations</h2>"
+            "<p>These annotations are lab-review metadata outside FIELD_SCHEMA v1. "
+            "Each ruled guide belongs to one logical field.</p>"
+            + html_table(
+                ["Field", "Page", "Label", "Mode", "Guides", "Limit", "Structure", "Status"],
+                annotation_rows,
+            )
+        )
+    body = (
+        f'<div class="warning">{warning}</div>'
+        f'<div class="layers">{"".join(figures)}</div>'
+        f"{annotation_section}"
+    )
     write_text(overlay_dir / "index.html", html_page(f"Candidate overlay: {context['form_id']}", body))
 
 
@@ -265,6 +318,25 @@ def approve_candidate(
     candidate_provenance = candidate.get("provenance")
     if not isinstance(candidate_provenance, dict):
         raise PacketError("Candidate provenance must be an object")
+    candidate_annotations = candidate.get("review_annotations", {})
+    if candidate_annotations != validated["review_annotations"]:
+        raise PacketError(
+            "Candidate review_annotations do not match the current normalized review_annotations"
+        )
+    expected_annotation_provenance = (
+        {
+            "source": "owner_supplied_review_metadata",
+            "contract": "lab_review_metadata_not_field_schema",
+            "field_ids": sorted(validated["review_annotations"]),
+        }
+        if validated["review_annotations"]
+        else None
+    )
+    if candidate_provenance.get("review_annotations") != expected_annotation_provenance:
+        if expected_annotation_provenance is not None or "review_annotations" in candidate_provenance:
+            raise PacketError(
+                "Candidate review annotation provenance does not match the current review"
+            )
     additions_applied = any(
         isinstance(item, dict) and item.get("decision") == "add"
         for item in candidate_provenance.get("applied_decisions", [])
