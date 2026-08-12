@@ -18,6 +18,7 @@ if str(SCRIPTS) not in sys.path:
 
 import apply_gt_review
 import generate_review_packets
+import review_packet_schema
 from review_packet_schema import (
     PacketError,
     build_overlap_hints,
@@ -27,6 +28,7 @@ from review_packet_schema import (
     load_json,
     safe_form_id,
     sha256_file,
+    validate_review,
     write_json,
 )
 
@@ -203,6 +205,76 @@ def _valid_addition() -> dict:
     }
 
 
+def _multiline_addition() -> dict:
+    return {
+        "field_id": "summary",
+        "page": 1,
+        "type": "text",
+        "geometry": [24, 120, 190, 160],
+        "label": "Qualifications Summary",
+        "group_id": None,
+        "comment": "Synthetic ruled multiline addition",
+    }
+
+
+def _ruled_annotation(field_id: str = "text1", line_count: int = 2) -> dict:
+    if line_count == 14:
+        guides = [
+            {"x1": 30, "y": 130 + index * 10, "x2": 205}
+            for index in range(line_count)
+        ]
+    else:
+        guides = [
+            {"x1": 25, "y": 50, "x2": 195},
+            {"x1": 25, "y": 80, "x2": 195},
+        ]
+    return {
+        "kind": "ruled_multiline",
+        "line_count": line_count,
+        "line_guides": guides,
+        "wrap": True,
+        "vertical_align": "top",
+        "max_words": 200,
+    }
+
+
+def _annotation_validation_case() -> tuple[dict, dict, dict[int, tuple[float, float]]]:
+    source_gt = {
+        "schema_version": "1.0",
+        "fields": [
+            {"id": "text1", "page": 1, "type": "text", "bbox": [20, 20, 180, 100], "label": "Summary"},
+            {"id": "check1", "page": 1, "type": "checkbox", "bbox": [20, 140, 12, 12], "label": "Check"},
+            {"id": "signature1", "page": 1, "type": "signature", "bbox": [20, 170, 100, 18], "label": "Signature"},
+        ],
+    }
+    review = {
+        "review_schema_version": "1.0",
+        "reviewer": "Synthetic Test Reviewer",
+        "reviewed_at": "2026-08-11T12:00:00-04:00",
+        "document_decision": "pending",
+        "fields": [
+            {"field_id": field["id"], "decision": "accept"}
+            for field in source_gt["fields"]
+        ],
+        "additions": [],
+        "review_annotations": {"text1": _ruled_annotation()},
+    }
+    return review, source_gt, {1: (240, 320)}
+
+
+def _completed_annotated_review(
+    root: Path,
+    line_count: int = 14,
+) -> tuple[Path, dict]:
+    review_path, review = _completed_review(root)
+    review["additions"] = [_multiline_addition()]
+    review["review_annotations"] = {
+        "summary": _ruled_annotation("summary", line_count=line_count)
+    }
+    write_json(review_path, review)
+    return review_path, review
+
+
 def _populated_two_field_review(
     tmp_path: Path,
     document_decision: str,
@@ -297,11 +369,14 @@ def test_packet_generation_is_complete_idempotent_and_unscored(tmp_path, monkeyp
     review = load_json(root / "reviews" / "synthetic_form.review.json")
     assert {row["decision"] for row in review["fields"]} == {"pending"}
     assert review["document_decision"] == "pending"
+    assert review["review_annotations"] == {}
     markdown = (root / "reviews" / "synthetic_form.review.md").read_text(encoding="utf-8")
     assert review["form_id"] in markdown
     assert review["fields"][0]["field_id"] in markdown
     assert "confirmed_zero_fields" in markdown
     assert "detector found nothing" in markdown
+    assert "one logical text field" in markdown
+    assert "JSON is authoritative" in markdown
     assert "UNSCORED" in (packet_root / "index.html").read_text(encoding="utf-8")
     first_hashes = _file_hashes(root)
     _generate(root, paths)
@@ -611,3 +686,207 @@ def test_candidate_generation_is_separate_and_approval_is_gated(tmp_path):
     assert confirmation_token(binding) != confirmation_token({**binding, "candidate_output_sha256": "changed"})
     with pytest.raises(PacketError, match="review output"):
         apply_gt_review.apply_review_candidate(review_path, root, output_dir=paths["gt"].parent)
+
+
+def test_missing_review_annotations_is_backward_compatible(tmp_path):
+    root, paths = _mini_repo(tmp_path)
+    _generate(root, paths)
+    review_path, review = _completed_review(root)
+    review.pop("review_annotations", None)
+    write_json(review_path, review)
+
+    context = apply_gt_review.load_review_context(review_path, root)
+    validated = validate_review(review, context["source_gt"], context["page_sizes"])
+    result = apply_gt_review.apply_review_candidate(review_path, root)
+    candidate = load_json(result["candidate_path"])
+
+    assert validated["review_annotations"] == {}
+    assert "review_annotations" not in candidate
+    assert candidate["fields"] == validated["fields"]
+
+
+def test_valid_ruled_multiline_annotation_is_normalized():
+    review, source_gt, page_sizes = _annotation_validation_case()
+
+    validated = validate_review(review, source_gt, page_sizes)
+
+    assert validated["review_annotations"] == review["review_annotations"]
+
+    del review["review_annotations"]["text1"]["max_words"]
+    without_limit = validate_review(review, source_gt, page_sizes)
+    assert "max_words" not in without_limit["review_annotations"]["text1"]
+
+
+def test_annotation_on_owner_added_text_field_is_preserved_separately(tmp_path):
+    root, paths = _mini_repo(tmp_path)
+    _generate(root, paths)
+    review_path, _review = _completed_annotated_review(root)
+
+    result = apply_gt_review.apply_review_candidate(review_path, root)
+    candidate = load_json(result["candidate_path"])
+    summary = next(field for field in candidate["fields"] if field["id"] == "summary")
+
+    assert len(candidate["fields"]) == 2
+    assert all("review_annotations" not in field for field in candidate["fields"])
+    assert candidate["review_annotations"]["summary"]["line_count"] == 14
+    assert candidate["provenance"]["review_annotations"]["source"] == "owner_supplied_review_metadata"
+    assert candidate["provenance"]["review_annotations"]["field_ids"] == ["summary"]
+
+
+@pytest.mark.parametrize(
+    "case, message",
+    [
+        ("top_level_array", "must be an object"),
+        ("unknown_field", "unknown or deleted field"),
+        ("deleted_field", "unknown or deleted field"),
+        ("checkbox", "only valid for text"),
+        ("signature", "only valid for text"),
+        ("unknown_kind", "kind must equal ruled_multiline"),
+        ("line_count_zero", "line_count must be a positive integer"),
+        ("guide_count_mismatch", "line_count must equal"),
+        ("unsorted", "strictly increasing"),
+        ("duplicate_y", "duplicate or effectively duplicate"),
+        ("outside_x1", "x1 lies outside"),
+        ("outside_x2", "x2 lies outside"),
+        ("outside_y", "y lies outside"),
+        ("reversed", "x2 must be greater than x1"),
+        ("nan", "non-finite"),
+        ("infinity", "non-finite"),
+        ("wrap_false", "wrap must be true"),
+        ("vertical_center", "vertical_align must equal top"),
+        ("max_words_zero", "max_words must be a positive integer"),
+        ("unknown_annotation_key", "unknown keys"),
+        ("unknown_guide_key", "guide has unknown keys"),
+    ],
+)
+def test_invalid_review_annotations_fail_loudly(case, message):
+    review, source_gt, page_sizes = _annotation_validation_case()
+    annotations = review["review_annotations"]
+    annotation = annotations["text1"]
+    guides = annotation["line_guides"]
+
+    if case == "top_level_array":
+        review["review_annotations"] = []
+    elif case == "unknown_field":
+        annotations["missing"] = annotations.pop("text1")
+    elif case == "deleted_field":
+        review["fields"][0]["decision"] = "delete"
+    elif case == "checkbox":
+        annotations["check1"] = annotations.pop("text1")
+    elif case == "signature":
+        annotations["signature1"] = annotations.pop("text1")
+    elif case == "unknown_kind":
+        annotation["kind"] = "other"
+    elif case == "line_count_zero":
+        annotation["line_count"] = 0
+    elif case == "guide_count_mismatch":
+        annotation["line_count"] = 3
+    elif case == "unsorted":
+        annotation["line_guides"] = list(reversed(guides))
+    elif case == "duplicate_y":
+        guides[1]["y"] = 50.01
+    elif case == "outside_x1":
+        guides[0]["x1"] = 19.9
+    elif case == "outside_x2":
+        guides[0]["x2"] = 200.1
+    elif case == "outside_y":
+        guides[1]["y"] = 120.1
+    elif case == "reversed":
+        guides[0]["x2"] = guides[0]["x1"]
+    elif case == "nan":
+        guides[0]["x1"] = float("nan")
+    elif case == "infinity":
+        guides[0]["x2"] = float("inf")
+    elif case == "wrap_false":
+        annotation["wrap"] = False
+    elif case == "vertical_center":
+        annotation["vertical_align"] = "center"
+    elif case == "max_words_zero":
+        annotation["max_words"] = 0
+    elif case == "unknown_annotation_key":
+        annotation["extra"] = True
+    elif case == "unknown_guide_key":
+        guides[0]["extra"] = True
+    else:
+        raise AssertionError(f"Unhandled case: {case}")
+
+    with pytest.raises(PacketError, match=message):
+        validate_review(review, source_gt, page_sizes)
+
+
+def test_annotation_change_updates_candidate_hash_and_invalidates_old_token(tmp_path):
+    root, paths = _mini_repo(tmp_path)
+    _generate(root, paths)
+    review_path, review = _completed_annotated_review(root)
+    first = apply_gt_review.apply_review_candidate(review_path, root)
+    first_candidate_hash = first["candidate_sha256"]
+    first_token = first["confirmation_token"]
+
+    review["review_annotations"]["summary"]["line_guides"][0]["y"] += 1
+    write_json(review_path, review)
+    with pytest.raises(PacketError):
+        apply_gt_review.approve_candidate(review_path, first_token, True, root)
+
+    second = apply_gt_review.apply_review_candidate(review_path, root)
+    assert second["candidate_sha256"] != first_candidate_hash
+    assert second["confirmation_token"] != first_token
+    assert not list((root / "reviews" / "output").glob("*_human_reviewed.json"))
+
+
+def test_approval_rejects_annotation_tampering_with_recomputed_token(tmp_path):
+    root, paths = _mini_repo(tmp_path)
+    _generate(root, paths)
+    review_path, _review = _completed_annotated_review(root)
+    result = apply_gt_review.apply_review_candidate(review_path, root)
+    candidate = load_json(result["candidate_path"])
+    candidate["review_annotations"]["summary"]["max_words"] = 999
+    write_json(result["candidate_path"], candidate)
+    tampered_binding = confirmation_binding(
+        "synthetic_form",
+        sha256_file(paths["pdf"]),
+        sha256_file(paths["gt"]),
+        sha256_file(review_path),
+        sha256_file(result["candidate_path"]),
+    )
+
+    with pytest.raises(PacketError, match="review_annotations do not match"):
+        apply_gt_review.approve_candidate(
+            review_path,
+            confirmation_token(tampered_binding),
+            True,
+            root,
+        )
+    assert not list((root / "reviews" / "output").glob("*_human_reviewed.json"))
+
+
+def test_ruled_multiline_candidate_overlay_renders_guides_and_labels(
+    tmp_path,
+    monkeypatch,
+):
+    root, paths = _mini_repo(tmp_path)
+    _generate(root, paths)
+    review_path, _review = _completed_annotated_review(root)
+    guide_calls = []
+    field_calls = []
+    original_dashed_line = review_packet_schema._draw_dashed_line
+    original_field_overlay = apply_gt_review.draw_field_overlay
+
+    def capture_guide(*args, **kwargs):
+        guide_calls.append((args, kwargs))
+        return original_dashed_line(*args, **kwargs)
+
+    def capture_fields(base_image, fields, *args, **kwargs):
+        field_calls.extend(copy.deepcopy(fields))
+        return original_field_overlay(base_image, fields, *args, **kwargs)
+
+    monkeypatch.setattr(review_packet_schema, "_draw_dashed_line", capture_guide)
+    monkeypatch.setattr(apply_gt_review, "draw_field_overlay", capture_fields)
+    result = apply_gt_review.apply_review_candidate(review_path, root)
+    overlay_html = (result["overlay_dir"] / "index.html").read_text(encoding="utf-8")
+
+    assert any(field["id"] == "summary" and field["bbox"] == [24.0, 120.0, 190.0, 160.0] for field in field_calls)
+    assert len(guide_calls) == 14
+    assert "MULTILINE" in overlay_html
+    assert "14 RULED LINES" in overlay_html
+    assert "ONE LOGICAL FIELD" in overlay_html
+    assert "NOT APPROVED" in overlay_html

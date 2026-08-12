@@ -28,6 +28,18 @@ ALLOWED_PROVENANCE = {
     "unknown_unreviewed",
 }
 FIELD_ID_PATTERN = re.compile(r"^[A-Za-z0-9_.:-]{1,128}$")
+GEOMETRY_EPSILON = 0.02
+RULED_MULTILINE_KIND = "ruled_multiline"
+RULED_MULTILINE_KEYS = {
+    "kind",
+    "line_count",
+    "line_guides",
+    "wrap",
+    "vertical_align",
+    "max_words",
+}
+RULED_MULTILINE_REQUIRED_KEYS = RULED_MULTILINE_KEYS - {"max_words"}
+LINE_GUIDE_KEYS = {"x1", "y", "x2"}
 
 DRAFT_BANNER = "DRAFT GROUND TRUTH - UNSCORED - NOT HUMAN REVIEWED"
 DETECTOR_BANNER = "DETECTOR CANDIDATES - UNSCORED - BACKEND {backend_id}"
@@ -201,10 +213,9 @@ def validate_geometry(
         raise PacketError(f"{label} references invalid page {page}")
     box = normalize_bbox(value, label)
     page_width, page_height = page_sizes[page]
-    epsilon = 0.02
-    if box[0] + box[2] > page_width + epsilon:
+    if box[0] + box[2] > page_width + GEOMETRY_EPSILON:
         raise PacketError(f"{label} extends beyond page {page} width")
-    if box[1] + box[3] > page_height + epsilon:
+    if box[1] + box[3] > page_height + GEOMETRY_EPSILON:
         raise PacketError(f"{label} extends beyond page {page} height")
     return box
 
@@ -215,6 +226,168 @@ def validate_field_type(value: Any, label: str) -> str:
         allowed = ", ".join(sorted(ALLOWED_FIELD_TYPES))
         raise PacketError(f"{label} must be one of: {allowed}")
     return field_type
+
+
+def _positive_integer(value: Any, label: str) -> int:
+    if isinstance(value, bool) or not isinstance(value, int) or value <= 0:
+        raise PacketError(f"{label} must be a positive integer")
+    return value
+
+
+def _finite_coordinate(value: Any, label: str) -> float:
+    if isinstance(value, bool):
+        raise PacketError(f"{label} contains a non-numeric value")
+    try:
+        number = float(value)
+    except (TypeError, ValueError) as exc:
+        raise PacketError(f"{label} contains a non-numeric value") from exc
+    if not math.isfinite(number):
+        raise PacketError(f"{label} contains a non-finite value")
+    return round(number, 2)
+
+
+def validate_review_annotations(
+    value: Any,
+    fields: list[dict[str, Any]],
+) -> dict[str, dict[str, Any]]:
+    if not isinstance(value, dict):
+        raise PacketError("review_annotations must be an object")
+
+    fields_by_id = {field["id"]: field for field in fields}
+    normalized: dict[str, dict[str, Any]] = {}
+    for raw_field_id in sorted(value):
+        field_id = validate_field_id(raw_field_id, "Review annotation field id")
+        if not isinstance(raw_field_id, str) or raw_field_id != field_id:
+            raise PacketError("Review annotation field ids must match final field ids exactly")
+        field = fields_by_id.get(field_id)
+        if field is None:
+            raise PacketError(
+                f"Review annotation references unknown or deleted field: {field_id}"
+            )
+        annotation = value[raw_field_id]
+        if not isinstance(annotation, dict):
+            raise PacketError(f"Review annotation {field_id} must be an object")
+        unknown_keys = sorted(set(annotation) - RULED_MULTILINE_KEYS)
+        if unknown_keys:
+            raise PacketError(
+                f"Review annotation {field_id} has unknown keys: {', '.join(unknown_keys)}"
+            )
+        missing_keys = sorted(RULED_MULTILINE_REQUIRED_KEYS - set(annotation))
+        if missing_keys:
+            raise PacketError(
+                f"Review annotation {field_id} is missing keys: {', '.join(missing_keys)}"
+            )
+        if annotation.get("kind") != RULED_MULTILINE_KIND:
+            raise PacketError(
+                f"Review annotation {field_id} kind must equal {RULED_MULTILINE_KIND}"
+            )
+        if field.get("type") != "text":
+            raise PacketError(
+                f"Review annotation {field_id} ruled_multiline is only valid for text fields"
+            )
+
+        line_count = _positive_integer(
+            annotation.get("line_count"),
+            f"Review annotation {field_id} line_count",
+        )
+        guides = annotation.get("line_guides")
+        if not isinstance(guides, list):
+            raise PacketError(f"Review annotation {field_id} line_guides must be an array")
+        if len(guides) != line_count:
+            raise PacketError(
+                f"Review annotation {field_id} line_count must equal line_guides length"
+            )
+        if annotation.get("wrap") is not True:
+            raise PacketError(f"Review annotation {field_id} wrap must be true")
+        if annotation.get("vertical_align") != "top":
+            raise PacketError(
+                f"Review annotation {field_id} vertical_align must equal top"
+            )
+
+        max_words = annotation.get("max_words")
+        if "max_words" in annotation:
+            max_words = _positive_integer(
+                max_words,
+                f"Review annotation {field_id} max_words",
+            )
+
+        x, y, width, height = normalize_bbox(
+            field.get("bbox"),
+            f"Annotated field {field_id} bbox",
+        )
+        right = x + width
+        bottom = y + height
+        normalized_guides: list[dict[str, float]] = []
+        previous_y: float | None = None
+        for index, guide in enumerate(guides, start=1):
+            if not isinstance(guide, dict):
+                raise PacketError(
+                    f"Review annotation {field_id} guide {index} must be an object"
+                )
+            guide_keys = set(guide)
+            unknown_guide_keys = sorted(guide_keys - LINE_GUIDE_KEYS)
+            if unknown_guide_keys:
+                raise PacketError(
+                    f"Review annotation {field_id} guide has unknown keys: "
+                    f"{', '.join(unknown_guide_keys)}"
+                )
+            missing_guide_keys = sorted(LINE_GUIDE_KEYS - guide_keys)
+            if missing_guide_keys:
+                raise PacketError(
+                    f"Review annotation {field_id} guide is missing keys: "
+                    f"{', '.join(missing_guide_keys)}"
+                )
+            x1 = _finite_coordinate(
+                guide.get("x1"),
+                f"Review annotation {field_id} guide {index} x1",
+            )
+            guide_y = _finite_coordinate(
+                guide.get("y"),
+                f"Review annotation {field_id} guide {index} y",
+            )
+            x2 = _finite_coordinate(
+                guide.get("x2"),
+                f"Review annotation {field_id} guide {index} x2",
+            )
+            if x2 <= x1:
+                raise PacketError(
+                    f"Review annotation {field_id} guide {index} x2 must be greater than x1"
+                )
+            if x1 < x - GEOMETRY_EPSILON:
+                raise PacketError(
+                    f"Review annotation {field_id} guide {index} x1 lies outside field bbox"
+                )
+            if x2 > right + GEOMETRY_EPSILON:
+                raise PacketError(
+                    f"Review annotation {field_id} guide {index} x2 lies outside field bbox"
+                )
+            if guide_y < y - GEOMETRY_EPSILON or guide_y > bottom + GEOMETRY_EPSILON:
+                raise PacketError(
+                    f"Review annotation {field_id} guide {index} y lies outside field bbox"
+                )
+            if previous_y is not None:
+                if abs(guide_y - previous_y) <= GEOMETRY_EPSILON:
+                    raise PacketError(
+                        f"Review annotation {field_id} has duplicate or effectively duplicate guide y values"
+                    )
+                if guide_y < previous_y:
+                    raise PacketError(
+                        f"Review annotation {field_id} guides must be sorted in strictly increasing y order"
+                    )
+            previous_y = guide_y
+            normalized_guides.append({"x1": x1, "y": guide_y, "x2": x2})
+
+        normalized_annotation: dict[str, Any] = {
+            "kind": RULED_MULTILINE_KIND,
+            "line_count": line_count,
+            "line_guides": normalized_guides,
+            "wrap": True,
+            "vertical_align": "top",
+        }
+        if max_words is not None:
+            normalized_annotation["max_words"] = max_words
+        normalized[field_id] = normalized_annotation
+    return normalized
 
 
 def validate_gt(gt: dict[str, Any], page_sizes: dict[int, tuple[float, float]]) -> None:
@@ -451,6 +624,114 @@ def draw_field_overlay(
     return image
 
 
+def _draw_dashed_line(
+    draw,
+    x1: float,
+    y: float,
+    x2: float,
+    fill: tuple[int, ...],
+    width: int = 2,
+    dash: int = 12,
+    gap: int = 7,
+) -> None:
+    cursor = x1
+    while cursor < x2:
+        end = min(cursor + dash, x2)
+        draw.line((cursor, y, end, y), fill=fill, width=width)
+        cursor = end + gap
+
+
+def draw_review_annotation_overlay(
+    base_image,
+    fields: list[dict[str, Any]],
+    review_annotations: dict[str, dict[str, Any]],
+    scale: float,
+    color: tuple[int, int, int] = (0, 126, 91),
+):
+    if not review_annotations:
+        return base_image
+
+    from PIL import Image, ImageDraw
+
+    fields_by_id = {field["id"]: field for field in fields}
+    annotated = [
+        (field_id, fields_by_id[field_id], annotation)
+        for field_id, annotation in review_annotations.items()
+        if field_id in fields_by_id
+    ]
+    if not annotated:
+        return base_image
+
+    page = base_image.convert("RGBA")
+    guide_layer = Image.new("RGBA", page.size, (0, 0, 0, 0))
+    guide_draw = ImageDraw.Draw(guide_layer)
+    guide_font = get_font(10, bold=True)
+    for _field_id, _field, annotation in annotated:
+        for ordinal, guide in enumerate(annotation["line_guides"], start=1):
+            x1 = guide["x1"] * scale
+            guide_y = guide["y"] * scale
+            x2 = guide["x2"] * scale
+            _draw_dashed_line(
+                guide_draw,
+                x1,
+                guide_y,
+                x2,
+                fill=(*color, 185),
+                width=2,
+            )
+            number_x = max(2, int(x1) - 20)
+            guide_draw.text(
+                (number_x, int(guide_y) - 6),
+                str(ordinal),
+                fill=(*color, 235),
+                font=guide_font,
+            )
+    page = Image.alpha_composite(page, guide_layer).convert("RGB")
+
+    panel_width = 390
+    output = Image.new("RGB", (page.width + panel_width, page.height), (247, 250, 248))
+    output.paste(page, (0, 0))
+    draw = ImageDraw.Draw(output)
+    draw.line((page.width, 0, page.width, page.height), fill=color, width=3)
+    title_font = get_font(18, bold=True)
+    label_font = get_font(14, bold=True)
+    body_font = get_font(12)
+    x = page.width + 18
+    cursor_y = 18
+    draw.text((x, cursor_y), "REVIEW ANNOTATION", fill=color, font=title_font)
+    cursor_y += 36
+    for field_id, field, annotation in annotated:
+        label = sanitize_text(field.get("label"), maximum=80) or field_id
+        line_count = annotation["line_count"]
+        max_words = annotation.get("max_words")
+        draw.text((x, cursor_y), label, fill=(25, 40, 34), font=label_font)
+        cursor_y += 24
+        draw.text((x, cursor_y), "MULTILINE", fill=color, font=label_font)
+        cursor_y += 20
+        draw.text(
+            (x, cursor_y),
+            f"{line_count} RULED LINES"
+            + (f" | {max_words} WORDS MAX" if max_words else ""),
+            fill=color,
+            font=body_font,
+        )
+        cursor_y += 22
+        draw.text((x, cursor_y), "ONE LOGICAL FIELD", fill=(25, 40, 34), font=label_font)
+        cursor_y += 22
+        draw.text((x, cursor_y), "NOT APPROVED", fill=(170, 35, 45), font=label_font)
+        cursor_y += 30
+        for ordinal, guide in enumerate(annotation["line_guides"], start=1):
+            draw.text(
+                (x, cursor_y),
+                f"{ordinal:02d}  {guide['x1']:.2f}, {guide['y']:.2f}, {guide['x2']:.2f}",
+                fill=(50, 65, 58),
+                font=body_font,
+            )
+            cursor_y += 18
+        cursor_y += 18
+    return output
+
+
 def draw_combined_overlay(
     base_image,
     draft_fields: list[dict[str, Any]],
@@ -574,6 +855,7 @@ def build_review_template(form_manifest: dict[str, Any]) -> dict[str, Any]:
             for row in draft_rows
         ],
         "additions": [],
+        "review_annotations": {},
         "page_notes": [],
         "document_notes": "",
     }
@@ -608,6 +890,11 @@ def review_markdown(review: dict[str, Any]) -> str:
     lines.extend([
         "",
         f"Additions recorded in JSON: {len(review.get('additions', []))}",
+        f"Review annotations recorded in JSON: {len(review.get('review_annotations', {}))}",
+        "",
+        "`review_annotations` is optional lab-review metadata outside `fields[]`.",
+        "A `ruled_multiline` annotation describes one logical text field over multiple physical writing guides; each guide is not a separate field.",
+        "Annotation keys must reference final field IDs. JSON is authoritative; this Markdown is not.",
         "",
         "## Document-level zero-field decision",
         "",
@@ -763,12 +1050,22 @@ def validate_review(
         raise PacketError(
             "document_decision=confirmed_zero_fields requires a zero-field review result"
         )
+    annotation_value = (
+        review["review_annotations"]
+        if "review_annotations" in review
+        else {}
+    )
+    review_annotations = validate_review_annotations(
+        annotation_value,
+        normalized_fields,
+    )
     return {
         "reviewer": reviewer,
         "reviewed_at": reviewed_at,
         "document_decision": document_decision,
         "fields": normalized_fields,
         "decision_log": decision_log,
+        "review_annotations": review_annotations,
     }
 
 

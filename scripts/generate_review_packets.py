@@ -233,12 +233,15 @@ def _review_companion(review: dict[str, Any]) -> str:
         "3. Add reviewer and reviewed_at in ISO-8601 format.",
         "4. Leave document_decision pending unless source inspection affirmatively confirms zero fillable fields.",
         "5. If fillable regions exist, record additions with field_id, page, type, geometry, label, and comment.",
-        "6. Generate a candidate without approval:",
+        "6. Keep fields[] Schema-v1-compatible. Optional review_annotations is lab-review metadata outside fields[].",
+        "7. Use ruled_multiline for one logical text field over multiple physical writing guides; guides are not separate fields.",
+        "8. Annotation keys must reference final field IDs. JSON is authoritative; this Markdown is non-authoritative.",
+        "9. Generate a candidate without approval:",
         "",
         f"`python scripts/apply_gt_review.py --review reviews/{form_id}.review.json`",
         "",
-        "7. Inspect every page of the candidate confirmation overlay.",
-        "8. Only the owner may run the separate approval command with the printed token and inspection assertion.",
+        "10. Inspect every page of the candidate confirmation overlay.",
+        "11. Only the owner may run the separate approval command with the printed token and inspection assertion.",
         "",
     ])
 
@@ -262,6 +265,8 @@ def ensure_review_template(
             expected_template = build_review_template(form_manifest)
             legacy_template = dict(expected_template)
             legacy_template.pop("document_decision")
+            if "review_annotations" not in review:
+                legacy_template.pop("review_annotations")
             if review != legacy_template:
                 raise PacketError(
                     f"Refusing to upgrade owner-edited review template {review_path}"
