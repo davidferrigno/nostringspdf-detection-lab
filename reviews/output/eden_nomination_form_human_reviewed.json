@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "pdf_id": "el_nomination_form",
+  "pdf": "local_post_5330469_2026_el_nomination_form_1.pdf",
+  "page_count": 1,
+  "extraction_method": "human_reviewed",
+  "bootstrap_backend": "heuristic_lab_v2",
+  "bootstrap_timestamp": "2026-05-21T02:01:33.786540",
+  "review_status": "human_reviewed",
+  "needs_review": false,
+  "fields": [
+    {
+      "id": "name",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        102.5,
+        125.6,
+        456.0,
+        16.0
+      ],
+      "label": "Name"
+    },
+    {
+      "id": "address",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        114.9,
+        154.4,
+        446.6,
+        16.0
+      ],
+      "label": "Address"
+    },
+    {
+      "id": "g1",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        231.7,
+        187.2,
+        10.0,
+        10.0
+      ],
+      "label": "Evenings",
+      "_source_detection_id": "d1",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g2",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        304.1,
+        187.2,
+        10.0,
+        10.0
+      ],
+      "label": "Weekdays",
+      "_source_detection_id": "d2",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "g3",
+      "page": 1,
+      "type": "checkbox",
+      "bbox": [
+        390.1,
+        187.2,
+        10.0,
+        10.0
+      ],
+      "label": "Weekends",
+      "_source_detection_id": "d3",
+      "_reviewer_status": "draft"
+    },
+    {
+      "id": "qualifications_summary",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        49.0,
+        263.0,
+        513.0,
+        293.0
+      ],
+      "label": "Qualifications Summary"
+    },
+    {
+      "id": "signature",
+      "page": 1,
+      "type": "signature",
+      "bbox": [
+        121.3,
+        707.0,
+        267.6,
+        18.0
+      ],
+      "label": "Signature"
+    },
+    {
+      "id": "date",
+      "page": 1,
+      "type": "text",
+      "bbox": [
+        436.0,
+        707.0,
+        110.5,
+        18.0
+      ],
+      "label": "Date"
+    }
+  ],
+  "provenance": {
+    "kind": "human_review_candidate",
+    "source_pdf": "samples/flat/digital/local_post_5330469_2026_el_nomination_form_1.pdf",
+    "source_pdf_sha256": "fa9ad760cc636cbbc783aa9b92c9d986599e00758391286535c2b9cc65f4ec42",
+    "original_gt": "benchmarks/ground_truth_flat/el_nomination_form.draft.json",
+    "original_gt_sha256": "b0872e35c9116966c06e59f00e64e4848827cddd4d14cb64ae579bb3fd7db1d8",
+    "original_gt_provenance": {
+      "kind": "detector_bootstrapped",
+      "method": "flat_pdf_bootstrap",
+      "backend": "heuristic_lab_v2",
+      "display": "detector-bootstrapped draft via heuristic_lab_v2"
+    },
+    "reviewer": "David Ferrigno",
+    "reviewed_at": "2026-08-12T14:35:50.1503520+00:00",
+    "packet_manifest": "reports/review_packets/eden_nomination_form/form_manifest.json",
+    "packet_manifest_sha256": "4752359677d03ea4db520f92c2272926431145583ebe19e24cd8b2988f95f5b4",
+    "review_json": "reviews/eden_nomination_form.review.json",
+    "review_json_sha256": "50ae198ce8beabdf0d556ef7c91412f26ad118a68f70111c9be87abd6f6af4b2",
+    "document_decision": "pending",
+    "applied_decisions": [
+      {
+        "field_id": "g1",
+        "decision": "update"
+      },
+      {
+        "field_id": "g2",
+        "decision": "update"
+      },
+      {
+        "field_id": "g3",
+        "decision": "update"
+      },
+      {
+        "field_id": "name",
+        "decision": "add"
+      },
+      {
+        "field_id": "address",
+        "decision": "add"
+      },
+      {
+        "field_id": "qualifications_summary",
+        "decision": "add"
+      },
+      {
+        "field_id": "signature",
+        "decision": "add"
+      },
+      {
+        "field_id": "date",
+        "decision": "add"
+      }
+    ],
+    "tool_version": "lab-packet-apply-1.0",
+    "packet_generator_version": "lab-packet-1.0",
+    "review_annotations": {
+      "source": "owner_supplied_review_metadata",
+      "contract": "lab_review_metadata_not_field_schema",
+      "field_ids": [
+        "qualifications_summary"
+      ]
+    },
+    "approval": {
+      "status": "human_reviewed",
+      "confirmation_binding": {
+        "form_id": "eden_nomination_form",
+        "source_pdf_sha256": "fa9ad760cc636cbbc783aa9b92c9d986599e00758391286535c2b9cc65f4ec42",
+        "source_gt_sha256": "b0872e35c9116966c06e59f00e64e4848827cddd4d14cb64ae579bb3fd7db1d8",
+        "review_json_sha256": "50ae198ce8beabdf0d556ef7c91412f26ad118a68f70111c9be87abd6f6af4b2",
+        "candidate_output_sha256": "d270cb948cae68b885f689fba6b92a5f17946b27f7d383740df8fa71a4f32686"
+      },
+      "owner_inspected_overlay": true,
+      "confirmation_token_sha256": "a3254d46cb61eb98a20d12e284338c1686be33b6927aa96c33124eb82ffa094c"
+    }
+  },
+  "review_annotations": {
+    "qualifications_summary": {
+      "kind": "ruled_multiline",
+      "line_count": 14,
+      "line_guides": [
+        {
+          "x1": 50.4,
+          "y": 278.4,
+          "x2": 557.41
+        },
+        {
+          "x1": 50.4,
+          "y": 299.52,
+          "x2": 557.41
+        },
+        {
+          "x1": 50.4,
+          "y": 320.64,
+          "x2": 557.41
+        },
+        {
+          "x1": 50.4,
+          "y": 341.52,
+          "x2": 557.41
+        },
+        {
+          "x1": 50.4,
+          "y": 362.64,
+          "x2": 557.41
+        },
+        {
+          "x1": 50.4,
+          "y": 383.76,
+          "x2": 557.41
+        },
+        {
+          "x1": 50.4,
+          "y": 404.88,
+          "x2": 557.41
+        },
+        {
+          "x1": 50.4,
+          "y": 426.0,
+          "x2": 557.41
+        },
+        {
+          "x1": 52.56,
+          "y": 447.12,
+          "x2": 559.57
+        },
+        {
+          "x1": 52.56,
+          "y": 468.24,
+          "x2": 559.57
+        },
+        {
+          "x1": 52.56,
+          "y": 489.36,
+          "x2": 559.57
+        },
+        {
+          "x1": 52.56,
+          "y": 510.48,
+          "x2": 559.57
+        },
+        {
+          "x1": 52.56,
+          "y": 531.6,
+          "x2": 559.57
+        },
+        {
+          "x1": 52.56,
+          "y": 552.72,
+          "x2": 559.57
+        }
+      ],
+      "wrap": true,
+      "vertical_align": "top",
+      "max_words": 200
+    }
+  }
+}

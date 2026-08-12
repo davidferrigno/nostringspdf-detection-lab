@@ -1,44 +1,213 @@
 {
-  "review_schema_version": "1.0",
-  "form_id": "eden_nomination_form",
-  "source_pdf_sha256": "fa9ad760cc636cbbc783aa9b92c9d986599e00758391286535c2b9cc65f4ec42",
-  "source_gt_sha256": "b0872e35c9116966c06e59f00e64e4848827cddd4d14cb64ae579bb3fd7db1d8",
-  "source_gt_provenance": "detector-bootstrapped draft via heuristic_lab_v2",
-  "packet_manifest": "reports/review_packets/eden_nomination_form/form_manifest.json",
-  "reviewer": "",
-  "reviewed_at": "",
-  "review_status": "review_template",
-  "document_decision": "pending",
-  "fields": [
-    {
-      "field_id": "g1",
-      "decision": "pending",
-      "new_type": null,
-      "new_geometry": null,
-      "new_label": null,
-      "group_id": null,
-      "comment": ""
-    },
-    {
-      "field_id": "g2",
-      "decision": "pending",
-      "new_type": null,
-      "new_geometry": null,
-      "new_label": null,
-      "group_id": null,
-      "comment": ""
-    },
-    {
-      "field_id": "g3",
-      "decision": "pending",
-      "new_type": null,
-      "new_geometry": null,
-      "new_label": null,
-      "group_id": null,
-      "comment": ""
-    }
-  ],
-  "additions": [],
-  "page_notes": [],
-  "document_notes": ""
+    "review_schema_version":  "1.0",
+    "form_id":  "eden_nomination_form",
+    "source_pdf_sha256":  "fa9ad760cc636cbbc783aa9b92c9d986599e00758391286535c2b9cc65f4ec42",
+    "source_gt_sha256":  "b0872e35c9116966c06e59f00e64e4848827cddd4d14cb64ae579bb3fd7db1d8",
+    "source_gt_provenance":  "detector-bootstrapped draft via heuristic_lab_v2",
+    "packet_manifest":  "reports/review_packets/eden_nomination_form/form_manifest.json",
+    "reviewer":  "David Ferrigno",
+    "reviewed_at":  "2026-08-12T14:35:50.1503520+00:00",
+    "review_status":  "review_template",
+    "document_decision":  "pending",
+    "fields":  [
+                   {
+                       "field_id":  "g1",
+                       "decision":  "update",
+                       "new_type":  null,
+                       "new_geometry":  [
+                                            231.7,
+                                            187.2,
+                                            10,
+                                            10
+                                        ],
+                       "new_label":  null,
+                       "group_id":  null,
+                       "comment":  "Moved to the printed Evenings checkbox. The detector-bootstrapped box was approximately 27.6 PDF points too low and oversized."
+                   },
+                   {
+                       "field_id":  "g2",
+                       "decision":  "update",
+                       "new_type":  null,
+                       "new_geometry":  [
+                                            304.1,
+                                            187.2,
+                                            10,
+                                            10
+                                        ],
+                       "new_label":  null,
+                       "group_id":  null,
+                       "comment":  "Moved to the printed Weekdays checkbox. The detector-bootstrapped box was approximately 27.6 PDF points too low and oversized."
+                   },
+                   {
+                       "field_id":  "g3",
+                       "decision":  "update",
+                       "new_type":  null,
+                       "new_geometry":  [
+                                            390.1,
+                                            187.2,
+                                            10,
+                                            10
+                                        ],
+                       "new_label":  null,
+                       "group_id":  null,
+                       "comment":  "Moved to the printed Weekends checkbox. The detector-bootstrapped box was approximately 27.6 PDF points too low and oversized."
+                   }
+               ],
+    "additions":  [
+                      {
+                          "field_id":  "name",
+                          "page":  1,
+                          "type":  "text",
+                          "geometry":  [
+                                           102.5,
+                                           125.6,
+                                           456,
+                                           16
+                                       ],
+                          "label":  "Name",
+                          "group_id":  null,
+                          "comment":  "Owner-added after visual inspection. Final overlay refinement trimmed the right edge to the printed Name underline."
+                      },
+                      {
+                          "field_id":  "address",
+                          "page":  1,
+                          "type":  "text",
+                          "geometry":  [
+                                           114.9,
+                                           154.4,
+                                           446.6,
+                                           16
+                                       ],
+                          "label":  "Address",
+                          "group_id":  null,
+                          "comment":  "Owner-added after visual inspection. Final overlay refinement trimmed the right edge to the printed Address underline."
+                      },
+                      {
+                          "field_id":  "qualifications_summary",
+                          "page":  1,
+                          "type":  "text",
+                          "geometry":  [
+                                           49,
+                                           263,
+                                           513,
+                                           293
+                                       ],
+                          "label":  "Qualifications Summary",
+                          "group_id":  null,
+                          "comment":  "Owner-added as one logical multiline response field covering the ruled qualifications-summary area."
+                      },
+                      {
+                          "field_id":  "signature",
+                          "page":  1,
+                          "type":  "signature",
+                          "geometry":  [
+                                           121.3,
+                                           707,
+                                           267.6,
+                                           18
+                                       ],
+                          "label":  "Signature",
+                          "group_id":  null,
+                          "comment":  "Owner-added after visual inspection. Final overlay refinement moved the field upward so its lower edge aligns with the signature line and excludes the Required text."
+                      },
+                      {
+                          "field_id":  "date",
+                          "page":  1,
+                          "type":  "text",
+                          "geometry":  [
+                                           436,
+                                           707,
+                                           110.5,
+                                           18
+                                       ],
+                          "label":  "Date",
+                          "group_id":  null,
+                          "comment":  "Owner-added after visual inspection. Final overlay refinement moved the field upward and tightened it to the printed Date line."
+                      }
+                  ],
+    "page_notes":  [
+
+                   ],
+    "document_notes":  "Owner visual review identified eight logical fillable regions. The three detector-bootstrapped checkbox boxes were corrected, five missing fields were added, the Qualifications Summary remains one ruled-multiline field with fourteen typing baselines, Name and Address were tightened to their printed rules, and Signature and Date were moved upward to align with their printed lines.",
+    "review_annotations":  {
+                               "qualifications_summary":  {
+                                                              "kind":  "ruled_multiline",
+                                                              "line_count":  14,
+                                                              "line_guides":  [
+                                                                                  {
+                                                                                      "x1":  50.4,
+                                                                                      "y":  278.4,
+                                                                                      "x2":  557.41
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  50.4,
+                                                                                      "y":  299.52,
+                                                                                      "x2":  557.41
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  50.4,
+                                                                                      "y":  320.64,
+                                                                                      "x2":  557.41
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  50.4,
+                                                                                      "y":  341.52,
+                                                                                      "x2":  557.41
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  50.4,
+                                                                                      "y":  362.64,
+                                                                                      "x2":  557.41
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  50.4,
+                                                                                      "y":  383.76,
+                                                                                      "x2":  557.41
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  50.4,
+                                                                                      "y":  404.88,
+                                                                                      "x2":  557.41
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  50.4,
+                                                                                      "y":  426,
+                                                                                      "x2":  557.41
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  52.56,
+                                                                                      "y":  447.12,
+                                                                                      "x2":  559.57
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  52.56,
+                                                                                      "y":  468.24,
+                                                                                      "x2":  559.57
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  52.56,
+                                                                                      "y":  489.36,
+                                                                                      "x2":  559.57
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  52.56,
+                                                                                      "y":  510.48,
+                                                                                      "x2":  559.57
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  52.56,
+                                                                                      "y":  531.6,
+                                                                                      "x2":  559.57
+                                                                                  },
+                                                                                  {
+                                                                                      "x1":  52.56,
+                                                                                      "y":  552.72,
+                                                                                      "x2":  559.57
+                                                                                  }
+                                                                              ],
+                                                              "wrap":  true,
+                                                              "vertical_align":  "top",
+                                                              "max_words":  200
+                                                          }
+                           }
 }
